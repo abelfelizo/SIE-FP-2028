@@ -1,0 +1,326 @@
+{
+  "eleccion": 2024,
+  "niveles": [
+    "diputados_territoriales"
+  ],
+  "fuente": "JCE RTF oficial — inscritos reales por circunscripción",
+  "nota": "Dato oficial JCE. Reemplaza la estimación proporcional anterior.",
+  "padron": [
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 1,
+      "inscritos": 300010,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 2,
+      "inscritos": 220355,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 3,
+      "inscritos": 273715,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "02",
+      "provincia": "La Altagracia",
+      "circ": 1,
+      "inscritos": 186886,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "03",
+      "provincia": "Azua",
+      "circ": 1,
+      "inscritos": 172801,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "04",
+      "provincia": "Bahoruco",
+      "circ": 1,
+      "inscritos": 76436,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "05",
+      "provincia": "Barahona",
+      "circ": 1,
+      "inscritos": 135743,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "06",
+      "provincia": "Dajabon",
+      "circ": 1,
+      "inscritos": 52824,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "07",
+      "provincia": "Duarte",
+      "circ": 1,
+      "inscritos": 234553,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "08",
+      "provincia": "El Seibo",
+      "circ": 1,
+      "inscritos": 63596,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "09",
+      "provincia": "Elias Piña",
+      "circ": 1,
+      "inscritos": 45337,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "10",
+      "provincia": "Espaillat",
+      "circ": 1,
+      "inscritos": 191403,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "11",
+      "provincia": "Hato Mayor",
+      "circ": 1,
+      "inscritos": 73367,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "12",
+      "provincia": "Independencia",
+      "circ": 1,
+      "inscritos": 38238,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "13",
+      "provincia": "La Romana",
+      "circ": 1,
+      "inscritos": 189231,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "circ": 1,
+      "inscritos": 220945,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "circ": 2,
+      "inscritos": 97587,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "15",
+      "provincia": "Maria Trinidad Sanchez",
+      "circ": 1,
+      "inscritos": 113091,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "16",
+      "provincia": "Monseñor Nouel",
+      "circ": 1,
+      "inscritos": 144045,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "17",
+      "provincia": "Monte Cristi",
+      "circ": 1,
+      "inscritos": 82552,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "18",
+      "provincia": "Monte Plata",
+      "circ": 1,
+      "inscritos": 142460,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "19",
+      "provincia": "Pedernales",
+      "circ": 1,
+      "inscritos": 19720,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "20",
+      "provincia": "Peravia",
+      "circ": 1,
+      "inscritos": 140956,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "circ": 1,
+      "inscritos": 178232,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "circ": 2,
+      "inscritos": 79810,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "22",
+      "provincia": "Hermanas Mirabal",
+      "circ": 1,
+      "inscritos": 84835,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "23",
+      "provincia": "Samana",
+      "circ": 1,
+      "inscritos": 81061,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 1,
+      "inscritos": 187033,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 2,
+      "inscritos": 137458,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 3,
+      "inscritos": 116767,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "25",
+      "provincia": "San Juan",
+      "circ": 1,
+      "inscritos": 192039,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "26",
+      "provincia": "San Pedro de Macoris",
+      "circ": 1,
+      "inscritos": 229372,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "27",
+      "provincia": "Sanchez Ramirez",
+      "circ": 1,
+      "inscritos": 126090,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 1,
+      "inscritos": 357833,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 2,
+      "inscritos": 176038,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 3,
+      "inscritos": 251417,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "29",
+      "provincia": "Santiago Rodriguez",
+      "circ": 1,
+      "inscritos": 49639,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "30",
+      "provincia": "Valverde",
+      "circ": 1,
+      "inscritos": 116738,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "31",
+      "provincia": "San Jose de Ocoa",
+      "circ": 1,
+      "inscritos": 52519,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 1,
+      "inscritos": 244595,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 2,
+      "inscritos": 150250,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 3,
+      "inscritos": 407639,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 4,
+      "inscritos": 265698,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 5,
+      "inscritos": 223713,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 6,
+      "inscritos": 357137,
+      "metodo": "oficial_JCE_RTF"
+    }
+  ],
+  "total": 7281764
+}

@@ -1,0 +1,320 @@
+{
+  "eleccion": "2020",
+  "padron": [
+    {
+      "provincia_id": "01",
+      "circ": 1,
+      "territorio": "Distrito Nacional",
+      "inscritos": 292025,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "01",
+      "circ": 2,
+      "territorio": "Distrito Nacional",
+      "inscritos": 211144,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "01",
+      "circ": 3,
+      "territorio": "Distrito Nacional",
+      "inscritos": 269190,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "02",
+      "circ": 1,
+      "territorio": "La Altagracia",
+      "inscritos": 168754,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "03",
+      "circ": 1,
+      "territorio": "Azua",
+      "inscritos": 163307,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "04",
+      "circ": 1,
+      "territorio": "Bahoruco",
+      "inscritos": 72238,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "05",
+      "circ": 1,
+      "territorio": "Barahona",
+      "inscritos": 129291,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "06",
+      "circ": 1,
+      "territorio": "Dajabon",
+      "inscritos": 50699,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "07",
+      "circ": 1,
+      "territorio": "Duarte",
+      "inscritos": 228829,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "08",
+      "circ": 1,
+      "territorio": "El Seibo",
+      "inscritos": 60310,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "09",
+      "circ": 1,
+      "territorio": "Elias Piña",
+      "inscritos": 43655,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "10",
+      "circ": 1,
+      "territorio": "Espaillat",
+      "inscritos": 185538,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "11",
+      "circ": 1,
+      "territorio": "Hato Mayor",
+      "inscritos": 69999,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "12",
+      "circ": 1,
+      "territorio": "Independencia",
+      "inscritos": 37034,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "13",
+      "circ": 1,
+      "territorio": "La Romana",
+      "inscritos": 177823,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "14",
+      "circ": 1,
+      "territorio": "La Vega",
+      "inscritos": 212553,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "14",
+      "circ": 2,
+      "territorio": "La Vega",
+      "inscritos": 93304,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "15",
+      "circ": 1,
+      "territorio": "Maria Trinidad Sanchez",
+      "inscritos": 107985,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "16",
+      "circ": 1,
+      "territorio": "Monseñor Nouel",
+      "inscritos": 138328,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "17",
+      "circ": 1,
+      "territorio": "Monte Cristi",
+      "inscritos": 80597,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "18",
+      "circ": 1,
+      "territorio": "Monte Plata",
+      "inscritos": 133909,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "19",
+      "circ": 1,
+      "territorio": "Pedernales",
+      "inscritos": 18501,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "20",
+      "circ": 1,
+      "territorio": "Peravia",
+      "inscritos": 134839,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "21",
+      "circ": 1,
+      "territorio": "Puerto Plata",
+      "inscritos": 169353,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "21",
+      "circ": 2,
+      "territorio": "Puerto Plata",
+      "inscritos": 77124,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "22",
+      "circ": 1,
+      "territorio": "Hermanas Mirabal",
+      "inscritos": 83262,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "23",
+      "circ": 1,
+      "territorio": "Samana",
+      "inscritos": 76742,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "24",
+      "circ": 1,
+      "territorio": "San Cristobal",
+      "inscritos": 174801,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "24",
+      "circ": 2,
+      "territorio": "San Cristobal",
+      "inscritos": 128147,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "24",
+      "circ": 3,
+      "territorio": "San Cristobal",
+      "inscritos": 108596,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "25",
+      "circ": 1,
+      "territorio": "San Juan",
+      "inscritos": 183459,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "26",
+      "circ": 1,
+      "territorio": "San Pedro De Macoris",
+      "inscritos": 216098,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "27",
+      "circ": 1,
+      "territorio": "Sanchez Ramirez",
+      "inscritos": 120919,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "28",
+      "circ": 1,
+      "territorio": "Santiago",
+      "inscritos": 342734,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "28",
+      "circ": 2,
+      "territorio": "Santiago",
+      "inscritos": 171000,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "28",
+      "circ": 3,
+      "territorio": "Santiago",
+      "inscritos": 242770,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "29",
+      "circ": 1,
+      "territorio": "Santiago Rodriguez",
+      "inscritos": 48561,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "30",
+      "circ": 1,
+      "territorio": "Valverde",
+      "inscritos": 114055,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "31",
+      "circ": 1,
+      "territorio": "San Jose De Ocoa",
+      "inscritos": 50231,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 1,
+      "territorio": "Santo Domingo",
+      "inscritos": 237195,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 2,
+      "territorio": "Santo Domingo",
+      "inscritos": 146350,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 3,
+      "territorio": "Santo Domingo",
+      "inscritos": 374461,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 4,
+      "territorio": "Santo Domingo",
+      "inscritos": 251325,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 5,
+      "territorio": "Santo Domingo",
+      "inscritos": 205184,
+      "nivel": "diputados"
+    },
+    {
+      "provincia_id": "32",
+      "circ": 6,
+      "territorio": "Santo Domingo",
+      "inscritos": 331834,
+      "nivel": "diputados"
+    }
+  ]
+}

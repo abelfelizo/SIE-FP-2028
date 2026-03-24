@@ -1,0 +1,1262 @@
+{
+  "eleccion": "Presidenciales y Congresuales 2020",
+  "fecha": "2020-07-05",
+  "fuente": "Calculado via D'Hondt desde CSV JCE, umbral 2%",
+  "nota": "bloque_coalicion en senadores = partido individual (alianzas pendientes)",
+  "niveles": {
+    "senadores": [
+      {
+        "provincia_id": "01",
+        "provincia": "Distrito Nacional",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 45.54,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "02",
+        "provincia": "La Altagracia",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 30.89,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "03",
+        "provincia": "Azua",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 45.96,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "04",
+        "provincia": "Bahoruco",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 44.32,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "05",
+        "provincia": "Barahona",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 45.13,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "06",
+        "provincia": "Dajabon",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 40.77,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "07",
+        "provincia": "Duarte",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 51.47,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "08",
+        "provincia": "El Seibo",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 50.75,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "09",
+        "provincia": "Elias Piña",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 45.0,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "10",
+        "provincia": "Espaillat",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 49.76,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "11",
+        "provincia": "Hato Mayor",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 44.89,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "12",
+        "provincia": "Independencia",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 48.72,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "13",
+        "provincia": "La Romana",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 37.27,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "14",
+        "provincia": "La Vega",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 43.51,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "15",
+        "provincia": "Maria Trinidad Sanchez",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 49.16,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "16",
+        "provincia": "Monseñor Nouel",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 51.78,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "17",
+        "provincia": "Monte Cristi",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 40.09,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "18",
+        "provincia": "Monte Plata",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 48.95,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "19",
+        "provincia": "Pedernales",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 50.26,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "20",
+        "provincia": "Peravia",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 48.24,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "21",
+        "provincia": "Puerto Plata",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 43.62,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "22",
+        "provincia": "Hermanas Mirabal",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 42.81,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "23",
+        "provincia": "Samana",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 42.75,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "24",
+        "provincia": "San Cristobal",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 44.55,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "25",
+        "provincia": "San Juan",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 52.57,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "26",
+        "provincia": "San Pedro De Macoris",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 43.2,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "27",
+        "provincia": "Sanchez Ramirez",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 54.53,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "28",
+        "provincia": "Santiago",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 50.03,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "29",
+        "provincia": "Santiago Rodriguez",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 42.92,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "30",
+        "provincia": "Valverde",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 49.43,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "31",
+        "provincia": "San Jose De Ocoa",
+        "curules_totales": 1,
+        "ganador": "PLD",
+        "bloque_coalicion": "PLD",
+        "pct_ganador": 39.08,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "curules_totales": 1,
+        "ganador": "PRM",
+        "bloque_coalicion": "PRM",
+        "pct_ganador": 47.63,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      }
+    ],
+    "diputados": [
+      {
+        "provincia_id": "01",
+        "provincia": "Distrito Nacional",
+        "circ": 1,
+        "curules_totales": 6,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "ALPAIS",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "01",
+        "provincia": "Distrito Nacional",
+        "circ": 2,
+        "curules_totales": 5,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "01",
+        "provincia": "Distrito Nacional",
+        "circ": 3,
+        "curules_totales": 7,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 4
+          },
+          {
+            "partido": "PLD",
+            "curules": 3
+          }
+        ]
+      },
+      {
+        "provincia_id": "02",
+        "provincia": "La Altagracia",
+        "circ": 1,
+        "curules_totales": 5,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "PLR",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "03",
+        "provincia": "Azua",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "04",
+        "provincia": "Bahoruco",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "05",
+        "provincia": "Barahona",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "06",
+        "provincia": "Dajabon",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "07",
+        "provincia": "Duarte",
+        "circ": 1,
+        "curules_totales": 5,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          },
+          {
+            "partido": "PRD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "08",
+        "provincia": "El Seibo",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "09",
+        "provincia": "Elias Piña",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "10",
+        "provincia": "Espaillat",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "11",
+        "provincia": "Hato Mayor",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PRD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "12",
+        "provincia": "Independencia",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "13",
+        "provincia": "La Romana",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRSC",
+            "curules": 2
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "14",
+        "provincia": "La Vega",
+        "circ": 1,
+        "curules_totales": 5,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "14",
+        "provincia": "La Vega",
+        "circ": 2,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "15",
+        "provincia": "Maria Trinidad Sanchez",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "16",
+        "provincia": "Monseñor Nouel",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "17",
+        "provincia": "Monte Cristi",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 1
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "18",
+        "provincia": "Monte Plata",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "19",
+        "provincia": "Pedernales",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PRD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "20",
+        "provincia": "Peravia",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "21",
+        "provincia": "Puerto Plata",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "21",
+        "provincia": "Puerto Plata",
+        "circ": 2,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "22",
+        "provincia": "Hermanas Mirabal",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "23",
+        "provincia": "Samana",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "24",
+        "provincia": "San Cristobal",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "24",
+        "provincia": "San Cristobal",
+        "circ": 2,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "PRM",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "24",
+        "provincia": "San Cristobal",
+        "circ": 3,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "25",
+        "provincia": "San Juan",
+        "circ": 1,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "PRM",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "26",
+        "provincia": "San Pedro De Macoris",
+        "circ": 1,
+        "curules_totales": 5,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          },
+          {
+            "partido": "PRD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "27",
+        "provincia": "Sanchez Ramirez",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "28",
+        "provincia": "Santiago",
+        "circ": 1,
+        "curules_totales": 8,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 5
+          },
+          {
+            "partido": "PLD",
+            "curules": 3
+          }
+        ]
+      },
+      {
+        "provincia_id": "28",
+        "provincia": "Santiago",
+        "circ": 2,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "28",
+        "provincia": "Santiago",
+        "circ": 3,
+        "curules_totales": 6,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 4
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "29",
+        "provincia": "Santiago Rodriguez",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "30",
+        "provincia": "Valverde",
+        "circ": 1,
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "31",
+        "provincia": "San Jose De Ocoa",
+        "circ": 1,
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 1
+          },
+          {
+            "partido": "PLD",
+            "curules": 1
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 1,
+        "curules_totales": 6,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 4
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 2,
+        "curules_totales": 4,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 3,
+        "curules_totales": 11,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 6
+          },
+          {
+            "partido": "PLD",
+            "curules": 5
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 4,
+        "curules_totales": 7,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 5
+          },
+          {
+            "partido": "PLD",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 5,
+        "curules_totales": 6,
+        "resultado": [
+          {
+            "partido": "PLD",
+            "curules": 3
+          },
+          {
+            "partido": "PRM",
+            "curules": 3
+          }
+        ]
+      },
+      {
+        "provincia_id": "32",
+        "provincia": "Santo Domingo",
+        "circ": 6,
+        "curules_totales": 9,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 5
+          },
+          {
+            "partido": "PLD",
+            "curules": 4
+          }
+        ]
+      }
+    ],
+    "diputados_exterior": [
+      {
+        "circ_exterior": 1,
+        "region": "Exterior General",
+        "curules_totales": 3,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 3
+          }
+        ]
+      },
+      {
+        "circ_exterior": 2,
+        "region": "Caribe y Centroamérica",
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          }
+        ]
+      },
+      {
+        "circ_exterior": 3,
+        "region": "Europa y Otros",
+        "curules_totales": 2,
+        "resultado": [
+          {
+            "partido": "PRM",
+            "curules": 2
+          }
+        ]
+      }
+    ],
+    "diputados_nacionales": {
+      "curules_totales": 5,
+      "metodo": "lista_cerrada_bloqueada",
+      "criterio": "Paso 1: partidos >1% sin escaños territoriales → 1 curul. Paso 2: D'Hondt entre restantes.",
+      "resultado": [
+        {
+          "partido": "FP",
+          "curules": 1
+        },
+        {
+          "partido": "DXC",
+          "curules": 1
+        },
+        {
+          "partido": "PCR",
+          "curules": 1
+        },
+        {
+          "partido": "PHD",
+          "curules": 1
+        },
+        {
+          "partido": "PRM",
+          "curules": 1
+        }
+      ]
+    }
+  }
+}

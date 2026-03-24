@@ -1,0 +1,457 @@
+{
+  "senadores": [
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "curules": 1
+    },
+    {
+      "provincia_id": "02",
+      "provincia": "La Altagracia",
+      "curules": 1
+    },
+    {
+      "provincia_id": "03",
+      "provincia": "Azua",
+      "curules": 1
+    },
+    {
+      "provincia_id": "04",
+      "provincia": "Bahoruco",
+      "curules": 1
+    },
+    {
+      "provincia_id": "05",
+      "provincia": "Barahona",
+      "curules": 1
+    },
+    {
+      "provincia_id": "06",
+      "provincia": "Dajabon",
+      "curules": 1
+    },
+    {
+      "provincia_id": "07",
+      "provincia": "Duarte",
+      "curules": 1
+    },
+    {
+      "provincia_id": "08",
+      "provincia": "El Seibo",
+      "curules": 1
+    },
+    {
+      "provincia_id": "09",
+      "provincia": "Elias Piña",
+      "curules": 1
+    },
+    {
+      "provincia_id": "10",
+      "provincia": "Espaillat",
+      "curules": 1
+    },
+    {
+      "provincia_id": "11",
+      "provincia": "Hato Mayor",
+      "curules": 1
+    },
+    {
+      "provincia_id": "12",
+      "provincia": "Independencia",
+      "curules": 1
+    },
+    {
+      "provincia_id": "13",
+      "provincia": "La Romana",
+      "curules": 1
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "curules": 1
+    },
+    {
+      "provincia_id": "15",
+      "provincia": "Maria Trinidad Sanchez",
+      "curules": 1
+    },
+    {
+      "provincia_id": "16",
+      "provincia": "Monseñor Nouel",
+      "curules": 1
+    },
+    {
+      "provincia_id": "17",
+      "provincia": "Monte Cristi",
+      "curules": 1
+    },
+    {
+      "provincia_id": "18",
+      "provincia": "Monte Plata",
+      "curules": 1
+    },
+    {
+      "provincia_id": "19",
+      "provincia": "Pedernales",
+      "curules": 1
+    },
+    {
+      "provincia_id": "20",
+      "provincia": "Peravia",
+      "curules": 1
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "curules": 1
+    },
+    {
+      "provincia_id": "22",
+      "provincia": "Hermanas Mirabal",
+      "curules": 1
+    },
+    {
+      "provincia_id": "23",
+      "provincia": "Samana",
+      "curules": 1
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "curules": 1
+    },
+    {
+      "provincia_id": "25",
+      "provincia": "San Juan",
+      "curules": 1
+    },
+    {
+      "provincia_id": "26",
+      "provincia": "San Pedro de Macoris",
+      "curules": 1
+    },
+    {
+      "provincia_id": "27",
+      "provincia": "Sanchez Ramirez",
+      "curules": 1
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "curules": 1
+    },
+    {
+      "provincia_id": "29",
+      "provincia": "Santiago Rodriguez",
+      "curules": 1
+    },
+    {
+      "provincia_id": "30",
+      "provincia": "Valverde",
+      "curules": 1
+    },
+    {
+      "provincia_id": "31",
+      "provincia": "San Jose de Ocoa",
+      "curules": 1
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "curules": 1
+    }
+  ],
+  "diputados": [
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 1,
+      "curules": 6
+    },
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 2,
+      "curules": 5
+    },
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "circ": 3,
+      "curules": 7
+    },
+    {
+      "provincia_id": "02",
+      "provincia": "La Altagracia",
+      "circ": 1,
+      "curules": 5
+    },
+    {
+      "provincia_id": "03",
+      "provincia": "Azua",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "04",
+      "provincia": "Bahoruco",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "05",
+      "provincia": "Barahona",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "06",
+      "provincia": "Dajabon",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "07",
+      "provincia": "Duarte",
+      "circ": 1,
+      "curules": 5
+    },
+    {
+      "provincia_id": "08",
+      "provincia": "El Seibo",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "09",
+      "provincia": "Elias Piña",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "10",
+      "provincia": "Espaillat",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "11",
+      "provincia": "Hato Mayor",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "12",
+      "provincia": "Independencia",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "13",
+      "provincia": "La Romana",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "circ": 1,
+      "curules": 5
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "circ": 2,
+      "curules": 2
+    },
+    {
+      "provincia_id": "15",
+      "provincia": "Maria Trinidad Sanchez",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "16",
+      "provincia": "Monseñor Nouel",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "17",
+      "provincia": "Monte Cristi",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "18",
+      "provincia": "Monte Plata",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "19",
+      "provincia": "Pedernales",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "20",
+      "provincia": "Peravia",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "circ": 2,
+      "curules": 2
+    },
+    {
+      "provincia_id": "22",
+      "provincia": "Hermanas Mirabal",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "23",
+      "provincia": "Samana",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 2,
+      "curules": 3
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "circ": 3,
+      "curules": 3
+    },
+    {
+      "provincia_id": "25",
+      "provincia": "San Juan",
+      "circ": 1,
+      "curules": 4
+    },
+    {
+      "provincia_id": "26",
+      "provincia": "San Pedro de Macoris",
+      "circ": 1,
+      "curules": 5
+    },
+    {
+      "provincia_id": "27",
+      "provincia": "Sanchez Ramirez",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 1,
+      "curules": 8
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 2,
+      "curules": 4
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "circ": 3,
+      "curules": 6
+    },
+    {
+      "provincia_id": "29",
+      "provincia": "Santiago Rodriguez",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "30",
+      "provincia": "Valverde",
+      "circ": 1,
+      "curules": 3
+    },
+    {
+      "provincia_id": "31",
+      "provincia": "San Jose de Ocoa",
+      "circ": 1,
+      "curules": 2
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 1,
+      "curules": 6
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 2,
+      "curules": 4
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 3,
+      "curules": 11
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 4,
+      "curules": 7
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 5,
+      "curules": 6
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "circ": 6,
+      "curules": 9
+    }
+  ],
+  "diputados_exterior": [
+    {
+      "circ_exterior": 1,
+      "region": "América del Norte y Europa",
+      "curules": 3
+    },
+    {
+      "circ_exterior": 2,
+      "region": "América Central y el Caribe",
+      "curules": 2
+    },
+    {
+      "circ_exterior": 3,
+      "region": "América del Sur",
+      "curules": 2
+    }
+  ],
+  "diputados_nacionales": {
+    "curules": 5,
+    "metodo": "acumulacion_nacional"
+  }
+}

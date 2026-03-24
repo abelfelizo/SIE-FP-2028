@@ -1,0 +1,172 @@
+{
+  "eleccion": 2024,
+  "niveles": [
+    "presidencial",
+    "senadores"
+  ],
+  "fuente": "JCE RTF oficial — inscritos del nivel senatorial",
+  "nota": "Padrón provincial único: presidencial y senadores comparten el mismo padrón (misma jornada).",
+  "padron": [
+    {
+      "provincia_id": "01",
+      "provincia": "Distrito Nacional",
+      "inscritos": 794080
+    },
+    {
+      "provincia_id": "02",
+      "provincia": "La Altagracia",
+      "inscritos": 186886
+    },
+    {
+      "provincia_id": "03",
+      "provincia": "Azua",
+      "inscritos": 172801
+    },
+    {
+      "provincia_id": "04",
+      "provincia": "Bahoruco",
+      "inscritos": 76436
+    },
+    {
+      "provincia_id": "05",
+      "provincia": "Barahona",
+      "inscritos": 135743
+    },
+    {
+      "provincia_id": "06",
+      "provincia": "Dajabon",
+      "inscritos": 52824
+    },
+    {
+      "provincia_id": "07",
+      "provincia": "Duarte",
+      "inscritos": 234553
+    },
+    {
+      "provincia_id": "08",
+      "provincia": "El Seibo",
+      "inscritos": 63596
+    },
+    {
+      "provincia_id": "09",
+      "provincia": "Elias Piña",
+      "inscritos": 45337
+    },
+    {
+      "provincia_id": "10",
+      "provincia": "Espaillat",
+      "inscritos": 191403
+    },
+    {
+      "provincia_id": "11",
+      "provincia": "Hato Mayor",
+      "inscritos": 73367
+    },
+    {
+      "provincia_id": "12",
+      "provincia": "Independencia",
+      "inscritos": 38238
+    },
+    {
+      "provincia_id": "13",
+      "provincia": "La Romana",
+      "inscritos": 189231
+    },
+    {
+      "provincia_id": "14",
+      "provincia": "La Vega",
+      "inscritos": 318532
+    },
+    {
+      "provincia_id": "15",
+      "provincia": "Maria Trinidad Sanchez",
+      "inscritos": 113091
+    },
+    {
+      "provincia_id": "16",
+      "provincia": "Monseñor Nouel",
+      "inscritos": 144045
+    },
+    {
+      "provincia_id": "17",
+      "provincia": "Monte Cristi",
+      "inscritos": 82552
+    },
+    {
+      "provincia_id": "18",
+      "provincia": "Monte Plata",
+      "inscritos": 142460
+    },
+    {
+      "provincia_id": "19",
+      "provincia": "Pedernales",
+      "inscritos": 19720
+    },
+    {
+      "provincia_id": "20",
+      "provincia": "Peravia",
+      "inscritos": 140956
+    },
+    {
+      "provincia_id": "21",
+      "provincia": "Puerto Plata",
+      "inscritos": 258042
+    },
+    {
+      "provincia_id": "22",
+      "provincia": "Hermanas Mirabal",
+      "inscritos": 84835
+    },
+    {
+      "provincia_id": "23",
+      "provincia": "Samana",
+      "inscritos": 81061
+    },
+    {
+      "provincia_id": "24",
+      "provincia": "San Cristobal",
+      "inscritos": 441258
+    },
+    {
+      "provincia_id": "25",
+      "provincia": "San Juan",
+      "inscritos": 192039
+    },
+    {
+      "provincia_id": "26",
+      "provincia": "San Pedro de Macoris",
+      "inscritos": 229372
+    },
+    {
+      "provincia_id": "27",
+      "provincia": "Sanchez Ramirez",
+      "inscritos": 126090
+    },
+    {
+      "provincia_id": "28",
+      "provincia": "Santiago",
+      "inscritos": 785288
+    },
+    {
+      "provincia_id": "29",
+      "provincia": "Santiago Rodriguez",
+      "inscritos": 49639
+    },
+    {
+      "provincia_id": "30",
+      "provincia": "Valverde",
+      "inscritos": 116738
+    },
+    {
+      "provincia_id": "31",
+      "provincia": "San Jose de Ocoa",
+      "inscritos": 52519
+    },
+    {
+      "provincia_id": "32",
+      "provincia": "Santo Domingo",
+      "inscritos": 1649032
+    }
+  ],
+  "total_inscrito_domestico": 7281764
+}

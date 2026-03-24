@@ -1,0 +1,61 @@
+{
+  "nombre": "SIE 2028 v9.0",
+  "version": "v16.0",
+  "fecha": "2026-03-24",
+  "estado": "PRODUCCIÓN",
+  "cambios_v9_0": {
+    "nuevos_motores": 5,
+    "motores_totales": 23,
+    "modificaciones_interfaz": 0,
+    "breaking_changes": 0,
+    "compatibilidad": "100% con v8.9-pre"
+  },
+  "nuevos_motores": [
+    {
+      "nombre": "MotorPivotElectoral",
+      "funcion": "Identifica provincias que deciden la elección",
+      "referencia": "Jacobson 2004",
+      "ubicacion": "core/engine.js"
+    },
+    {
+      "nombre": "MotorRutaVictoria",
+      "funcion": "Calcula combinaciones mínimas de provincias para ganar",
+      "algoritmo": "Subset optimization (greedy)",
+      "ubicacion": "core/engine.js"
+    },
+    {
+      "nombre": "MotorMetaElectoral",
+      "funcion": "Proyecta meta de votos para 2028",
+      "referencia": "Leighley-Nagler 2013",
+      "ubicacion": "core/engine.js"
+    },
+    {
+      "nombre": "MotorPrioridadEstrategica",
+      "funcion": "Ranking de provincias por prioridad de inversión",
+      "referencia": "Saaty 1977",
+      "ubicacion": "core/engine.js"
+    },
+    {
+      "nombre": "MotorNormalizacionHistoricav9",
+      "funcion": "Normaliza proyecciones por madurez organizativa",
+      "referencia": "Panebianco 1988",
+      "estado": "ACTIVADO",
+      "ubicacion": "core/engine.js"
+    }
+  ],
+  "acceso_motores": {
+    "javascript": "window.SIE_MOTORES.PivotElectoral.calculate(provinces)",
+    "metodos_disponibles": [
+      "window.SIE_MOTORES.PivotElectoral",
+      "window.SIE_MOTORES.RutaVictoria",
+      "window.SIE_MOTORES.MetaElectoral",
+      "window.SIE_MOTORES.PrioridadEstrategica",
+      "window.SIE_MOTORES.NormalizacionHistoricav9"
+    ]
+  },
+  "motores_activos": 22,
+  "motores_inactivos": 1,
+  "nota": "v9.3: MotorProyeccion v9.3 (7 pasos: Baseline>Swing>Fundamentals>Encuestas>EstructuraPartido>Territorial>Ensamblaje), NAV handler llama render en todas las vistas, renderProyeccion() separada + proyeccion territorial senadores/diputados",
+  "descripcion": "SIE 2028 v16.0 — Correcciones de auditoría multidisciplinaria: 18 fixes (datos, UI, lógica, código)",
+  "data_files": 26
+}

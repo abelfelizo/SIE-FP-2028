@@ -1,0 +1,77 @@
+{
+  "sistema": "SIE 2028",
+  "version": "8.9-pre",
+  "dataset_activo": "2024",
+  "descripcion": "Sistema de Inteligencia Electoral - Republica Dominicana",
+  "datasets": {
+    "2024": {
+      "estado": "ACTIVO",
+      "fecha_corte": "2024-05-21",
+      "archivos": [
+        "resultados_2024.json",
+        "resultados_presidencial_2024.json",
+        "alianzas_2024.json",
+        "curules_resultado_2024.json",
+        "curules_catalogo.json",
+        "padron_2024.json",
+        "padron_provincial_2024.json",
+        "padron_circ_2024.json",
+        "padron_exterior_2024.json",
+        "prov_metrics_presidencial_2024.json",
+        "prov_metrics_senadores_2024.json",
+        "prov_metrics_diputados_2024.json",
+        "prov_dip_2024.json",
+        "prov_pres_2024.json",
+        "prov_sen_2024.json",
+        "partidos.json",
+        "territorios_catalogo.json",
+        "ENGINE_CONFIG.json"
+      ]
+    },
+    "2020": {
+      "estado": "ACTIVO",
+      "fecha_corte": "2020-07-05",
+      "fuente": "JCE — Relacion General Definitiva del Computo Electoral",
+      "cobertura": {
+        "presidencial": "COMPLETO",
+        "senadores": "COMPLETO — 32/32 provincias con bloques reales JCE",
+        "diputados_exterior": "COMPLETO — 3/3 circunscripciones",
+        "diputados_interior": "PENDIENTE — faltan PDFs por circunscripcion"
+      },
+      "archivos": [
+        "resultados_2020.json",
+        "alianzas_2020.json",
+        "curules_resultado_2020.json",
+        "padron_provincial_2020.json",
+        "padron_circ_2020.json",
+        "padron_exterior_2020.json",
+        "prov_metrics_presidencial_2020.json",
+        "prov_metrics_senadores_2020.json",
+        "prov_metrics_diputados_2020.json"
+      ],
+      "notas_criticas": [
+        "FP corrio dentro del bloque PRSC en presidencial (233,538 votos)",
+        "San Cristobal (24): FP encabeza bloque con PRM dentro",
+        "Santiago (28): DXC encabeza mega-coalicion con PRM",
+        "San Jose de Ocoa (31): BIS encabeza coalicion con PRM dentro",
+        "La Vega (14), Dajabon (06), Barahona (05), H.Mirabal (22), Stgo.Rodriguez (29): PRM dentro de bloque PRSC",
+        "La Altagracia (02): PLR gana senador fuera de bloque PRSC",
+        "San Juan (25): PRM dentro de bloque ALPAIS",
+        "Barahona (05): PLD gana senador — unica provincia donde PLD gana con PRM en bloque rival"
+      ]
+    }
+  },
+  "niveles_activos": {
+    "presidencial": true,
+    "senadores": true,
+    "diputados": true,
+    "diputados_exterior": true,
+    "diputados_nacionales": true,
+    "alcaldes": false,
+    "directores_dm": false
+  },
+  "motores": {
+    "Motor18_MotorHistorico2020": "ACTIVO",
+    "NormalizacionHistorica": "ACTIVO — modo COMPLETO"
+  }
+}

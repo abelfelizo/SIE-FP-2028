@@ -1,0 +1,160 @@
+{
+  "partidos": [
+    {
+      "id": "ALPAIS",
+      "nombre": "Alianza País"
+    },
+    {
+      "id": "APD",
+      "nombre": "Alianza por la Democracia"
+    },
+    {
+      "id": "BIS",
+      "nombre": "Bloque Institucional Social Democrata"
+    },
+    {
+      "id": "DXC",
+      "nombre": "Dominicanos por el Cambio"
+    },
+    {
+      "id": "FAMP",
+      "nombre": "Frente Amplio"
+    },
+    {
+      "id": "FNP",
+      "nombre": "Fuerza Nacional Progresista"
+    },
+    {
+      "id": "FP",
+      "nombre": "Fuerza del Pueblo"
+    },
+    {
+      "id": "GENS",
+      "nombre": "Partido Generación de Servidores"
+    },
+    {
+      "id": "JS",
+      "nombre": "Partido Justicia Social"
+    },
+    {
+      "id": "MA",
+      "nombre": "Partido MA"
+    },
+    {
+      "id": "MCC",
+      "nombre": "Partido MCC"
+    },
+    {
+      "id": "MCNPC",
+      "nombre": "Partido MCNPC"
+    },
+    {
+      "id": "MHI",
+      "nombre": "Partido MHI"
+    },
+    {
+      "id": "MIUP",
+      "nombre": "Partido MIUP"
+    },
+    {
+      "id": "MODA",
+      "nombre": "Partido Democrático Alternativo"
+    },
+    {
+      "id": "OD",
+      "nombre": "Partido Opción Democrática"
+    },
+    {
+      "id": "PAL",
+      "nombre": "Partido de Acción Liberal"
+    },
+    {
+      "id": "PASOVE",
+      "nombre": "Partido Verde Dominicano"
+    },
+    {
+      "id": "PCR",
+      "nombre": "Partido Cívico Renovador"
+    },
+    {
+      "id": "PDI",
+      "nombre": "Partido Democrata Institucional"
+    },
+    {
+      "id": "PDP",
+      "nombre": "Partido Democrata Popular"
+    },
+    {
+      "id": "PED",
+      "nombre": "Partido Esperanza Democrática"
+    },
+    {
+      "id": "PHD",
+      "nombre": "Partido Humanista Dominicano"
+    },
+    {
+      "id": "PLD",
+      "nombre": "Partido de la Liberación Dominicana"
+    },
+    {
+      "id": "PLR",
+      "nombre": "Partido Liberal Reformista"
+    },
+    {
+      "id": "PNVC",
+      "nombre": "Partido Nacional Voluntad Ciudadana"
+    },
+    {
+      "id": "PP",
+      "nombre": "Partido País Posible"
+    },
+    {
+      "id": "PPC",
+      "nombre": "Partido Popular Cristiano"
+    },
+    {
+      "id": "PPG",
+      "nombre": "Partido Primero la Gente"
+    },
+    {
+      "id": "PPT",
+      "nombre": "Partido Patria para Todos y Todas"
+    },
+    {
+      "id": "PQDC",
+      "nombre": "Partido Quisqueyano Democrata Cristiano"
+    },
+    {
+      "id": "PRD",
+      "nombre": "Partido Revolucionario Dominicano"
+    },
+    {
+      "id": "PRI",
+      "nombre": "Partido Revolucionario Independiente"
+    },
+    {
+      "id": "PRM",
+      "nombre": "Partido Revolucionario Moderno"
+    },
+    {
+      "id": "PRSC",
+      "nombre": "Partido Reformista Social Cristiano"
+    },
+    {
+      "id": "PRSD",
+      "nombre": "Partido Revolucionario Social Democrata"
+    },
+    {
+      "id": "PSC",
+      "nombre": "Partido Socialista Cristiano"
+    },
+    {
+      "id": "PUN",
+      "nombre": "Partido de Unidad Nacional"
+    },
+    {
+      "id": "UDC",
+      "nombre": "Unión Democrata Cristiana"
+    }
+  ]
+}

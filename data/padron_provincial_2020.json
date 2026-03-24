@@ -1,0 +1,360 @@
+{
+  "eleccion": "Presidenciales y Congresuales 2020",
+  "fecha": "2020-07-05",
+  "fuente": "JCE — CSV colegio a colegio, suma por provincia",
+  "total_inscritos_domestico": 6934053,
+  "padron": [
+    {
+      "provincia_id": "01",
+      "tipo": "provincia",
+      "territorio": "Distrito Nacional",
+      "inscritos": 772359,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "02",
+      "tipo": "provincia",
+      "territorio": "La Altagracia",
+      "inscritos": 168754,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "03",
+      "tipo": "provincia",
+      "territorio": "Azua",
+      "inscritos": 163307,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "04",
+      "tipo": "provincia",
+      "territorio": "Bahoruco",
+      "inscritos": 72238,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "05",
+      "tipo": "provincia",
+      "territorio": "Barahona",
+      "inscritos": 129291,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "06",
+      "tipo": "provincia",
+      "territorio": "Dajabon",
+      "inscritos": 50699,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "07",
+      "tipo": "provincia",
+      "territorio": "Duarte",
+      "inscritos": 228829,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "08",
+      "tipo": "provincia",
+      "territorio": "El Seibo",
+      "inscritos": 60310,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "09",
+      "tipo": "provincia",
+      "territorio": "Elias Piña",
+      "inscritos": 43655,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "10",
+      "tipo": "provincia",
+      "territorio": "Espaillat",
+      "inscritos": 185538,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "11",
+      "tipo": "provincia",
+      "territorio": "Hato Mayor",
+      "inscritos": 69999,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "12",
+      "tipo": "provincia",
+      "territorio": "Independencia",
+      "inscritos": 37034,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "13",
+      "tipo": "provincia",
+      "territorio": "La Romana",
+      "inscritos": 177823,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "14",
+      "tipo": "provincia",
+      "territorio": "La Vega",
+      "inscritos": 305857,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "15",
+      "tipo": "provincia",
+      "territorio": "Maria Trinidad Sanchez",
+      "inscritos": 107985,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "16",
+      "tipo": "provincia",
+      "territorio": "Monseñor Nouel",
+      "inscritos": 138328,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "17",
+      "tipo": "provincia",
+      "territorio": "Monte Cristi",
+      "inscritos": 80597,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "18",
+      "tipo": "provincia",
+      "territorio": "Monte Plata",
+      "inscritos": 133909,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "19",
+      "tipo": "provincia",
+      "territorio": "Pedernales",
+      "inscritos": 18501,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "20",
+      "tipo": "provincia",
+      "territorio": "Peravia",
+      "inscritos": 134839,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "21",
+      "tipo": "provincia",
+      "territorio": "Puerto Plata",
+      "inscritos": 246477,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "22",
+      "tipo": "provincia",
+      "territorio": "Hermanas Mirabal",
+      "inscritos": 83262,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "23",
+      "tipo": "provincia",
+      "territorio": "Samana",
+      "inscritos": 76742,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "24",
+      "tipo": "provincia",
+      "territorio": "San Cristobal",
+      "inscritos": 411544,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "25",
+      "tipo": "provincia",
+      "territorio": "San Juan",
+      "inscritos": 183459,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "26",
+      "tipo": "provincia",
+      "territorio": "San Pedro De Macoris",
+      "inscritos": 216098,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "27",
+      "tipo": "provincia",
+      "territorio": "Sanchez Ramirez",
+      "inscritos": 120919,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "28",
+      "tipo": "provincia",
+      "territorio": "Santiago",
+      "inscritos": 756504,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "29",
+      "tipo": "provincia",
+      "territorio": "Santiago Rodriguez",
+      "inscritos": 48561,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "30",
+      "tipo": "provincia",
+      "territorio": "Valverde",
+      "inscritos": 114055,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "31",
+      "tipo": "provincia",
+      "territorio": "San Jose De Ocoa",
+      "inscritos": 50231,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    },
+    {
+      "provincia_id": "32",
+      "tipo": "provincia",
+      "territorio": "Santo Domingo",
+      "inscritos": 1546349,
+      "niveles": [
+        "presidencial",
+        "senadores",
+        "diputados"
+      ]
+    }
+  ]
+}

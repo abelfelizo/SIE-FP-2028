@@ -1,0 +1,30 @@
+{
+  "eleccion": 2024,
+  "niveles": [
+    "presidencial_exterior",
+    "diputados_exterior"
+  ],
+  "fuente": "JCE RTF oficial — inscritos circunscripciones del exterior",
+  "nota": "Los inscritos del exterior aplican a presidencial Y diputados. Ambos niveles se votan en el mismo acto electoral en el exterior. dom(7,281,764) + ext(863,784) = JCE total (8,145,548).",
+  "total_inscrito_exterior": 863784,
+  "padron": [
+    {
+      "circ_exterior": 1,
+      "region": "Exterior General",
+      "inscritos": 549553,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "circ_exterior": 2,
+      "region": "Caribe y Centroamérica",
+      "inscritos": 164795,
+      "metodo": "oficial_JCE_RTF"
+    },
+    {
+      "circ_exterior": 3,
+      "region": "Europa y Otros",
+      "inscritos": 149436,
+      "metodo": "oficial_JCE_RTF"
+    }
+  ]
+}

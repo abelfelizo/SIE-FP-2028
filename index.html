@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>SIE 2028 v12.0 · Sistema Inteligencia Electoral</title>
+<link rel="stylesheet" href="./assets/css/styles.css"/>
+
+  <style>
+    .intel-panel { animation: fadeIn .2s ease; }
+    @keyframes fadeIn { from { opacity:0; transform:translateY(4px); } to { opacity:1; transform:translateY(0); } }
+    .dash-arr { font-size:.6rem; margin-left:.3rem; }
+  </style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span style="font-size:1.2rem">⚡</span>
+    <span class="brand-name">SIE 2028</span>
+    <span class="badge">v16.0</span>
+    <span class="badge-ds">DATASET 2024+2020</span>
+  </div>
+  <div style="display:flex;gap:.6rem;align-items:center">
+    <span id="sys-status" style="font-size:.73rem;color:var(--muted)">Iniciando…</span>
+        <button onclick="window.siePDF&&window.siePDF()" title="Exportar resumen ejecutivo PDF" style="background:var(--bg3);border:1px solid var(--border);color:var(--muted);padding:.25rem .5rem;border-radius:.35rem;cursor:pointer;font-size:.72rem;font-weight:600;transition:all .15s" onmouseover="this.style.color='var(--fp)';this.style.borderColor='var(--fp)'" onmouseout="this.style.color='var(--muted)';this.style.borderColor='var(--border)'">📄 PDF</button>
+    <button class="theme-toggle" id="btn-theme" onclick="toggleTheme()">🌙 Oscuro</button>
+  </div>
+</header>
+
+<div class="app-shell">
+
+<!-- NAV COLAPSABLE -->
+<nav class="nav" id="main-nav">
+
+  <div class="nav-group" id="grp-campana">
+    <div class="nav-group-hdr" onclick="toggleGroup('grp-campana')">
+      <span class="nav-group-label">Campaña FP</span>
+      <span class="nav-arrow">▶</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn active" data-view="dashboard">📊 Dashboard</button>
+      <button class="nav-btn" data-view="proyeccion">📈 Proyección 2028</button>
+      <button class="nav-btn" data-view="objetivo">🎯 Objetivo 2028</button>
+    </div>
+  </div>
+
+  <div class="nav-group" id="grp-base">
+    <div class="nav-group-hdr" onclick="toggleGroup('grp-base')">
+      <span class="nav-group-label">Base Electoral</span>
+      <span class="nav-arrow">▶</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn" data-view="presidencial">🗾 Presidencial</button>
+      <button class="nav-btn" data-view="senadores">🏛 Senadores</button>
+      <button class="nav-btn" data-view="diputados">📋 Diputados</button>
+      <button class="nav-btn" data-view="exterior">🌍 Exterior</button>
+      <button class="nav-btn" data-view="historico">📊 Histórico 2020</button>
+    </div>
+  </div>
+
+  <div class="nav-group" id="grp-intel">
+    <div class="nav-group-hdr" onclick="toggleGroup('grp-intel')">
+      <span class="nav-group-label">Inteligencia FP</span>
+      <span class="nav-arrow">▶</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn" data-view="inteligencia" data-itab="intel-transferencia">🧠 Centro de Análisis</button>
+      <button class="nav-btn" data-view="alianzas">🤝 Alianzas</button>
+    </div>
+  </div>
+
+  <div class="nav-group" id="grp-sim">
+    <div class="nav-group-hdr" onclick="toggleGroup('grp-sim')">
+      <span class="nav-group-label">Simulación</span>
+      <span class="nav-arrow">▶</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn" data-view="encuestas">📋 Encuestas</button>
+      <button class="nav-btn" data-view="simulador">🔬 Simulador</button>
+    </div>
+  </div>
+
+  <div class="nav-group" id="grp-sys">
+    <div class="nav-group-hdr" onclick="toggleGroup('grp-sys')">
+      <span class="nav-group-label">Sistema</span>
+      <span class="nav-arrow">▶</span>
+    </div>
+    <div class="nav-items">
+      <button class="nav-btn" data-view="replay">▶ Replay</button>
+      <button class="nav-btn" data-view="motores">⚙ Motores</button>
+    </div>
+  </div>
+
+</nav>
+
+<main class="main">
+
+<!-- ══════════════ CAMPAÑA FP ══════════════ -->
+
+<!-- DASHBOARD -->
+<div id="view-dashboard" class="view active">
+  <div class="section-title">📊 Dashboard · Centro de Comando</div>
+  <div id="dash-modelo-banner" style="margin-bottom:.6rem"></div>
+  <div class="kpi-grid" id="kpi-section"></div>
+  <!-- Fila principal: 3 columnas -->
+  <div class="grid" style="grid-template-columns:1fr 1fr 1fr;gap:.75rem;margin-top:.6rem">
+    <!-- Col 1: Resultado presidencial -->
+    <div class="card" style="padding:.8rem">
+      <div class="card-hdr" style="margin-bottom:.6rem;padding-bottom:.45rem">
+        <span class="card-title">Resultado Presidencial 2024</span>
+        <span class="card-badge">JCE Oficial</span>
+      </div>
+      <div id="pres-bar-list" class="bar-list"></div>
+      <div id="nota-dash-pres"></div>
+    </div>
+    <!-- Col 2: Parlamento + Progreso -->
+    <div style="display:flex;flex-direction:column;gap:.65rem">
+      <div class="card" style="padding:.8rem">
+        <div class="card-hdr" style="margin-bottom:.5rem;padding-bottom:.4rem">
+          <span class="card-title">Balance Legislativo 2024</span>
+          <span class="card-badge">222 curules</span>
+        </div>
+        <canvas id="parl-canvas" width="280" height="150" style="display:block;margin:0 auto"></canvas>
+        <div id="parl-legend" style="display:flex;flex-wrap:wrap;gap:.3rem .65rem;justify-content:center;margin-top:.45rem"></div>
+      </div>
+      <div class="card" style="padding:.8rem;flex:1">
+        <div class="card-hdr" style="margin-bottom:.5rem;padding-bottom:.4rem">
+          <span class="card-title">Progreso hacia meta</span>
+          <span class="card-badge">Pipeline v10</span>
+        </div>
+        <div id="dash-progreso"></div>
+      </div>
+    </div>
+    <!-- Col 3: Palancas + Tornado colapsable -->
+    <div style="display:flex;flex-direction:column;gap:.65rem">
+      <div class="card" style="padding:.8rem">
+        <div class="card-hdr" style="margin-bottom:.5rem;padding-bottom:.4rem">
+          <span class="card-title">Fuentes de votos 2028</span>
+          <span class="card-badge">4 palancas</span>
+        </div>
+        <div id="dash-palancas"></div>
+      </div>
+      <div class="card" style="padding:.8rem">
+        <div class="card-hdr" style="margin-bottom:.5rem;padding-bottom:.4rem;cursor:pointer;user-select:none" onclick="(function(h){var t=document.getElementById('dash-tornado');var open=t.style.display!=='none';t.style.display=open?'none':'';h.querySelector('.dash-arr').textContent=open?'▶ Ver':'▼ Ocultar';})(this)">
+          <span class="card-title">Impacto por palanca</span>
+          <span class="card-badge" style="cursor:pointer">Sensibilidad <span class="dash-arr" style="font-weight:700">▶ Ver</span></span>
+        </div>
+        <div id="dash-tornado" style="display:none"></div>
+        <div id="nota-dash-tornado"></div>
+      </div>
+    </div>
+  </div>
+  <!-- Botón exportar -->
+  <div style="display:flex;justify-content:flex-end;margin-top:.65rem;gap:.5rem">
+    <button onclick="window.siePDF&&window.siePDF()" style="background:var(--fp);color:#000;border:none;padding:.38rem .9rem;border-radius:var(--r);font-size:.72rem;font-weight:800;cursor:pointer;display:flex;align-items:center;gap:.35rem">
+      📄 Exportar resumen ejecutivo
+    </button>
+  </div>
+</div>
+
+<!-- PROYECCIÓN 2028 -->
+<div id="view-proyeccion" class="view">
+  <div class="section-title">📈 Proyección Electoral 2028</div>
+  <div class="card-desc" style="margin-bottom:.85rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);border-left:3px solid var(--accent);font-size:.76rem;color:var(--muted)">
+    <strong style="color:var(--text)">Proyección canónica del sistema:</strong> La proyección válida es la del pipeline v10 (<code>pipe.proyeccion_nacional</code>), que integra Fundamentals + Swing histórico + Índice Pedersen + Normalización Panebianco + Encuestas Bayesianas cuando están activas. Los escenarios de participación son variaciones del escenario base.
+  </div>
+  <div style="display:flex;gap:.65rem;margin-bottom:.85rem;flex-wrap:wrap" id="proy-escenarios-row"></div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Proyección nacional</span><span class="card-badge">Fundamentals + Swing + Normalización</span></div>
+      <div class="card-desc">Resultado proyectado por partido para las elecciones de 2028. Incorpora fatiga de incumbencia (-2pp PRM), swing histórico ponderado y madurez organizativa FP.</div>
+      <div id="proy-fundamentals"></div>
+      <div id="nota-proy-fundamentals"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Swing 2020→2024 por partido</span><span class="card-badge">Variación histórica</span></div>
+      <div class="card-desc">Cambio en puntos porcentuales entre 2020 y 2024. El 35% de este swing se aplica como proyección hacia 2028.</div>
+      <div id="proy-swing"></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Mapa competitividad provincial 2028</span><span class="card-badge">Pedersen + Factor local</span></div>
+    <div style="display:flex;flex-wrap:wrap;gap:.4rem;padding:.4rem .6rem;background:var(--bg3);border-bottom:1px solid var(--border);font-size:.65rem">
+      <span style="font-weight:700;color:var(--muted);align-self:center">Semáforo:</span>
+      <span style="padding:.12rem .4rem;border-radius:.2rem;background:#15803d22;color:#15803d;font-weight:700">🟢 Consolidado · FP gana por margen cómodo (&gt;10pp)</span>
+      <span style="padding:.12rem .4rem;border-radius:.2rem;background:#d9770622;color:#d97706;font-weight:700">🟡 Competitivo · margen 3-10pp o FP cercano</span>
+      <span style="padding:.12rem .4rem;border-radius:.2rem;background:#dc262622;color:#dc2626;font-weight:700">🔴 En riesgo · FP pierde o margen &lt;3pp</span>
+      <span style="padding:.12rem .4rem;border-radius:.2rem;background:#1e40af22;color:#1e40af;font-weight:700">🔵 PRM sólido · margen &gt;15pp para PRM</span>
+    </div>
+    <div class="card-desc">Proyección FP en cada provincia para 2028. Integra volatilidad local (Índice Pedersen), factor de penetración territorial y swing diferenciado. 🟢 Alta confianza · 🟡 Media · 🔴 Estimado con datos limitados.</div>
+    <div id="proy-territorial" class="card-scroll"></div>
+  </div>
+  <div class="grid g3" style="margin-top:.85rem">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Senadores proyectados 2028</span><span class="card-badge">32 provincias</span></div>
+      <div id="proy-sen-territorial" class="card-scroll-md"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Diputados proyectados 2028</span><span class="card-badge">45 circunscripciones</span></div>
+      <div id="proy-dip-territorial" class="card-scroll-md"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Crecimiento del padrón</span><span class="card-badge">CAGR 2016→2028</span></div>
+      <div class="card-desc">Proyección de nuevos electores inscritos. Afecta la meta absoluta de votos.</div>
+      <div id="proy-padron"></div>
+    </div>
+  </div>
+</div>
+
+<!-- OBJETIVO 2028 -->
+<div id="view-objetivo" class="view">
+  <div class="section-title">🎯 Objetivo Electoral 2028</div>
+  <div class="level-selector" id="obj-nivel-bar">
+    <span class="level-label">Nivel:</span>
+    <button class="level-btn active" data-level="presidencial">Presidencial</button>
+    <button class="level-btn" data-level="senadores">Senadores</button>
+    <button class="level-btn" data-level="diputados">Diputados</button>
+  </div>
+  <div class="kpi-grid" id="obj-kpis"></div>
+    <div id="nota-objetivo"></div>
+  <div class="grid g2" style="margin-bottom:.85rem">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Meta y escenarios</span><span class="card-badge">Motor M21</span></div>
+      <div class="card-desc">Votos necesarios para ganar en primera vuelta (50.1%) según padrón proyectado 2028. Los escenarios varían por participación electoral.</div>
+      <div id="obj-meta-detalle"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Ruta mínima de victoria</span><span class="card-badge">Motor M20 · Provincias clave</span></div>
+      <div class="card-desc">Combinación mínima de provincias para alcanzar la meta. Ordenadas por acumulación de votos proyectados.</div>
+      <div id="obj-ruta" class="card-scroll-md"></div>
+    </div>
+  </div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Fuentes de votos adicionales</span><span class="card-badge">4 palancas cuantificadas</span></div>
+      <div class="card-desc">Las 4 fuentes identificadas por el motor para cerrar el gap electoral. Cada cifra es un estimado basado en datos 2024.</div>
+      <div id="obj-palancas"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Ranking de prioridad estratégica</span><span class="card-badge">Motor M22 · Score compuesto</span></div>
+      <div class="card-desc">Provincias ordenadas por retorno de inversión estratégica. Score = Pivot(40%) + Gap(30%) + Probabilidad(30%).</div>
+      <div id="obj-prioridad" class="card-scroll-md"></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════ BASE ELECTORAL ══════════════ -->
+
+<div id="view-presidencial" class="view">
+  <div class="section-title">🗾 Resultados Presidenciales 2024</div>
+  <div class="kpi-grid" id="pres-kpis"></div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Por bloque electoral</span><span class="card-badge">JCE Oficial · Con alianzas</span></div>
+      <div id="pres-blocs-bars" class="bar-list"></div>
+      <div id="nota-pres-barras"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Estadísticas del proceso</span></div>
+      <div id="pres-stats"></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Por partido individual</span><span class="card-badge">Sin agrupar por alianza</span></div>
+    <div id="pres-all-parties" class="card-scroll"></div>
+  </div>
+  <!-- Desglose por provincia -->
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('prov')">
+      <span class="card-title">📍 Resultados por provincia</span>
+      <span class="card-badge" id="pres-prov-badge">▶ Expandir · 32 provincias</span>
+    </div>
+    <div id="pres-prov-panel" style="display:none">
+      <div class="prov-grid" id="pres-prov-grid"></div>
+    </div>
+  </div>
+  <!-- Desglose por municipio -->
+  <div class="card" style="margin-top:.65rem">
+    <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('muni')">
+      <span class="card-title">🏘 Resultados por municipio</span>
+      <span class="card-badge" id="pres-muni-badge">▶ Expandir · 158 municipios</span>
+    </div>
+    <div id="pres-muni-panel" style="display:none">
+      <div style="padding:.5rem .75rem;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
+        <span style="font-size:.7rem;color:var(--muted);font-weight:600">Filtrar por provincia:</span>
+        <select id="pres-muni-filter" onchange="renderPresidencialMuniFiltered()" style="background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.2rem .5rem;border-radius:.3rem;font-size:.72rem">
+          <option value="">Todas (158)</option>
+        </select>
+      </div>
+      <div id="pres-muni-grid" class="card-scroll"></div>
+    </div>
+  </div>
+</div>
+
+<div id="view-senadores" class="view">
+  <div class="section-title">🏛 Senadores 2024 — 32 Provincias</div>
+  <div class="kpi-grid" id="sen-kpis"></div>
+    <div id="nota-sen-grid"></div>
+  <div class="tab-bar" id="sen-tab-bar">
+    <button class="tab-btn active" data-tab="sen-tab-real">Por partido real</button>
+    <button class="tab-btn" data-tab="sen-tab-coal">Por bloque coalición</button>
+  </div>
+  <div id="sen-tab-real" class="tab-panel active">
+    <div class="prov-grid" id="sen-prov-grid"></div>
+  </div>
+  <div id="sen-tab-coal" class="tab-panel">
+    <div id="sen-coal-detail"></div>
+  </div>
+</div>
+
+<div id="view-diputados" class="view">
+  <div class="section-title">📋 Diputados 2024 — D'Hondt</div>
+  <div class="kpi-grid" id="dip-kpis"></div>
+    <div id="nota-dip"></div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Curules por partido</span><span class="card-badge">178+5+7=190</span></div>
+      <div id="dip-bar-list" class="bar-list"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Exterior + Lista Nacional</span></div>
+      <div id="ext-detail"></div>
+      <div class="divider"></div>
+      <div id="nat-detail"></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Por circunscripción</span><span class="card-badge">D'Hondt · umbral 2%</span></div>
+    <div id="dip-circ-grid" class="card-scroll"></div>
+  </div>
+</div>
+
+<div id="view-exterior" class="view">
+  <div class="section-title">🌍 Voto Exterior 2024</div>
+  <div class="kpi-grid" id="ext-kpis"></div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">3 Circunscripciones del Exterior</span><span class="card-badge">863,784 inscritos</span></div>
+    <div id="ext-circs"></div>
+  </div>
+</div>
+
+<div id="view-historico" class="view">
+  <div class="section-title">📊 Histórico 2020 — Comparativa</div>
+  <div class="card-desc" style="margin-bottom:.85rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);border-left:3px solid var(--gold);font-size:.75rem;color:var(--muted)">
+    <strong style="color:var(--text)">Nota metodológica:</strong> Los resultados 2024 incluyen alianzas electorales agrupadas por bloque. Los resultados 2020 se muestran por partido individual (alianzas 2020 estaban en formación, no son directamente comparables a las de 2024).
+  </div>
+  <div class="kpi-grid" id="hist-kpis"></div>
+  <div class="grid g2" style="margin-top:.85rem">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Presidencial 2020</span><span class="card-badge">JCE Oficial · Sin alianzas</span></div>
+      <div id="hist-pres-bars" class="bar-list"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Curules 2020 vs 2024</span><span class="card-badge">Comparativo legislativo</span></div>
+      <div id="hist-curules-comp"></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Swing presidencial por provincia</span><span class="card-badge">Δ puntos porcentuales 2020→2024</span></div>
+    <div class="card-desc">Cambio en el apoyo a cada partido entre 2020 y 2024 por provincia. Positivo = ganó terreno. Negativo = perdió terreno.</div>
+    <div id="hist-swing-grid" class="card-scroll"></div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Senadores 2020</span><span class="card-badge">PRM: 25 · PLD: 7</span></div>
+    <div class="prov-grid" id="hist-sen-grid"></div>
+  </div>
+</div>
+
+<!-- ══════════════ INTELIGENCIA FP ══════════════ -->
+
+<div id="view-inteligencia" class="view">
+  <div class="section-title">🧠 Inteligencia FP — Centro de Análisis</div>
+  <!-- Tabs internos -->
+  <div class="tab-bar" id="intel-tab-bar" style="margin-bottom:.8rem">
+    <button class="tab-btn active" data-itab="intel-transferencia">🔄 Transferencia</button>
+    <button class="tab-btn" data-itab="intel-potencial">🎯 Potencial</button>
+    <button class="tab-btn" data-itab="intel-movilizacion">🚀 Movilización</button>
+    <button class="tab-btn" data-itab="intel-oportunidades">💡 Oportunidades</button>
+  </div>
+
+  <!-- TAB: Transferencia -->
+  <div id="intel-transferencia" class="intel-panel">
+    <div class="kpi-grid" id="transf-kpis"></div>
+    <div id="nota-transferencia"></div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Estado por provincia</span><span class="card-badge">Factor variable · Aldrich 1995</span></div>
+      <div class="tab-bar" id="transf-tabs"></div>
+      <div id="transf-pres" class="card-scroll"></div>
+      <div id="transf-sen" class="card-scroll" style="display:none"></div>
+      <div id="transf-dip" class="card-scroll" style="display:none"></div>
+    </div>
+  </div>
+
+  <!-- TAB: Potencial -->
+  <div id="intel-potencial" class="intel-panel" style="display:none">
+    <div class="level-selector" id="pot-level-bar">
+      <span class="level-label">Nivel:</span>
+      <button class="level-btn active" data-level="presidencial">Presidencial</button>
+      <button class="level-btn" data-level="senadores">Senadores</button>
+      <button class="level-btn" data-level="diputados">Diputados</button>
+    </div>
+    <div class="kpi-grid" id="pot-kpis"></div>
+    <div id="nota-potencial"></div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Ranking de prioridad ofensiva — FP</span><span class="card-badge">Score compuesto · Motor M22</span></div>
+      <div style="font-size:.69rem;color:var(--muted);padding:.3rem .5rem;background:var(--bg3);border-radius:var(--r);margin-bottom:.4rem">
+        <strong style="color:var(--text)">Presidencial:</strong> tabla interactiva (clic en encabezado para ordenar) · 
+        <strong style="color:var(--text)">Senadores/Diputados:</strong> tarjetas ordenadas por factibilidad (Alta → Media → Baja)
+      </div>
+      <div id="potencial-lista" class="card-scroll"></div>
+    </div>
+  </div>
+
+  <!-- TAB: Movilización -->
+  <div id="intel-movilizacion" class="intel-panel" style="display:none">
+    <div class="level-selector" id="mov-controls">
+      <span class="level-label">Partido:</span>
+      <button class="level-btn active" data-partido="FP">FP</button>
+      <button class="level-btn" data-partido="PRM">PRM</button>
+      <button class="level-btn" data-partido="PLD">PLD</button>
+      <span class="level-label" style="margin-left:.5rem">Nivel:</span>
+      <button class="level-btn active" data-nivel="presidencial">Presidencial</button>
+      <button class="level-btn" data-nivel="senadores">Senadores</button>
+      <button class="level-btn" data-nivel="diputados">Diputados</button>
+    </div>
+    <div class="kpi-grid" id="mov-kpis"></div>
+    <div id="nota-movilizacion"></div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title" id="mov-card-title">Provincias recuperables</span><span class="card-badge">Leighley &amp; Nagler 2013</span></div>
+      <div id="movilizacion-list" class="card-scroll"></div>
+      <div id="mov-resumen" style="margin-top:.75rem"></div>
+    </div>
+  </div>
+
+  <!-- TAB: Oportunidades -->
+  <div id="intel-oportunidades" class="intel-panel" style="display:none">
+    <div class="kpi-grid" id="opp-kpis"></div>
+    <div id="nota-oportunidades"></div>
+    <div class="grid g2">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Provincias por nivel de oportunidad</span><span class="card-badge">Score motor · Proyección 2028</span></div>
+        <div id="opp-lista" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Provincias ya ganadas — Consolidar</span><span class="card-badge">Defensa del territorio</span></div>
+        <div id="opp-ganadas" class="card-scroll"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Vistas legacy vacías para compatibilidad con nav routing -->
+<!-- Legacy views consolidated into view-inteligencia (Centro de Análisis) -->
+
+<div id="view-alianzas" class="view">
+  <div class="section-title">🤝 Alianzas Electorales</div>
+  <div class="kpi-grid" id="alianzas-kpis"></div>
+    <div id="nota-alianzas"></div>
+  <div style="background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:.55rem .8rem;margin-bottom:.65rem;font-size:.73rem;color:var(--muted)">
+    <strong style="color:var(--text)">Cómo leer estas tablas:</strong> Cada tab muestra el impacto de la alianza FP+PLD en ese nivel. 
+    <strong>Margen</strong> = diferencia FP+PLD vs PRM en puntos porcentuales (positivo = oposición gana). 
+    <strong>VOLTEA</strong> = la alianza invierte el resultado. 
+    Para Diputados, el impacto se mide en curules (D'Hondt) no en % de voto.
+  </div>
+  <div class="tab-bar" id="alianzas-tab-bar">
+    <button class="tab-btn active" data-tab="al-pres">Presidencial</button>
+    <button class="tab-btn" data-tab="al-sen">Senadores</button>
+    <button class="tab-btn" data-tab="al-dip">Diputados</button>
+  </div>
+  <div id="al-pres" class="tab-panel active">
+    <div class="grid g2">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Valor por provincia</span><span class="card-badge">Retención 80.9%</span></div>
+        <div class="card-desc">Ganancia neta de votos que aporta la alianza FP+PLD en cada provincia a nivel presidencial. Basado en retención histórica 80.9%.</div>
+        <div id="al-pres-lista" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">¿Quién debe encabezar la Alianza FP+PLD?</span><span class="card-badge">Cox 1997 · Golder 2006</span></div>
+        
+        <div id="al-encabezado"></div>
+        <div class="divider"></div>
+        <div class="card-title" style="margin-bottom:.5rem">Provincias que voltea la alianza</div>
+        <div id="al-pres-voltea" class="card-scroll-md"></div>
+      </div>
+    </div>
+  </div>
+  <div id="al-sen" class="tab-panel">
+    <div class="grid g2">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Alianza FP+PLD · Senadores</span><span class="card-badge">32 provincias</span></div>
+        <div class="card-desc">Impacto de la alianza en cada provincia a nivel senatorial. Considera los bloques de coalición reales de 2024.</div>
+        <div id="al-sen-lista" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Provincias que voltea · Senadores</span></div>
+        <div id="al-sen-voltea" class="card-scroll"></div>
+      </div>
+    </div>
+  </div>
+  <div id="al-dip" class="tab-panel">
+    <div class="grid g2">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Alianza FP+PLD · Diputados</span><span class="card-badge">Por provincia</span></div>
+        <div class="card-desc">Impacto estimado de la alianza en curules de diputados por provincia. El cálculo D'Hondt es aproximado a nivel provincial.</div>
+        <div id="al-dip-lista" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Impacto en curules proyectados</span></div>
+        <div id="al-dip-voltea" class="card-scroll"></div>
+      </div>
+    </div>
+  </div>
+  <div class="metodo-block" style="margin-top:.5rem">
+    <button class="metodo-toggle" onclick="toggleMetodo(this)">📐 Metodología</button>
+    <div class="metodo-body">Cox (1997) Making Votes Count. Golder (2006) The Logic of Pre-Electoral Coalition Formation. Retención provincial = RETENCION_EFECTIVA × (0.85 + 0.15 × compatibilidad). Compatibilidad = min(1, FP_2024/PLD_2024). Rango retención: 65%–92%. Encabeza la alianza: partido con mayor penetración territorial en provincias donde la alianza es necesaria para ganar (no necesariamente mayor votación nacional).</div>
+  </div>
+</div>
+
+<!-- ══════════════ SIMULACIÓN ══════════════ -->
+
+<div id="view-encuestas" class="view">
+  <div class="section-title">📋 Encuestas — Calibración del Modelo</div>
+  <div id="enc-estado-banner" style="margin-bottom:.85rem"></div>
+  <div class="grid g2">
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Estado del modelo</span><span class="card-badge">Silver/FiveThirtyEight</span></div>
+      <div class="card-desc">El modelo usa dos tipos de encuesta con efectos distintos. <strong>Intención candidato</strong>: afecta la proyección presidencial (Bayesiano 80/20 a 26+ meses). <strong>Simpatía partidaria</strong>: afecta la proyección legislativa (curules). Son distintas porque la simpatía de partido puede ser mayor que la intención de voto por un candidato específico (efecto voto útil, Duverger 1954).</div>
+      <div id="enc-estado-detalle"></div>
+    </div>
+    <div class="card">
+      <div class="card-hdr"><span class="card-title">Cargar encuesta manual</span><span class="card-badge">Recalibra el modelo al añadir</span></div>
+      <div id="enc-form"></div>
+    </div>
+  </div>
+
+  <!-- TRACKING CHART -->
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr">
+      <span class="card-title">📈 Tracking de Tendencias</span>
+      <span class="card-badge">Evolución temporal vs resultado 2024</span>
+    </div>
+    <div class="card-desc">Línea sólida = intención de candidato · Línea punteada = simpatía partidaria · Líneas horizontales = resultado real 2024 (referencia JCE)</div>
+    <div id="enc-tracking-chart" style="position:relative;height:260px;margin:.6rem 0 .3rem"></div>
+    <div id="enc-tracking-legend" style="display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.7rem;margin-top:.5rem;padding:.4rem 0;border-top:1px solid var(--border)"></div>
+    <div id="enc-tracking-tabla" style="margin-top:.8rem;overflow-x:auto"></div>
+  </div>
+
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Encuestas activas</span><span class="card-badge">Ponderadas por tiempo · calidad · muestra</span></div>
+    <div class="card-desc">Las encuestas más recientes tienen mayor peso (decaimiento exponencial λ=0.015). La calidad A+ duplica el peso base. El efecto en el modelo se muestra al lado de cada encuesta.</div>
+    <div id="enc-lista" class="card-scroll-md"></div>
+  </div>
+  <div class="card" style="margin-top:.85rem">
+    <div class="card-hdr"><span class="card-title">Cargar desde archivo JSON</span><span class="card-badge">convertir_encuestas.py</span></div>
+    <div id="enc-json-loader"></div>
+    <div class="metodo-block">
+      <button class="metodo-toggle" onclick="toggleMetodo(this)">📐 Metodología</button>
+      <div class="metodo-body">Silver (2014) FiveThirtyEight pollster ratings. Peso = calidad_peso × n_peso × decaimiento_temporal. Decaimiento: e^(-λ×días), λ=0.015. Pesos calidad: A+=2.0, A=1.5, B=1.0, C=0.6, D=0.3. Integración Bayesiana: resultado_final = 0.80 × fundamentals + 0.20 × encuesta_ponderada (a 26+ meses). El peso de encuestas escala con el tiempo hacia la elección. Intención candidato ≠ simpatía partidaria: brecha típica 4-5pp (efecto voto útil, Duverger 1954).</div>
+    </div>
+  </div>
+</div>
+
+<div id="view-simulador" class="view">
+  <div class="section-title">🔬 Simulador Electoral 2028</div>
+  <div class="level-selector" id="sim-nivel-bar">
+    <span class="level-label">Nivel:</span>
+    <button class="level-btn active" data-level="presidencial">Presidencial</button>
+    <button class="level-btn" data-level="senadores">Senadores</button>
+    <button class="level-btn" data-level="diputados">Diputados</button>
+  </div>
+  <div class="kpi-grid" id="sim-kpis"></div>
+    <div id="nota-simulador"></div>
+  <div class="sim-grid">
+    <div>
+      <div class="card" style="margin-bottom:.85rem">
+        <div class="card-hdr"><span class="card-title">Intención de voto (%)</span><span class="card-badge">Suma debe ser 100%</span></div>
+        <div class="card-desc">Ajusta el porcentaje de cada partido. El sistema <strong>bloquea</strong> si la suma supera 100% — reduce otro partido antes de subir este. Los valores por defecto vienen de la proyección actual del modelo.</div>
+        <div id="sim-sliders" class="slider-group"></div>
+        <div id="sim-total-indicator" class="sim-total-bar sim-total-ok" style="margin-top:.65rem">✓ Total: 100%</div>
+      </div>
+      <div class="card" style="margin-bottom:.85rem">
+        <div class="card-hdr"><span class="card-title">Configurar alianzas</span><span class="card-badge">Retención real por pareja</span></div>
+        <div class="card-desc">Selecciona qué partidos forman alianza. La retención no es 100%: parte del voto PLD no migrará a FP. El motor usa 80.9% de retención histórica ajustada por provincia.</div>
+        <div id="sim-alianza-config"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Variables del escenario</span></div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem">
+          <div>
+            <div style="font-size:.66rem;color:var(--muted);margin-bottom:.2rem">Participación 2028 (%)</div>
+            <input type="number" id="sim-participacion" min="35" max="80" value="54" onchange="runSimulation()">
+          </div>
+          <div>
+            <div style="font-size:.66rem;color:var(--muted);margin-bottom:.2rem">Encuestas activas</div>
+            <select id="sim-usar-enc" onchange="runSimulation()">
+              <option value="no">No usar</option>
+              <option value="si">Integrar (peso 40%)</option>
+            </select>
+          </div>
+          <div>
+            <div style="font-size:.66rem;color:var(--muted);margin-bottom:.2rem">Territorio específico</div>
+            <select id="sim-territorio" onchange="runSimulation()">
+              <option value="">Nacional</option>
+            </select>
+          </div>
+          <div>
+            <div style="font-size:.66rem;color:var(--muted);margin-bottom:.2rem">Incluir nuevos electores</div>
+            <select id="sim-nuevos-el" onchange="runSimulation()">
+              <option value="no">No</option>
+              <option value="si">Sí (+342K proyectados)</option>
+            </select>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:.5rem;margin-top:.6rem">
+          <button id="btn-simular" style="background:var(--fp);color:#fff;border:none;padding:.5rem;border-radius:var(--r);font-weight:700;cursor:pointer">▶ Simular</button>
+          <button id="btn-sim-reset" style="background:var(--bg3);color:var(--muted);border:1px solid var(--border);padding:.5rem;border-radius:var(--r);font-weight:700;cursor:pointer">↺ Valores del modelo</button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="card" style="margin-bottom:.85rem">
+        <div class="card-hdr"><span class="card-title">Resultado proyectado</span><span class="card-badge" id="sim-escenario-badge">Presidencial</span></div>
+        <div id="sim-results"><p class="text-muted text-sm">Ajusta los sliders y presiona Simular.</p></div>
+        <div id="sim-curules" style="display:none;margin-top:.65rem;padding-top:.65rem;border-top:1px solid var(--border)"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Análisis del escenario</span></div>
+        <div id="sim-pres-analysis"></div>
+      </div>
+    </div>
+  </div>
+  <div class="metodo-block" style="margin-top:.5rem">
+    <button class="metodo-toggle" onclick="toggleMetodo(this)">📐 Metodología</button>
+    <div class="metodo-body">D'Hondt con umbral 2% (Ley Electoral RD 275-97, Art. 68). Alianza: retención 80.9% histórica (auditoría v10.1). Bloqueo duro a 100% — sin redistribución automática para preservar intención del usuario. Participación afecta votos absolutos pero no los porcentajes relativos. Territorio: proyección local usa swing diferenciado por Índice Pedersen provincial. Encuestas: integración Bayesiana 60% modelo / 40% encuesta.</div>
+  </div>
+</div>
+
+<!-- ══════════════ SISTEMA ══════════════ -->
+
+<div id="view-replay" class="view">
+  <div class="section-title">▶ Replay Electoral</div>
+  <div class="grid g2" style="margin-bottom:.85rem">
+    <div class="card"><div class="card-hdr"><span class="card-title">Verificaciones 2024</span><span class="card-badge">10 checkpoints JCE</span></div><div id="replay-checks"></div></div>
+    <div class="card"><div class="card-hdr"><span class="card-title">Resumen 2024</span></div><div id="replay-summary"></div></div>
+  </div>
+  <div id="replay-2020"></div>
+</div>
+
+<div id="view-motores" class="view">
+  <div class="section-title">⚙ Estado de Motores — SIE 2028 v10.2</div>
+  <div class="grid g2">
+    <div class="card"><div class="card-hdr"><span class="card-title">Activos</span></div><div id="motores-on" class="card-scroll"></div></div>
+    <div class="card"><div class="card-hdr"><span class="card-title">Inactivos</span></div><div id="motores-off"></div></div>
+  </div>
+  <div class="card" style="margin-top:.85rem"><div class="card-hdr"><span class="card-title">Datasets</span></div><div id="datasets-status"></div></div>
+  <div class="card" style="margin-top:.85rem"><div class="card-hdr"><span class="card-title">Referencias metodológicas</span></div><div id="metodologia-refs"></div></div>
+</div>
+
+</main>
+</div><!-- /app-shell -->
+
+<script src="./app.js"></script>
+<script>
+// Nav colapsable
+function toggleGroup(groupId) {
+  var grp = document.getElementById(groupId);
+  var hdr = grp.querySelector('.nav-group-hdr');
+  var items = grp.querySelector('.nav-items');
+  var isOpen = hdr.classList.contains('open');
+  // Colapsar todos
+  document.querySelectorAll('.nav-group-hdr').forEach(function(h){ h.classList.remove('open'); });
+  document.querySelectorAll('.nav-items').forEach(function(i){ i.classList.remove('open'); });
+  // Abrir si estaba cerrado
+  if (!isOpen) { hdr.classList.add('open'); items.classList.add('open'); }
+}
+
+// Routing: clic en nav-btn
+document.getElementById('main-nav').addEventListener('click', function(e) {
+  var btn = e.target.closest('.nav-btn');
+  if (!btn) return;
+  var id = btn.dataset.view;
+  if (!id) return;
+  // Active state
+  document.querySelectorAll('.nav-btn').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  // Show view
+  document.querySelectorAll('.view').forEach(function(v){ v.classList.remove('active'); });
+  var el = document.getElementById('view-' + id);
+  if (el) el.classList.add('active');
+  // Abrir grupo correcto
+  var grpMap = {
+    dashboard:'grp-campana', proyeccion:'grp-campana', objetivo:'grp-campana',
+    presidencial:'grp-base', senadores:'grp-base', diputados:'grp-base', exterior:'grp-base', historico:'grp-base',
+    inteligencia:'grp-intel', alianzas:'grp-intel',
+    encuestas:'grp-sim', simulador:'grp-sim',
+    replay:'grp-sys', motores:'grp-sys'
+  };
+  var grpId = grpMap[id];
+  if (grpId) {
+    document.querySelectorAll('.nav-group-hdr').forEach(function(h){ h.classList.remove('open'); });
+    document.querySelectorAll('.nav-items').forEach(function(i){ i.classList.remove('open'); });
+    var grpEl = document.getElementById(grpId);
+    if (grpEl) {
+      grpEl.querySelector('.nav-group-hdr').classList.add('open');
+      grpEl.querySelector('.nav-items').classList.add('open');
+    }
+  }
+  // Activar tab correcto si es vista inteligencia
+  if (id==='inteligencia') {
+    var itab = btn.dataset.itab;
+    if (itab) {
+      var ibar = document.getElementById('intel-tab-bar');
+      if(ibar){
+        ibar.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
+        var itabBtn = ibar.querySelector('[data-itab="'+itab+'"]');
+        if(itabBtn) itabBtn.classList.add('active');
+      }
+      document.querySelectorAll('.intel-panel').forEach(function(p){ p.style.display='none'; });
+      var ipanel = document.getElementById(itab);
+      if(ipanel) ipanel.style.display='';
+    }
+  }
+  // Render
+  try {
+    if (id==='dashboard')     renderDashboard();
+    if (id==='proyeccion')    { if(!window._proyInit) initProyeccion(); else renderProyeccion(); }
+    if (id==='objetivo')      renderObjetivo();
+    if (id==='presidencial')  renderPresidencial();
+    if (id==='senadores')     renderSenadores();
+    if (id==='diputados')     renderDiputados();
+    if (id==='exterior')      renderExterior();
+    if (id==='historico')     renderHistorico();
+    if (id==='inteligencia') {
+      var itabR = btn.dataset.itab || 'intel-transferencia';
+      if(itabR==='intel-transferencia') renderTransferencia();
+      if(itabR==='intel-potencial')     renderPotencial();
+      if(itabR==='intel-movilizacion')  renderMovilizacion();
+      if(itabR==='intel-oportunidades') renderOportunidades();
+    }
+    if (id==='alianzas')      renderAlianzas();
+    if (id==='encuestas')     renderEncuestas();
+    if (id==='simulador')     { if(!window._simInit) initSimulador(); else runSimulation(); }
+    if (id==='replay')        renderReplay();
+    if (id==='motores')       renderMotores();
+  } catch(err) {
+    console.error('SIE nav error ['+id+']:', err.message, err.stack);
+    if (el) el.insertAdjacentHTML('afterbegin',
+      '<div style="background:#1F0D0D;border:1px solid var(--red);border-radius:var(--r);padding:.75rem;margin-bottom:.75rem;font-size:.75rem;font-family:monospace">'+
+      '<span style="color:var(--red);font-weight:700">⚠ Error en vista ['+id+']: </span>'+
+      '<span style="color:#fca5a5">'+err.message+'</span></div>');
+  }
+});
+
+// Tabs (genérico)
+document.addEventListener('click', function(e) {
+  var btn = e.target.closest('.tab-btn');
+  if (!btn) return;
+  var bar = btn.closest('.tab-bar');
+  if (!bar) return;
+  bar.querySelectorAll('.tab-btn').forEach(function(b){ b.classList.remove('active'); });
+  btn.classList.add('active');
+  var target = btn.dataset.tab;
+  var view = btn.closest('.view');
+  if (view) view.querySelectorAll('.tab-panel').forEach(function(p){ p.classList.remove('active'); });
+  var panel = document.getElementById(target);
+  if (panel) panel.classList.add('active');
+  // Intel FP tabs
+  if (btn.dataset.itab) {
+    document.querySelectorAll('.intel-panel').forEach(function(p){ p.style.display='none'; });
+    var ip = document.getElementById(btn.dataset.itab);
+    if(ip) ip.style.display='';
+    var itabR2 = btn.dataset.itab;
+    try {
+      if(itabR2==='intel-transferencia') renderTransferencia();
+      if(itabR2==='intel-potencial')     renderPotencial();
+      if(itabR2==='intel-movilizacion')  renderMovilizacion();
+      if(itabR2==='intel-oportunidades') renderOportunidades();
+    } catch(e){ console.warn('intel tab render:', e.message); }
+    return;
+  }
+  // Re-render alianzas tab si aplica
+  if (target==='al-sen') renderAlianzasSen();
+  if (target==='al-dip') renderAlianzasDip();
+});
+
+// Metodología toggle
+function toggleMetodo(btn) {
+  var body = btn.nextElementSibling;
+  if (body) { body.classList.toggle('open'); btn.textContent = body.classList.contains('open') ? '📐 Ocultar metodología' : '📐 Metodología'; }
+}
+
+// Tema
+function toggleTheme() {
+  var isLight = document.body.classList.toggle('light');
+  document.getElementById('btn-theme').textContent = isLight ? '🌙 Oscuro' : '☀ Claro';
+  localStorage.setItem('sie-theme', isLight ? 'light' : 'dark');
+}
+(function(){
+  var t = localStorage.getItem('sie-theme');
+  if (t==='light') { document.body.classList.add('light'); var b=document.getElementById('btn-theme'); if(b) b.textContent='🌙 Oscuro'; }
+})();
+
+// Senadores tabs: manejados por el listener genérico de .tab-btn (data-tab = ID del panel)
+// Abrir grupo inicial al cargar
+(function(){
+  var grp=document.getElementById('grp-campana');
+  if(grp){grp.querySelector('.nav-group-hdr').classList.add('open');grp.querySelector('.nav-items').classList.add('open');}
+})();
+</script>
+</body>
+</html>

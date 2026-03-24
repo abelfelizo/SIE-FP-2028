@@ -1,0 +1,1145 @@
+{
+  "eleccion": 2024,
+  "padron": [
+    {
+      "territorio_id": "0101",
+      "tipo": "municipio",
+      "territorio": "Distrito Nacional",
+      "inscritos": 463364
+    },
+    {
+      "territorio_id": "0201",
+      "tipo": "municipio",
+      "territorio": "Higüey",
+      "inscritos": 93883
+    },
+    {
+      "territorio_id": "0202",
+      "tipo": "municipio",
+      "territorio": "San Rafael del Yuma",
+      "inscritos": 9724
+    },
+    {
+      "territorio_id": "0301",
+      "tipo": "municipio",
+      "territorio": "Azua",
+      "inscritos": 49801
+    },
+    {
+      "territorio_id": "0302",
+      "tipo": "municipio",
+      "territorio": "Padre Las Casas",
+      "inscritos": 12194
+    },
+    {
+      "territorio_id": "0303",
+      "tipo": "municipio",
+      "territorio": "Guayabal",
+      "inscritos": 3178
+    },
+    {
+      "territorio_id": "0304",
+      "tipo": "municipio",
+      "territorio": "Peralta",
+      "inscritos": 6202
+    },
+    {
+      "territorio_id": "0305",
+      "tipo": "municipio",
+      "territorio": "Sabana Yegua",
+      "inscritos": 10506
+    },
+    {
+      "territorio_id": "0306",
+      "tipo": "municipio",
+      "territorio": "Las Yayas de Viajama",
+      "inscritos": 9313
+    },
+    {
+      "territorio_id": "0307",
+      "tipo": "municipio",
+      "territorio": "Tábara Arriba",
+      "inscritos": 10376
+    },
+    {
+      "territorio_id": "0308",
+      "tipo": "municipio",
+      "territorio": "Estebanía",
+      "inscritos": 3495
+    },
+    {
+      "territorio_id": "0309",
+      "tipo": "municipio",
+      "territorio": "Las Charcas",
+      "inscritos": 5166
+    },
+    {
+      "territorio_id": "0310",
+      "tipo": "municipio",
+      "territorio": "Pueblo Viejo",
+      "inscritos": 6408
+    },
+    {
+      "territorio_id": "0401",
+      "tipo": "municipio",
+      "territorio": "Neyba",
+      "inscritos": 19770
+    },
+    {
+      "territorio_id": "0402",
+      "tipo": "municipio",
+      "territorio": "Tamayo",
+      "inscritos": 14374
+    },
+    {
+      "territorio_id": "0403",
+      "tipo": "municipio",
+      "territorio": "Villa Jaragua",
+      "inscritos": 6621
+    },
+    {
+      "territorio_id": "0404",
+      "tipo": "municipio",
+      "territorio": "Los Ríos",
+      "inscritos": 3886
+    },
+    {
+      "territorio_id": "0405",
+      "tipo": "municipio",
+      "territorio": "Galván",
+      "inscritos": 8057
+    },
+    {
+      "territorio_id": "0501",
+      "tipo": "municipio",
+      "territorio": "Barahona",
+      "inscritos": 39645
+    },
+    {
+      "territorio_id": "0502",
+      "tipo": "municipio",
+      "territorio": "Cabral",
+      "inscritos": 8557
+    },
+    {
+      "territorio_id": "0503",
+      "tipo": "municipio",
+      "territorio": "Enriquillo",
+      "inscritos": 5978
+    },
+    {
+      "territorio_id": "0504",
+      "tipo": "municipio",
+      "territorio": "Vicente Noble",
+      "inscritos": 10555
+    },
+    {
+      "territorio_id": "0505",
+      "tipo": "municipio",
+      "territorio": "Paraíso",
+      "inscritos": 5672
+    },
+    {
+      "territorio_id": "0506",
+      "tipo": "municipio",
+      "territorio": "Polo",
+      "inscritos": 3096
+    },
+    {
+      "territorio_id": "0507",
+      "tipo": "municipio",
+      "territorio": "El Peñón",
+      "inscritos": 2437
+    },
+    {
+      "territorio_id": "0508",
+      "tipo": "municipio",
+      "territorio": "Fundación",
+      "inscritos": 4504
+    },
+    {
+      "territorio_id": "0509",
+      "tipo": "municipio",
+      "territorio": "Las Salinas",
+      "inscritos": 2731
+    },
+    {
+      "territorio_id": "0510",
+      "tipo": "municipio",
+      "territorio": "La Ciénaga",
+      "inscritos": 4988
+    },
+    {
+      "territorio_id": "0511",
+      "tipo": "municipio",
+      "territorio": "Jaquimeyes",
+      "inscritos": 2670
+    },
+    {
+      "territorio_id": "0601",
+      "tipo": "municipio",
+      "territorio": "Restauración",
+      "inscritos": 3694
+    },
+    {
+      "territorio_id": "0602",
+      "tipo": "municipio",
+      "territorio": "Dajabón",
+      "inscritos": 16970
+    },
+    {
+      "territorio_id": "0603",
+      "tipo": "municipio",
+      "territorio": "Loma de Cabrera",
+      "inscritos": 9020
+    },
+    {
+      "territorio_id": "0604",
+      "tipo": "municipio",
+      "territorio": "Partido",
+      "inscritos": 4101
+    },
+    {
+      "territorio_id": "0605",
+      "tipo": "municipio",
+      "territorio": "El Pino",
+      "inscritos": 4024
+    },
+    {
+      "territorio_id": "0701",
+      "tipo": "municipio",
+      "territorio": "San Francisco de Macorís",
+      "inscritos": 77857
+    },
+    {
+      "territorio_id": "0702",
+      "tipo": "municipio",
+      "territorio": "Pimentel",
+      "inscritos": 8521
+    },
+    {
+      "territorio_id": "0703",
+      "tipo": "municipio",
+      "territorio": "Villa Riva",
+      "inscritos": 15526
+    },
+    {
+      "territorio_id": "0704",
+      "tipo": "municipio",
+      "territorio": "Castillo",
+      "inscritos": 8592
+    },
+    {
+      "territorio_id": "0705",
+      "tipo": "municipio",
+      "territorio": "Eugenio María de Hostos",
+      "inscritos": 3781
+    },
+    {
+      "territorio_id": "0706",
+      "tipo": "municipio",
+      "territorio": "Arenoso",
+      "inscritos": 6707
+    },
+    {
+      "territorio_id": "0707",
+      "tipo": "municipio",
+      "territorio": "Las Guaranas",
+      "inscritos": 5577
+    },
+    {
+      "territorio_id": "0801",
+      "tipo": "municipio",
+      "territorio": "El Seibo",
+      "inscritos": 30628
+    },
+    {
+      "territorio_id": "0802",
+      "tipo": "municipio",
+      "territorio": "Miches",
+      "inscritos": 10696
+    },
+    {
+      "territorio_id": "0901",
+      "tipo": "municipio",
+      "territorio": "Bánica",
+      "inscritos": 4190
+    },
+    {
+      "territorio_id": "0902",
+      "tipo": "municipio",
+      "territorio": "Comendador",
+      "inscritos": 11294
+    },
+    {
+      "territorio_id": "0903",
+      "tipo": "municipio",
+      "territorio": "Pedro Santana",
+      "inscritos": 2849
+    },
+    {
+      "territorio_id": "0904",
+      "tipo": "municipio",
+      "territorio": "Hondo Valle",
+      "inscritos": 5404
+    },
+    {
+      "territorio_id": "0905",
+      "tipo": "municipio",
+      "territorio": "El Llano",
+      "inscritos": 3988
+    },
+    {
+      "territorio_id": "0906",
+      "tipo": "municipio",
+      "territorio": "Juan Santiago",
+      "inscritos": 2428
+    },
+    {
+      "territorio_id": "1001",
+      "tipo": "municipio",
+      "territorio": "Moca",
+      "inscritos": 76074
+    },
+    {
+      "territorio_id": "1002",
+      "tipo": "municipio",
+      "territorio": "Gaspar Hernández",
+      "inscritos": 17777
+    },
+    {
+      "territorio_id": "1003",
+      "tipo": "municipio",
+      "territorio": "Cayetano Germosén",
+      "inscritos": 4367
+    },
+    {
+      "territorio_id": "1004",
+      "tipo": "municipio",
+      "territorio": "Jamao al Norte",
+      "inscritos": 4254
+    },
+    {
+      "territorio_id": "1005",
+      "tipo": "municipio",
+      "territorio": "San Víctor",
+      "inscritos": 8929
+    },
+    {
+      "territorio_id": "1101",
+      "tipo": "municipio",
+      "territorio": "Hato Mayor",
+      "inscritos": 35657
+    },
+    {
+      "territorio_id": "1102",
+      "tipo": "municipio",
+      "territorio": "Sabana de la Mar",
+      "inscritos": 7882
+    },
+    {
+      "territorio_id": "1103",
+      "tipo": "municipio",
+      "territorio": "El Valle",
+      "inscritos": 5020
+    },
+    {
+      "territorio_id": "1201",
+      "tipo": "municipio",
+      "territorio": "Duvergé",
+      "inscritos": 8217
+    },
+    {
+      "territorio_id": "1202",
+      "tipo": "municipio",
+      "territorio": "La Descubierta",
+      "inscritos": 4130
+    },
+    {
+      "territorio_id": "1203",
+      "tipo": "municipio",
+      "territorio": "Jimaní",
+      "inscritos": 7019
+    },
+    {
+      "territorio_id": "1204",
+      "tipo": "municipio",
+      "territorio": "Postrer Río",
+      "inscritos": 2914
+    },
+    {
+      "territorio_id": "1205",
+      "tipo": "municipio",
+      "territorio": "Mella",
+      "inscritos": 2506
+    },
+    {
+      "territorio_id": "1206",
+      "tipo": "municipio",
+      "territorio": "Cristóbal",
+      "inscritos": 3675
+    },
+    {
+      "territorio_id": "1301",
+      "tipo": "municipio",
+      "territorio": "La Romana",
+      "inscritos": 73564
+    },
+    {
+      "territorio_id": "1302",
+      "tipo": "municipio",
+      "territorio": "Guaymate",
+      "inscritos": 6725
+    },
+    {
+      "territorio_id": "1303",
+      "tipo": "municipio",
+      "territorio": "Villa Hermosa",
+      "inscritos": 32241
+    },
+    {
+      "territorio_id": "1401",
+      "tipo": "municipio",
+      "territorio": "La Vega",
+      "inscritos": 115171
+    },
+    {
+      "territorio_id": "1402",
+      "tipo": "municipio",
+      "territorio": "Jarabacoa",
+      "inscritos": 26742
+    },
+    {
+      "territorio_id": "1403",
+      "tipo": "municipio",
+      "territorio": "Constanza",
+      "inscritos": 28880
+    },
+    {
+      "territorio_id": "1404",
+      "tipo": "municipio",
+      "territorio": "Jima Abajo",
+      "inscritos": 13327
+    },
+    {
+      "territorio_id": "1501",
+      "tipo": "municipio",
+      "territorio": "Cabrera",
+      "inscritos": 14619
+    },
+    {
+      "territorio_id": "1502",
+      "tipo": "municipio",
+      "territorio": "Nagua",
+      "inscritos": 36488
+    },
+    {
+      "territorio_id": "1503",
+      "tipo": "municipio",
+      "territorio": "Río San Juan",
+      "inscritos": 7772
+    },
+    {
+      "territorio_id": "1504",
+      "tipo": "municipio",
+      "territorio": "El Factor",
+      "inscritos": 12416
+    },
+    {
+      "territorio_id": "1601",
+      "tipo": "municipio",
+      "territorio": "Bonao",
+      "inscritos": 57545
+    },
+    {
+      "territorio_id": "1602",
+      "tipo": "municipio",
+      "territorio": "Maimón",
+      "inscritos": 10137
+    },
+    {
+      "territorio_id": "1603",
+      "tipo": "municipio",
+      "territorio": "Piedra Blanca",
+      "inscritos": 11592
+    },
+    {
+      "territorio_id": "1701",
+      "tipo": "municipio",
+      "territorio": "Montecristi",
+      "inscritos": 12204
+    },
+    {
+      "territorio_id": "1702",
+      "tipo": "municipio",
+      "territorio": "Guayubín",
+      "inscritos": 15790
+    },
+    {
+      "territorio_id": "1703",
+      "tipo": "municipio",
+      "territorio": "Villa Vásquez",
+      "inscritos": 6714
+    },
+    {
+      "territorio_id": "1704",
+      "tipo": "municipio",
+      "territorio": "Pepillo Salcedo",
+      "inscritos": 5677
+    },
+    {
+      "territorio_id": "1705",
+      "tipo": "municipio",
+      "territorio": "Castañuelas",
+      "inscritos": 7799
+    },
+    {
+      "territorio_id": "1706",
+      "tipo": "municipio",
+      "territorio": "Las Matas de Santa Cruz",
+      "inscritos": 4919
+    },
+    {
+      "territorio_id": "1801",
+      "tipo": "municipio",
+      "territorio": "Bayaguana",
+      "inscritos": 15256
+    },
+    {
+      "territorio_id": "1802",
+      "tipo": "municipio",
+      "territorio": "Yamasá",
+      "inscritos": 29889
+    },
+    {
+      "territorio_id": "1803",
+      "tipo": "municipio",
+      "territorio": "Monte Plata",
+      "inscritos": 27590
+    },
+    {
+      "territorio_id": "1804",
+      "tipo": "municipio",
+      "territorio": "Sabana Grande de Boyá",
+      "inscritos": 15548
+    },
+    {
+      "territorio_id": "1805",
+      "tipo": "municipio",
+      "territorio": "Peralvillo",
+      "inscritos": 10412
+    },
+    {
+      "territorio_id": "1901",
+      "tipo": "municipio",
+      "territorio": "Pedernales",
+      "inscritos": 9346
+    },
+    {
+      "territorio_id": "1902",
+      "tipo": "municipio",
+      "territorio": "Oviedo",
+      "inscritos": 5287
+    },
+    {
+      "territorio_id": "2001",
+      "tipo": "municipio",
+      "territorio": "Baní",
+      "inscritos": 60815
+    },
+    {
+      "territorio_id": "2002",
+      "tipo": "municipio",
+      "territorio": "Nizao",
+      "inscritos": 13588
+    },
+    {
+      "territorio_id": "2003",
+      "tipo": "municipio",
+      "territorio": "Matanzas",
+      "inscritos": 6607
+    },
+    {
+      "territorio_id": "2101",
+      "tipo": "municipio",
+      "territorio": "Puerto Plata",
+      "inscritos": 70000
+    },
+    {
+      "territorio_id": "2102",
+      "tipo": "municipio",
+      "territorio": "Imbert",
+      "inscritos": 11095
+    },
+    {
+      "territorio_id": "2103",
+      "tipo": "municipio",
+      "territorio": "Altamira",
+      "inscritos": 10526
+    },
+    {
+      "territorio_id": "2104",
+      "tipo": "municipio",
+      "territorio": "Luperón",
+      "inscritos": 9646
+    },
+    {
+      "territorio_id": "2105",
+      "tipo": "municipio",
+      "territorio": "Sosúa",
+      "inscritos": 21808
+    },
+    {
+      "territorio_id": "2106",
+      "tipo": "municipio",
+      "territorio": "Los Hidalgos",
+      "inscritos": 6671
+    },
+    {
+      "territorio_id": "2107",
+      "tipo": "municipio",
+      "territorio": "Guananico",
+      "inscritos": 4527
+    },
+    {
+      "territorio_id": "2108",
+      "tipo": "municipio",
+      "territorio": "Villa Isabela",
+      "inscritos": 8923
+    },
+    {
+      "territorio_id": "2109",
+      "tipo": "municipio",
+      "territorio": "Villa Montellano",
+      "inscritos": 7831
+    },
+    {
+      "territorio_id": "2201",
+      "tipo": "municipio",
+      "territorio": "Villa Tapia",
+      "inscritos": 15343
+    },
+    {
+      "territorio_id": "2202",
+      "tipo": "municipio",
+      "territorio": "Salcedo",
+      "inscritos": 23008
+    },
+    {
+      "territorio_id": "2203",
+      "tipo": "municipio",
+      "territorio": "Tenares",
+      "inscritos": 13750
+    },
+    {
+      "territorio_id": "2301",
+      "tipo": "municipio",
+      "territorio": "Samaná",
+      "inscritos": 29288
+    },
+    {
+      "territorio_id": "2302",
+      "tipo": "municipio",
+      "territorio": "Sánchez",
+      "inscritos": 13996
+    },
+    {
+      "territorio_id": "2303",
+      "tipo": "municipio",
+      "territorio": "Las Terrenas",
+      "inscritos": 7781
+    },
+    {
+      "territorio_id": "2401",
+      "tipo": "municipio",
+      "territorio": "San Cristóbal",
+      "inscritos": 119576
+    },
+    {
+      "territorio_id": "2402",
+      "tipo": "municipio",
+      "territorio": "Villa Altagracia",
+      "inscritos": 40216
+    },
+    {
+      "territorio_id": "2403",
+      "tipo": "municipio",
+      "territorio": "Yaguate",
+      "inscritos": 24926
+    },
+    {
+      "territorio_id": "2404",
+      "tipo": "municipio",
+      "territorio": "Sabana Grande de Palenque",
+      "inscritos": 8149
+    },
+    {
+      "territorio_id": "2405",
+      "tipo": "municipio",
+      "territorio": "Bajos de Haina",
+      "inscritos": 55157
+    },
+    {
+      "territorio_id": "2406",
+      "tipo": "municipio",
+      "territorio": "Cambita Garabitos",
+      "inscritos": 15474
+    },
+    {
+      "territorio_id": "2407",
+      "tipo": "municipio",
+      "territorio": "Los Cacaos",
+      "inscritos": 3849
+    },
+    {
+      "territorio_id": "2408",
+      "tipo": "municipio",
+      "territorio": "San Gregorio de Nigua",
+      "inscritos": 15763
+    },
+    {
+      "territorio_id": "2501",
+      "tipo": "municipio",
+      "territorio": "Las Matas de Farfán",
+      "inscritos": 21985
+    },
+    {
+      "territorio_id": "2502",
+      "tipo": "municipio",
+      "territorio": "San Juan de la Maguana",
+      "inscritos": 72782
+    },
+    {
+      "territorio_id": "2503",
+      "tipo": "municipio",
+      "territorio": "El Cercado",
+      "inscritos": 12045
+    },
+    {
+      "territorio_id": "2504",
+      "tipo": "municipio",
+      "territorio": "Vallejuelo",
+      "inscritos": 7257
+    },
+    {
+      "territorio_id": "2505",
+      "tipo": "municipio",
+      "territorio": "Bohechio",
+      "inscritos": 6405
+    },
+    {
+      "territorio_id": "2506",
+      "tipo": "municipio",
+      "territorio": "Juan de Herrera",
+      "inscritos": 7740
+    },
+    {
+      "territorio_id": "2601",
+      "tipo": "municipio",
+      "territorio": "San Pedro de Macorís",
+      "inscritos": 88704
+    },
+    {
+      "territorio_id": "2602",
+      "tipo": "municipio",
+      "territorio": "Los Llanos",
+      "inscritos": 12119
+    },
+    {
+      "territorio_id": "2603",
+      "tipo": "municipio",
+      "territorio": "Ramón Santana",
+      "inscritos": 5320
+    },
+    {
+      "territorio_id": "2604",
+      "tipo": "municipio",
+      "territorio": "Consuelo",
+      "inscritos": 14369
+    },
+    {
+      "territorio_id": "2605",
+      "tipo": "municipio",
+      "territorio": "Quisqueya",
+      "inscritos": 9620
+    },
+    {
+      "territorio_id": "2606",
+      "tipo": "municipio",
+      "territorio": "Guayacanes",
+      "inscritos": 5481
+    },
+    {
+      "territorio_id": "2701",
+      "tipo": "municipio",
+      "territorio": "Cotuí",
+      "inscritos": 43553
+    },
+    {
+      "territorio_id": "2702",
+      "tipo": "municipio",
+      "territorio": "Cevicos",
+      "inscritos": 8467
+    },
+    {
+      "territorio_id": "2703",
+      "tipo": "municipio",
+      "territorio": "Fantino",
+      "inscritos": 12408
+    },
+    {
+      "territorio_id": "2704",
+      "tipo": "municipio",
+      "territorio": "Villa La Mata",
+      "inscritos": 18273
+    },
+    {
+      "territorio_id": "2801",
+      "tipo": "municipio",
+      "territorio": "Santiago de los Caballeros",
+      "inscritos": 256580
+    },
+    {
+      "territorio_id": "2802",
+      "tipo": "municipio",
+      "territorio": "Tamboril",
+      "inscritos": 19900
+    },
+    {
+      "territorio_id": "2803",
+      "tipo": "municipio",
+      "territorio": "Jánico",
+      "inscritos": 5957
+    },
+    {
+      "territorio_id": "2804",
+      "tipo": "municipio",
+      "territorio": "San José de las Matas",
+      "inscritos": 14465
+    },
+    {
+      "territorio_id": "2805",
+      "tipo": "municipio",
+      "territorio": "Villa González",
+      "inscritos": 18030
+    },
+    {
+      "territorio_id": "2806",
+      "tipo": "municipio",
+      "territorio": "Licey al Medio",
+      "inscritos": 14637
+    },
+    {
+      "territorio_id": "2807",
+      "tipo": "municipio",
+      "territorio": "Villa Bisonó (Navarrete)",
+      "inscritos": 18240
+    },
+    {
+      "territorio_id": "2808",
+      "tipo": "municipio",
+      "territorio": "Sabana Iglesia",
+      "inscritos": 4140
+    },
+    {
+      "territorio_id": "2809",
+      "tipo": "municipio",
+      "territorio": "Baitoa",
+      "inscritos": 5114
+    },
+    {
+      "territorio_id": "2810",
+      "tipo": "municipio",
+      "territorio": "Puñal",
+      "inscritos": 17820
+    },
+    {
+      "territorio_id": "2901",
+      "tipo": "municipio",
+      "territorio": "Monción",
+      "inscritos": 6032
+    },
+    {
+      "territorio_id": "2902",
+      "tipo": "municipio",
+      "territorio": "San Ignacio de Sabaneta",
+      "inscritos": 19905
+    },
+    {
+      "territorio_id": "2903",
+      "tipo": "municipio",
+      "territorio": "Villa Los Almácigos",
+      "inscritos": 6710
+    },
+    {
+      "territorio_id": "3001",
+      "tipo": "municipio",
+      "territorio": "Esperanza",
+      "inscritos": 24516
+    },
+    {
+      "territorio_id": "3002",
+      "tipo": "municipio",
+      "territorio": "Mao",
+      "inscritos": 33286
+    },
+    {
+      "territorio_id": "3003",
+      "tipo": "municipio",
+      "territorio": "Laguna Salada",
+      "inscritos": 10012
+    },
+    {
+      "territorio_id": "3101",
+      "tipo": "municipio",
+      "territorio": "San José de Ocoa",
+      "inscritos": 23859
+    },
+    {
+      "territorio_id": "3102",
+      "tipo": "municipio",
+      "territorio": "Sabana Larga",
+      "inscritos": 5456
+    },
+    {
+      "territorio_id": "3103",
+      "tipo": "municipio",
+      "territorio": "Rancho Arriba",
+      "inscritos": 5206
+    },
+    {
+      "territorio_id": "3201",
+      "tipo": "municipio",
+      "territorio": "Santo Domingo Este",
+      "inscritos": 363454
+    },
+    {
+      "territorio_id": "3202",
+      "tipo": "municipio",
+      "territorio": "Santo Domingo Oeste",
+      "inscritos": 149529
+    },
+    {
+      "territorio_id": "3203",
+      "tipo": "municipio",
+      "territorio": "Santo Domingo Norte",
+      "inscritos": 203141
+    },
+    {
+      "territorio_id": "3204",
+      "tipo": "municipio",
+      "territorio": "Boca Chica",
+      "inscritos": 53181
+    },
+    {
+      "territorio_id": "3205",
+      "tipo": "municipio",
+      "territorio": "San Antonio de Guerra",
+      "inscritos": 19411
+    },
+    {
+      "territorio_id": "3206",
+      "tipo": "municipio",
+      "territorio": "Pedro Brand",
+      "inscritos": 30720
+    },
+    {
+      "territorio_id": "3207",
+      "tipo": "municipio",
+      "territorio": "Los Alcarrizos",
+      "inscritos": 99005
+    },
+    {
+      "territorio_id": "01",
+      "tipo": "provincia",
+      "territorio": "Distrito Nacional",
+      "inscritos": 794080
+    },
+    {
+      "territorio_id": "02",
+      "tipo": "provincia",
+      "territorio": "La Altagracia",
+      "inscritos": 186886
+    },
+    {
+      "territorio_id": "03",
+      "tipo": "provincia",
+      "territorio": "Azua",
+      "inscritos": 172801
+    },
+    {
+      "territorio_id": "04",
+      "tipo": "provincia",
+      "territorio": "Bahoruco",
+      "inscritos": 76436
+    },
+    {
+      "territorio_id": "05",
+      "tipo": "provincia",
+      "territorio": "Barahona",
+      "inscritos": 135743
+    },
+    {
+      "territorio_id": "06",
+      "tipo": "provincia",
+      "territorio": "Dajabon",
+      "inscritos": 52824
+    },
+    {
+      "territorio_id": "07",
+      "tipo": "provincia",
+      "territorio": "Duarte",
+      "inscritos": 234553
+    },
+    {
+      "territorio_id": "08",
+      "tipo": "provincia",
+      "territorio": "El Seibo",
+      "inscritos": 63596
+    },
+    {
+      "territorio_id": "09",
+      "tipo": "provincia",
+      "territorio": "Elias Piña",
+      "inscritos": 45337
+    },
+    {
+      "territorio_id": "10",
+      "tipo": "provincia",
+      "territorio": "Espaillat",
+      "inscritos": 191403
+    },
+    {
+      "territorio_id": "11",
+      "tipo": "provincia",
+      "territorio": "Hato Mayor",
+      "inscritos": 73367
+    },
+    {
+      "territorio_id": "12",
+      "tipo": "provincia",
+      "territorio": "Independencia",
+      "inscritos": 38238
+    },
+    {
+      "territorio_id": "13",
+      "tipo": "provincia",
+      "territorio": "La Romana",
+      "inscritos": 189231
+    },
+    {
+      "territorio_id": "14",
+      "tipo": "provincia",
+      "territorio": "La Vega",
+      "inscritos": 318532
+    },
+    {
+      "territorio_id": "15",
+      "tipo": "provincia",
+      "territorio": "Maria Trinidad Sanchez",
+      "inscritos": 113091
+    },
+    {
+      "territorio_id": "16",
+      "tipo": "provincia",
+      "territorio": "Monseñor Nouel",
+      "inscritos": 144045
+    },
+    {
+      "territorio_id": "17",
+      "tipo": "provincia",
+      "territorio": "Monte Cristi",
+      "inscritos": 82552
+    },
+    {
+      "territorio_id": "18",
+      "tipo": "provincia",
+      "territorio": "Monte Plata",
+      "inscritos": 142460
+    },
+    {
+      "territorio_id": "19",
+      "tipo": "provincia",
+      "territorio": "Pedernales",
+      "inscritos": 19720
+    },
+    {
+      "territorio_id": "20",
+      "tipo": "provincia",
+      "territorio": "Peravia",
+      "inscritos": 140956
+    },
+    {
+      "territorio_id": "21",
+      "tipo": "provincia",
+      "territorio": "Puerto Plata",
+      "inscritos": 258042
+    },
+    {
+      "territorio_id": "22",
+      "tipo": "provincia",
+      "territorio": "Hermanas Mirabal",
+      "inscritos": 84835
+    },
+    {
+      "territorio_id": "23",
+      "tipo": "provincia",
+      "territorio": "Samana",
+      "inscritos": 81061
+    },
+    {
+      "territorio_id": "24",
+      "tipo": "provincia",
+      "territorio": "San Cristobal",
+      "inscritos": 441258
+    },
+    {
+      "territorio_id": "25",
+      "tipo": "provincia",
+      "territorio": "San Juan",
+      "inscritos": 192039
+    },
+    {
+      "territorio_id": "26",
+      "tipo": "provincia",
+      "territorio": "San Pedro de Macoris",
+      "inscritos": 229372
+    },
+    {
+      "territorio_id": "27",
+      "tipo": "provincia",
+      "territorio": "Sanchez Ramirez",
+      "inscritos": 126090
+    },
+    {
+      "territorio_id": "28",
+      "tipo": "provincia",
+      "territorio": "Santiago",
+      "inscritos": 785287
+    },
+    {
+      "territorio_id": "29",
+      "tipo": "provincia",
+      "territorio": "Santiago Rodriguez",
+      "inscritos": 49639
+    },
+    {
+      "territorio_id": "30",
+      "tipo": "provincia",
+      "territorio": "Valverde",
+      "inscritos": 116738
+    },
+    {
+      "territorio_id": "31",
+      "tipo": "provincia",
+      "territorio": "San Jose de Ocoa",
+      "inscritos": 52519
+    },
+    {
+      "territorio_id": "32",
+      "tipo": "provincia",
+      "territorio": "Santo Domingo",
+      "inscritos": 1649032
+    }
+  ]
+}

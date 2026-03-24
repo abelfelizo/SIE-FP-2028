@@ -1,0 +1,31 @@
+{
+  "motor": "SIE 2028 v8.3",
+  "dataset_activo": "2024",
+  "paths": {
+    "data": "./data/",
+    "resultados": "resultados_2024.json",
+    "padron": "padron_2024.json",
+    "alianzas": "alianzas_2024.json",
+    "curules": "curules_resultado_2024.json",
+    "territorios": "territorios_catalogo.json",
+    "partidos": "partidos.json"
+  },
+  "motores": {
+    "dhondt_engine.js": {
+      "modo": "REPLAY",
+      "status": "activo"
+    },
+    "simulador2028.js": {
+      "modo": "CÁLCULO",
+      "status": "activo"
+    },
+    "pipeline2028.js": {
+      "modo": "ORQUESTACIÓN",
+      "status": "activo"
+    },
+    "engine.js": {
+      "modo": "PRINCIPAL",
+      "status": "activo"
+    }
+  }
+}

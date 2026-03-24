@@ -1,0 +1,1698 @@
+[
+  {
+    "id": "01",
+    "provincia": "Distrito Nacional",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 57.54,
+    "blocs": {
+      "PRM": 263167,
+      "PLD": 29998,
+      "FP": 141716,
+      "PRD": 1586,
+      "FAMP": 822,
+      "PPT": 462,
+      "GENS": 4996,
+      "OD": 7895,
+      "PED": 6718
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 57.54
+      },
+      {
+        "id": "FP",
+        "pct": 30.99
+      },
+      {
+        "id": "PLD",
+        "pct": 6.56
+      }
+    ],
+    "inscritos": 794080,
+    "votos_emitidos": 463364,
+    "votos_validos": 457360,
+    "participacion": 57.6,
+    "abstencion": 42.4,
+    "votos_abstencionistas": 336720,
+    "enpp": 2.315,
+    "margen_pp": 26.55,
+    "competitividad": "media",
+    "riesgo_score": 58.3,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 30.99,
+    "pct_prm": 57.54,
+    "votos_gap_fp": 121451,
+    "votos_necesarios_fp": 60726,
+    "pct_abstencionistas_a_movilizar": 18.0,
+    "score_ofensivo_fp": 14.2,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "02",
+    "provincia": "La Altagracia",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 53.36,
+    "blocs": {
+      "PRM": 54376,
+      "PLD": 10331,
+      "FP": 32678,
+      "PRD": 387,
+      "FAMP": 146,
+      "PPT": 65,
+      "GENS": 958,
+      "OD": 551,
+      "PED": 2417
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 53.36
+      },
+      {
+        "id": "FP",
+        "pct": 32.07
+      },
+      {
+        "id": "PLD",
+        "pct": 10.14
+      }
+    ],
+    "inscritos": 186886,
+    "votos_emitidos": 103607,
+    "votos_validos": 101909,
+    "participacion": 54.53,
+    "abstencion": 45.47,
+    "votos_abstencionistas": 84977,
+    "enpp": 2.509,
+    "margen_pp": 21.29,
+    "competitividad": "alta",
+    "riesgo_score": 63.3,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 32.07,
+    "pct_prm": 53.36,
+    "votos_gap_fp": 21698,
+    "votos_necesarios_fp": 10850,
+    "pct_abstencionistas_a_movilizar": 12.8,
+    "score_ofensivo_fp": 26.2,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "03",
+    "provincia": "Azua",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 58.51,
+    "blocs": {
+      "PRM": 67305,
+      "PLD": 14308,
+      "FP": 31926,
+      "PRD": 519,
+      "FAMP": 72,
+      "PPT": 29,
+      "GENS": 264,
+      "OD": 127,
+      "PED": 486
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 58.51
+      },
+      {
+        "id": "FP",
+        "pct": 27.75
+      },
+      {
+        "id": "PLD",
+        "pct": 12.44
+      }
+    ],
+    "inscritos": 172801,
+    "votos_emitidos": 116639,
+    "votos_validos": 115036,
+    "participacion": 66.57,
+    "abstencion": 33.43,
+    "votos_abstencionistas": 57765,
+    "enpp": 2.3,
+    "margen_pp": 30.75,
+    "competitividad": "media",
+    "riesgo_score": 53.8,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 27.75,
+    "pct_prm": 58.51,
+    "votos_gap_fp": 35379,
+    "votos_necesarios_fp": 17690,
+    "pct_abstencionistas_a_movilizar": 30.6,
+    "score_ofensivo_fp": 4.5,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "04",
+    "provincia": "Bahoruco",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 59.54,
+    "blocs": {
+      "PRM": 30908,
+      "PLD": 9082,
+      "FP": 11259,
+      "PRD": 257,
+      "FAMP": 56,
+      "PPT": 32,
+      "GENS": 113,
+      "OD": 41,
+      "PED": 162
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 59.54
+      },
+      {
+        "id": "FP",
+        "pct": 21.69
+      },
+      {
+        "id": "PLD",
+        "pct": 17.5
+      }
+    ],
+    "inscritos": 76436,
+    "votos_emitidos": 52708,
+    "votos_validos": 51910,
+    "participacion": 67.91,
+    "abstencion": 32.09,
+    "votos_abstencionistas": 24526,
+    "enpp": 2.314,
+    "margen_pp": 37.85,
+    "competitividad": "media",
+    "riesgo_score": 50.0,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 21.69,
+    "pct_prm": 59.54,
+    "votos_gap_fp": 19649,
+    "votos_necesarios_fp": 9825,
+    "pct_abstencionistas_a_movilizar": 40.1,
+    "score_ofensivo_fp": 4.0,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "05",
+    "provincia": "Barahona",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 55.06,
+    "blocs": {
+      "PRM": 49312,
+      "PLD": 9269,
+      "FP": 29584,
+      "PRD": 351,
+      "FAMP": 62,
+      "PPT": 42,
+      "GENS": 333,
+      "OD": 114,
+      "PED": 491
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 55.06
+      },
+      {
+        "id": "FP",
+        "pct": 33.03
+      },
+      {
+        "id": "PLD",
+        "pct": 10.35
+      }
+    ],
+    "inscritos": 135743,
+    "votos_emitidos": 90833,
+    "votos_validos": 89558,
+    "participacion": 65.98,
+    "abstencion": 34.02,
+    "votos_abstencionistas": 46185,
+    "enpp": 2.364,
+    "margen_pp": 22.03,
+    "competitividad": "media",
+    "riesgo_score": 58.9,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 33.03,
+    "pct_prm": 55.06,
+    "votos_gap_fp": 19728,
+    "votos_necesarios_fp": 9865,
+    "pct_abstencionistas_a_movilizar": 21.4,
+    "score_ofensivo_fp": 18.6,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "06",
+    "provincia": "Dajabon",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 59.63,
+    "blocs": {
+      "PRM": 22235,
+      "PLD": 7481,
+      "FP": 7052,
+      "PRD": 134,
+      "FAMP": 16,
+      "PPT": 7,
+      "GENS": 95,
+      "OD": 47,
+      "PED": 224
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 59.63
+      },
+      {
+        "id": "PLD",
+        "pct": 20.06
+      },
+      {
+        "id": "FP",
+        "pct": 18.91
+      }
+    ],
+    "inscritos": 52824,
+    "votos_emitidos": 37809,
+    "votos_validos": 37291,
+    "participacion": 70.59,
+    "abstencion": 29.41,
+    "votos_abstencionistas": 15533,
+    "enpp": 2.317,
+    "margen_pp": 39.56,
+    "competitividad": "media",
+    "riesgo_score": 48.5,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 18.91,
+    "pct_prm": 59.63,
+    "votos_gap_fp": 15183,
+    "votos_necesarios_fp": 7592,
+    "pct_abstencionistas_a_movilizar": 48.9,
+    "score_ofensivo_fp": 3.2,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "07",
+    "provincia": "Duarte",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 65.55,
+    "blocs": {
+      "PRM": 81573,
+      "PLD": 10835,
+      "FP": 29353,
+      "PRD": 486,
+      "FAMP": 159,
+      "PPT": 118,
+      "GENS": 366,
+      "OD": 414,
+      "PED": 1146
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 65.55
+      },
+      {
+        "id": "FP",
+        "pct": 23.59
+      },
+      {
+        "id": "PLD",
+        "pct": 8.71
+      }
+    ],
+    "inscritos": 234553,
+    "votos_emitidos": 126561,
+    "votos_validos": 124450,
+    "participacion": 53.06,
+    "abstencion": 46.94,
+    "votos_abstencionistas": 110103,
+    "enpp": 2.029,
+    "margen_pp": 41.96,
+    "competitividad": "media",
+    "riesgo_score": 49.3,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 23.59,
+    "pct_prm": 65.55,
+    "votos_gap_fp": 52220,
+    "votos_necesarios_fp": 26111,
+    "pct_abstencionistas_a_movilizar": 23.7,
+    "score_ofensivo_fp": 7.5,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "08",
+    "provincia": "El Seibo",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 56.45,
+    "blocs": {
+      "PRM": 22764,
+      "PLD": 3556,
+      "FP": 13030,
+      "PRD": 296,
+      "FAMP": 46,
+      "PPT": 23,
+      "GENS": 190,
+      "OD": 75,
+      "PED": 345
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 56.45
+      },
+      {
+        "id": "FP",
+        "pct": 32.31
+      },
+      {
+        "id": "PLD",
+        "pct": 8.82
+      }
+    ],
+    "inscritos": 63596,
+    "votos_emitidos": 41324,
+    "votos_validos": 40325,
+    "participacion": 63.41,
+    "abstencion": 36.59,
+    "votos_abstencionistas": 23271,
+    "enpp": 2.32,
+    "margen_pp": 24.14,
+    "competitividad": "media",
+    "riesgo_score": 58.1,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 32.31,
+    "pct_prm": 56.45,
+    "votos_gap_fp": 9734,
+    "votos_necesarios_fp": 4868,
+    "pct_abstencionistas_a_movilizar": 20.9,
+    "score_ofensivo_fp": 15.8,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "09",
+    "provincia": "Elias Piña",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 56.29,
+    "blocs": {
+      "PRM": 16570,
+      "PLD": 3492,
+      "FP": 9027,
+      "PRD": 156,
+      "FAMP": 24,
+      "PPT": 14,
+      "GENS": 64,
+      "OD": 24,
+      "PED": 65
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 56.29
+      },
+      {
+        "id": "FP",
+        "pct": 30.67
+      },
+      {
+        "id": "PLD",
+        "pct": 11.86
+      }
+    ],
+    "inscritos": 45337,
+    "votos_emitidos": 30153,
+    "votos_validos": 29436,
+    "participacion": 64.93,
+    "abstencion": 35.07,
+    "votos_abstencionistas": 15901,
+    "enpp": 2.353,
+    "margen_pp": 25.63,
+    "competitividad": "media",
+    "riesgo_score": 57.2,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 30.67,
+    "pct_prm": 56.29,
+    "votos_gap_fp": 7543,
+    "votos_necesarios_fp": 3772,
+    "pct_abstencionistas_a_movilizar": 23.7,
+    "score_ofensivo_fp": 13.0,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "10",
+    "provincia": "Espaillat",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 62.77,
+    "blocs": {
+      "PRM": 68878,
+      "PLD": 13254,
+      "FP": 25124,
+      "PRD": 340,
+      "FAMP": 70,
+      "PPT": 47,
+      "GENS": 649,
+      "OD": 352,
+      "PED": 1009
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 62.77
+      },
+      {
+        "id": "FP",
+        "pct": 22.9
+      },
+      {
+        "id": "PLD",
+        "pct": 12.08
+      }
+    ],
+    "inscritos": 191403,
+    "votos_emitidos": 111401,
+    "votos_validos": 109723,
+    "participacion": 57.33,
+    "abstencion": 42.67,
+    "votos_abstencionistas": 81680,
+    "enpp": 2.168,
+    "margen_pp": 39.88,
+    "competitividad": "media",
+    "riesgo_score": 50.5,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 22.9,
+    "pct_prm": 62.77,
+    "votos_gap_fp": 43754,
+    "votos_necesarios_fp": 21878,
+    "pct_abstencionistas_a_movilizar": 26.8,
+    "score_ofensivo_fp": 7.1,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "11",
+    "provincia": "Hato Mayor",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 60.66,
+    "blocs": {
+      "PRM": 28999,
+      "PLD": 5198,
+      "FP": 12471,
+      "PRD": 343,
+      "FAMP": 49,
+      "PPT": 23,
+      "GENS": 203,
+      "OD": 108,
+      "PED": 414
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 60.66
+      },
+      {
+        "id": "FP",
+        "pct": 26.09
+      },
+      {
+        "id": "PLD",
+        "pct": 10.87
+      }
+    ],
+    "inscritos": 73367,
+    "votos_emitidos": 48559,
+    "votos_validos": 47808,
+    "participacion": 65.16,
+    "abstencion": 34.84,
+    "votos_abstencionistas": 25559,
+    "enpp": 2.232,
+    "margen_pp": 34.57,
+    "competitividad": "media",
+    "riesgo_score": 51.7,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 26.09,
+    "pct_prm": 60.66,
+    "votos_gap_fp": 16528,
+    "votos_necesarios_fp": 8265,
+    "pct_abstencionistas_a_movilizar": 32.3,
+    "score_ofensivo_fp": 4.4,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "12",
+    "provincia": "Independencia",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 64.91,
+    "blocs": {
+      "PRM": 18267,
+      "PLD": 3935,
+      "FP": 5601,
+      "PRD": 100,
+      "FAMP": 17,
+      "PPT": 3,
+      "GENS": 96,
+      "OD": 23,
+      "PED": 99
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 64.91
+      },
+      {
+        "id": "FP",
+        "pct": 19.9
+      },
+      {
+        "id": "PLD",
+        "pct": 13.98
+      }
+    ],
+    "inscritos": 38238,
+    "votos_emitidos": 28461,
+    "votos_validos": 28141,
+    "participacion": 73.59,
+    "abstencion": 26.41,
+    "votos_abstencionistas": 10097,
+    "enpp": 2.081,
+    "margen_pp": 45.01,
+    "competitividad": "media",
+    "riesgo_score": 43.1,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 19.9,
+    "pct_prm": 64.91,
+    "votos_gap_fp": 12666,
+    "votos_necesarios_fp": 6334,
+    "pct_abstencionistas_a_movilizar": 62.7,
+    "score_ofensivo_fp": 0.8,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "13",
+    "provincia": "La Romana",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 52.39,
+    "blocs": {
+      "PRM": 58209,
+      "PLD": 8186,
+      "FP": 39017,
+      "PRD": 612,
+      "FAMP": 191,
+      "PPT": 79,
+      "GENS": 1891,
+      "OD": 760,
+      "PED": 2167
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 52.39
+      },
+      {
+        "id": "FP",
+        "pct": 35.12
+      },
+      {
+        "id": "PLD",
+        "pct": 7.37
+      }
+    ],
+    "inscritos": 189231,
+    "votos_emitidos": 112530,
+    "votos_validos": 111112,
+    "participacion": 58.72,
+    "abstencion": 41.28,
+    "votos_abstencionistas": 78119,
+    "enpp": 2.476,
+    "margen_pp": 17.27,
+    "competitividad": "media",
+    "riesgo_score": 64.0,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 35.12,
+    "pct_prm": 52.39,
+    "votos_gap_fp": 19192,
+    "votos_necesarios_fp": 9597,
+    "pct_abstencionistas_a_movilizar": 12.3,
+    "score_ofensivo_fp": 30.8,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "14",
+    "provincia": "La Vega",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 58.37,
+    "blocs": {
+      "PRM": 105753,
+      "PLD": 24877,
+      "FP": 46035,
+      "PRD": 692,
+      "FAMP": 313,
+      "PPT": 81,
+      "GENS": 574,
+      "OD": 609,
+      "PED": 2230
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 58.37
+      },
+      {
+        "id": "FP",
+        "pct": 25.41
+      },
+      {
+        "id": "PLD",
+        "pct": 13.73
+      }
+    ],
+    "inscritos": 318532,
+    "votos_emitidos": 184120,
+    "votos_validos": 181164,
+    "participacion": 56.87,
+    "abstencion": 43.13,
+    "votos_abstencionistas": 137368,
+    "enpp": 2.356,
+    "margen_pp": 32.96,
+    "competitividad": "media",
+    "riesgo_score": 55.6,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 25.41,
+    "pct_prm": 58.37,
+    "votos_gap_fp": 59718,
+    "votos_necesarios_fp": 29860,
+    "pct_abstencionistas_a_movilizar": 21.7,
+    "score_ofensivo_fp": 9.2,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "15",
+    "provincia": "Maria Trinidad Sanchez",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 61.91,
+    "blocs": {
+      "PRM": 43457,
+      "PLD": 9673,
+      "FP": 15701,
+      "PRD": 114,
+      "FAMP": 108,
+      "PPT": 15,
+      "GENS": 327,
+      "OD": 138,
+      "PED": 656
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 61.91
+      },
+      {
+        "id": "FP",
+        "pct": 22.37
+      },
+      {
+        "id": "PLD",
+        "pct": 13.78
+      }
+    ],
+    "inscritos": 113091,
+    "votos_emitidos": 71295,
+    "votos_validos": 70189,
+    "participacion": 62.06,
+    "abstencion": 37.94,
+    "votos_abstencionistas": 42902,
+    "enpp": 2.21,
+    "margen_pp": 39.54,
+    "competitividad": "media",
+    "riesgo_score": 49.8,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 22.37,
+    "pct_prm": 61.91,
+    "votos_gap_fp": 27756,
+    "votos_necesarios_fp": 13879,
+    "pct_abstencionistas_a_movilizar": 32.4,
+    "score_ofensivo_fp": 5.5,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "16",
+    "provincia": "Monseñor Nouel",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 59.91,
+    "blocs": {
+      "PRM": 46729,
+      "PLD": 6268,
+      "FP": 22515,
+      "PRD": 476,
+      "FAMP": 89,
+      "PPT": 35,
+      "GENS": 461,
+      "OD": 289,
+      "PED": 1143
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 59.91
+      },
+      {
+        "id": "FP",
+        "pct": 28.86
+      },
+      {
+        "id": "PLD",
+        "pct": 8.04
+      }
+    ],
+    "inscritos": 144045,
+    "votos_emitidos": 79274,
+    "votos_validos": 78005,
+    "participacion": 54.15,
+    "abstencion": 45.85,
+    "votos_abstencionistas": 66040,
+    "enpp": 2.228,
+    "margen_pp": 31.04,
+    "competitividad": "media",
+    "riesgo_score": 56.2,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 28.86,
+    "pct_prm": 59.91,
+    "votos_gap_fp": 24214,
+    "votos_necesarios_fp": 12108,
+    "pct_abstencionistas_a_movilizar": 18.3,
+    "score_ofensivo_fp": 9.1,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "17",
+    "provincia": "Monte Cristi",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 61.98,
+    "blocs": {
+      "PRM": 32508,
+      "PLD": 7556,
+      "FP": 11591,
+      "PRD": 262,
+      "FAMP": 21,
+      "PPT": 7,
+      "GENS": 113,
+      "OD": 60,
+      "PED": 327
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 61.98
+      },
+      {
+        "id": "FP",
+        "pct": 22.1
+      },
+      {
+        "id": "PLD",
+        "pct": 14.41
+      }
+    ],
+    "inscritos": 82552,
+    "votos_emitidos": 53103,
+    "votos_validos": 52445,
+    "participacion": 63.53,
+    "abstencion": 36.47,
+    "votos_abstencionistas": 30107,
+    "enpp": 2.203,
+    "margen_pp": 39.88,
+    "competitividad": "media",
+    "riesgo_score": 49.2,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 22.1,
+    "pct_prm": 61.98,
+    "votos_gap_fp": 20917,
+    "votos_necesarios_fp": 10459,
+    "pct_abstencionistas_a_movilizar": 34.7,
+    "score_ofensivo_fp": 4.8,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "18",
+    "provincia": "Monte Plata",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 51.67,
+    "blocs": {
+      "PRM": 50281,
+      "PLD": 12985,
+      "FP": 32574,
+      "PRD": 399,
+      "FAMP": 148,
+      "PPT": 38,
+      "GENS": 333,
+      "OD": 110,
+      "PED": 445
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 51.67
+      },
+      {
+        "id": "FP",
+        "pct": 33.47
+      },
+      {
+        "id": "PLD",
+        "pct": 13.34
+      }
+    ],
+    "inscritos": 142460,
+    "votos_emitidos": 98695,
+    "votos_validos": 97313,
+    "participacion": 68.31,
+    "abstencion": 31.69,
+    "votos_abstencionistas": 45147,
+    "enpp": 2.52,
+    "margen_pp": 18.2,
+    "competitividad": "alta",
+    "riesgo_score": 61.5,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 33.47,
+    "pct_prm": 51.67,
+    "votos_gap_fp": 17707,
+    "votos_necesarios_fp": 8854,
+    "pct_abstencionistas_a_movilizar": 19.6,
+    "score_ofensivo_fp": 25.6,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "19",
+    "provincia": "Pedernales",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 65.67,
+    "blocs": {
+      "PRM": 9452,
+      "PLD": 794,
+      "FP": 3928,
+      "PRD": 85,
+      "FAMP": 8,
+      "PPT": 5,
+      "GENS": 50,
+      "OD": 7,
+      "PED": 64
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 65.67
+      },
+      {
+        "id": "FP",
+        "pct": 27.29
+      },
+      {
+        "id": "PLD",
+        "pct": 5.52
+      }
+    ],
+    "inscritos": 19720,
+    "votos_emitidos": 14633,
+    "votos_validos": 14393,
+    "participacion": 72.99,
+    "abstencion": 27.01,
+    "votos_abstencionistas": 5327,
+    "enpp": 1.965,
+    "margen_pp": 38.38,
+    "competitividad": "media",
+    "riesgo_score": 45.6,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 27.29,
+    "pct_prm": 65.67,
+    "votos_gap_fp": 5524,
+    "votos_necesarios_fp": 2763,
+    "pct_abstencionistas_a_movilizar": 51.9,
+    "score_ofensivo_fp": 0,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "20",
+    "provincia": "Peravia",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 57.46,
+    "blocs": {
+      "PRM": 45849,
+      "PLD": 7333,
+      "FP": 24310,
+      "PRD": 651,
+      "FAMP": 251,
+      "PPT": 24,
+      "GENS": 406,
+      "OD": 213,
+      "PED": 755
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 57.46
+      },
+      {
+        "id": "FP",
+        "pct": 30.47
+      },
+      {
+        "id": "PLD",
+        "pct": 9.19
+      }
+    ],
+    "inscritos": 140956,
+    "votos_emitidos": 81010,
+    "votos_validos": 79792,
+    "participacion": 56.61,
+    "abstencion": 43.39,
+    "votos_abstencionistas": 61164,
+    "enpp": 2.317,
+    "margen_pp": 26.99,
+    "competitividad": "media",
+    "riesgo_score": 58.3,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 30.47,
+    "pct_prm": 57.46,
+    "votos_gap_fp": 21539,
+    "votos_necesarios_fp": 10770,
+    "pct_abstencionistas_a_movilizar": 17.6,
+    "score_ofensivo_fp": 13.9,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "21",
+    "provincia": "Puerto Plata",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 59.69,
+    "blocs": {
+      "PRM": 88895,
+      "PLD": 22139,
+      "FP": 33694,
+      "PRD": 716,
+      "FAMP": 133,
+      "PPT": 53,
+      "GENS": 884,
+      "OD": 611,
+      "PED": 1811
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 59.69
+      },
+      {
+        "id": "FP",
+        "pct": 22.62
+      },
+      {
+        "id": "PLD",
+        "pct": 14.86
+      }
+    ],
+    "inscritos": 258042,
+    "votos_emitidos": 151027,
+    "votos_validos": 148936,
+    "participacion": 57.72,
+    "abstencion": 42.28,
+    "votos_abstencionistas": 109106,
+    "enpp": 2.327,
+    "margen_pp": 37.06,
+    "competitividad": "media",
+    "riesgo_score": 53.1,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 22.62,
+    "pct_prm": 59.69,
+    "votos_gap_fp": 55201,
+    "votos_necesarios_fp": 27601,
+    "pct_abstencionistas_a_movilizar": 25.3,
+    "score_ofensivo_fp": 8.5,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "22",
+    "provincia": "Hermanas Mirabal",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 61.37,
+    "blocs": {
+      "PRM": 31557,
+      "PLD": 4212,
+      "FP": 14930,
+      "PRD": 83,
+      "FAMP": 24,
+      "PPT": 29,
+      "GENS": 155,
+      "OD": 124,
+      "PED": 304
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 61.37
+      },
+      {
+        "id": "FP",
+        "pct": 29.04
+      },
+      {
+        "id": "PLD",
+        "pct": 8.19
+      }
+    ],
+    "inscritos": 84835,
+    "votos_emitidos": 52101,
+    "votos_validos": 51418,
+    "participacion": 60.61,
+    "abstencion": 39.39,
+    "votos_abstencionistas": 33417,
+    "enpp": 2.138,
+    "margen_pp": 32.34,
+    "competitividad": "media",
+    "riesgo_score": 53.2,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 29.04,
+    "pct_prm": 61.37,
+    "votos_gap_fp": 16627,
+    "votos_necesarios_fp": 8314,
+    "pct_abstencionistas_a_movilizar": 24.9,
+    "score_ofensivo_fp": 5.4,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "23",
+    "provincia": "Samana",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 58.95,
+    "blocs": {
+      "PRM": 29602,
+      "PLD": 6330,
+      "FP": 13256,
+      "PRD": 163,
+      "FAMP": 60,
+      "PPT": 23,
+      "GENS": 238,
+      "OD": 82,
+      "PED": 459
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 58.95
+      },
+      {
+        "id": "FP",
+        "pct": 26.4
+      },
+      {
+        "id": "PLD",
+        "pct": 12.61
+      }
+    ],
+    "inscritos": 81061,
+    "votos_emitidos": 51065,
+    "votos_validos": 50213,
+    "participacion": 61.94,
+    "abstencion": 38.06,
+    "votos_abstencionistas": 30848,
+    "enpp": 2.308,
+    "margen_pp": 32.55,
+    "competitividad": "media",
+    "riesgo_score": 54.1,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 26.4,
+    "pct_prm": 58.95,
+    "votos_gap_fp": 16346,
+    "votos_necesarios_fp": 8174,
+    "pct_abstencionistas_a_movilizar": 26.5,
+    "score_ofensivo_fp": 6.5,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "24",
+    "provincia": "San Cristobal",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 51.97,
+    "blocs": {
+      "PRM": 144691,
+      "PLD": 35220,
+      "FP": 90878,
+      "PRD": 1393,
+      "FAMP": 387,
+      "PPT": 130,
+      "GENS": 2224,
+      "OD": 882,
+      "PED": 2604
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 51.97
+      },
+      {
+        "id": "FP",
+        "pct": 32.64
+      },
+      {
+        "id": "PLD",
+        "pct": 12.65
+      }
+    ],
+    "inscritos": 441258,
+    "votos_emitidos": 283110,
+    "votos_validos": 278409,
+    "participacion": 63.09,
+    "abstencion": 36.91,
+    "votos_abstencionistas": 162849,
+    "enpp": 2.546,
+    "margen_pp": 19.33,
+    "competitividad": "alta",
+    "riesgo_score": 62.4,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 32.64,
+    "pct_prm": 51.97,
+    "votos_gap_fp": 53813,
+    "votos_necesarios_fp": 26907,
+    "pct_abstencionistas_a_movilizar": 16.5,
+    "score_ofensivo_fp": 26.2,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "25",
+    "provincia": "San Juan",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 50.24,
+    "blocs": {
+      "PRM": 63274,
+      "PLD": 17308,
+      "FP": 43232,
+      "PRD": 605,
+      "FAMP": 150,
+      "PPT": 34,
+      "GENS": 769,
+      "OD": 181,
+      "PED": 400
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 50.24
+      },
+      {
+        "id": "FP",
+        "pct": 34.32
+      },
+      {
+        "id": "PLD",
+        "pct": 13.74
+      }
+    ],
+    "inscritos": 192039,
+    "votos_emitidos": 128214,
+    "votos_validos": 125953,
+    "participacion": 65.59,
+    "abstencion": 34.41,
+    "votos_abstencionistas": 66086,
+    "enpp": 2.57,
+    "margen_pp": 15.91,
+    "competitividad": "alta",
+    "riesgo_score": 63.7,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 34.32,
+    "pct_prm": 50.24,
+    "votos_gap_fp": 20042,
+    "votos_necesarios_fp": 10022,
+    "pct_abstencionistas_a_movilizar": 15.2,
+    "score_ofensivo_fp": 31.1,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "26",
+    "provincia": "San Pedro de Macoris",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 58.02,
+    "blocs": {
+      "PRM": 77401,
+      "PLD": 13297,
+      "FP": 37497,
+      "PRD": 958,
+      "FAMP": 263,
+      "PPT": 131,
+      "GENS": 1393,
+      "OD": 607,
+      "PED": 1866
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 58.02
+      },
+      {
+        "id": "FP",
+        "pct": 28.11
+      },
+      {
+        "id": "PLD",
+        "pct": 9.97
+      }
+    ],
+    "inscritos": 229372,
+    "votos_emitidos": 135613,
+    "votos_validos": 133413,
+    "participacion": 58.16,
+    "abstencion": 41.84,
+    "votos_abstencionistas": 95959,
+    "enpp": 2.348,
+    "margen_pp": 29.91,
+    "competitividad": "media",
+    "riesgo_score": 56.7,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 28.11,
+    "pct_prm": 58.02,
+    "votos_gap_fp": 39904,
+    "votos_necesarios_fp": 19953,
+    "pct_abstencionistas_a_movilizar": 20.8,
+    "score_ofensivo_fp": 8.7,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "27",
+    "provincia": "Sanchez Ramirez",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 62.93,
+    "blocs": {
+      "PRM": 51551,
+      "PLD": 7758,
+      "FP": 21387,
+      "PRD": 373,
+      "FAMP": 49,
+      "PPT": 35,
+      "GENS": 140,
+      "OD": 150,
+      "PED": 470
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 62.93
+      },
+      {
+        "id": "FP",
+        "pct": 26.11
+      },
+      {
+        "id": "PLD",
+        "pct": 9.47
+      }
+    ],
+    "inscritos": 126090,
+    "votos_emitidos": 82701,
+    "votos_validos": 81913,
+    "participacion": 64.96,
+    "abstencion": 35.04,
+    "votos_abstencionistas": 44177,
+    "enpp": 2.113,
+    "margen_pp": 36.82,
+    "competitividad": "media",
+    "riesgo_score": 49.6,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 26.11,
+    "pct_prm": 62.93,
+    "votos_gap_fp": 30164,
+    "votos_necesarios_fp": 15083,
+    "pct_abstencionistas_a_movilizar": 34.1,
+    "score_ofensivo_fp": 3.3,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "28",
+    "provincia": "Santiago",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 64.61,
+    "blocs": {
+      "PRM": 238752,
+      "PLD": 55385,
+      "FP": 61788,
+      "PRD": 1868,
+      "FAMP": 436,
+      "PPT": 156,
+      "GENS": 2123,
+      "OD": 2573,
+      "PED": 6437
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 64.61
+      },
+      {
+        "id": "FP",
+        "pct": 16.72
+      },
+      {
+        "id": "PLD",
+        "pct": 14.99
+      }
+    ],
+    "inscritos": 785287,
+    "votos_emitidos": 374883,
+    "votos_validos": 369518,
+    "participacion": 47.06,
+    "abstencion": 52.94,
+    "votos_abstencionistas": 415769,
+    "enpp": 2.135,
+    "margen_pp": 47.89,
+    "competitividad": "media",
+    "riesgo_score": 48.7,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 16.72,
+    "pct_prm": 64.61,
+    "votos_gap_fp": 176964,
+    "votos_necesarios_fp": 88483,
+    "pct_abstencionistas_a_movilizar": 21.3,
+    "score_ofensivo_fp": 11.2,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "29",
+    "provincia": "Santiago Rodriguez",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 57.6,
+    "blocs": {
+      "PRM": 18574,
+      "PLD": 6350,
+      "FP": 6705,
+      "PRD": 229,
+      "FAMP": 22,
+      "PPT": 9,
+      "GENS": 117,
+      "OD": 35,
+      "PED": 206
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 57.6
+      },
+      {
+        "id": "FP",
+        "pct": 20.79
+      },
+      {
+        "id": "PLD",
+        "pct": 19.69
+      }
+    ],
+    "inscritos": 49639,
+    "votos_emitidos": 32647,
+    "votos_validos": 32247,
+    "participacion": 64.96,
+    "abstencion": 35.04,
+    "votos_abstencionistas": 17392,
+    "enpp": 2.416,
+    "margen_pp": 36.81,
+    "competitividad": "media",
+    "riesgo_score": 52.2,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 20.79,
+    "pct_prm": 57.6,
+    "votos_gap_fp": 11869,
+    "votos_necesarios_fp": 5935,
+    "pct_abstencionistas_a_movilizar": 34.1,
+    "score_ofensivo_fp": 6.3,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "30",
+    "provincia": "Valverde",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 64.55,
+    "blocs": {
+      "PRM": 43184,
+      "PLD": 7817,
+      "FP": 14311,
+      "PRD": 258,
+      "FAMP": 94,
+      "PPT": 25,
+      "GENS": 202,
+      "OD": 141,
+      "PED": 870
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 64.55
+      },
+      {
+        "id": "FP",
+        "pct": 21.39
+      },
+      {
+        "id": "PLD",
+        "pct": 11.68
+      }
+    ],
+    "inscritos": 116738,
+    "votos_emitidos": 67814,
+    "votos_validos": 66902,
+    "participacion": 57.31,
+    "abstencion": 42.69,
+    "votos_abstencionistas": 49836,
+    "enpp": 2.1,
+    "margen_pp": 43.16,
+    "competitividad": "media",
+    "riesgo_score": 48.3,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 21.39,
+    "pct_prm": 64.55,
+    "votos_gap_fp": 28873,
+    "votos_necesarios_fp": 14437,
+    "pct_abstencionistas_a_movilizar": 29.0,
+    "score_ofensivo_fp": 6.4,
+    "categoria_ofensiva_fp": "perdida",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "31",
+    "provincia": "San Jose de Ocoa",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 57.02,
+    "blocs": {
+      "PRM": 19368,
+      "PLD": 2147,
+      "FP": 11764,
+      "PRD": 216,
+      "FAMP": 33,
+      "PPT": 13,
+      "GENS": 214,
+      "OD": 63,
+      "PED": 149
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 57.02
+      },
+      {
+        "id": "FP",
+        "pct": 34.63
+      },
+      {
+        "id": "PLD",
+        "pct": 6.32
+      }
+    ],
+    "inscritos": 52519,
+    "votos_emitidos": 34521,
+    "votos_validos": 33967,
+    "participacion": 64.68,
+    "abstencion": 35.32,
+    "votos_abstencionistas": 18552,
+    "enpp": 2.226,
+    "margen_pp": 22.39,
+    "competitividad": "media",
+    "riesgo_score": 57.9,
+    "riesgo_nivel": "medio",
+    "prioridad_defensa": "alta",
+    "pct_fp": 34.63,
+    "pct_prm": 57.02,
+    "votos_gap_fp": 7604,
+    "votos_necesarios_fp": 3803,
+    "pct_abstencionistas_a_movilizar": 20.5,
+    "score_ofensivo_fp": 17.2,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  },
+  {
+    "id": "32",
+    "provincia": "Santo Domingo",
+    "nivel": "presidencial",
+    "fuente": "resultados_por_colegio_JCE_2024",
+    "ganador": "PRM",
+    "pct_ganador": 52.2,
+    "blocs": {
+      "PRM": 473188,
+      "PLD": 65701,
+      "FP": 332260,
+      "PRD": 3300,
+      "FAMP": 1651,
+      "PPT": 855,
+      "GENS": 10036,
+      "OD": 7169,
+      "PED": 12398
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 52.2
+      },
+      {
+        "id": "FP",
+        "pct": 36.65
+      },
+      {
+        "id": "PLD",
+        "pct": 7.25
+      }
+    ],
+    "inscritos": 1649032,
+    "votos_emitidos": 918441,
+    "votos_validos": 906558,
+    "participacion": 54.98,
+    "abstencion": 45.02,
+    "votos_abstencionistas": 742474,
+    "enpp": 2.425,
+    "margen_pp": 15.55,
+    "competitividad": "media",
+    "riesgo_score": 65.4,
+    "riesgo_nivel": "alto",
+    "prioridad_defensa": "crítica",
+    "pct_fp": 36.65,
+    "pct_prm": 52.2,
+    "votos_gap_fp": 140928,
+    "votos_necesarios_fp": 70465,
+    "pct_abstencionistas_a_movilizar": 9.5,
+    "score_ofensivo_fp": 34.8,
+    "categoria_ofensiva_fp": "competitiva",
+    "bloque_coalicion": "PRM-coalicion"
+  }
+]

@@ -1,0 +1,4669 @@
+{
+  "meta": {
+    "fuente": "JCE — Relacion General Definitiva del Computo Electoral, 05 Julio 2020",
+    "generado": "13/07/2020 (P) / 17/07/2020 (S/DE)",
+    "niveles": [
+      "P",
+      "S",
+      "DE"
+    ],
+    "pendiente": "Diputados interior (D) pendiente"
+  },
+  "presidencial": {
+    "bloques": [
+      {
+        "bloque_id": "PLD",
+        "nombre": "PLD y Aliados",
+        "votos_bloque": 1537078,
+        "pct_bloque": 37.46,
+        "partidos": [
+          {
+            "sigla": "PLD",
+            "votos": 1352842
+          },
+          {
+            "sigla": "PRD",
+            "votos": 97655
+          },
+          {
+            "sigla": "MODA",
+            "votos": 22286
+          },
+          {
+            "sigla": "PCR",
+            "votos": 24626
+          },
+          {
+            "sigla": "UDC",
+            "votos": 10769
+          },
+          {
+            "sigla": "PPC",
+            "votos": 12060
+          },
+          {
+            "sigla": "PAL",
+            "votos": 9379
+          },
+          {
+            "sigla": "PDP",
+            "votos": 4001
+          },
+          {
+            "sigla": "PRI",
+            "votos": 3460
+          }
+        ]
+      },
+      {
+        "bloque_id": "PRM",
+        "nombre": "PRM y Aliados",
+        "votos_bloque": 2154866,
+        "pct_bloque": 52.51,
+        "partidos": [
+          {
+            "sigla": "PRM",
+            "votos": 1998407
+          },
+          {
+            "sigla": "F.AMPLIO",
+            "votos": 27270
+          },
+          {
+            "sigla": "PHD",
+            "votos": 29231
+          },
+          {
+            "sigla": "DXC",
+            "votos": 31511
+          },
+          {
+            "sigla": "PRSD",
+            "votos": 26166
+          },
+          {
+            "sigla": "APD",
+            "votos": 15664
+          },
+          {
+            "sigla": "PP",
+            "votos": 26617
+          }
+        ]
+      },
+      {
+        "bloque_id": "PRSC",
+        "nombre": "PRSC y Aliados (FP incluido)",
+        "votos_bloque": 365226,
+        "pct_bloque": 8.9,
+        "partidos": [
+          {
+            "sigla": "PRSC",
+            "votos": 73913
+          },
+          {
+            "sigla": "BIS",
+            "votos": 16571
+          },
+          {
+            "sigla": "PUN",
+            "votos": 19973
+          },
+          {
+            "sigla": "PQDC",
+            "votos": 13133
+          },
+          {
+            "sigla": "FNP",
+            "votos": 8098
+          },
+          {
+            "sigla": "FP",
+            "votos": 233538
+          }
+        ]
+      },
+      {
+        "bloque_id": "ALPAIS",
+        "nombre": "ALPAIS",
+        "votos_bloque": 39458,
+        "pct_bloque": 0.96,
+        "partidos": [
+          {
+            "sigla": "ALPAIS",
+            "votos": 39458
+          }
+        ]
+      },
+      {
+        "bloque_id": "PDI",
+        "nombre": "PDI",
+        "votos_bloque": 3484,
+        "pct_bloque": 0.08,
+        "partidos": [
+          {
+            "sigla": "PDI",
+            "votos": 3484
+          }
+        ]
+      },
+      {
+        "bloque_id": "PNVC",
+        "nombre": "PNVC",
+        "votos_bloque": 3250,
+        "pct_bloque": 0.08,
+        "partidos": [
+          {
+            "sigla": "PNVC",
+            "votos": 3250
+          }
+        ]
+      }
+    ],
+    "totales": {
+      "validos": 4103362,
+      "nulos": 59943,
+      "emitidos": 4163305,
+      "inscritos": 7529932,
+      "participacion": 55.29
+    }
+  },
+  "senadores": {
+    "01": {
+      "prov_nombre": "Distrito Nacional",
+      "ganador_bloque": "PRM",
+      "inscritos": 772359,
+      "validos": 427724,
+      "participacion": 56.88,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 222570,
+          "pct": 52.04,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 194793
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 11703
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 2892
+            },
+            {
+              "sigla": "PHD",
+              "votos": 1559
+            },
+            {
+              "sigla": "DXC",
+              "votos": 5491
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 3327
+            },
+            {
+              "sigla": "APD",
+              "votos": 2805
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 147317,
+          "pct": 34.44,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 122237
+            },
+            {
+              "sigla": "PRD",
+              "votos": 13970
+            },
+            {
+              "sigla": "MODA",
+              "votos": 2542
+            },
+            {
+              "sigla": "PCR",
+              "votos": 2444
+            },
+            {
+              "sigla": "UDC",
+              "votos": 995
+            },
+            {
+              "sigla": "PPC",
+              "votos": 1425
+            },
+            {
+              "sigla": "PAL",
+              "votos": 1308
+            },
+            {
+              "sigla": "PDP",
+              "votos": 1030
+            },
+            {
+              "sigla": "PRI",
+              "votos": 1366
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 56631,
+          "pct": 13.24,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 15827
+            },
+            {
+              "sigla": "BIS",
+              "votos": 4985
+            },
+            {
+              "sigla": "PUN",
+              "votos": 5614
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 2312
+            },
+            {
+              "sigla": "FNP",
+              "votos": 3248
+            },
+            {
+              "sigla": "FP",
+              "votos": 23630
+            },
+            {
+              "sigla": "PDI",
+              "votos": 1015
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 1206,
+          "pct": 0.28,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 1206
+            }
+          ]
+        }
+      ]
+    },
+    "02": {
+      "prov_nombre": "La Altagracia",
+      "ganador_bloque": "PLR",
+      "nota": "PLR gana solo; bloque03 PRSC incluye PRM",
+      "inscritos": 168754,
+      "validos": 87764,
+      "participacion": 53.5,
+      "bloques": [
+        {
+          "bloque_id": "PRSC",
+          "votos": 38411,
+          "pct": 43.77,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 27110
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1783
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1819
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1583
+            },
+            {
+              "sigla": "PHD",
+              "votos": 319
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 537
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1115
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 313
+            },
+            {
+              "sigla": "FNP",
+              "votos": 391
+            },
+            {
+              "sigla": "FP",
+              "votos": 3060
+            },
+            {
+              "sigla": "APD",
+              "votos": 381
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLR",
+          "votos": 25276,
+          "pct": 28.8,
+          "partidos": [
+            {
+              "sigla": "PLR",
+              "votos": 25276
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 22165,
+          "pct": 25.26,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 17988
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1915
+            },
+            {
+              "sigla": "MODA",
+              "votos": 551
+            },
+            {
+              "sigla": "PCR",
+              "votos": 599
+            },
+            {
+              "sigla": "UDC",
+              "votos": 292
+            },
+            {
+              "sigla": "PPC",
+              "votos": 209
+            },
+            {
+              "sigla": "PAL",
+              "votos": 385
+            },
+            {
+              "sigla": "PDP",
+              "votos": 226
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 982,
+          "pct": 1.12,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 982
+            }
+          ]
+        },
+        {
+          "bloque_id": "PDI",
+          "votos": 430,
+          "pct": 0.49,
+          "partidos": [
+            {
+              "sigla": "PDI",
+              "votos": 430
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRI",
+          "votos": 161,
+          "pct": 0.18,
+          "partidos": [
+            {
+              "sigla": "PRI",
+              "votos": 161
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 119,
+          "pct": 0.14,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 119
+            }
+          ]
+        }
+      ]
+    },
+    "03": {
+      "prov_nombre": "Azua",
+      "ganador_bloque": "PRM",
+      "inscritos": 163307,
+      "validos": 106153,
+      "participacion": 67.57,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 61193,
+          "pct": 57.65,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 48789
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1980
+            },
+            {
+              "sigla": "PUN",
+              "votos": 2041
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 587
+            },
+            {
+              "sigla": "PHD",
+              "votos": 251
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 452
+            },
+            {
+              "sigla": "DXC",
+              "votos": 752
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 574
+            },
+            {
+              "sigla": "FNP",
+              "votos": 299
+            },
+            {
+              "sigla": "FP",
+              "votos": 4574
+            },
+            {
+              "sigla": "APD",
+              "votos": 428
+            },
+            {
+              "sigla": "PDI",
+              "votos": 170
+            },
+            {
+              "sigla": "PP",
+              "votos": 296
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 44224,
+          "pct": 41.66,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 38273
+            },
+            {
+              "sigla": "PRD",
+              "votos": 3066
+            },
+            {
+              "sigla": "MODA",
+              "votos": 726
+            },
+            {
+              "sigla": "PCR",
+              "votos": 824
+            },
+            {
+              "sigla": "UDC",
+              "votos": 271
+            },
+            {
+              "sigla": "PPC",
+              "votos": 472
+            },
+            {
+              "sigla": "PAL",
+              "votos": 268
+            },
+            {
+              "sigla": "PDP",
+              "votos": 169
+            },
+            {
+              "sigla": "PRI",
+              "votos": 155
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 424,
+          "pct": 0.4,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 424
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 272,
+          "pct": 0.26,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 272
+            }
+          ]
+        }
+      ]
+    },
+    "04": {
+      "prov_nombre": "Bahoruco",
+      "ganador_bloque": "PRM",
+      "inscritos": 72238,
+      "validos": 49415,
+      "participacion": 70.29,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 27640,
+          "pct": 55.93,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 21899
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 817
+            },
+            {
+              "sigla": "BIS",
+              "votos": 924
+            },
+            {
+              "sigla": "PUN",
+              "votos": 886
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 250
+            },
+            {
+              "sigla": "PHD",
+              "votos": 112
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 230
+            },
+            {
+              "sigla": "DXC",
+              "votos": 506
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 206
+            },
+            {
+              "sigla": "FNP",
+              "votos": 119
+            },
+            {
+              "sigla": "FP",
+              "votos": 1478
+            },
+            {
+              "sigla": "APD",
+              "votos": 142
+            },
+            {
+              "sigla": "PDI",
+              "votos": 71
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 21656,
+          "pct": 43.82,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 19477
+            },
+            {
+              "sigla": "PRD",
+              "votos": 786
+            },
+            {
+              "sigla": "MODA",
+              "votos": 275
+            },
+            {
+              "sigla": "PCR",
+              "votos": 284
+            },
+            {
+              "sigla": "UDC",
+              "votos": 139
+            },
+            {
+              "sigla": "PPC",
+              "votos": 491
+            },
+            {
+              "sigla": "PAL",
+              "votos": 131
+            },
+            {
+              "sigla": "PDP",
+              "votos": 35
+            },
+            {
+              "sigla": "PRI",
+              "votos": 38
+            }
+          ]
+        }
+      ]
+    },
+    "05": {
+      "prov_nombre": "Barahona",
+      "ganador_bloque": "PLD",
+      "inscritos": 129291,
+      "validos": 84581,
+      "participacion": 68.14,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 44331,
+          "pct": 52.41,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 38173
+            },
+            {
+              "sigla": "PRD",
+              "votos": 3120
+            },
+            {
+              "sigla": "MODA",
+              "votos": 668
+            },
+            {
+              "sigla": "PCR",
+              "votos": 581
+            },
+            {
+              "sigla": "UDC",
+              "votos": 312
+            },
+            {
+              "sigla": "PPC",
+              "votos": 370
+            },
+            {
+              "sigla": "PAL",
+              "votos": 714
+            },
+            {
+              "sigla": "PDP",
+              "votos": 148
+            },
+            {
+              "sigla": "PRI",
+              "votos": 245
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 39309,
+          "pct": 46.47,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 27589
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1098
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1225
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1625
+            },
+            {
+              "sigla": "PHD",
+              "votos": 380
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 423
+            },
+            {
+              "sigla": "DXC",
+              "votos": 839
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 298
+            },
+            {
+              "sigla": "FNP",
+              "votos": 226
+            },
+            {
+              "sigla": "FP",
+              "votos": 5183
+            },
+            {
+              "sigla": "APD",
+              "votos": 288
+            },
+            {
+              "sigla": "PDI",
+              "votos": 135
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 391,
+          "pct": 0.46,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 282
+            },
+            {
+              "sigla": "PP",
+              "votos": 109
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 395,
+          "pct": 0.47,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 395
+            }
+          ]
+        }
+      ]
+    },
+    "06": {
+      "prov_nombre": "Dajabon",
+      "ganador_bloque": "PRSC",
+      "inscritos": 50699,
+      "validos": 35287,
+      "participacion": 71.56,
+      "bloques": [
+        {
+          "bloque_id": "PRSC",
+          "votos": 18729,
+          "pct": 53.08,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 14386
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 787
+            },
+            {
+              "sigla": "BIS",
+              "votos": 519
+            },
+            {
+              "sigla": "PUN",
+              "votos": 560
+            },
+            {
+              "sigla": "PHD",
+              "votos": 152
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 201
+            },
+            {
+              "sigla": "DXC",
+              "votos": 298
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 207
+            },
+            {
+              "sigla": "FNP",
+              "votos": 91
+            },
+            {
+              "sigla": "FP",
+              "votos": 1377
+            },
+            {
+              "sigla": "APD",
+              "votos": 101
+            },
+            {
+              "sigla": "PDI",
+              "votos": 50
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 16465,
+          "pct": 46.66,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 13939
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1037
+            },
+            {
+              "sigla": "MODA",
+              "votos": 395
+            },
+            {
+              "sigla": "PCR",
+              "votos": 434
+            },
+            {
+              "sigla": "UDC",
+              "votos": 163
+            },
+            {
+              "sigla": "PPC",
+              "votos": 130
+            },
+            {
+              "sigla": "PAL",
+              "votos": 231
+            },
+            {
+              "sigla": "PDP",
+              "votos": 67
+            },
+            {
+              "sigla": "PRI",
+              "votos": 69
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 44,
+          "pct": 0.12,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 44
+            }
+          ]
+        }
+      ]
+    },
+    "07": {
+      "prov_nombre": "Duarte",
+      "ganador_bloque": "PRM",
+      "inscritos": 228829,
+      "validos": 126159,
+      "participacion": 57.24,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 82824,
+          "pct": 65.65,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 64929
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 2939
+            },
+            {
+              "sigla": "BIS",
+              "votos": 2665
+            },
+            {
+              "sigla": "PUN",
+              "votos": 2723
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1388
+            },
+            {
+              "sigla": "PHD",
+              "votos": 1129
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 694
+            },
+            {
+              "sigla": "DXC",
+              "votos": 945
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 406
+            },
+            {
+              "sigla": "FNP",
+              "votos": 433
+            },
+            {
+              "sigla": "FP",
+              "votos": 3509
+            },
+            {
+              "sigla": "APD",
+              "votos": 463
+            },
+            {
+              "sigla": "PDI",
+              "votos": 311
+            },
+            {
+              "sigla": "PP",
+              "votos": 290
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 43335,
+          "pct": 34.35,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 35524
+            },
+            {
+              "sigla": "PRD",
+              "votos": 4907
+            },
+            {
+              "sigla": "MODA",
+              "votos": 753
+            },
+            {
+              "sigla": "PCR",
+              "votos": 845
+            },
+            {
+              "sigla": "UDC",
+              "votos": 325
+            },
+            {
+              "sigla": "PPC",
+              "votos": 271
+            },
+            {
+              "sigla": "PAL",
+              "votos": 300
+            },
+            {
+              "sigla": "PDP",
+              "votos": 213
+            },
+            {
+              "sigla": "PRI",
+              "votos": 197
+            }
+          ]
+        }
+      ]
+    },
+    "08": {
+      "prov_nombre": "El Seibo",
+      "ganador_bloque": "PRM",
+      "inscritos": 60310,
+      "validos": 37915,
+      "participacion": 65.43,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 23900,
+          "pct": 63.04,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 19242
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 560
+            },
+            {
+              "sigla": "BIS",
+              "votos": 792
+            },
+            {
+              "sigla": "PUN",
+              "votos": 945
+            },
+            {
+              "sigla": "PHD",
+              "votos": 215
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 252
+            },
+            {
+              "sigla": "DXC",
+              "votos": 433
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 196
+            },
+            {
+              "sigla": "FNP",
+              "votos": 186
+            },
+            {
+              "sigla": "FP",
+              "votos": 808
+            },
+            {
+              "sigla": "APD",
+              "votos": 153
+            },
+            {
+              "sigla": "PP",
+              "votos": 118
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 13620,
+          "pct": 35.92,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 11284
+            },
+            {
+              "sigla": "PRD",
+              "votos": 995
+            },
+            {
+              "sigla": "MODA",
+              "votos": 323
+            },
+            {
+              "sigla": "PCR",
+              "votos": 489
+            },
+            {
+              "sigla": "UDC",
+              "votos": 135
+            },
+            {
+              "sigla": "PPC",
+              "votos": 119
+            },
+            {
+              "sigla": "PAL",
+              "votos": 141
+            },
+            {
+              "sigla": "PDP",
+              "votos": 71
+            },
+            {
+              "sigla": "PRI",
+              "votos": 63
+            }
+          ]
+        },
+        {
+          "bloque_id": "PDI",
+          "votos": 222,
+          "pct": 0.59,
+          "partidos": [
+            {
+              "sigla": "PDI",
+              "votos": 222
+            }
+          ]
+        }
+      ]
+    },
+    "09": {
+      "prov_nombre": "Elias Pina",
+      "ganador_bloque": "PLD",
+      "nota": "Diferencia minima: PLD 48.50% vs PRM 47.76%",
+      "inscritos": 43655,
+      "validos": 28461,
+      "participacion": 67.71,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 13804,
+          "pct": 48.5,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 12808
+            },
+            {
+              "sigla": "MODA",
+              "votos": 230
+            },
+            {
+              "sigla": "PCR",
+              "votos": 337
+            },
+            {
+              "sigla": "UDC",
+              "votos": 89
+            },
+            {
+              "sigla": "PPC",
+              "votos": 132
+            },
+            {
+              "sigla": "PAL",
+              "votos": 119
+            },
+            {
+              "sigla": "PDP",
+              "votos": 42
+            },
+            {
+              "sigla": "PRI",
+              "votos": 47
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRM",
+          "votos": 13594,
+          "pct": 47.76,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 10774
+            },
+            {
+              "sigla": "BIS",
+              "votos": 406
+            },
+            {
+              "sigla": "PUN",
+              "votos": 336
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 166
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 105
+            },
+            {
+              "sigla": "PHD",
+              "votos": 101
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 83
+            },
+            {
+              "sigla": "DXC",
+              "votos": 346
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 84
+            },
+            {
+              "sigla": "FNP",
+              "votos": 68
+            },
+            {
+              "sigla": "FP",
+              "votos": 926
+            },
+            {
+              "sigla": "APD",
+              "votos": 85
+            },
+            {
+              "sigla": "PP",
+              "votos": 114
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 722,
+          "pct": 2.54,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 690
+            },
+            {
+              "sigla": "PDI",
+              "votos": 32
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRD",
+          "votos": 341,
+          "pct": 1.2,
+          "partidos": [
+            {
+              "sigla": "PRD",
+              "votos": 341
+            }
+          ]
+        }
+      ]
+    },
+    "10": {
+      "prov_nombre": "Espaillat",
+      "ganador_bloque": "PRM",
+      "inscritos": 185538,
+      "validos": 113565,
+      "participacion": 62.4,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 63742,
+          "pct": 56.13,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 56512
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1412
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1233
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 898
+            },
+            {
+              "sigla": "PHD",
+              "votos": 380
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1109
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 824
+            },
+            {
+              "sigla": "APD",
+              "votos": 877
+            },
+            {
+              "sigla": "PP",
+              "votos": 497
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 48552,
+          "pct": 42.75,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 45062
+            },
+            {
+              "sigla": "MODA",
+              "votos": 765
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1323
+            },
+            {
+              "sigla": "UDC",
+              "votos": 318
+            },
+            {
+              "sigla": "PPC",
+              "votos": 404
+            },
+            {
+              "sigla": "PAL",
+              "votos": 271
+            },
+            {
+              "sigla": "PDP",
+              "votos": 185
+            },
+            {
+              "sigla": "PRI",
+              "votos": 224
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRD",
+          "votos": 868,
+          "pct": 0.76,
+          "partidos": [
+            {
+              "sigla": "PRD",
+              "votos": 868
+            }
+          ]
+        }
+      ]
+    },
+    "11": {
+      "prov_nombre": "Hato Mayor",
+      "ganador_bloque": "PRM",
+      "inscritos": 69999,
+      "validos": 44491,
+      "participacion": 65.34,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 26253,
+          "pct": 59.01,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 19972
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1116
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1024
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1161
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 342
+            },
+            {
+              "sigla": "PHD",
+              "votos": 202
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 237
+            },
+            {
+              "sigla": "DXC",
+              "votos": 548
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 341
+            },
+            {
+              "sigla": "FNP",
+              "votos": 198
+            },
+            {
+              "sigla": "FP",
+              "votos": 783
+            },
+            {
+              "sigla": "APD",
+              "votos": 201
+            },
+            {
+              "sigla": "PP",
+              "votos": 128
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 18146,
+          "pct": 40.79,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 14370
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1614
+            },
+            {
+              "sigla": "MODA",
+              "votos": 411
+            },
+            {
+              "sigla": "PCR",
+              "votos": 967
+            },
+            {
+              "sigla": "UDC",
+              "votos": 172
+            },
+            {
+              "sigla": "PPC",
+              "votos": 183
+            },
+            {
+              "sigla": "PAL",
+              "votos": 159
+            },
+            {
+              "sigla": "PDP",
+              "votos": 129
+            },
+            {
+              "sigla": "PRI",
+              "votos": 141
+            }
+          ]
+        }
+      ]
+    },
+    "12": {
+      "prov_nombre": "Independencia",
+      "ganador_bloque": "PLD",
+      "inscritos": 37034,
+      "validos": 27478,
+      "participacion": 75.75,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 16352,
+          "pct": 59.51,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 13388
+            },
+            {
+              "sigla": "PRD",
+              "votos": 409
+            },
+            {
+              "sigla": "MODA",
+              "votos": 202
+            },
+            {
+              "sigla": "PCR",
+              "votos": 107
+            },
+            {
+              "sigla": "UDC",
+              "votos": 68
+            },
+            {
+              "sigla": "PPC",
+              "votos": 2042
+            },
+            {
+              "sigla": "PAL",
+              "votos": 46
+            },
+            {
+              "sigla": "PDP",
+              "votos": 62
+            },
+            {
+              "sigla": "PRI",
+              "votos": 28
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 11004,
+          "pct": 40.05,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 8942
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 375
+            },
+            {
+              "sigla": "BIS",
+              "votos": 183
+            },
+            {
+              "sigla": "PUN",
+              "votos": 206
+            },
+            {
+              "sigla": "PHD",
+              "votos": 33
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 41
+            },
+            {
+              "sigla": "DXC",
+              "votos": 80
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 27
+            },
+            {
+              "sigla": "FNP",
+              "votos": 19
+            },
+            {
+              "sigla": "FP",
+              "votos": 1003
+            },
+            {
+              "sigla": "APD",
+              "votos": 65
+            },
+            {
+              "sigla": "PDI",
+              "votos": 30
+            }
+          ]
+        }
+      ]
+    },
+    "13": {
+      "prov_nombre": "La Romana",
+      "ganador_bloque": "PRM",
+      "inscritos": 177823,
+      "validos": 96046,
+      "participacion": 55.45,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 42431,
+          "pct": 44.18,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 35796
+            },
+            {
+              "sigla": "PHD",
+              "votos": 998
+            },
+            {
+              "sigla": "DXC",
+              "votos": 2278
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 1195
+            },
+            {
+              "sigla": "APD",
+              "votos": 1279
+            },
+            {
+              "sigla": "PP",
+              "votos": 885
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 29880,
+          "pct": 31.11,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 25160
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 1868
+            },
+            {
+              "sigla": "FNP",
+              "votos": 1368
+            },
+            {
+              "sigla": "PDI",
+              "votos": 681
+            },
+            {
+              "sigla": "PNVC",
+              "votos": 803
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 20928,
+          "pct": 21.79,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 17610
+            },
+            {
+              "sigla": "MODA",
+              "votos": 539
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1000
+            },
+            {
+              "sigla": "UDC",
+              "votos": 309
+            },
+            {
+              "sigla": "PPC",
+              "votos": 382
+            },
+            {
+              "sigla": "PAL",
+              "votos": 409
+            },
+            {
+              "sigla": "PDP",
+              "votos": 254
+            },
+            {
+              "sigla": "PRI",
+              "votos": 425
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRD",
+          "votos": 1370,
+          "pct": 1.43,
+          "partidos": [
+            {
+              "sigla": "PRD",
+              "votos": 1370
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 1083,
+          "pct": 1.13,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 1083
+            }
+          ]
+        }
+      ]
+    },
+    "14": {
+      "prov_nombre": "La Vega",
+      "ganador_bloque": "PRSC",
+      "nota": "Bloque PRSC liderado por PRM pero registrado como bloque 03",
+      "inscritos": 305857,
+      "validos": 170719,
+      "participacion": 57.77,
+      "bloques": [
+        {
+          "bloque_id": "PRSC",
+          "votos": 98970,
+          "pct": 57.97,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 74286
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 9335
+            },
+            {
+              "sigla": "BIS",
+              "votos": 2125
+            },
+            {
+              "sigla": "PUN",
+              "votos": 2942
+            },
+            {
+              "sigla": "PHD",
+              "votos": 452
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 750
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1359
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 468
+            },
+            {
+              "sigla": "FNP",
+              "votos": 511
+            },
+            {
+              "sigla": "FP",
+              "votos": 5445
+            },
+            {
+              "sigla": "APD",
+              "votos": 718
+            },
+            {
+              "sigla": "PDI",
+              "votos": 279
+            },
+            {
+              "sigla": "PNVC",
+              "votos": 300
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 66934,
+          "pct": 39.21,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 58102
+            },
+            {
+              "sigla": "PRD",
+              "votos": 4368
+            },
+            {
+              "sigla": "MODA",
+              "votos": 1049
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1312
+            },
+            {
+              "sigla": "UDC",
+              "votos": 363
+            },
+            {
+              "sigla": "PPC",
+              "votos": 532
+            },
+            {
+              "sigla": "PAL",
+              "votos": 619
+            },
+            {
+              "sigla": "PDP",
+              "votos": 364
+            },
+            {
+              "sigla": "PRI",
+              "votos": 225
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 3553,
+          "pct": 2.08,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 3553
+            }
+          ]
+        }
+      ]
+    },
+    "15": {
+      "prov_nombre": "Maria Trinidad Sanchez",
+      "ganador_bloque": "PRM",
+      "inscritos": 107985,
+      "validos": 70130,
+      "participacion": 66.73,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 41483,
+          "pct": 59.15,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 34478
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 774
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1069
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1052
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 413
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 271
+            },
+            {
+              "sigla": "DXC",
+              "votos": 714
+            },
+            {
+              "sigla": "FNP",
+              "votos": 245
+            },
+            {
+              "sigla": "FP",
+              "votos": 1532
+            },
+            {
+              "sigla": "APD",
+              "votos": 712
+            },
+            {
+              "sigla": "PP",
+              "votos": 223
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 28041,
+          "pct": 39.98,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 25090
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1421
+            },
+            {
+              "sigla": "MODA",
+              "votos": 375
+            },
+            {
+              "sigla": "PCR",
+              "votos": 494
+            },
+            {
+              "sigla": "UDC",
+              "votos": 133
+            },
+            {
+              "sigla": "PPC",
+              "votos": 191
+            },
+            {
+              "sigla": "PAL",
+              "votos": 124
+            },
+            {
+              "sigla": "PDP",
+              "votos": 121
+            },
+            {
+              "sigla": "PRI",
+              "votos": 92
+            }
+          ]
+        }
+      ]
+    },
+    "16": {
+      "prov_nombre": "Monsenor Nouel",
+      "ganador_bloque": "PRM",
+      "inscritos": 138328,
+      "validos": 75535,
+      "participacion": 56.02,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 48884,
+          "pct": 64.72,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 39111
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1650
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1908
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 787
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 322
+            },
+            {
+              "sigla": "PHD",
+              "votos": 175
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 361
+            },
+            {
+              "sigla": "DXC",
+              "votos": 913
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 439
+            },
+            {
+              "sigla": "FNP",
+              "votos": 309
+            },
+            {
+              "sigla": "FP",
+              "votos": 1763
+            },
+            {
+              "sigla": "APD",
+              "votos": 531
+            },
+            {
+              "sigla": "PDI",
+              "votos": 156
+            },
+            {
+              "sigla": "PP",
+              "votos": 459
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 25841,
+          "pct": 34.21,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 22548
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1581
+            },
+            {
+              "sigla": "MODA",
+              "votos": 379
+            },
+            {
+              "sigla": "PCR",
+              "votos": 527
+            },
+            {
+              "sigla": "UDC",
+              "votos": 139
+            },
+            {
+              "sigla": "PPC",
+              "votos": 193
+            },
+            {
+              "sigla": "PAL",
+              "votos": 230
+            },
+            {
+              "sigla": "PDP",
+              "votos": 126
+            },
+            {
+              "sigla": "PRI",
+              "votos": 118
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 810,
+          "pct": 1.07,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 810
+            }
+          ]
+        }
+      ]
+    },
+    "17": {
+      "prov_nombre": "Monte Cristi",
+      "ganador_bloque": "PRM",
+      "inscritos": 80597,
+      "validos": 52380,
+      "participacion": 67.15,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 23499,
+          "pct": 44.86,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 20997
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 456
+            },
+            {
+              "sigla": "PHD",
+              "votos": 491
+            },
+            {
+              "sigla": "DXC",
+              "votos": 756
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 395
+            },
+            {
+              "sigla": "APD",
+              "votos": 209
+            },
+            {
+              "sigla": "PDI",
+              "votos": 82
+            },
+            {
+              "sigla": "PP",
+              "votos": 113
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 22362,
+          "pct": 42.69,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 19039
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1822
+            },
+            {
+              "sigla": "MODA",
+              "votos": 485
+            },
+            {
+              "sigla": "PCR",
+              "votos": 468
+            },
+            {
+              "sigla": "UDC",
+              "votos": 125
+            },
+            {
+              "sigla": "PPC",
+              "votos": 152
+            },
+            {
+              "sigla": "PAL",
+              "votos": 152
+            },
+            {
+              "sigla": "PDP",
+              "votos": 57
+            },
+            {
+              "sigla": "PRI",
+              "votos": 62
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 6336,
+          "pct": 12.1,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 4267
+            },
+            {
+              "sigla": "BIS",
+              "votos": 457
+            },
+            {
+              "sigla": "PUN",
+              "votos": 514
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 212
+            },
+            {
+              "sigla": "FNP",
+              "votos": 113
+            },
+            {
+              "sigla": "FP",
+              "votos": 773
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 162,
+          "pct": 0.31,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 162
+            }
+          ]
+        }
+      ]
+    },
+    "18": {
+      "prov_nombre": "Monte Plata",
+      "ganador_bloque": "PRM",
+      "inscritos": 133909,
+      "validos": 87038,
+      "participacion": 66.96,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 47339,
+          "pct": 54.39,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 42607
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1479
+            },
+            {
+              "sigla": "PHD",
+              "votos": 528
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1068
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 756
+            },
+            {
+              "sigla": "APD",
+              "votos": 497
+            },
+            {
+              "sigla": "PDI",
+              "votos": 177
+            },
+            {
+              "sigla": "PP",
+              "votos": 227
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 32284,
+          "pct": 37.09,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 28116
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1954
+            },
+            {
+              "sigla": "MODA",
+              "votos": 616
+            },
+            {
+              "sigla": "PCR",
+              "votos": 588
+            },
+            {
+              "sigla": "UDC",
+              "votos": 172
+            },
+            {
+              "sigla": "PPC",
+              "votos": 315
+            },
+            {
+              "sigla": "PAL",
+              "votos": 188
+            },
+            {
+              "sigla": "PDP",
+              "votos": 147
+            },
+            {
+              "sigla": "PRI",
+              "votos": 188
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 6857,
+          "pct": 7.88,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 1271
+            },
+            {
+              "sigla": "BIS",
+              "votos": 388
+            },
+            {
+              "sigla": "PUN",
+              "votos": 435
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 572
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 215
+            },
+            {
+              "sigla": "FNP",
+              "votos": 175
+            },
+            {
+              "sigla": "FP",
+              "votos": 3801
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 558,
+          "pct": 0.64,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 558
+            }
+          ]
+        }
+      ]
+    },
+    "19": {
+      "prov_nombre": "Pedernales",
+      "ganador_bloque": "PLD",
+      "inscritos": 18501,
+      "validos": 12721,
+      "participacion": 70.48,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 6897,
+          "pct": 54.22,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 6393
+            },
+            {
+              "sigla": "MODA",
+              "votos": 147
+            },
+            {
+              "sigla": "PCR",
+              "votos": 142
+            },
+            {
+              "sigla": "UDC",
+              "votos": 63
+            },
+            {
+              "sigla": "PPC",
+              "votos": 58
+            },
+            {
+              "sigla": "PAL",
+              "votos": 36
+            },
+            {
+              "sigla": "PDP",
+              "votos": 29
+            },
+            {
+              "sigla": "PRI",
+              "votos": 29
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRM",
+          "votos": 5676,
+          "pct": 44.62,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 4938
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 140
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 123
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 59
+            },
+            {
+              "sigla": "PHD",
+              "votos": 23
+            },
+            {
+              "sigla": "DXC",
+              "votos": 122
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 81
+            },
+            {
+              "sigla": "APD",
+              "votos": 65
+            },
+            {
+              "sigla": "PDI",
+              "votos": 27
+            },
+            {
+              "sigla": "PP",
+              "votos": 98
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRD",
+          "votos": 119,
+          "pct": 0.94,
+          "partidos": [
+            {
+              "sigla": "PRD",
+              "votos": 119
+            }
+          ]
+        }
+      ]
+    },
+    "20": {
+      "prov_nombre": "Peravia",
+      "ganador_bloque": "PRM",
+      "inscritos": 134839,
+      "validos": 74090,
+      "participacion": 56.24,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 45794,
+          "pct": 61.81,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 35738
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1204
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1228
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1441
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 536
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 771
+            },
+            {
+              "sigla": "PHD",
+              "votos": 144
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 451
+            },
+            {
+              "sigla": "DXC",
+              "votos": 787
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 249
+            },
+            {
+              "sigla": "FNP",
+              "votos": 294
+            },
+            {
+              "sigla": "FP",
+              "votos": 2269
+            },
+            {
+              "sigla": "APD",
+              "votos": 260
+            },
+            {
+              "sigla": "PDI",
+              "votos": 156
+            },
+            {
+              "sigla": "PP",
+              "votos": 266
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 28296,
+          "pct": 38.19,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 21847
+            },
+            {
+              "sigla": "PRD",
+              "votos": 3812
+            },
+            {
+              "sigla": "MODA",
+              "votos": 662
+            },
+            {
+              "sigla": "PCR",
+              "votos": 743
+            },
+            {
+              "sigla": "UDC",
+              "votos": 169
+            },
+            {
+              "sigla": "PPC",
+              "votos": 313
+            },
+            {
+              "sigla": "PAL",
+              "votos": 506
+            },
+            {
+              "sigla": "PDP",
+              "votos": 140
+            },
+            {
+              "sigla": "PRI",
+              "votos": 104
+            }
+          ]
+        }
+      ]
+    },
+    "21": {
+      "prov_nombre": "Puerto Plata",
+      "ganador_bloque": "PRM",
+      "inscritos": 246477,
+      "validos": 146374,
+      "participacion": 61.27,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 83508,
+          "pct": 57.05,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 63845
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 2706
+            },
+            {
+              "sigla": "BIS",
+              "votos": 2518
+            },
+            {
+              "sigla": "PUN",
+              "votos": 3153
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1384
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 665
+            },
+            {
+              "sigla": "PHD",
+              "votos": 426
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 576
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1736
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 702
+            },
+            {
+              "sigla": "FNP",
+              "votos": 534
+            },
+            {
+              "sigla": "FP",
+              "votos": 4137
+            },
+            {
+              "sigla": "APD",
+              "votos": 557
+            },
+            {
+              "sigla": "PDI",
+              "votos": 180
+            },
+            {
+              "sigla": "PP",
+              "votos": 389
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 62436,
+          "pct": 42.66,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 53093
+            },
+            {
+              "sigla": "PRD",
+              "votos": 5269
+            },
+            {
+              "sigla": "MODA",
+              "votos": 918
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1040
+            },
+            {
+              "sigla": "UDC",
+              "votos": 367
+            },
+            {
+              "sigla": "PPC",
+              "votos": 454
+            },
+            {
+              "sigla": "PAL",
+              "votos": 684
+            },
+            {
+              "sigla": "PDP",
+              "votos": 333
+            },
+            {
+              "sigla": "PRI",
+              "votos": 278
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 430,
+          "pct": 0.29,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 430
+            }
+          ]
+        }
+      ]
+    },
+    "22": {
+      "prov_nombre": "Hermanas Mirabal",
+      "ganador_bloque": "PRSC",
+      "nota": "Bloque PRSC: FP lidera con 5859 votos (11.92%)",
+      "inscritos": 83262,
+      "validos": 49171,
+      "participacion": 60.91,
+      "bloques": [
+        {
+          "bloque_id": "PRSC",
+          "votos": 31097,
+          "pct": 63.24,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 21049
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 979
+            },
+            {
+              "sigla": "BIS",
+              "votos": 784
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1022
+            },
+            {
+              "sigla": "PHD",
+              "votos": 316
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 185
+            },
+            {
+              "sigla": "DXC",
+              "votos": 448
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 177
+            },
+            {
+              "sigla": "FNP",
+              "votos": 134
+            },
+            {
+              "sigla": "FP",
+              "votos": 5859
+            },
+            {
+              "sigla": "APD",
+              "votos": 144
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 17384,
+          "pct": 35.35,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 14811
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1360
+            },
+            {
+              "sigla": "MODA",
+              "votos": 290
+            },
+            {
+              "sigla": "PCR",
+              "votos": 309
+            },
+            {
+              "sigla": "UDC",
+              "votos": 118
+            },
+            {
+              "sigla": "PPC",
+              "votos": 164
+            },
+            {
+              "sigla": "PAL",
+              "votos": 145
+            },
+            {
+              "sigla": "PDP",
+              "votos": 75
+            },
+            {
+              "sigla": "PRI",
+              "votos": 112
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 439,
+          "pct": 0.89,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 369
+            },
+            {
+              "sigla": "PP",
+              "votos": 70
+            }
+          ]
+        }
+      ]
+    },
+    "23": {
+      "prov_nombre": "Samana",
+      "ganador_bloque": "PRM",
+      "inscritos": 76742,
+      "validos": 46802,
+      "participacion": 62.55,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 22754,
+          "pct": 48.62,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 20009
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 821
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 317
+            },
+            {
+              "sigla": "PHD",
+              "votos": 333
+            },
+            {
+              "sigla": "DXC",
+              "votos": 659
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 369
+            },
+            {
+              "sigla": "APD",
+              "votos": 246
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 21985,
+          "pct": 46.97,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 18612
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1049
+            },
+            {
+              "sigla": "MODA",
+              "votos": 376
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1213
+            },
+            {
+              "sigla": "UDC",
+              "votos": 180
+            },
+            {
+              "sigla": "PPC",
+              "votos": 242
+            },
+            {
+              "sigla": "PAL",
+              "votos": 157
+            },
+            {
+              "sigla": "PDP",
+              "votos": 99
+            },
+            {
+              "sigla": "PRI",
+              "votos": 57
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 935,
+          "pct": 2.0,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 861
+            },
+            {
+              "sigla": "PDI",
+              "votos": 74
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 1001,
+          "pct": 2.14,
+          "partidos": [
+            {
+              "sigla": "BIS",
+              "votos": 162
+            },
+            {
+              "sigla": "PUN",
+              "votos": 183
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 92
+            },
+            {
+              "sigla": "FNP",
+              "votos": 69
+            },
+            {
+              "sigla": "FP",
+              "votos": 495
+            }
+          ]
+        }
+      ]
+    },
+    "24": {
+      "prov_nombre": "San Cristobal",
+      "ganador_bloque": "FP",
+      "nota": "Bloque FP (bloque18): FP encabeza coalicion con PRM dentro",
+      "inscritos": 411544,
+      "validos": 240769,
+      "participacion": 60.67,
+      "bloques": [
+        {
+          "bloque_id": "FP",
+          "votos": 141560,
+          "pct": 58.79,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 107254
+            },
+            {
+              "sigla": "BIS",
+              "votos": 4776
+            },
+            {
+              "sigla": "PUN",
+              "votos": 6374
+            },
+            {
+              "sigla": "PHD",
+              "votos": 995
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 1870
+            },
+            {
+              "sigla": "DXC",
+              "votos": 2098
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 1387
+            },
+            {
+              "sigla": "FNP",
+              "votos": 1015
+            },
+            {
+              "sigla": "FP",
+              "votos": 14599
+            },
+            {
+              "sigla": "APD",
+              "votos": 1192
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 94693,
+          "pct": 39.33,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 81378
+            },
+            {
+              "sigla": "PRD",
+              "votos": 6799
+            },
+            {
+              "sigla": "MODA",
+              "votos": 1454
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1696
+            },
+            {
+              "sigla": "UDC",
+              "votos": 617
+            },
+            {
+              "sigla": "PPC",
+              "votos": 660
+            },
+            {
+              "sigla": "PAL",
+              "votos": 1068
+            },
+            {
+              "sigla": "PDP",
+              "votos": 660
+            },
+            {
+              "sigla": "PRI",
+              "votos": 361
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 4516,
+          "pct": 1.88,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 2448
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1130
+            },
+            {
+              "sigla": "PDI",
+              "votos": 312
+            },
+            {
+              "sigla": "PNVC",
+              "votos": 178
+            },
+            {
+              "sigla": "PP",
+              "votos": 448
+            }
+          ]
+        }
+      ]
+    },
+    "25": {
+      "prov_nombre": "San Juan",
+      "ganador_bloque": "PLD",
+      "inscritos": 183459,
+      "validos": 117229,
+      "participacion": 66.66,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 73203,
+          "pct": 62.44,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 61624
+            },
+            {
+              "sigla": "PRD",
+              "votos": 3995
+            },
+            {
+              "sigla": "MODA",
+              "votos": 1307
+            },
+            {
+              "sigla": "PCR",
+              "votos": 1923
+            },
+            {
+              "sigla": "UDC",
+              "votos": 773
+            },
+            {
+              "sigla": "PPC",
+              "votos": 1880
+            },
+            {
+              "sigla": "PAL",
+              "votos": 669
+            },
+            {
+              "sigla": "PDP",
+              "votos": 382
+            },
+            {
+              "sigla": "PRI",
+              "votos": 650
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 42416,
+          "pct": 36.18,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 36117
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1619
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1508
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 778
+            },
+            {
+              "sigla": "PHD",
+              "votos": 237
+            },
+            {
+              "sigla": "DXC",
+              "votos": 906
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 460
+            },
+            {
+              "sigla": "APD",
+              "votos": 544
+            },
+            {
+              "sigla": "PP",
+              "votos": 247
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 1348,
+          "pct": 1.15,
+          "partidos": [
+            {
+              "sigla": "BIS",
+              "votos": 688
+            },
+            {
+              "sigla": "PUN",
+              "votos": 356
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 155
+            },
+            {
+              "sigla": "FNP",
+              "votos": 149
+            }
+          ]
+        }
+      ]
+    },
+    "26": {
+      "prov_nombre": "San Pedro de Macoris",
+      "ganador_bloque": "PLD",
+      "inscritos": 216098,
+      "validos": 117980,
+      "participacion": 56.23,
+      "bloques": [
+        {
+          "bloque_id": "PLD",
+          "votos": 58589,
+          "pct": 49.66,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 50970
+            },
+            {
+              "sigla": "PCR",
+              "votos": 2784
+            },
+            {
+              "sigla": "UDC",
+              "votos": 1115
+            },
+            {
+              "sigla": "PPC",
+              "votos": 1091
+            },
+            {
+              "sigla": "PAL",
+              "votos": 938
+            },
+            {
+              "sigla": "PDP",
+              "votos": 1024
+            },
+            {
+              "sigla": "PRI",
+              "votos": 667
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRM",
+          "votos": 55894,
+          "pct": 47.38,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 47038
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 2255
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 1565
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 741
+            },
+            {
+              "sigla": "PHD",
+              "votos": 780
+            },
+            {
+              "sigla": "DXC",
+              "votos": 1512
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 907
+            },
+            {
+              "sigla": "APD",
+              "votos": 680
+            },
+            {
+              "sigla": "PP",
+              "votos": 416
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 1764,
+          "pct": 1.5,
+          "partidos": [
+            {
+              "sigla": "BIS",
+              "votos": 782
+            },
+            {
+              "sigla": "PUN",
+              "votos": 556
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 252
+            },
+            {
+              "sigla": "FNP",
+              "votos": 174
+            }
+          ]
+        },
+        {
+          "bloque_id": "MODA",
+          "votos": 1640,
+          "pct": 1.39,
+          "partidos": [
+            {
+              "sigla": "MODA",
+              "votos": 1640
+            }
+          ]
+        }
+      ]
+    },
+    "27": {
+      "prov_nombre": "Sanchez Ramirez",
+      "ganador_bloque": "PRM",
+      "inscritos": 120919,
+      "validos": 81665,
+      "participacion": 68.98,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 54915,
+          "pct": 67.24,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 44529
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1090
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1346
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1554
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 621
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 370
+            },
+            {
+              "sigla": "PHD",
+              "votos": 296
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 242
+            },
+            {
+              "sigla": "DXC",
+              "votos": 785
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 194
+            },
+            {
+              "sigla": "FNP",
+              "votos": 196
+            },
+            {
+              "sigla": "FP",
+              "votos": 2943
+            },
+            {
+              "sigla": "APD",
+              "votos": 389
+            },
+            {
+              "sigla": "PDI",
+              "votos": 113
+            },
+            {
+              "sigla": "PP",
+              "votos": 247
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 26718,
+          "pct": 32.72,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 21834
+            },
+            {
+              "sigla": "PRD",
+              "votos": 2702
+            },
+            {
+              "sigla": "MODA",
+              "votos": 584
+            },
+            {
+              "sigla": "PCR",
+              "votos": 812
+            },
+            {
+              "sigla": "UDC",
+              "votos": 138
+            },
+            {
+              "sigla": "PPC",
+              "votos": 137
+            },
+            {
+              "sigla": "PAL",
+              "votos": 217
+            },
+            {
+              "sigla": "PDP",
+              "votos": 80
+            },
+            {
+              "sigla": "PRI",
+              "votos": 214
+            }
+          ]
+        }
+      ]
+    },
+    "28": {
+      "prov_nombre": "Santiago",
+      "ganador_bloque": "DXC",
+      "nota": "Bloque DXC (bloque13): DXC encabeza mega-coalicion con PRM",
+      "inscritos": 756504,
+      "validos": 378319,
+      "participacion": 51.34,
+      "bloques": [
+        {
+          "bloque_id": "DXC",
+          "votos": 260523,
+          "pct": 68.86,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 189263
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 18751
+            },
+            {
+              "sigla": "BIS",
+              "votos": 6611
+            },
+            {
+              "sigla": "PUN",
+              "votos": 8730
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 5673
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 2517
+            },
+            {
+              "sigla": "PHD",
+              "votos": 1355
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 2520
+            },
+            {
+              "sigla": "DXC",
+              "votos": 8777
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 1432
+            },
+            {
+              "sigla": "FNP",
+              "votos": 1506
+            },
+            {
+              "sigla": "FP",
+              "votos": 9268
+            },
+            {
+              "sigla": "APD",
+              "votos": 1494
+            },
+            {
+              "sigla": "PDI",
+              "votos": 709
+            },
+            {
+              "sigla": "PNVC",
+              "votos": 764
+            },
+            {
+              "sigla": "PP",
+              "votos": 1153
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 117796,
+          "pct": 31.14,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 99963
+            },
+            {
+              "sigla": "PRD",
+              "votos": 8695
+            },
+            {
+              "sigla": "MODA",
+              "votos": 2225
+            },
+            {
+              "sigla": "PCR",
+              "votos": 2695
+            },
+            {
+              "sigla": "UDC",
+              "votos": 960
+            },
+            {
+              "sigla": "PPC",
+              "votos": 1172
+            },
+            {
+              "sigla": "PAL",
+              "votos": 886
+            },
+            {
+              "sigla": "PDP",
+              "votos": 700
+            },
+            {
+              "sigla": "PRI",
+              "votos": 500
+            }
+          ]
+        }
+      ]
+    },
+    "29": {
+      "prov_nombre": "Santiago Rodriguez",
+      "ganador_bloque": "PRSC",
+      "inscritos": 48561,
+      "validos": 33024,
+      "participacion": 69.41,
+      "bloques": [
+        {
+          "bloque_id": "PRSC",
+          "votos": 17412,
+          "pct": 52.73,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 14173
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 461
+            },
+            {
+              "sigla": "BIS",
+              "votos": 409
+            },
+            {
+              "sigla": "PUN",
+              "votos": 427
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 93
+            },
+            {
+              "sigla": "PHD",
+              "votos": 71
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 152
+            },
+            {
+              "sigla": "DXC",
+              "votos": 209
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 111
+            },
+            {
+              "sigla": "FNP",
+              "votos": 107
+            },
+            {
+              "sigla": "FP",
+              "votos": 1079
+            },
+            {
+              "sigla": "APD",
+              "votos": 91
+            },
+            {
+              "sigla": "PDI",
+              "votos": 29
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 15447,
+          "pct": 46.78,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 13386
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1097
+            },
+            {
+              "sigla": "MODA",
+              "votos": 301
+            },
+            {
+              "sigla": "PCR",
+              "votos": 335
+            },
+            {
+              "sigla": "UDC",
+              "votos": 85
+            },
+            {
+              "sigla": "PPC",
+              "votos": 94
+            },
+            {
+              "sigla": "PAL",
+              "votos": 66
+            },
+            {
+              "sigla": "PDP",
+              "votos": 28
+            },
+            {
+              "sigla": "PRI",
+              "votos": 55
+            }
+          ]
+        }
+      ]
+    },
+    "30": {
+      "prov_nombre": "Valverde",
+      "ganador_bloque": "PRM",
+      "inscritos": 114055,
+      "validos": 65636,
+      "participacion": 59.02,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 38692,
+          "pct": 58.95,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 32442
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 1087
+            },
+            {
+              "sigla": "BIS",
+              "votos": 1090
+            },
+            {
+              "sigla": "PUN",
+              "votos": 1023
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 291
+            },
+            {
+              "sigla": "PHD",
+              "votos": 117
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 266
+            },
+            {
+              "sigla": "DXC",
+              "votos": 416
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 164
+            },
+            {
+              "sigla": "FNP",
+              "votos": 159
+            },
+            {
+              "sigla": "FP",
+              "votos": 1129
+            },
+            {
+              "sigla": "APD",
+              "votos": 239
+            },
+            {
+              "sigla": "PDI",
+              "votos": 82
+            },
+            {
+              "sigla": "PP",
+              "votos": 187
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 26671,
+          "pct": 40.63,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 22655
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1988
+            },
+            {
+              "sigla": "MODA",
+              "votos": 588
+            },
+            {
+              "sigla": "PCR",
+              "votos": 652
+            },
+            {
+              "sigla": "UDC",
+              "votos": 188
+            },
+            {
+              "sigla": "PPC",
+              "votos": 157
+            },
+            {
+              "sigla": "PAL",
+              "votos": 230
+            },
+            {
+              "sigla": "PDP",
+              "votos": 106
+            },
+            {
+              "sigla": "PRI",
+              "votos": 107
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 273,
+          "pct": 0.42,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 273
+            }
+          ]
+        }
+      ]
+    },
+    "31": {
+      "prov_nombre": "San Jose de Ocoa",
+      "ganador_bloque": "BIS",
+      "nota": "Bloque BIS (bloque05): BIS encabeza coalicion con PRM dentro",
+      "inscritos": 50231,
+      "validos": 30960,
+      "participacion": 64.93,
+      "bloques": [
+        {
+          "bloque_id": "BIS",
+          "votos": 15697,
+          "pct": 50.7,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 11883
+            },
+            {
+              "sigla": "PRSC",
+              "votos": 544
+            },
+            {
+              "sigla": "BIS",
+              "votos": 503
+            },
+            {
+              "sigla": "PUN",
+              "votos": 557
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 189
+            },
+            {
+              "sigla": "PHD",
+              "votos": 69
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 132
+            },
+            {
+              "sigla": "DXC",
+              "votos": 232
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 99
+            },
+            {
+              "sigla": "FNP",
+              "votos": 84
+            },
+            {
+              "sigla": "FP",
+              "votos": 1196
+            },
+            {
+              "sigla": "APD",
+              "votos": 77
+            },
+            {
+              "sigla": "PDI",
+              "votos": 57
+            },
+            {
+              "sigla": "PP",
+              "votos": 75
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 15014,
+          "pct": 48.49,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 12098
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1730
+            },
+            {
+              "sigla": "MODA",
+              "votos": 334
+            },
+            {
+              "sigla": "PCR",
+              "votos": 334
+            },
+            {
+              "sigla": "UDC",
+              "votos": 115
+            },
+            {
+              "sigla": "PPC",
+              "votos": 110
+            },
+            {
+              "sigla": "PAL",
+              "votos": 148
+            },
+            {
+              "sigla": "PDP",
+              "votos": 75
+            },
+            {
+              "sigla": "PRI",
+              "votos": 70
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 249,
+          "pct": 0.8,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 249
+            }
+          ]
+        }
+      ]
+    },
+    "32": {
+      "prov_nombre": "Santo Domingo",
+      "ganador_bloque": "PRM",
+      "inscritos": 1546349,
+      "validos": 793743,
+      "participacion": 52.97,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 433605,
+          "pct": 54.63,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 378098
+            },
+            {
+              "sigla": "ALPAIS",
+              "votos": 16392
+            },
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 7861
+            },
+            {
+              "sigla": "PHD",
+              "votos": 3226
+            },
+            {
+              "sigla": "DXC",
+              "votos": 10128
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 6465
+            },
+            {
+              "sigla": "APD",
+              "votos": 4955
+            },
+            {
+              "sigla": "PDI",
+              "votos": 3006
+            },
+            {
+              "sigla": "PP",
+              "votos": 3474
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 291376,
+          "pct": 36.71,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 235476
+            },
+            {
+              "sigla": "PRD",
+              "votos": 27317
+            },
+            {
+              "sigla": "MODA",
+              "votos": 5635
+            },
+            {
+              "sigla": "PCR",
+              "votos": 7729
+            },
+            {
+              "sigla": "UDC",
+              "votos": 2984
+            },
+            {
+              "sigla": "PPC",
+              "votos": 4272
+            },
+            {
+              "sigla": "PAL",
+              "votos": 2992
+            },
+            {
+              "sigla": "PDP",
+              "votos": 2391
+            },
+            {
+              "sigla": "PRI",
+              "votos": 2580
+            }
+          ]
+        },
+        {
+          "bloque_id": "FP",
+          "votos": 66427,
+          "pct": 8.37,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 12763
+            },
+            {
+              "sigla": "BIS",
+              "votos": 4758
+            },
+            {
+              "sigla": "PUN",
+              "votos": 4840
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 2844
+            },
+            {
+              "sigla": "FNP",
+              "votos": 2005
+            },
+            {
+              "sigla": "FP",
+              "votos": 39217
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 2335,
+          "pct": 0.29,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 2335
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "diputados_exterior": {
+    "circ_1": {
+      "circ_nombre": "Paises del Exterior Circ.1",
+      "inscritos": 366718,
+      "validos": 76223,
+      "participacion": 22.2,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 43337,
+          "pct": 56.86,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 42772
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 565
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 14299,
+          "pct": 18.76,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 9579
+            },
+            {
+              "sigla": "PRD",
+              "votos": 3206
+            },
+            {
+              "sigla": "MODA",
+              "votos": 319
+            },
+            {
+              "sigla": "PCR",
+              "votos": 220
+            },
+            {
+              "sigla": "PPC",
+              "votos": 213
+            },
+            {
+              "sigla": "PAL",
+              "votos": 239
+            },
+            {
+              "sigla": "PDP",
+              "votos": 264
+            },
+            {
+              "sigla": "PRI",
+              "votos": 259
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 5791,
+          "pct": 7.6,
+          "partidos": [
+            {
+              "sigla": "BIS",
+              "votos": 438
+            },
+            {
+              "sigla": "PUN",
+              "votos": 563
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 246
+            },
+            {
+              "sigla": "FNP",
+              "votos": 255
+            },
+            {
+              "sigla": "FP",
+              "votos": 4289
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 5143,
+          "pct": 6.75,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 5143
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 2583,
+          "pct": 3.39,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 2583
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 2132,
+          "pct": 2.8,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 2132
+            }
+          ]
+        },
+        {
+          "bloque_id": "PP",
+          "votos": 764,
+          "pct": 1.0,
+          "partidos": [
+            {
+              "sigla": "PP",
+              "votos": 764
+            }
+          ]
+        },
+        {
+          "bloque_id": "F.AMPLIO",
+          "votos": 936,
+          "pct": 1.23,
+          "partidos": [
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 591
+            },
+            {
+              "sigla": "APD",
+              "votos": 345
+            }
+          ]
+        },
+        {
+          "bloque_id": "PHD",
+          "votos": 385,
+          "pct": 0.51,
+          "partidos": [
+            {
+              "sigla": "PHD",
+              "votos": 385
+            }
+          ]
+        },
+        {
+          "bloque_id": "DXC",
+          "votos": 392,
+          "pct": 0.51,
+          "partidos": [
+            {
+              "sigla": "DXC",
+              "votos": 392
+            }
+          ]
+        },
+        {
+          "bloque_id": "PDI",
+          "votos": 340,
+          "pct": 0.45,
+          "partidos": [
+            {
+              "sigla": "PDI",
+              "votos": 340
+            }
+          ]
+        },
+        {
+          "bloque_id": "UDC",
+          "votos": 121,
+          "pct": 0.16,
+          "partidos": [
+            {
+              "sigla": "UDC",
+              "votos": 121
+            }
+          ]
+        }
+      ]
+    },
+    "circ_2": {
+      "circ_nombre": "Paises del Exterior Circ.2",
+      "inscritos": 118071,
+      "validos": 19114,
+      "participacion": 17.27,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 10332,
+          "pct": 54.05,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 10147
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 185
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 4189,
+          "pct": 21.92,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 2927
+            },
+            {
+              "sigla": "PRD",
+              "votos": 933
+            },
+            {
+              "sigla": "MODA",
+              "votos": 89
+            },
+            {
+              "sigla": "PCR",
+              "votos": 42
+            },
+            {
+              "sigla": "PPC",
+              "votos": 35
+            },
+            {
+              "sigla": "PAL",
+              "votos": 44
+            },
+            {
+              "sigla": "PDP",
+              "votos": 61
+            },
+            {
+              "sigla": "PRI",
+              "votos": 58
+            }
+          ]
+        },
+        {
+          "bloque_id": "BIS",
+          "votos": 1814,
+          "pct": 9.49,
+          "partidos": [
+            {
+              "sigla": "BIS",
+              "votos": 225
+            },
+            {
+              "sigla": "PUN",
+              "votos": 274
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 99
+            },
+            {
+              "sigla": "FNP",
+              "votos": 105
+            },
+            {
+              "sigla": "FP",
+              "votos": 1111
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 1005,
+          "pct": 5.26,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 1005
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 347,
+          "pct": 1.82,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 347
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 507,
+          "pct": 2.65,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 507
+            }
+          ]
+        },
+        {
+          "bloque_id": "PP",
+          "votos": 200,
+          "pct": 1.05,
+          "partidos": [
+            {
+              "sigla": "PP",
+              "votos": 200
+            }
+          ]
+        },
+        {
+          "bloque_id": "F.AMPLIO",
+          "votos": 273,
+          "pct": 1.43,
+          "partidos": [
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 193
+            },
+            {
+              "sigla": "APD",
+              "votos": 80
+            }
+          ]
+        },
+        {
+          "bloque_id": "PDI",
+          "votos": 224,
+          "pct": 1.17,
+          "partidos": [
+            {
+              "sigla": "PDI",
+              "votos": 224
+            }
+          ]
+        },
+        {
+          "bloque_id": "UDC",
+          "votos": 153,
+          "pct": 0.8,
+          "partidos": [
+            {
+              "sigla": "UDC",
+              "votos": 153
+            }
+          ]
+        },
+        {
+          "bloque_id": "PHD",
+          "votos": 70,
+          "pct": 0.37,
+          "partidos": [
+            {
+              "sigla": "PHD",
+              "votos": 70
+            }
+          ]
+        }
+      ]
+    },
+    "circ_3": {
+      "circ_nombre": "Paises del Exterior Circ.3",
+      "inscritos": 111090,
+      "validos": 26570,
+      "participacion": 25.0,
+      "bloques": [
+        {
+          "bloque_id": "PRM",
+          "votos": 13895,
+          "pct": 52.3,
+          "partidos": [
+            {
+              "sigla": "PRM",
+              "votos": 13773
+            },
+            {
+              "sigla": "PRSD",
+              "votos": 122
+            }
+          ]
+        },
+        {
+          "bloque_id": "PLD",
+          "votos": 6292,
+          "pct": 23.68,
+          "partidos": [
+            {
+              "sigla": "PLD",
+              "votos": 4248
+            },
+            {
+              "sigla": "PRD",
+              "votos": 1513
+            },
+            {
+              "sigla": "MODA",
+              "votos": 70
+            },
+            {
+              "sigla": "PCR",
+              "votos": 105
+            },
+            {
+              "sigla": "PPC",
+              "votos": 157
+            },
+            {
+              "sigla": "PAL",
+              "votos": 35
+            },
+            {
+              "sigla": "PDP",
+              "votos": 95
+            },
+            {
+              "sigla": "PRI",
+              "votos": 69
+            }
+          ]
+        },
+        {
+          "bloque_id": "PRSC",
+          "votos": 4345,
+          "pct": 16.35,
+          "partidos": [
+            {
+              "sigla": "PRSC",
+              "votos": 762
+            },
+            {
+              "sigla": "BIS",
+              "votos": 252
+            },
+            {
+              "sigla": "PUN",
+              "votos": 409
+            },
+            {
+              "sigla": "PQDC",
+              "votos": 136
+            },
+            {
+              "sigla": "FNP",
+              "votos": 98
+            },
+            {
+              "sigla": "FP",
+              "votos": 2688
+            }
+          ]
+        },
+        {
+          "bloque_id": "PNVC",
+          "votos": 457,
+          "pct": 1.72,
+          "partidos": [
+            {
+              "sigla": "PNVC",
+              "votos": 457
+            }
+          ]
+        },
+        {
+          "bloque_id": "ALPAIS",
+          "votos": 598,
+          "pct": 2.25,
+          "partidos": [
+            {
+              "sigla": "ALPAIS",
+              "votos": 598
+            }
+          ]
+        },
+        {
+          "bloque_id": "PP",
+          "votos": 201,
+          "pct": 0.76,
+          "partidos": [
+            {
+              "sigla": "PP",
+              "votos": 201
+            }
+          ]
+        },
+        {
+          "bloque_id": "F.AMPLIO",
+          "votos": 219,
+          "pct": 0.82,
+          "partidos": [
+            {
+              "sigla": "F.AMPLIO",
+              "votos": 136
+            },
+            {
+              "sigla": "APD",
+              "votos": 83
+            }
+          ]
+        },
+        {
+          "bloque_id": "DXC",
+          "votos": 270,
+          "pct": 1.02,
+          "partidos": [
+            {
+              "sigla": "DXC",
+              "votos": 270
+            }
+          ]
+        },
+        {
+          "bloque_id": "PDI",
+          "votos": 65,
+          "pct": 0.24,
+          "partidos": [
+            {
+              "sigla": "PDI",
+              "votos": 65
+            }
+          ]
+        },
+        {
+          "bloque_id": "UDC",
+          "votos": 76,
+          "pct": 0.29,
+          "partidos": [
+            {
+              "sigla": "UDC",
+              "votos": 76
+            }
+          ]
+        },
+        {
+          "bloque_id": "PHD",
+          "votos": 152,
+          "pct": 0.57,
+          "partidos": [
+            {
+              "sigla": "PHD",
+              "votos": 152
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "diputados_interior": {
+    "_pendiente": true
+  }
+}

@@ -1,0 +1,1867 @@
+[
+  {
+    "id": "01",
+    "provincia": "Distrito Nacional",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 45.54,
+    "blocs": {
+      "PRM": 194793,
+      "PLD": 122237,
+      "FP": 23630,
+      "PRSC": 15827,
+      "PRD": 13970,
+      "ALPAIS": 11703,
+      "PUN": 5614,
+      "DXC": 5491,
+      "BIS": 4985,
+      "PRSD": 3327,
+      "FNP": 3248,
+      "F.AMPLIO": 2892,
+      "APD": 2805,
+      "MODA": 2542,
+      "PCR": 2444,
+      "PQDC": 2312,
+      "PHD": 1559,
+      "PPC": 1425,
+      "PRI": 1366,
+      "PAL": 1308,
+      "PNVC": 1206,
+      "PDP": 1030,
+      "PDI": 1015,
+      "UDC": 995
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 45.54
+      },
+      {
+        "id": "PLD",
+        "pct": 28.58
+      },
+      {
+        "id": "FP",
+        "pct": 5.52
+      }
+    ],
+    "inscritos": 772359,
+    "votos_emitidos": 439296,
+    "votos_validos": 427724,
+    "participacion": 56.88,
+    "abstencion": 43.12,
+    "enpp": 3.377,
+    "margen_pp": 16.96,
+    "riesgo_score": 13.0,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "02",
+    "provincia": "La Altagracia",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 30.89,
+    "blocs": {
+      "PRM": 27110,
+      "PLR": 25276,
+      "PLD": 17988,
+      "FP": 3060,
+      "PRD": 1915,
+      "BIS": 1819,
+      "PRSC": 1783,
+      "PUN": 1583,
+      "DXC": 1115,
+      "ALPAIS": 982,
+      "PCR": 599,
+      "MODA": 551,
+      "PQDC": 537,
+      "PDI": 430,
+      "FNP": 391,
+      "PAL": 385,
+      "APD": 381,
+      "PHD": 319,
+      "PRSD": 313,
+      "UDC": 292,
+      "PDP": 226,
+      "F.AMPLIO": 220,
+      "PPC": 209,
+      "PRI": 161,
+      "PNVC": 119
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 30.89
+      },
+      {
+        "id": "PLR",
+        "pct": 28.8
+      },
+      {
+        "id": "PLD",
+        "pct": 20.5
+      }
+    ],
+    "inscritos": 168754,
+    "votos_emitidos": 90291,
+    "votos_validos": 87764,
+    "participacion": 53.5,
+    "abstencion": 46.5,
+    "enpp": 4.469,
+    "margen_pp": 2.09,
+    "riesgo_score": 91.6,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "03",
+    "provincia": "Azua",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 45.96,
+    "blocs": {
+      "PRM": 48789,
+      "PLD": 38273,
+      "FP": 4574,
+      "PRD": 3066,
+      "PUN": 2041,
+      "BIS": 1980,
+      "PCR": 824,
+      "DXC": 752,
+      "MODA": 726,
+      "F.AMPLIO": 587,
+      "PRSD": 574,
+      "PPC": 472,
+      "PQDC": 452,
+      "APD": 428,
+      "PRSC": 424,
+      "FNP": 299,
+      "PP": 296,
+      "ALPAIS": 272,
+      "UDC": 271,
+      "PAL": 268,
+      "PHD": 251,
+      "PDI": 170,
+      "PDP": 169,
+      "PRI": 155,
+      "PNVC": 40
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 45.96
+      },
+      {
+        "id": "PLD",
+        "pct": 36.05
+      },
+      {
+        "id": "FP",
+        "pct": 4.31
+      }
+    ],
+    "inscritos": 163307,
+    "votos_emitidos": 110340,
+    "votos_validos": 106153,
+    "participacion": 67.57,
+    "abstencion": 32.43,
+    "enpp": 2.899,
+    "margen_pp": 9.91,
+    "riesgo_score": 60.2,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "04",
+    "provincia": "Bahoruco",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 44.32,
+    "blocs": {
+      "PRM": 21899,
+      "PLD": 19477,
+      "FP": 1478,
+      "BIS": 924,
+      "PUN": 886,
+      "PRSC": 817,
+      "PRD": 786,
+      "DXC": 506,
+      "PPC": 491,
+      "PCR": 284,
+      "MODA": 275,
+      "F.AMPLIO": 250,
+      "PQDC": 230,
+      "PRSD": 206,
+      "APD": 142,
+      "UDC": 139,
+      "PAL": 131,
+      "FNP": 119,
+      "PHD": 112,
+      "ALPAIS": 77,
+      "PDI": 71,
+      "PP": 42,
+      "PRI": 38,
+      "PDP": 35
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 44.32
+      },
+      {
+        "id": "PLD",
+        "pct": 39.42
+      },
+      {
+        "id": "FP",
+        "pct": 2.99
+      }
+    ],
+    "inscritos": 72238,
+    "votos_emitidos": 50775,
+    "votos_validos": 49415,
+    "participacion": 70.29,
+    "abstencion": 29.71,
+    "enpp": 2.823,
+    "margen_pp": 4.9,
+    "riesgo_score": 80.4,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "05",
+    "provincia": "Barahona",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 45.13,
+    "blocs": {
+      "PLD": 38173,
+      "PRM": 27589,
+      "FP": 5183,
+      "PRD": 3120,
+      "PUN": 1625,
+      "BIS": 1225,
+      "PRSC": 1098,
+      "DXC": 839,
+      "PAL": 714,
+      "MODA": 668,
+      "PCR": 581,
+      "PQDC": 423,
+      "PNVC": 395,
+      "PHD": 380,
+      "PPC": 370,
+      "UDC": 312,
+      "PRSD": 298,
+      "APD": 288,
+      "ALPAIS": 282,
+      "PRI": 245,
+      "FNP": 226,
+      "F.AMPLIO": 155,
+      "PDP": 148,
+      "PDI": 135,
+      "PP": 109
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 45.13
+      },
+      {
+        "id": "PRM",
+        "pct": 32.62
+      },
+      {
+        "id": "FP",
+        "pct": 6.13
+      }
+    ],
+    "inscritos": 129291,
+    "votos_emitidos": 88103,
+    "votos_validos": 84581,
+    "participacion": 68.14,
+    "abstencion": 31.86,
+    "enpp": 3.161,
+    "margen_pp": 12.51,
+    "riesgo_score": 55.0,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "06",
+    "provincia": "Dajabon",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 40.77,
+    "blocs": {
+      "PRM": 14386,
+      "PLD": 13939,
+      "FP": 1377,
+      "PRD": 1037,
+      "PRSC": 787,
+      "PUN": 560,
+      "BIS": 519,
+      "PCR": 434,
+      "MODA": 395,
+      "DXC": 298,
+      "PAL": 231,
+      "PRSD": 207,
+      "PQDC": 201,
+      "UDC": 163,
+      "PHD": 152,
+      "PPC": 130,
+      "APD": 101,
+      "FNP": 91,
+      "PRI": 69,
+      "PDP": 67,
+      "PDI": 50,
+      "PNVC": 44,
+      "ALPAIS": 31,
+      "PP": 18
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 40.77
+      },
+      {
+        "id": "PLD",
+        "pct": 39.5
+      },
+      {
+        "id": "FP",
+        "pct": 3.9
+      }
+    ],
+    "inscritos": 50699,
+    "votos_emitidos": 36278,
+    "votos_validos": 35287,
+    "participacion": 71.56,
+    "abstencion": 28.44,
+    "enpp": 3.066,
+    "margen_pp": 1.27,
+    "riesgo_score": 94.9,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "07",
+    "provincia": "Duarte",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 51.47,
+    "blocs": {
+      "PRM": 64929,
+      "PLD": 35524,
+      "PRD": 4907,
+      "FP": 3509,
+      "PRSC": 2939,
+      "PUN": 2723,
+      "BIS": 2665,
+      "ALPAIS": 1388,
+      "PHD": 1129,
+      "DXC": 945,
+      "PCR": 845,
+      "MODA": 753,
+      "PQDC": 694,
+      "APD": 463,
+      "FNP": 433,
+      "PRSD": 406,
+      "UDC": 325,
+      "PDI": 311,
+      "PAL": 300,
+      "PP": 290,
+      "PPC": 271,
+      "PDP": 213,
+      "PRI": 197
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 51.47
+      },
+      {
+        "id": "PLD",
+        "pct": 28.16
+      },
+      {
+        "id": "PRD",
+        "pct": 3.89
+      }
+    ],
+    "inscritos": 228829,
+    "votos_emitidos": 130982,
+    "votos_validos": 126159,
+    "participacion": 57.24,
+    "abstencion": 42.76,
+    "enpp": 2.871,
+    "margen_pp": 23.31,
+    "riesgo_score": 6.7,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "08",
+    "provincia": "El Seibo",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 50.75,
+    "blocs": {
+      "PRM": 19242,
+      "PLD": 11284,
+      "PRD": 995,
+      "PUN": 945,
+      "FP": 808,
+      "BIS": 792,
+      "PRSC": 560,
+      "PCR": 489,
+      "DXC": 433,
+      "MODA": 323,
+      "PQDC": 252,
+      "PDI": 222,
+      "PHD": 215,
+      "PRSD": 196,
+      "FNP": 186,
+      "APD": 153,
+      "PAL": 141,
+      "UDC": 135,
+      "PPC": 119,
+      "PP": 118,
+      "ALPAIS": 114,
+      "PDP": 71,
+      "PRI": 63,
+      "F.AMPLIO": 32,
+      "PNVC": 27
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 50.75
+      },
+      {
+        "id": "PLD",
+        "pct": 29.76
+      },
+      {
+        "id": "PRD",
+        "pct": 2.62
+      }
+    ],
+    "inscritos": 60310,
+    "votos_emitidos": 39458,
+    "votos_validos": 37915,
+    "participacion": 65.43,
+    "abstencion": 34.57,
+    "enpp": 2.864,
+    "margen_pp": 20.99,
+    "riesgo_score": 9.0,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "09",
+    "provincia": "Elias Piña",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 45.0,
+    "blocs": {
+      "PLD": 12808,
+      "PRM": 10774,
+      "FP": 926,
+      "PRSC": 690,
+      "BIS": 406,
+      "DXC": 346,
+      "PRD": 341,
+      "PCR": 337,
+      "PUN": 336,
+      "MODA": 230,
+      "ALPAIS": 166,
+      "PPC": 132,
+      "PAL": 119,
+      "PP": 114,
+      "F.AMPLIO": 105,
+      "PHD": 101,
+      "UDC": 89,
+      "APD": 85,
+      "PRSD": 84,
+      "PQDC": 83,
+      "FNP": 68,
+      "PRI": 47,
+      "PDP": 42,
+      "PDI": 32
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 45.0
+      },
+      {
+        "id": "PRM",
+        "pct": 37.86
+      },
+      {
+        "id": "FP",
+        "pct": 3.25
+      }
+    ],
+    "inscritos": 43655,
+    "votos_emitidos": 29559,
+    "votos_validos": 28461,
+    "participacion": 67.71,
+    "abstencion": 32.29,
+    "enpp": 2.87,
+    "margen_pp": 7.15,
+    "riesgo_score": 65.7,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "10",
+    "provincia": "Espaillat",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 49.76,
+    "blocs": {
+      "PRM": 56512,
+      "PLD": 45062,
+      "PRSC": 1412,
+      "PCR": 1323,
+      "ALPAIS": 1233,
+      "DXC": 1109,
+      "F.AMPLIO": 898,
+      "APD": 877,
+      "PRD": 868,
+      "PRSD": 824,
+      "MODA": 765,
+      "PP": 497,
+      "PPC": 404,
+      "PHD": 380,
+      "UDC": 318,
+      "PAL": 271,
+      "PRI": 224,
+      "PDP": 185,
+      "PUN": 160,
+      "BIS": 106,
+      "FNP": 55,
+      "PQDC": 41,
+      "PNVC": 41
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 49.76
+      },
+      {
+        "id": "PLD",
+        "pct": 39.68
+      },
+      {
+        "id": "PRSC",
+        "pct": 1.24
+      }
+    ],
+    "inscritos": 185538,
+    "votos_emitidos": 115773,
+    "votos_validos": 113565,
+    "participacion": 62.4,
+    "abstencion": 37.6,
+    "enpp": 2.464,
+    "margen_pp": 10.08,
+    "riesgo_score": 59.8,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "11",
+    "provincia": "Hato Mayor",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 44.89,
+    "blocs": {
+      "PRM": 19972,
+      "PLD": 14370,
+      "PRD": 1614,
+      "PUN": 1161,
+      "PRSC": 1116,
+      "BIS": 1024,
+      "PCR": 967,
+      "FP": 783,
+      "DXC": 548,
+      "MODA": 411,
+      "F.AMPLIO": 342,
+      "PRSD": 341,
+      "PQDC": 237,
+      "PHD": 202,
+      "APD": 201,
+      "FNP": 198,
+      "PPC": 183,
+      "UDC": 172,
+      "PAL": 159,
+      "PRI": 141,
+      "PDP": 129,
+      "PP": 128,
+      "PDI": 92
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 44.89
+      },
+      {
+        "id": "PLD",
+        "pct": 32.3
+      },
+      {
+        "id": "PRD",
+        "pct": 3.63
+      }
+    ],
+    "inscritos": 69999,
+    "votos_emitidos": 45739,
+    "votos_validos": 44491,
+    "participacion": 65.34,
+    "abstencion": 34.66,
+    "enpp": 3.223,
+    "margen_pp": 12.59,
+    "riesgo_score": 54.8,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "12",
+    "provincia": "Independencia",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 48.72,
+    "blocs": {
+      "PLD": 13388,
+      "PRM": 8942,
+      "PPC": 2042,
+      "FP": 1003,
+      "PRD": 409,
+      "PRSC": 375,
+      "PUN": 206,
+      "MODA": 202,
+      "BIS": 183,
+      "PCR": 107,
+      "F.AMPLIO": 86,
+      "DXC": 80,
+      "UDC": 68,
+      "APD": 65,
+      "PDP": 62,
+      "PAL": 46,
+      "PQDC": 41,
+      "PHD": 33,
+      "PDI": 30,
+      "PRI": 28,
+      "PRSD": 27,
+      "ALPAIS": 26,
+      "FNP": 19,
+      "PP": 10
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 48.72
+      },
+      {
+        "id": "PRM",
+        "pct": 32.54
+      },
+      {
+        "id": "PPC",
+        "pct": 7.43
+      }
+    ],
+    "inscritos": 37034,
+    "votos_emitidos": 28053,
+    "votos_validos": 27478,
+    "participacion": 75.75,
+    "abstencion": 24.25,
+    "enpp": 2.851,
+    "margen_pp": 16.18,
+    "riesgo_score": 13.8,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "13",
+    "provincia": "La Romana",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 37.27,
+    "blocs": {
+      "PRM": 35796,
+      "PRSC": 25160,
+      "PLD": 17610,
+      "DXC": 2278,
+      "F.AMPLIO": 1868,
+      "PRD": 1370,
+      "FNP": 1368,
+      "APD": 1279,
+      "PRSD": 1195,
+      "ALPAIS": 1083,
+      "PCR": 1000,
+      "PHD": 998,
+      "PP": 885,
+      "PNVC": 803,
+      "PDI": 681,
+      "MODA": 539,
+      "PRI": 425,
+      "PAL": 409,
+      "PPC": 382,
+      "UDC": 309,
+      "PDP": 254,
+      "PUN": 142,
+      "BIS": 139,
+      "PQDC": 73
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 37.27
+      },
+      {
+        "id": "PRSC",
+        "pct": 26.2
+      },
+      {
+        "id": "PLD",
+        "pct": 18.33
+      }
+    ],
+    "inscritos": 177823,
+    "votos_emitidos": 98604,
+    "votos_validos": 96046,
+    "participacion": 55.45,
+    "abstencion": 44.55,
+    "enpp": 4.107,
+    "margen_pp": 11.07,
+    "riesgo_score": 57.9,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "14",
+    "provincia": "La Vega",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 43.51,
+    "blocs": {
+      "PRM": 74286,
+      "PLD": 58102,
+      "PRSC": 9335,
+      "FP": 5445,
+      "PRD": 4368,
+      "ALPAIS": 3553,
+      "PUN": 2942,
+      "BIS": 2125,
+      "DXC": 1359,
+      "PCR": 1312,
+      "MODA": 1049,
+      "F.AMPLIO": 826,
+      "PQDC": 750,
+      "APD": 718,
+      "PAL": 619,
+      "PPC": 532,
+      "FNP": 511,
+      "PRSD": 468,
+      "PHD": 452,
+      "PP": 436,
+      "PDP": 364,
+      "UDC": 363,
+      "PNVC": 300,
+      "PDI": 279,
+      "PRI": 225
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 43.51
+      },
+      {
+        "id": "PLD",
+        "pct": 34.03
+      },
+      {
+        "id": "PRSC",
+        "pct": 5.47
+      }
+    ],
+    "inscritos": 305857,
+    "votos_emitidos": 176695,
+    "votos_validos": 170719,
+    "participacion": 57.77,
+    "abstencion": 42.23,
+    "enpp": 3.215,
+    "margen_pp": 9.48,
+    "riesgo_score": 61.0,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "15",
+    "provincia": "Maria Trinidad Sanchez",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 49.16,
+    "blocs": {
+      "PRM": 34478,
+      "PLD": 25090,
+      "FP": 1532,
+      "PRD": 1421,
+      "BIS": 1069,
+      "PUN": 1052,
+      "PRSC": 774,
+      "DXC": 714,
+      "APD": 712,
+      "PCR": 494,
+      "F.AMPLIO": 413,
+      "MODA": 375,
+      "PQDC": 271,
+      "FNP": 245,
+      "PRSD": 240,
+      "PP": 223,
+      "PPC": 191,
+      "UDC": 133,
+      "PAL": 124,
+      "PDP": 121,
+      "ALPAIS": 114,
+      "PHD": 98,
+      "PNVC": 92,
+      "PRI": 92,
+      "PDI": 62
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 49.16
+      },
+      {
+        "id": "PLD",
+        "pct": 35.78
+      },
+      {
+        "id": "FP",
+        "pct": 2.18
+      }
+    ],
+    "inscritos": 107985,
+    "votos_emitidos": 72056,
+    "votos_validos": 70130,
+    "participacion": 66.73,
+    "abstencion": 33.27,
+    "enpp": 2.691,
+    "margen_pp": 13.39,
+    "riesgo_score": 53.2,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "16",
+    "provincia": "Monseñor Nouel",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 51.78,
+    "blocs": {
+      "PRM": 39111,
+      "PLD": 22548,
+      "PUN": 1908,
+      "FP": 1763,
+      "BIS": 1650,
+      "PRD": 1581,
+      "DXC": 913,
+      "PRSC": 810,
+      "ALPAIS": 787,
+      "APD": 531,
+      "PCR": 527,
+      "PP": 459,
+      "PRSD": 439,
+      "MODA": 379,
+      "PQDC": 361,
+      "F.AMPLIO": 322,
+      "FNP": 309,
+      "PAL": 230,
+      "PPC": 193,
+      "PHD": 175,
+      "PDI": 156,
+      "UDC": 139,
+      "PDP": 126,
+      "PRI": 118
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 51.78
+      },
+      {
+        "id": "PLD",
+        "pct": 29.85
+      },
+      {
+        "id": "PUN",
+        "pct": 2.53
+      }
+    ],
+    "inscritos": 138328,
+    "votos_emitidos": 77486,
+    "votos_validos": 75535,
+    "participacion": 56.02,
+    "abstencion": 43.98,
+    "enpp": 2.778,
+    "margen_pp": 21.93,
+    "riesgo_score": 8.1,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "17",
+    "provincia": "Monte Cristi",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 40.09,
+    "blocs": {
+      "PRM": 20997,
+      "PLD": 19039,
+      "PRSC": 4267,
+      "PRD": 1822,
+      "FP": 773,
+      "DXC": 756,
+      "PUN": 514,
+      "PHD": 491,
+      "MODA": 485,
+      "PCR": 468,
+      "BIS": 457,
+      "F.AMPLIO": 456,
+      "PRSD": 395,
+      "PQDC": 212,
+      "APD": 209,
+      "ALPAIS": 162,
+      "PPC": 152,
+      "PAL": 152,
+      "UDC": 125,
+      "FNP": 113,
+      "PP": 113,
+      "PDI": 82,
+      "PRI": 62,
+      "PDP": 57,
+      "PNVC": 21
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 40.09
+      },
+      {
+        "id": "PLD",
+        "pct": 36.35
+      },
+      {
+        "id": "PRSC",
+        "pct": 8.15
+      }
+    ],
+    "inscritos": 80597,
+    "votos_emitidos": 54124,
+    "votos_validos": 52380,
+    "participacion": 67.15,
+    "abstencion": 32.85,
+    "enpp": 3.314,
+    "margen_pp": 3.74,
+    "riesgo_score": 85.0,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "18",
+    "provincia": "Monte Plata",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 48.95,
+    "blocs": {
+      "PRM": 42607,
+      "PLD": 28116,
+      "FP": 3801,
+      "PRD": 1954,
+      "ALPAIS": 1479,
+      "PRSC": 1271,
+      "DXC": 1068,
+      "PRSD": 756,
+      "MODA": 616,
+      "PCR": 588,
+      "F.AMPLIO": 572,
+      "PNVC": 558,
+      "PHD": 528,
+      "APD": 497,
+      "PUN": 435,
+      "BIS": 388,
+      "PPC": 315,
+      "PP": 227,
+      "PQDC": 215,
+      "PAL": 188,
+      "PRI": 188,
+      "PDI": 177,
+      "FNP": 175,
+      "UDC": 172,
+      "PDP": 147
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 48.95
+      },
+      {
+        "id": "PLD",
+        "pct": 32.3
+      },
+      {
+        "id": "FP",
+        "pct": 4.37
+      }
+    ],
+    "inscritos": 133909,
+    "votos_emitidos": 89669,
+    "votos_validos": 87038,
+    "participacion": 66.96,
+    "abstencion": 33.04,
+    "enpp": 2.878,
+    "margen_pp": 16.65,
+    "riesgo_score": 13.4,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "19",
+    "provincia": "Pedernales",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 50.26,
+    "blocs": {
+      "PLD": 6393,
+      "PRM": 4938,
+      "MODA": 147,
+      "PCR": 142,
+      "PRSC": 140,
+      "ALPAIS": 123,
+      "DXC": 122,
+      "PRD": 119,
+      "PP": 98,
+      "PRSD": 81,
+      "APD": 65,
+      "UDC": 63,
+      "F.AMPLIO": 59,
+      "PPC": 58,
+      "PAL": 36,
+      "PDP": 29,
+      "PRI": 29,
+      "PDI": 27,
+      "PHD": 23,
+      "BIS": 13,
+      "PUN": 8,
+      "FNP": 5,
+      "PQDC": 3
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 50.26
+      },
+      {
+        "id": "PRM",
+        "pct": 38.82
+      },
+      {
+        "id": "MODA",
+        "pct": 1.16
+      }
+    ],
+    "inscritos": 18501,
+    "votos_emitidos": 13040,
+    "votos_validos": 12721,
+    "participacion": 70.48,
+    "abstencion": 29.52,
+    "enpp": 2.475,
+    "margen_pp": 11.44,
+    "riesgo_score": 57.1,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "20",
+    "provincia": "Peravia",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 48.24,
+    "blocs": {
+      "PRM": 35738,
+      "PLD": 21847,
+      "PRD": 3812,
+      "FP": 2269,
+      "PUN": 1441,
+      "BIS": 1228,
+      "PRSC": 1204,
+      "DXC": 787,
+      "F.AMPLIO": 771,
+      "PCR": 743,
+      "MODA": 662,
+      "ALPAIS": 536,
+      "PAL": 506,
+      "PQDC": 451,
+      "PPC": 313,
+      "FNP": 294,
+      "PP": 266,
+      "APD": 260,
+      "PRSD": 249,
+      "UDC": 169,
+      "PDI": 156,
+      "PHD": 144,
+      "PDP": 140,
+      "PRI": 104
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 48.24
+      },
+      {
+        "id": "PLD",
+        "pct": 29.49
+      },
+      {
+        "id": "PRD",
+        "pct": 5.15
+      }
+    ],
+    "inscritos": 134839,
+    "votos_emitidos": 75828,
+    "votos_validos": 74090,
+    "participacion": 56.24,
+    "abstencion": 43.76,
+    "enpp": 3.079,
+    "margen_pp": 18.75,
+    "riesgo_score": 11.2,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "21",
+    "provincia": "Puerto Plata",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 43.62,
+    "blocs": {
+      "PRM": 63845,
+      "PLD": 53093,
+      "PRD": 5269,
+      "FP": 4137,
+      "PUN": 3153,
+      "PRSC": 2706,
+      "BIS": 2518,
+      "DXC": 1736,
+      "ALPAIS": 1384,
+      "PCR": 1040,
+      "MODA": 918,
+      "PRSD": 702,
+      "PAL": 684,
+      "F.AMPLIO": 665,
+      "PQDC": 576,
+      "APD": 557,
+      "FNP": 534,
+      "PPC": 454,
+      "PNVC": 430,
+      "PHD": 426,
+      "PP": 389,
+      "UDC": 367,
+      "PDP": 333,
+      "PRI": 278,
+      "PDI": 180
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 43.62
+      },
+      {
+        "id": "PLD",
+        "pct": 36.27
+      },
+      {
+        "id": "PRD",
+        "pct": 3.6
+      }
+    ],
+    "inscritos": 246477,
+    "votos_emitidos": 151007,
+    "votos_validos": 146374,
+    "participacion": 61.27,
+    "abstencion": 38.73,
+    "enpp": 3.072,
+    "margen_pp": 7.35,
+    "riesgo_score": 65.3,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "22",
+    "provincia": "Hermanas Mirabal",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 42.81,
+    "blocs": {
+      "PRM": 21049,
+      "PLD": 14811,
+      "FP": 5859,
+      "PRD": 1360,
+      "PUN": 1022,
+      "PRSC": 979,
+      "BIS": 784,
+      "DXC": 448,
+      "ALPAIS": 369,
+      "PHD": 316,
+      "PCR": 309,
+      "MODA": 290,
+      "F.AMPLIO": 187,
+      "PQDC": 185,
+      "PRSD": 177,
+      "PPC": 164,
+      "PAL": 145,
+      "APD": 144,
+      "FNP": 134,
+      "UDC": 118,
+      "PRI": 112,
+      "PDP": 75,
+      "PP": 70,
+      "PDI": 41,
+      "PNVC": 23
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 42.81
+      },
+      {
+        "id": "PLD",
+        "pct": 30.12
+      },
+      {
+        "id": "FP",
+        "pct": 11.92
+      }
+    ],
+    "inscritos": 83262,
+    "votos_emitidos": 50718,
+    "votos_validos": 49171,
+    "participacion": 60.91,
+    "abstencion": 39.09,
+    "enpp": 3.444,
+    "margen_pp": 12.69,
+    "riesgo_score": 54.6,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "23",
+    "provincia": "Samana",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 42.75,
+    "blocs": {
+      "PRM": 20009,
+      "PLD": 18612,
+      "PCR": 1213,
+      "PRD": 1049,
+      "PRSC": 861,
+      "ALPAIS": 821,
+      "DXC": 659,
+      "FP": 495,
+      "MODA": 376,
+      "PRSD": 369,
+      "PHD": 333,
+      "F.AMPLIO": 317,
+      "APD": 246,
+      "PPC": 242,
+      "PUN": 183,
+      "UDC": 180,
+      "BIS": 162,
+      "PAL": 157,
+      "PDP": 99,
+      "PQDC": 92,
+      "PDI": 74,
+      "FNP": 69,
+      "PP": 67,
+      "PNVC": 60,
+      "PRI": 57
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 42.75
+      },
+      {
+        "id": "PLD",
+        "pct": 39.77
+      },
+      {
+        "id": "PCR",
+        "pct": 2.59
+      }
+    ],
+    "inscritos": 76742,
+    "votos_emitidos": 48004,
+    "votos_validos": 46802,
+    "participacion": 62.55,
+    "abstencion": 37.45,
+    "enpp": 2.912,
+    "margen_pp": 2.98,
+    "riesgo_score": 88.1,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "24",
+    "provincia": "San Cristobal",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 44.55,
+    "blocs": {
+      "PRM": 107254,
+      "PLD": 81378,
+      "FP": 14599,
+      "PRD": 6799,
+      "PUN": 6374,
+      "BIS": 4776,
+      "PRSC": 2448,
+      "DXC": 2098,
+      "PQDC": 1870,
+      "PCR": 1696,
+      "MODA": 1454,
+      "PRSD": 1387,
+      "APD": 1192,
+      "ALPAIS": 1130,
+      "PAL": 1068,
+      "FNP": 1015,
+      "PHD": 995,
+      "PPC": 660,
+      "PDP": 660,
+      "UDC": 617,
+      "PP": 448,
+      "PRI": 361,
+      "PDI": 312,
+      "PNVC": 178
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 44.55
+      },
+      {
+        "id": "PLD",
+        "pct": 33.8
+      },
+      {
+        "id": "FP",
+        "pct": 6.06
+      }
+    ],
+    "inscritos": 411544,
+    "votos_emitidos": 249674,
+    "votos_validos": 240769,
+    "participacion": 60.67,
+    "abstencion": 39.33,
+    "enpp": 3.137,
+    "margen_pp": 10.75,
+    "riesgo_score": 58.5,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "25",
+    "provincia": "San Juan",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 52.57,
+    "blocs": {
+      "PLD": 61624,
+      "PRM": 36117,
+      "PRD": 3995,
+      "PCR": 1923,
+      "PPC": 1880,
+      "PRSC": 1619,
+      "ALPAIS": 1508,
+      "MODA": 1307,
+      "DXC": 906,
+      "F.AMPLIO": 778,
+      "UDC": 773,
+      "BIS": 688,
+      "PAL": 669,
+      "PRI": 650,
+      "APD": 544,
+      "PRSD": 460,
+      "PDP": 382,
+      "PUN": 356,
+      "PP": 247,
+      "PHD": 237,
+      "PDI": 190,
+      "PQDC": 155,
+      "FNP": 149,
+      "PNVC": 72
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 52.57
+      },
+      {
+        "id": "PRM",
+        "pct": 30.81
+      },
+      {
+        "id": "PRD",
+        "pct": 3.41
+      }
+    ],
+    "inscritos": 183459,
+    "votos_emitidos": 122288,
+    "votos_validos": 117229,
+    "participacion": 66.66,
+    "abstencion": 33.34,
+    "enpp": 2.676,
+    "margen_pp": 21.76,
+    "riesgo_score": 8.2,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "26",
+    "provincia": "San Pedro De Macoris",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 43.2,
+    "blocs": {
+      "PLD": 50970,
+      "PRM": 47038,
+      "PCR": 2784,
+      "PRSC": 2255,
+      "MODA": 1640,
+      "ALPAIS": 1565,
+      "DXC": 1512,
+      "UDC": 1115,
+      "PPC": 1091,
+      "PDP": 1024,
+      "PAL": 938,
+      "PRSD": 907,
+      "BIS": 782,
+      "PHD": 780,
+      "F.AMPLIO": 741,
+      "APD": 680,
+      "PRI": 667,
+      "PUN": 556,
+      "PP": 416,
+      "PQDC": 252,
+      "FNP": 174,
+      "PNVC": 93
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 43.2
+      },
+      {
+        "id": "PRM",
+        "pct": 39.87
+      },
+      {
+        "id": "PCR",
+        "pct": 2.36
+      }
+    ],
+    "inscritos": 216098,
+    "votos_emitidos": 121504,
+    "votos_validos": 117980,
+    "participacion": 56.23,
+    "abstencion": 43.77,
+    "enpp": 2.876,
+    "margen_pp": 3.33,
+    "riesgo_score": 86.7,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "27",
+    "provincia": "Sanchez Ramirez",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 54.53,
+    "blocs": {
+      "PRM": 44529,
+      "PLD": 21834,
+      "FP": 2943,
+      "PRD": 2702,
+      "PUN": 1554,
+      "BIS": 1346,
+      "PRSC": 1090,
+      "PCR": 812,
+      "DXC": 785,
+      "ALPAIS": 621,
+      "MODA": 584,
+      "APD": 389,
+      "F.AMPLIO": 370,
+      "PHD": 296,
+      "PP": 247,
+      "PQDC": 242,
+      "PAL": 217,
+      "PRI": 214,
+      "FNP": 196,
+      "PRSD": 194,
+      "UDC": 138,
+      "PPC": 137,
+      "PDI": 113,
+      "PDP": 80,
+      "PNVC": 32
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 54.53
+      },
+      {
+        "id": "PLD",
+        "pct": 26.74
+      },
+      {
+        "id": "FP",
+        "pct": 3.6
+      }
+    ],
+    "inscritos": 120919,
+    "votos_emitidos": 83404,
+    "votos_validos": 81665,
+    "participacion": 68.98,
+    "abstencion": 31.02,
+    "enpp": 2.685,
+    "margen_pp": 27.79,
+    "riesgo_score": 5,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "28",
+    "provincia": "Santiago",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 50.03,
+    "blocs": {
+      "PRM": 189263,
+      "PLD": 99963,
+      "PRSC": 18751,
+      "FP": 9268,
+      "DXC": 8777,
+      "PUN": 8730,
+      "PRD": 8695,
+      "BIS": 6611,
+      "ALPAIS": 5673,
+      "PCR": 2695,
+      "PQDC": 2520,
+      "F.AMPLIO": 2517,
+      "MODA": 2225,
+      "FNP": 1506,
+      "APD": 1494,
+      "PRSD": 1432,
+      "PHD": 1355,
+      "PPC": 1172,
+      "PP": 1153,
+      "UDC": 960,
+      "PAL": 886,
+      "PNVC": 764,
+      "PDI": 709,
+      "PDP": 700,
+      "PRI": 500
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 50.03
+      },
+      {
+        "id": "PLD",
+        "pct": 26.42
+      },
+      {
+        "id": "PRSC",
+        "pct": 4.96
+      }
+    ],
+    "inscritos": 756504,
+    "votos_emitidos": 388366,
+    "votos_validos": 378319,
+    "participacion": 51.34,
+    "abstencion": 48.66,
+    "enpp": 3.072,
+    "margen_pp": 23.6,
+    "riesgo_score": 6.4,
+    "riesgo_nivel": "baja"
+  },
+  {
+    "id": "29",
+    "provincia": "Santiago Rodriguez",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 42.92,
+    "blocs": {
+      "PRM": 14173,
+      "PLD": 13386,
+      "PRD": 1097,
+      "FP": 1079,
+      "PRSC": 461,
+      "PUN": 427,
+      "BIS": 409,
+      "PCR": 335,
+      "MODA": 301,
+      "DXC": 209,
+      "PQDC": 152,
+      "ALPAIS": 113,
+      "PRSD": 111,
+      "FNP": 107,
+      "PPC": 94,
+      "F.AMPLIO": 93,
+      "APD": 91,
+      "UDC": 85,
+      "PHD": 71,
+      "PAL": 66,
+      "PRI": 55,
+      "PP": 34,
+      "PDI": 29,
+      "PDP": 28,
+      "PNVC": 18
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 42.92
+      },
+      {
+        "id": "PLD",
+        "pct": 40.53
+      },
+      {
+        "id": "PRD",
+        "pct": 3.32
+      }
+    ],
+    "inscritos": 48561,
+    "votos_emitidos": 33707,
+    "votos_validos": 33024,
+    "participacion": 69.41,
+    "abstencion": 30.59,
+    "enpp": 2.845,
+    "margen_pp": 2.38,
+    "riesgo_score": 90.5,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "30",
+    "provincia": "Valverde",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 49.43,
+    "blocs": {
+      "PRM": 32442,
+      "PLD": 22655,
+      "PRD": 1988,
+      "FP": 1129,
+      "BIS": 1090,
+      "PRSC": 1087,
+      "PUN": 1023,
+      "PCR": 652,
+      "MODA": 588,
+      "DXC": 416,
+      "F.AMPLIO": 291,
+      "ALPAIS": 273,
+      "PQDC": 266,
+      "APD": 239,
+      "PAL": 230,
+      "UDC": 188,
+      "PP": 187,
+      "PRSD": 164,
+      "FNP": 159,
+      "PPC": 157,
+      "PHD": 117,
+      "PRI": 107,
+      "PDP": 106,
+      "PDI": 82
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 49.43
+      },
+      {
+        "id": "PLD",
+        "pct": 34.52
+      },
+      {
+        "id": "PRD",
+        "pct": 3.03
+      }
+    ],
+    "inscritos": 114055,
+    "votos_emitidos": 67311,
+    "votos_validos": 65636,
+    "participacion": 59.02,
+    "abstencion": 40.98,
+    "enpp": 2.734,
+    "margen_pp": 14.91,
+    "riesgo_score": 50.2,
+    "riesgo_nivel": "media"
+  },
+  {
+    "id": "31",
+    "provincia": "San Jose De Ocoa",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PLD",
+    "bloque_coalicion": "PLD",
+    "pct_ganador": 39.08,
+    "blocs": {
+      "PLD": 12098,
+      "PRM": 11883,
+      "PRD": 1730,
+      "FP": 1196,
+      "PUN": 557,
+      "PRSC": 544,
+      "BIS": 503,
+      "MODA": 334,
+      "PCR": 334,
+      "ALPAIS": 249,
+      "DXC": 232,
+      "F.AMPLIO": 189,
+      "PAL": 148,
+      "PQDC": 132,
+      "UDC": 115,
+      "PPC": 110,
+      "PRSD": 99,
+      "FNP": 84,
+      "APD": 77,
+      "PP": 75,
+      "PDP": 75,
+      "PRI": 70,
+      "PHD": 69,
+      "PDI": 57
+    },
+    "top3": [
+      {
+        "id": "PLD",
+        "pct": 39.08
+      },
+      {
+        "id": "PRM",
+        "pct": 38.38
+      },
+      {
+        "id": "PRD",
+        "pct": 5.59
+      }
+    ],
+    "inscritos": 50231,
+    "votos_emitidos": 32616,
+    "votos_validos": 30960,
+    "participacion": 64.93,
+    "abstencion": 35.07,
+    "enpp": 3.268,
+    "margen_pp": 0.69,
+    "riesgo_score": 95,
+    "riesgo_nivel": "alta"
+  },
+  {
+    "id": "32",
+    "provincia": "Santo Domingo",
+    "nivel": "senadores",
+    "fuente": "CSV_JCE_2020",
+    "ganador": "PRM",
+    "bloque_coalicion": "PRM",
+    "pct_ganador": 47.63,
+    "blocs": {
+      "PRM": 378098,
+      "PLD": 235476,
+      "FP": 39217,
+      "PRD": 27317,
+      "ALPAIS": 16392,
+      "PRSC": 12763,
+      "DXC": 10128,
+      "F.AMPLIO": 7861,
+      "PCR": 7729,
+      "PRSD": 6465,
+      "MODA": 5635,
+      "APD": 4955,
+      "PUN": 4840,
+      "BIS": 4758,
+      "PPC": 4272,
+      "PP": 3474,
+      "PHD": 3226,
+      "PDI": 3006,
+      "PAL": 2992,
+      "UDC": 2984,
+      "PQDC": 2844,
+      "PRI": 2580,
+      "PDP": 2391,
+      "PNVC": 2335,
+      "FNP": 2005
+    },
+    "top3": [
+      {
+        "id": "PRM",
+        "pct": 47.63
+      },
+      {
+        "id": "PLD",
+        "pct": 29.67
+      },
+      {
+        "id": "FP",
+        "pct": 4.94
+      }
+    ],
+    "inscritos": 1546349,
+    "votos_emitidos": 819138,
+    "votos_validos": 793743,
+    "participacion": 52.97,
+    "abstencion": 47.03,
+    "enpp": 3.125,
+    "margen_pp": 17.97,
+    "riesgo_score": 12.0,
+    "riesgo_nivel": "baja"
+  }
+]

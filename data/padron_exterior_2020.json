@@ -1,0 +1,35 @@
+{
+  "eleccion": "2020",
+  "fuente": "JCE CSV diputados_exterior_2020",
+  "total_inscrito_exterior": 595879,
+  "nota": "Exterior vota Presidencial + Diputados en misma jornada",
+  "padron": [
+    {
+      "circ_exterior": 1,
+      "region": "Exterior General",
+      "inscritos": 366718,
+      "niveles": [
+        "presidencial_exterior",
+        "diputados_exterior"
+      ]
+    },
+    {
+      "circ_exterior": 2,
+      "region": "Caribe y Centroamérica",
+      "inscritos": 118071,
+      "niveles": [
+        "presidencial_exterior",
+        "diputados_exterior"
+      ]
+    },
+    {
+      "circ_exterior": 3,
+      "region": "Europa y Otros",
+      "inscritos": 111090,
+      "niveles": [
+        "presidencial_exterior",
+        "diputados_exterior"
+      ]
+    }
+  ]
+}
