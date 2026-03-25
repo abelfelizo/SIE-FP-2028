@@ -250,8 +250,10 @@ const MotorResultados = {
         municipio_id: mun.municipio_id,
         provincia_id: mun.provincia_id,
         municipio:    mun.municipio,
+        provincia:    mun.provincia || '',
         ganador,
         pct_ganador: total > 0 ? +(sorted[0][1]/total*100).toFixed(2) : 0,
+        margen_pp:   sorted.length >= 2 ? +((sorted[0][1]-sorted[1][1])/total*100).toFixed(1) : +(sorted[0][1]/total*100).toFixed(1),
         blocs,
         totales: mun.totales
       };

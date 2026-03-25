@@ -248,138 +248,75 @@
 <!-- ══════════════ BASE ELECTORAL ══════════════ -->
 
 <div id="view-presidencial" class="view">
-  <div class="section-title">🗾 Resultados Presidenciales 2024</div>
+  <div class="section-title">🗾 Presidencial 2024</div>
+
+  <!-- Row 1: KPIs -->
   <div class="kpi-grid" id="pres-kpis"></div>
-  <div class="grid g2">
-    <div class="card">
-      <div class="card-hdr"><span class="card-title">Por bloque electoral</span><span class="card-badge">JCE Oficial · Con alianzas</span></div>
-      <div id="pres-blocs-bars" class="bar-list"></div>
-      <div id="nota-pres-barras"></div>
-    </div>
-    <div class="card">
-      <div class="card-hdr"><span class="card-title">Estadísticas del proceso</span></div>
-      <div id="pres-stats"></div>
-    </div>
-  </div>
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr"><span class="card-title">Por partido individual</span><span class="card-badge">Sin agrupar por alianza</span></div>
-    <div id="pres-all-parties" class="card-scroll"></div>
-  </div>
-  <!-- Desglose por provincia -->
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('prov')">
-      <span class="card-title">📍 Resultados por provincia</span>
-      <span class="card-badge" id="pres-prov-badge">▶ Expandir · 32 provincias</span>
-    </div>
-    <div id="pres-prov-panel" style="display:none">
-      <div class="prov-grid" id="pres-prov-grid"></div>
-    </div>
-  </div>
-  <!-- Desglose por municipio -->
-  <div class="card" style="margin-top:.65rem">
-    <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('muni')">
-      <span class="card-title">🏘 Resultados por municipio</span>
-      <span class="card-badge" id="pres-muni-badge">▶ Expandir · 158 municipios</span>
-    </div>
-    <div id="pres-muni-panel" style="display:none">
-      <div style="padding:.5rem .75rem;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;gap:.5rem;align-items:center;flex-wrap:wrap">
-        <span style="font-size:.7rem;color:var(--muted);font-weight:600">Filtrar por provincia:</span>
-        <select id="pres-muni-filter" onchange="renderPresidencialMuniFiltered()" style="background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.2rem .5rem;border-radius:.3rem;font-size:.72rem">
-          <option value="">Todas (158)</option>
-        </select>
+
+  <!-- Row 2: Compact 2-col -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:.65rem">
+
+    <!-- Col A: Blocs + stats -->
+    <div style="display:flex;flex-direction:column;gap:.65rem">
+      <div class="card">
+        <div class="card-hdr">
+          <span class="card-title">Por bloque</span>
+          <span class="card-badge">JCE · Con alianzas</span>
+        </div>
+        <div id="pres-blocs-bars" class="bar-list"></div>
+        <div id="nota-pres-barras"></div>
       </div>
-      <div id="pres-muni-grid" class="card-scroll"></div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Proceso electoral</span></div>
+        <div id="pres-stats"></div>
+      </div>
     </div>
-  </div>
-</div>
 
-<div id="view-senadores" class="view">
-  <div class="section-title">🏛 Senadores 2024 — 32 Provincias</div>
-  <div class="kpi-grid" id="sen-kpis"></div>
-    <div id="nota-sen-grid"></div>
-  <div class="tab-bar" id="sen-tab-bar">
-    <button class="tab-btn active" data-tab="sen-tab-real">Por partido real</button>
-    <button class="tab-btn" data-tab="sen-tab-coal">Por bloque coalición</button>
-  </div>
-  <div id="sen-tab-real" class="tab-panel active">
-    <div class="prov-grid" id="sen-prov-grid"></div>
-  </div>
-  <div id="sen-tab-coal" class="tab-panel">
-    <div id="sen-coal-detail"></div>
-  </div>
-</div>
-
-<div id="view-diputados" class="view">
-  <div class="section-title">📋 Diputados 2024 — D'Hondt</div>
-  <div class="kpi-grid" id="dip-kpis"></div>
-    <div id="nota-dip"></div>
-  <div class="grid g2">
+    <!-- Col B: Partidos individuales (lista compacta) -->
     <div class="card">
-      <div class="card-hdr"><span class="card-title">Curules por partido</span><span class="card-badge">178+5+7=190</span></div>
-      <div id="dip-bar-list" class="bar-list"></div>
+      <div class="card-hdr">
+        <span class="card-title">Por partido individual</span>
+        <span class="card-badge">Sin agrupar</span>
+      </div>
+      <div id="pres-all-parties" class="card-scroll" style="max-height:440px"></div>
     </div>
+
+  </div>
+
+  <!-- Row 3: Territorio — 2 collapsibles -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:.65rem;margin-top:.65rem">
+
+    <!-- Provincias -->
     <div class="card">
-      <div class="card-hdr"><span class="card-title">Exterior + Lista Nacional</span></div>
-      <div id="ext-detail"></div>
-      <div class="divider"></div>
-      <div id="nat-detail"></div>
+      <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('prov')">
+        <span class="card-title">📍 Por provincia</span>
+        <span class="card-badge" id="pres-prov-badge">▶ Expandir · 32</span>
+      </div>
+      <div id="pres-prov-panel" style="display:none">
+        <div class="prov-grid" id="pres-prov-grid"></div>
+      </div>
     </div>
-  </div>
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr"><span class="card-title">Por circunscripción</span><span class="card-badge">D'Hondt · umbral 2%</span></div>
-    <div id="dip-circ-grid" class="card-scroll"></div>
-  </div>
-</div>
 
-<div id="view-exterior" class="view">
-  <div class="section-title">🌍 Voto Exterior 2024</div>
-  <div class="kpi-grid" id="ext-kpis"></div>
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr"><span class="card-title">3 Circunscripciones del Exterior</span><span class="card-badge">863,784 inscritos</span></div>
-    <div id="ext-circs"></div>
-  </div>
-</div>
-
-<div id="view-historico" class="view">
-  <div class="section-title">📊 Histórico 2020 — Comparativa</div>
-  <div class="card-desc" style="margin-bottom:.85rem;padding:.5rem .75rem;background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);border-left:3px solid var(--gold);font-size:.75rem;color:var(--muted)">
-    <strong style="color:var(--text)">Nota metodológica:</strong> Los resultados 2024 incluyen alianzas electorales agrupadas por bloque. Los resultados 2020 se muestran por partido individual (alianzas 2020 estaban en formación, no son directamente comparables a las de 2024).
-  </div>
-  <div class="kpi-grid" id="hist-kpis"></div>
-  <div class="grid g2" style="margin-top:.85rem">
+    <!-- Municipios -->
     <div class="card">
-      <div class="card-hdr"><span class="card-title">Presidencial 2020</span><span class="card-badge">JCE Oficial · Sin alianzas</span></div>
-      <div id="hist-pres-bars" class="bar-list"></div>
+      <div class="card-hdr" style="cursor:pointer;user-select:none" onclick="togglePresDesglose('muni')">
+        <span class="card-title">🏘 Por municipio</span>
+        <span class="card-badge" id="pres-muni-badge">▶ Expandir · 182</span>
+      </div>
+      <div id="pres-muni-panel" style="display:none">
+        <div style="padding:.4rem .65rem;background:var(--bg3);border-bottom:1px solid var(--border);display:flex;gap:.5rem;align-items:center">
+          <span style="font-size:.68rem;color:var(--muted);font-weight:600">Provincia:</span>
+          <select id="pres-muni-filter" onchange="renderPresidencialMuniFiltered()"
+            style="background:var(--bg2);border:1px solid var(--border);color:var(--text);padding:.18rem .4rem;border-radius:.3rem;font-size:.7rem;flex:1">
+            <option value="">Todas (182)</option>
+          </select>
+        </div>
+        <div id="pres-muni-grid"></div>
+      </div>
     </div>
-    <div class="card">
-      <div class="card-hdr"><span class="card-title">Curules 2020 vs 2024</span><span class="card-badge">Comparativo legislativo</span></div>
-      <div id="hist-curules-comp"></div>
-    </div>
-  </div>
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr"><span class="card-title">Swing presidencial por provincia</span><span class="card-badge">Δ puntos porcentuales 2020→2024</span></div>
-    <div class="card-desc">Cambio en el apoyo a cada partido entre 2020 y 2024 por provincia. Positivo = ganó terreno. Negativo = perdió terreno.</div>
-    <div id="hist-swing-grid" class="card-scroll"></div>
-  </div>
-  <div class="card" style="margin-top:.85rem">
-    <div class="card-hdr"><span class="card-title">Senadores 2020</span><span class="card-badge">PRM: 25 · PLD: 7</span></div>
-    <div class="prov-grid" id="hist-sen-grid"></div>
-  </div>
-</div>
 
-<!-- ══════════════ INTELIGENCIA FP ══════════════ -->
-
-<div id="view-inteligencia" class="view">
-  <div class="section-title">🧠 Inteligencia FP — Centro de Análisis</div>
-  <!-- Tabs internos -->
-  <div class="tab-bar" id="intel-tab-bar" style="margin-bottom:.8rem">
-    <button class="tab-btn active" data-itab="intel-transferencia">🔄 Transferencia</button>
-    <button class="tab-btn" data-itab="intel-potencial">🎯 Potencial</button>
-    <button class="tab-btn" data-itab="intel-movilizacion">🚀 Movilización</button>
-    <button class="tab-btn" data-itab="intel-oportunidades">💡 Oportunidades</button>
   </div>
-
-  <!-- TAB: Transferencia -->
+<!-- TAB: Transferencia -->
   <div id="intel-transferencia" class="intel-panel">
     <div class="kpi-grid" id="transf-kpis"></div>
     <div id="nota-transferencia"></div>
@@ -665,14 +602,10 @@
 // Nav colapsable
 function toggleGroup(groupId) {
   var grp = document.getElementById(groupId);
-  var hdr = grp.querySelector('.nav-group-hdr');
-  var items = grp.querySelector('.nav-items');
-  var isOpen = hdr.classList.contains('open');
-  // Colapsar todos
-  document.querySelectorAll('.nav-group-hdr').forEach(function(h){ h.classList.remove('open'); });
-  document.querySelectorAll('.nav-items').forEach(function(i){ i.classList.remove('open'); });
-  // Abrir si estaba cerrado
-  if (!isOpen) { hdr.classList.add('open'); items.classList.add('open'); }
+  if (!grp) return;
+  var isCollapsed = grp.classList.contains('collapsed');
+  // Toggle this group
+  grp.classList.toggle('collapsed', !isCollapsed);
 }
 
 // Routing: clic en nav-btn

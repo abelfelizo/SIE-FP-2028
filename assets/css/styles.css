@@ -18,10 +18,10 @@ body.light{
 }
 
 *{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column;transition:background .25s,color .25s}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;min-height:100vh;display:grid;grid-template-rows:auto 1fr;grid-template-columns:auto 1fr;transition:background .25s,color .25s}
 
 /* ── TOPBAR ── */
-.topbar{background:var(--bg2);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:var(--shadow)}
+.topbar{background:var(--bg2);border-bottom:1px solid var(--border);grid-column:1/-1;padding:.75rem 1.5rem;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:var(--shadow)}
 .brand{display:flex;align-items:center;gap:.5rem}
 .brand-name{font-size:1.1rem;font-weight:700;letter-spacing:.05em;color:var(--text)}
 .badge{background:var(--accent);color:#fff;font-size:.65rem;font-weight:700;padding:.15rem .45rem;border-radius:.25rem}
@@ -32,16 +32,40 @@ body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,san
 .theme-toggle:hover{color:var(--text);border-color:var(--accent)}
 
 /* ── NAV JERÁRQUICO ── */
-.nav{background:var(--bg2);border-bottom:1px solid var(--border);display:flex;align-items:stretch;overflow-x:auto;scrollbar-width:none;gap:0}
+.nav{
+  grid-column:1;grid-row:2;
+  background:var(--bg2);
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  width:200px;
+  min-width:200px;
+  overflow-y:auto;
+  overflow-x:hidden;
+  position:sticky;
+  top:0;
+  height:calc(100vh - var(--topbar-h,48px));
+  gap:0;
+  scrollbar-width:thin;
+  scrollbar-color:var(--border) transparent;
+  flex-shrink:0;
+}
 .nav::-webkit-scrollbar{display:none}
-.nav-group{display:flex;align-items:stretch;gap:0;padding:0 .25rem;position:relative}
-.nav-group-label{font-size:.55rem;font-weight:800;letter-spacing:.12em;color:var(--muted);text-transform:uppercase;padding:.28rem .4rem 0;display:flex;align-items:flex-start;white-space:nowrap;opacity:.55;pointer-events:none}
+.nav-group{display:flex;flex-direction:column;width:100%;padding:0}
+.nav-group-label{font-size:.58rem;font-weight:800;letter-spacing:.1em;color:var(--muted);text-transform:uppercase;padding:.55rem .75rem .15rem;white-space:nowrap;opacity:.7;pointer-events:none;display:block}
+.nav-group-hdr{display:flex;align-items:center;justify-content:space-between;padding:.35rem .75rem;cursor:pointer;user-select:none;font-size:.72rem;font-weight:600;color:var(--muted);transition:color .15s}
+.nav-group-hdr:hover{color:var(--text)}
+.nav-items{display:flex;flex-direction:column}
+.nav-group.collapsed .nav-items{display:none}
+.nav-arrow{font-size:.6rem;opacity:.5;transition:transform .2s}
+.nav-group:not(.collapsed) .nav-arrow{transform:rotate(90deg)}
+
 .nav-sep{width:1px;background:var(--border);margin:.4rem .2rem;flex-shrink:0;align-self:stretch}
-.nav-btn{background:none;border:none;color:var(--muted);padding:.5rem .8rem;font-size:.78rem;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap;display:flex;align-items:center;gap:.3rem}
-.nav-btn:hover{color:var(--text)}.nav-btn.active{color:var(--accent);border-bottom-color:var(--accent)}
+.nav-btn{background:none;border:none;border-left:2px solid transparent;color:var(--muted);padding:.32rem .75rem .32rem 1rem;font-size:.73rem;font-weight:500;cursor:pointer;white-space:nowrap;width:100%;text-align:left;display:flex;align-items:center;gap:.3rem;transition:color .15s,background .15s}
+.nav-btn:hover{color:var(--text);background:var(--bg3)}.nav-btn.active{color:var(--accent);border-left-color:var(--accent);background:var(--bg3)}
 
 /* ── LAYOUT ── */
-.main{flex:1;padding:1.25rem;max-width:1440px;margin:0 auto;width:100%}
+.main{grid-column:2;grid-row:2;padding:1.25rem;max-width:1440px;margin:0 auto;width:100%;overflow-y:auto;min-width:0}
 .view{display:none}.view.active{display:block}
 .grid{display:grid;gap:1rem}
 .g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
@@ -192,3 +216,48 @@ body.light .tag-on{background:#DCFCE7;color:#166534;border-color:#86EFAC}
 .sim-total-ok{background:rgba(34,197,94,.12);color:var(--green)}
 .sim-total-warn{background:rgba(245,158,11,.12);color:var(--gold)}
 .sim-total-error{background:rgba(239,68,68,.12);color:var(--red)}
+
+/* ── SIE v16: Card scroll limits ── */
+.card-scroll{
+  max-height: 420px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+.card-scroll::-webkit-scrollbar { width: 4px; }
+.card-scroll::-webkit-scrollbar-track { background: transparent; }
+.card-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* Taller scrollable zones for specific sections */
+#pres-muni-grid.card-scroll { max-height: none; overflow: visible; }
+#enc-lista.card-scroll        { max-height: 500px; }
+#transf-pres.card-scroll,
+#transf-sen.card-scroll,
+#transf-dip.card-scroll      { max-height: 380px; }
+#movilizacion-list.card-scroll{ max-height: 440px; }
+#proy-territorial.card-scroll,
+#proy-sen-territorial.card-scroll { max-height: 480px; }
+#opp-lista.card-scroll,
+#opp-ganadas.card-scroll     { max-height: 360px; }
+
+/* ── SIE v16: Typography scale ── */
+:root {
+  --fs-xs:   .63rem;   /* labels, sub-badges */
+  --fs-sm:   .7rem;    /* secondary text, muted lines */
+  --fs-base: .78rem;   /* default body text */
+  --fs-md:   .85rem;   /* card body, list items */
+  --fs-lg:   .92rem;   /* section values */
+  --fs-xl:   1.05rem;  /* KPI values */
+  --fs-2xl:  1.2rem;   /* headline KPIs */
+  --fs-3xl:  1.6rem;   /* big metric */
+}
+
+/* Prevent oversized text in KPI values */
+.kpi-val { font-size: clamp(.95rem, 1.8vw, 1.4rem); font-weight: 800; }
+.kpi-label { font-size: var(--fs-xs); }
+
+/* Card consistency */
+.card-hdr { min-height: 2.2rem; }
+.card-title { font-size: var(--fs-base); }
+.card-badge { font-size: var(--fs-xs); }
+.card-desc  { font-size: var(--fs-sm); line-height: 1.5; }

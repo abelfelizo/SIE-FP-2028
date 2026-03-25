@@ -1,0 +1,5089 @@
+[
+  {
+    "provincia_id": "01",
+    "municipio_id": "0101",
+    "provincia": "Distrito Nacional",
+    "municipio": "Distrito Nacional",
+    "resultados": {
+      "PRM": 235457,
+      "PLD": 29998,
+      "FP": 133454,
+      "PRD": 1586,
+      "PRSC": 3027,
+      "BIS": 5083,
+      "PCR": 1617,
+      "PRSD": 2616,
+      "MODA": 1126,
+      "APD": 1336,
+      "PP": 3435,
+      "PHD": 856,
+      "ALPAIS": 1721,
+      "PUN": 1934,
+      "DXC": 3411
+    },
+    "totales": {
+      "votos_emitidos": 463364,
+      "votos_validos": 457360,
+      "votos_nulos": 6004
+    }
+  },
+  {
+    "provincia_id": "02",
+    "municipio_id": "0228",
+    "provincia": "La Altagracia",
+    "municipio": "Higüey",
+    "resultados": {
+      "PRM": 38317,
+      "PLD": 9401,
+      "FP": 25503,
+      "PRD": 332,
+      "ALPAIS": 533,
+      "DXC": 1577,
+      "PUN": 668,
+      "BIS": 2413,
+      "MODA": 200,
+      "PP": 542,
+      "PRSC": 701,
+      "PHD": 361,
+      "PCR": 386,
+      "PRSD": 470,
+      "APD": 276
+    },
+    "totales": {
+      "votos_emitidos": 93883,
+      "votos_validos": 92385,
+      "votos_nulos": 1498
+    }
+  },
+  {
+    "provincia_id": "02",
+    "municipio_id": "0285",
+    "provincia": "La Altagracia",
+    "municipio": "San Rafael del Yuma",
+    "resultados": {
+      "PRM": 4213,
+      "PLD": 930,
+      "FP": 2930,
+      "PRD": 55,
+      "PRSC": 54,
+      "DXC": 314,
+      "PUN": 61,
+      "BIS": 219,
+      "PHD": 19,
+      "PRSD": 36,
+      "MODA": 13,
+      "APD": 46,
+      "PP": 32,
+      "ALPAIS": 25,
+      "PCR": 22
+    },
+    "totales": {
+      "votos_emitidos": 9724,
+      "votos_validos": 9524,
+      "votos_nulos": 200
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "0310",
+    "provincia": "Azua",
+    "municipio": "Azua",
+    "resultados": {
+      "PRM": 22820,
+      "PLD": 4566,
+      "FP": 14406,
+      "PRSC": 225,
+      "ALPAIS": 142,
+      "PUN": 308,
+      "BIS": 685,
+      "PRSD": 431,
+      "MODA": 285,
+      "PP": 852,
+      "DXC": 311,
+      "PHD": 77,
+      "APD": 224,
+      "PRD": 198,
+      "PCR": 194
+    },
+    "totales": {
+      "votos_emitidos": 49801,
+      "votos_validos": 49079,
+      "votos_nulos": 722
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "0317",
+    "provincia": "Azua",
+    "municipio": "Padre Las Casas",
+    "resultados": {
+      "PRM": 5662,
+      "PLD": 2481,
+      "FP": 2287,
+      "PRSC": 58,
+      "DXC": 126,
+      "PUN": 35,
+      "BIS": 124,
+      "PHD": 26,
+      "PRSD": 85,
+      "MODA": 7,
+      "APD": 120,
+      "PP": 362,
+      "ALPAIS": 30,
+      "PCR": 26,
+      "PRD": 17
+    },
+    "totales": {
+      "votos_emitidos": 12194,
+      "votos_validos": 12043,
+      "votos_nulos": 151
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03105",
+    "provincia": "Azua",
+    "municipio": "Guayabal",
+    "resultados": {
+      "PRM": 1413,
+      "PLD": 717,
+      "FP": 584,
+      "PRSC": 24,
+      "DXC": 20,
+      "BIS": 25,
+      "PHD": 5,
+      "PCR": 11,
+      "PRSD": 125,
+      "MODA": 2,
+      "APD": 47,
+      "PP": 71,
+      "PRD": 12,
+      "PUN": 11,
+      "ALPAIS": 3
+    },
+    "totales": {
+      "votos_emitidos": 3178,
+      "votos_validos": 3125,
+      "votos_nulos": 53
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03106",
+    "provincia": "Azua",
+    "municipio": "Peralta",
+    "resultados": {
+      "PRM": 2511,
+      "PLD": 629,
+      "FP": 2130,
+      "PRD": 37,
+      "DXC": 33,
+      "PUN": 37,
+      "BIS": 79,
+      "PHD": 8,
+      "MODA": 24,
+      "PP": 183,
+      "PRSC": 33,
+      "PCR": 26,
+      "APD": 24,
+      "PRSD": 12,
+      "ALPAIS": 14
+    },
+    "totales": {
+      "votos_emitidos": 6202,
+      "votos_validos": 6120,
+      "votos_nulos": 82
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03107",
+    "provincia": "Azua",
+    "municipio": "Sabana Yegua",
+    "resultados": {
+      "PRM": 4805,
+      "PLD": 1208,
+      "FP": 2559,
+      "PRD": 46,
+      "PRSC": 59,
+      "ALPAIS": 41,
+      "DXC": 286,
+      "PUN": 37,
+      "BIS": 151,
+      "PHD": 28,
+      "PRSD": 17,
+      "MODA": 28,
+      "APD": 88,
+      "PCR": 41,
+      "PP": 384
+    },
+    "totales": {
+      "votos_emitidos": 10506,
+      "votos_validos": 10368,
+      "votos_nulos": 138
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03125",
+    "provincia": "Azua",
+    "municipio": "Las Yayas de Viajama",
+    "resultados": {
+      "PRM": 4422,
+      "PLD": 962,
+      "FP": 2241,
+      "PRD": 121,
+      "PRSC": 72,
+      "ALPAIS": 56,
+      "DXC": 429,
+      "PUN": 53,
+      "BIS": 118,
+      "PHD": 17,
+      "PCR": 22,
+      "PRSD": 36,
+      "PP": 165,
+      "APD": 68,
+      "MODA": 5
+    },
+    "totales": {
+      "votos_emitidos": 9313,
+      "votos_validos": 9148,
+      "votos_nulos": 165
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03126",
+    "provincia": "Azua",
+    "municipio": "Tábara Arriba",
+    "resultados": {
+      "PRM": 4403,
+      "PLD": 1745,
+      "FP": 2063,
+      "PRD": 16,
+      "PRSC": 101,
+      "DXC": 72,
+      "PUN": 66,
+      "BIS": 78,
+      "PHD": 17,
+      "PCR": 26,
+      "PRSD": 34,
+      "MODA": 209,
+      "APD": 356,
+      "PP": 451,
+      "ALPAIS": 9
+    },
+    "totales": {
+      "votos_emitidos": 10376,
+      "votos_validos": 10261,
+      "votos_nulos": 115
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03132",
+    "provincia": "Azua",
+    "municipio": "Estebanía",
+    "resultados": {
+      "PRM": 1925,
+      "PLD": 534,
+      "FP": 689,
+      "PRD": 30,
+      "PRSC": 26,
+      "DXC": 15,
+      "BIS": 29,
+      "PCR": 16,
+      "MODA": 54,
+      "APD": 6,
+      "PP": 50,
+      "ALPAIS": 3,
+      "PRSD": 5,
+      "PUN": 6,
+      "PHD": 4
+    },
+    "totales": {
+      "votos_emitidos": 3495,
+      "votos_validos": 3455,
+      "votos_nulos": 40
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03135",
+    "provincia": "Azua",
+    "municipio": "Las Charcas",
+    "resultados": {
+      "PRM": 2267,
+      "PLD": 769,
+      "FP": 1423,
+      "PRD": 33,
+      "PRSC": 110,
+      "PUN": 12,
+      "BIS": 80,
+      "PHD": 4,
+      "PCR": 18,
+      "PRSD": 11,
+      "PP": 108,
+      "ALPAIS": 7,
+      "DXC": 29,
+      "MODA": 3,
+      "APD": 7
+    },
+    "totales": {
+      "votos_emitidos": 5166,
+      "votos_validos": 5111,
+      "votos_nulos": 55
+    }
+  },
+  {
+    "provincia_id": "03",
+    "municipio_id": "03154",
+    "provincia": "Azua",
+    "municipio": "Pueblo Viejo",
+    "resultados": {
+      "PRM": 3028,
+      "PLD": 697,
+      "FP": 1316,
+      "PRD": 9,
+      "PRSC": 38,
+      "DXC": 40,
+      "PUN": 28,
+      "BIS": 72,
+      "PCR": 68,
+      "MODA": 11,
+      "APD": 73,
+      "PP": 105,
+      "PHD": 8,
+      "PRSD": 11,
+      "ALPAIS": 9
+    },
+    "totales": {
+      "votos_emitidos": 6408,
+      "votos_validos": 6326,
+      "votos_nulos": 82
+    }
+  },
+  {
+    "provincia_id": "04",
+    "municipio_id": "0422",
+    "provincia": "Bahoruco",
+    "municipio": "Neyba",
+    "resultados": {
+      "PRM": 9355,
+      "PLD": 3848,
+      "FP": 4268,
+      "PRSC": 96,
+      "ALPAIS": 71,
+      "DXC": 105,
+      "PUN": 103,
+      "BIS": 184,
+      "PRSD": 160,
+      "APD": 104,
+      "PP": 144,
+      "PRD": 61,
+      "PCR": 65,
+      "MODA": 27,
+      "PHD": 59
+    },
+    "totales": {
+      "votos_emitidos": 19770,
+      "votos_validos": 19399,
+      "votos_nulos": 371
+    }
+  },
+  {
+    "provincia_id": "04",
+    "municipio_id": "0476",
+    "provincia": "Bahoruco",
+    "municipio": "Tamayo",
+    "resultados": {
+      "PRM": 7726,
+      "PLD": 1926,
+      "FP": 2978,
+      "PRD": 71,
+      "PRSC": 144,
+      "ALPAIS": 42,
+      "DXC": 84,
+      "PUN": 60,
+      "PHD": 53,
+      "PRSD": 200,
+      "APD": 41,
+      "BIS": 109,
+      "PCR": 53,
+      "PP": 235,
+      "MODA": 41
+    },
+    "totales": {
+      "votos_emitidos": 14374,
+      "votos_validos": 14166,
+      "votos_nulos": 208
+    }
+  },
+  {
+    "provincia_id": "04",
+    "municipio_id": "0478",
+    "provincia": "Bahoruco",
+    "municipio": "Villa Jaragua",
+    "resultados": {
+      "PRM": 2866,
+      "PLD": 894,
+      "FP": 1752,
+      "PRD": 46,
+      "PRSC": 125,
+      "ALPAIS": 17,
+      "DXC": 53,
+      "PUN": 31,
+      "BIS": 57,
+      "PHD": 6,
+      "MODA": 24,
+      "APD": 25,
+      "PP": 122,
+      "PCR": 17,
+      "PRSD": 14
+    },
+    "totales": {
+      "votos_emitidos": 6621,
+      "votos_validos": 6546,
+      "votos_nulos": 75
+    }
+  },
+  {
+    "provincia_id": "04",
+    "municipio_id": "04112",
+    "provincia": "Bahoruco",
+    "municipio": "Los Ríos",
+    "resultados": {
+      "PRM": 1909,
+      "PLD": 720,
+      "FP": 658,
+      "PRD": 18,
+      "PRSC": 32,
+      "DXC": 23,
+      "BIS": 19,
+      "PHD": 7,
+      "PCR": 24,
+      "PRSD": 13,
+      "MODA": 2,
+      "APD": 27,
+      "PP": 66,
+      "PUN": 17,
+      "ALPAIS": 6
+    },
+    "totales": {
+      "votos_emitidos": 3886,
+      "votos_validos": 3841,
+      "votos_nulos": 45
+    }
+  },
+  {
+    "provincia_id": "04",
+    "municipio_id": "04113",
+    "provincia": "Bahoruco",
+    "municipio": "Galván",
+    "resultados": {
+      "PRM": 4138,
+      "PLD": 1694,
+      "FP": 943,
+      "PRD": 61,
+      "PRSC": 88,
+      "ALPAIS": 34,
+      "DXC": 258,
+      "PUN": 30,
+      "PHD": 83,
+      "PRSD": 117,
+      "APD": 13,
+      "PP": 96,
+      "MODA": 17,
+      "BIS": 45,
+      "PCR": 47
+    },
+    "totales": {
+      "votos_emitidos": 8057,
+      "votos_validos": 7958,
+      "votos_nulos": 99
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "0518",
+    "provincia": "Barahona",
+    "municipio": "Barahona",
+    "resultados": {
+      "PRM": 16149,
+      "PLD": 1826,
+      "FP": 15446,
+      "PRD": 106,
+      "PRSC": 250,
+      "ALPAIS": 102,
+      "DXC": 227,
+      "PUN": 161,
+      "BIS": 625,
+      "PHD": 113,
+      "MODA": 162,
+      "APD": 206,
+      "PP": 546,
+      "PRSD": 256,
+      "PCR": 364
+    },
+    "totales": {
+      "votos_emitidos": 39645,
+      "votos_validos": 39016,
+      "votos_nulos": 629
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "0519",
+    "provincia": "Barahona",
+    "municipio": "Cabral",
+    "resultados": {
+      "PRM": 3512,
+      "PLD": 1191,
+      "FP": 2754,
+      "PRD": 32,
+      "PRSC": 52,
+      "DXC": 72,
+      "PCR": 28,
+      "PRSD": 28,
+      "APD": 29,
+      "PP": 128,
+      "ALPAIS": 10,
+      "PUN": 22,
+      "BIS": 83,
+      "PHD": 20,
+      "MODA": 11
+    },
+    "totales": {
+      "votos_emitidos": 8557,
+      "votos_validos": 8432,
+      "votos_nulos": 125
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "0521",
+    "provincia": "Barahona",
+    "municipio": "Enriquillo",
+    "resultados": {
+      "PRM": 3053,
+      "PLD": 710,
+      "FP": 1392,
+      "PRSC": 103,
+      "DXC": 74,
+      "PUN": 14,
+      "BIS": 47,
+      "PHD": 11,
+      "PCR": 66,
+      "PRSD": 15,
+      "MODA": 17,
+      "PP": 125,
+      "PRD": 36,
+      "ALPAIS": 11,
+      "APD": 7
+    },
+    "totales": {
+      "votos_emitidos": 5978,
+      "votos_validos": 5930,
+      "votos_nulos": 48
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "0579",
+    "provincia": "Barahona",
+    "municipio": "Vicente Noble",
+    "resultados": {
+      "PRM": 3971,
+      "PLD": 2503,
+      "FP": 2521,
+      "PRSC": 49,
+      "BIS": 87,
+      "PCR": 14,
+      "PRSD": 121,
+      "PP": 486,
+      "PRD": 45,
+      "DXC": 90,
+      "PUN": 28,
+      "ALPAIS": 14,
+      "APD": 24,
+      "PHD": 11,
+      "MODA": 9
+    },
+    "totales": {
+      "votos_emitidos": 10555,
+      "votos_validos": 10458,
+      "votos_nulos": 97
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "0580",
+    "provincia": "Barahona",
+    "municipio": "Paraíso",
+    "resultados": {
+      "PRM": 3003,
+      "PLD": 760,
+      "FP": 1172,
+      "ALPAIS": 25,
+      "PUN": 26,
+      "PHD": 6,
+      "PRSD": 6,
+      "MODA": 109,
+      "PP": 87,
+      "BIS": 43,
+      "PRD": 23,
+      "DXC": 57,
+      "PCR": 7,
+      "APD": 14,
+      "PRSC": 33
+    },
+    "totales": {
+      "votos_emitidos": 5672,
+      "votos_validos": 5591,
+      "votos_nulos": 81
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05111",
+    "provincia": "Barahona",
+    "municipio": "Polo",
+    "resultados": {
+      "PRM": 1591,
+      "PLD": 243,
+      "FP": 633,
+      "PRD": 4,
+      "PRSC": 13,
+      "DXC": 69,
+      "PUN": 19,
+      "BIS": 26,
+      "PRSD": 54,
+      "PP": 77,
+      "PHD": 19,
+      "PCR": 7,
+      "ALPAIS": 9,
+      "APD": 7
+    },
+    "totales": {
+      "votos_emitidos": 3096,
+      "votos_validos": 3025,
+      "votos_nulos": 71
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05130",
+    "provincia": "Barahona",
+    "municipio": "El Peñón",
+    "resultados": {
+      "PRM": 923,
+      "PLD": 370,
+      "FP": 518,
+      "PRD": 5,
+      "PRSC": 58,
+      "ALPAIS": 4,
+      "DXC": 65,
+      "PUN": 9,
+      "PHD": 2,
+      "APD": 7,
+      "PP": 248,
+      "BIS": 11,
+      "PCR": 8,
+      "PRSD": 5,
+      "MODA": 3
+    },
+    "totales": {
+      "votos_emitidos": 2437,
+      "votos_validos": 2407,
+      "votos_nulos": 30
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05131",
+    "provincia": "Barahona",
+    "municipio": "Fundación",
+    "resultados": {
+      "PRM": 2182,
+      "PLD": 277,
+      "FP": 1183,
+      "PRD": 25,
+      "ALPAIS": 6,
+      "DXC": 66,
+      "BIS": 64,
+      "PHD": 27,
+      "PRSD": 16,
+      "PP": 230,
+      "PRSC": 51,
+      "PUN": 8,
+      "APD": 6,
+      "PCR": 13,
+      "MODA": 3
+    },
+    "totales": {
+      "votos_emitidos": 4504,
+      "votos_validos": 4440,
+      "votos_nulos": 64
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05137",
+    "provincia": "Barahona",
+    "municipio": "Las Salinas",
+    "resultados": {
+      "PRM": 1256,
+      "PLD": 376,
+      "FP": 637,
+      "PRD": 22,
+      "DXC": 47,
+      "BIS": 25,
+      "MODA": 7,
+      "APD": 18,
+      "PP": 83,
+      "PRSC": 6,
+      "PUN": 10,
+      "PCR": 6,
+      "PRSD": 2,
+      "ALPAIS": 3,
+      "PHD": 2
+    },
+    "totales": {
+      "votos_emitidos": 2731,
+      "votos_validos": 2706,
+      "votos_nulos": 25
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05160",
+    "provincia": "Barahona",
+    "municipio": "La Ciénaga",
+    "resultados": {
+      "PRM": 2069,
+      "PLD": 882,
+      "FP": 1057,
+      "PRD": 35,
+      "PRSC": 36,
+      "DXC": 169,
+      "BIS": 52,
+      "PCR": 5,
+      "PRSD": 14,
+      "MODA": 28,
+      "APD": 40,
+      "PP": 101,
+      "PUN": 9,
+      "ALPAIS": 7,
+      "PHD": 5
+    },
+    "totales": {
+      "votos_emitidos": 4988,
+      "votos_validos": 4921,
+      "votos_nulos": 67
+    }
+  },
+  {
+    "provincia_id": "05",
+    "municipio_id": "05167",
+    "provincia": "Barahona",
+    "municipio": "Jaquimeyes",
+    "resultados": {
+      "PRM": 740,
+      "PLD": 131,
+      "FP": 514,
+      "PRD": 18,
+      "DXC": 52,
+      "PUN": 10,
+      "BIS": 18,
+      "PHD": 9,
+      "PCR": 52,
+      "PRSD": 4,
+      "MODA": 30,
+      "APD": 5,
+      "PP": 367,
+      "ALPAIS": 3,
+      "PRSC": 1
+    },
+    "totales": {
+      "votos_emitidos": 2670,
+      "votos_validos": 2632,
+      "votos_nulos": 38
+    }
+  },
+  {
+    "provincia_id": "06",
+    "municipio_id": "0643",
+    "provincia": "Dajabon",
+    "municipio": "Restauración",
+    "resultados": {
+      "PRM": 1951,
+      "PLD": 560,
+      "FP": 806,
+      "PRSC": 39,
+      "ALPAIS": 10,
+      "DXC": 56,
+      "PUN": 20,
+      "BIS": 30,
+      "PHD": 4,
+      "PCR": 6,
+      "APD": 10,
+      "PP": 19,
+      "PRD": 18,
+      "MODA": 3,
+      "PRSD": 5
+    },
+    "totales": {
+      "votos_emitidos": 3694,
+      "votos_validos": 3639,
+      "votos_nulos": 55
+    }
+  },
+  {
+    "provincia_id": "06",
+    "municipio_id": "0644",
+    "provincia": "Dajabon",
+    "municipio": "Dajabón",
+    "resultados": {
+      "PRM": 8063,
+      "PLD": 3949,
+      "FP": 2837,
+      "PRD": 64,
+      "PRSC": 92,
+      "ALPAIS": 80,
+      "DXC": 191,
+      "PUN": 75,
+      "BIS": 158,
+      "PHD": 41,
+      "PCR": 146,
+      "PRSD": 59,
+      "APD": 63,
+      "PP": 64,
+      "MODA": 32
+    },
+    "totales": {
+      "votos_emitidos": 16970,
+      "votos_validos": 16749,
+      "votos_nulos": 221
+    }
+  },
+  {
+    "provincia_id": "06",
+    "municipio_id": "0673",
+    "provincia": "Dajabon",
+    "municipio": "Loma de Cabrera",
+    "resultados": {
+      "PRM": 4765,
+      "PLD": 1368,
+      "FP": 1619,
+      "PRD": 38,
+      "PRSC": 65,
+      "DXC": 214,
+      "BIS": 81,
+      "PRSD": 62,
+      "PP": 26,
+      "MODA": 20,
+      "ALPAIS": 24,
+      "PUN": 34,
+      "PCR": 28,
+      "PHD": 16,
+      "APD": 19
+    },
+    "totales": {
+      "votos_emitidos": 9020,
+      "votos_validos": 8891,
+      "votos_nulos": 129
+    }
+  },
+  {
+    "provincia_id": "06",
+    "municipio_id": "06115",
+    "provincia": "Dajabon",
+    "municipio": "Partido",
+    "resultados": {
+      "PRM": 2237,
+      "PLD": 613,
+      "FP": 675,
+      "PRSC": 74,
+      "ALPAIS": 9,
+      "DXC": 163,
+      "BIS": 59,
+      "PCR": 4,
+      "PRSD": 20,
+      "APD": 7,
+      "PP": 8,
+      "PRD": 8,
+      "PUN": 13,
+      "PHD": 7,
+      "MODA": 1
+    },
+    "totales": {
+      "votos_emitidos": 4101,
+      "votos_validos": 4038,
+      "votos_nulos": 63
+    }
+  },
+  {
+    "provincia_id": "06",
+    "municipio_id": "06151",
+    "provincia": "Dajabon",
+    "municipio": "El Pino",
+    "resultados": {
+      "PRM": 2113,
+      "PLD": 991,
+      "FP": 587,
+      "PRSC": 22,
+      "DXC": 20,
+      "BIS": 27,
+      "PCR": 11,
+      "PRSD": 20,
+      "MODA": 1,
+      "PP": 6,
+      "PRD": 6,
+      "ALPAIS": 10,
+      "PUN": 8,
+      "APD": 5,
+      "PHD": 7
+    },
+    "totales": {
+      "votos_emitidos": 4024,
+      "votos_validos": 3974,
+      "votos_nulos": 50
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "0756",
+    "provincia": "Duarte",
+    "municipio": "San Francisco de Macorís",
+    "resultados": {
+      "PRM": 40708,
+      "PLD": 5685,
+      "FP": 15941,
+      "PRSC": 651,
+      "ALPAIS": 630,
+      "DXC": 927,
+      "PUN": 451,
+      "BIS": 795,
+      "PHD": 1025,
+      "PRSD": 690,
+      "MODA": 2902,
+      "PRD": 268,
+      "PCR": 451,
+      "PP": 962,
+      "APD": 230
+    },
+    "totales": {
+      "votos_emitidos": 77857,
+      "votos_validos": 76463,
+      "votos_nulos": 1394
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "0757",
+    "provincia": "Duarte",
+    "municipio": "Pimentel",
+    "resultados": {
+      "PRM": 4665,
+      "PLD": 581,
+      "FP": 1907,
+      "PRD": 11,
+      "ALPAIS": 24,
+      "DXC": 144,
+      "PUN": 38,
+      "BIS": 85,
+      "PHD": 91,
+      "PCR": 39,
+      "PRSD": 75,
+      "MODA": 169,
+      "PP": 155,
+      "PRSC": 40,
+      "APD": 20
+    },
+    "totales": {
+      "votos_emitidos": 8521,
+      "votos_validos": 8373,
+      "votos_nulos": 148
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "0758",
+    "provincia": "Duarte",
+    "municipio": "Villa Riva",
+    "resultados": {
+      "PRM": 7602,
+      "PLD": 1741,
+      "FP": 3417,
+      "PRSC": 129,
+      "DXC": 342,
+      "PUN": 55,
+      "BIS": 153,
+      "PHD": 235,
+      "PRSD": 136,
+      "MODA": 253,
+      "APD": 137,
+      "PP": 150,
+      "PRD": 81,
+      "PCR": 25,
+      "ALPAIS": 46
+    },
+    "totales": {
+      "votos_emitidos": 15526,
+      "votos_validos": 15333,
+      "votos_nulos": 193
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "0759",
+    "provincia": "Duarte",
+    "municipio": "Castillo",
+    "resultados": {
+      "PRM": 4370,
+      "PLD": 769,
+      "FP": 2152,
+      "PRSC": 52,
+      "ALPAIS": 17,
+      "DXC": 69,
+      "PUN": 32,
+      "BIS": 79,
+      "PHD": 85,
+      "PCR": 61,
+      "PRSD": 32,
+      "MODA": 102,
+      "APD": 14,
+      "PP": 80,
+      "PRD": 48
+    },
+    "totales": {
+      "votos_emitidos": 8592,
+      "votos_validos": 8443,
+      "votos_nulos": 149
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "0763",
+    "provincia": "Duarte",
+    "municipio": "Eugenio María de Hostos",
+    "resultados": {
+      "PRM": 1674,
+      "PLD": 640,
+      "FP": 885,
+      "PRD": 6,
+      "PRSC": 144,
+      "ALPAIS": 14,
+      "DXC": 22,
+      "PUN": 11,
+      "BIS": 29,
+      "MODA": 40,
+      "PP": 27,
+      "PCR": 11,
+      "APD": 7,
+      "PHD": 6,
+      "PRSD": 35
+    },
+    "totales": {
+      "votos_emitidos": 3781,
+      "votos_validos": 3715,
+      "votos_nulos": 66
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "07119",
+    "provincia": "Duarte",
+    "municipio": "Arenoso",
+    "resultados": {
+      "PRM": 3038,
+      "PLD": 929,
+      "FP": 1533,
+      "PRD": 54,
+      "PRSC": 41,
+      "DXC": 38,
+      "PUN": 21,
+      "BIS": 68,
+      "PHD": 301,
+      "MODA": 135,
+      "PP": 141,
+      "ALPAIS": 14,
+      "APD": 38,
+      "PRSD": 10,
+      "PCR": 11
+    },
+    "totales": {
+      "votos_emitidos": 6707,
+      "votos_validos": 6613,
+      "votos_nulos": 94
+    }
+  },
+  {
+    "provincia_id": "07",
+    "municipio_id": "07143",
+    "provincia": "Duarte",
+    "municipio": "Las Guaranas",
+    "resultados": {
+      "PRM": 2559,
+      "PLD": 490,
+      "FP": 1568,
+      "PRD": 18,
+      "PRSC": 34,
+      "ALPAIS": 36,
+      "DXC": 75,
+      "BIS": 62,
+      "PHD": 36,
+      "PCR": 16,
+      "PRSD": 93,
+      "MODA": 251,
+      "PP": 21,
+      "PUN": 21,
+      "APD": 8
+    },
+    "totales": {
+      "votos_emitidos": 5577,
+      "votos_validos": 5510,
+      "votos_nulos": 67
+    }
+  },
+  {
+    "provincia_id": "08",
+    "municipio_id": "0825",
+    "provincia": "El Seibo",
+    "municipio": "El Seibo",
+    "resultados": {
+      "PRM": 13304,
+      "PLD": 2060,
+      "FP": 9172,
+      "PRD": 260,
+      "PRSC": 215,
+      "ALPAIS": 82,
+      "DXC": 876,
+      "BIS": 671,
+      "PHD": 302,
+      "PCR": 455,
+      "PRSD": 99,
+      "PP": 210,
+      "PUN": 155,
+      "APD": 132,
+      "MODA": 52
+    },
+    "totales": {
+      "votos_emitidos": 30628,
+      "votos_validos": 29790,
+      "votos_nulos": 838
+    }
+  },
+  {
+    "provincia_id": "08",
+    "municipio_id": "0829",
+    "provincia": "El Seibo",
+    "municipio": "Miches",
+    "resultados": {
+      "PRM": 5400,
+      "PLD": 1496,
+      "FP": 2512,
+      "PUN": 41,
+      "BIS": 168,
+      "PHD": 25,
+      "PCR": 51,
+      "PRSD": 20,
+      "APD": 40,
+      "PRD": 36,
+      "PRSC": 32,
+      "DXC": 103,
+      "PP": 22,
+      "ALPAIS": 16,
+      "MODA": 13
+    },
+    "totales": {
+      "votos_emitidos": 10696,
+      "votos_validos": 10535,
+      "votos_nulos": 161
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "0915",
+    "provincia": "Elias Piña",
+    "municipio": "Bánica",
+    "resultados": {
+      "PRM": 2125,
+      "PLD": 294,
+      "FP": 1083,
+      "PRD": 22,
+      "PRSC": 303,
+      "DXC": 23,
+      "BIS": 67,
+      "PCR": 23,
+      "PP": 37,
+      "ALPAIS": 13,
+      "PRSD": 3,
+      "MODA": 7,
+      "APD": 7,
+      "PUN": 11,
+      "PHD": 4
+    },
+    "totales": {
+      "votos_emitidos": 4190,
+      "votos_validos": 4107,
+      "votos_nulos": 83
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "0916",
+    "provincia": "Elias Piña",
+    "municipio": "Comendador",
+    "resultados": {
+      "PRM": 5131,
+      "PLD": 1244,
+      "FP": 3442,
+      "PRSC": 158,
+      "DXC": 60,
+      "PUN": 54,
+      "PCR": 77,
+      "PRSD": 49,
+      "PP": 135,
+      "ALPAIS": 24,
+      "BIS": 157,
+      "PRD": 28,
+      "MODA": 56,
+      "PHD": 12,
+      "APD": 19
+    },
+    "totales": {
+      "votos_emitidos": 11294,
+      "votos_validos": 11087,
+      "votos_nulos": 207
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "0974",
+    "provincia": "Elias Piña",
+    "municipio": "Pedro Santana",
+    "resultados": {
+      "PRM": 1497,
+      "PLD": 218,
+      "FP": 667,
+      "PRD": 69,
+      "PRSC": 126,
+      "ALPAIS": 3,
+      "DXC": 23,
+      "PUN": 13,
+      "BIS": 24,
+      "PHD": 8,
+      "PCR": 13,
+      "PRSD": 5,
+      "APD": 13,
+      "PP": 25,
+      "MODA": 3
+    },
+    "totales": {
+      "votos_emitidos": 2849,
+      "votos_validos": 2761,
+      "votos_nulos": 88
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "0975",
+    "provincia": "Elias Piña",
+    "municipio": "Hondo Valle",
+    "resultados": {
+      "PRM": 2056,
+      "PLD": 623,
+      "FP": 1640,
+      "PRSC": 102,
+      "ALPAIS": 11,
+      "DXC": 69,
+      "PUN": 20,
+      "BIS": 73,
+      "PHD": 18,
+      "PCR": 7,
+      "PRSD": 34,
+      "MODA": 14,
+      "APD": 13,
+      "PP": 31,
+      "PRD": 20
+    },
+    "totales": {
+      "votos_emitidos": 5404,
+      "votos_validos": 5218,
+      "votos_nulos": 186
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "09110",
+    "provincia": "Elias Piña",
+    "municipio": "El Llano",
+    "resultados": {
+      "PRM": 1777,
+      "PLD": 426,
+      "FP": 1145,
+      "PRSC": 206,
+      "DXC": 36,
+      "PUN": 24,
+      "BIS": 48,
+      "PRSD": 12,
+      "PHD": 5,
+      "MODA": 21,
+      "APD": 17,
+      "PP": 44,
+      "PCR": 13,
+      "ALPAIS": 17,
+      "PRD": 11
+    },
+    "totales": {
+      "votos_emitidos": 3988,
+      "votos_validos": 3875,
+      "votos_nulos": 113
+    }
+  },
+  {
+    "provincia_id": "09",
+    "municipio_id": "09144",
+    "provincia": "Elias Piña",
+    "municipio": "Juan Santiago",
+    "resultados": {
+      "PRM": 878,
+      "PLD": 687,
+      "FP": 467,
+      "PRSC": 10,
+      "DXC": 22,
+      "PUN": 6,
+      "BIS": 27,
+      "PHD": 4,
+      "PCR": 16,
+      "PRSD": 13,
+      "MODA": 52,
+      "APD": 6,
+      "PP": 77,
+      "PRD": 6,
+      "ALPAIS": 7
+    },
+    "totales": {
+      "votos_emitidos": 2428,
+      "votos_validos": 2388,
+      "votos_nulos": 40
+    }
+  },
+  {
+    "provincia_id": "10",
+    "municipio_id": "1054",
+    "provincia": "Espaillat",
+    "municipio": "Moca",
+    "resultados": {
+      "PRM": 41066,
+      "PLD": 8126,
+      "FP": 16514,
+      "PRSC": 410,
+      "ALPAIS": 278,
+      "DXC": 1641,
+      "PUN": 367,
+      "BIS": 850,
+      "PHD": 242,
+      "PRSD": 340,
+      "APD": 603,
+      "PP": 203,
+      "PCR": 289,
+      "PRD": 201,
+      "MODA": 118
+    },
+    "totales": {
+      "votos_emitidos": 76074,
+      "votos_validos": 74979,
+      "votos_nulos": 1095
+    }
+  },
+  {
+    "provincia_id": "10",
+    "municipio_id": "1061",
+    "provincia": "Espaillat",
+    "municipio": "Gaspar Hernández",
+    "resultados": {
+      "PRM": 7762,
+      "PLD": 2548,
+      "FP": 3505,
+      "PRD": 77,
+      "PRSC": 87,
+      "DXC": 796,
+      "BIS": 203,
+      "PHD": 55,
+      "PCR": 213,
+      "PP": 1207,
+      "ALPAIS": 50,
+      "PRSD": 28,
+      "MODA": 57,
+      "APD": 73,
+      "PUN": 56
+    },
+    "totales": {
+      "votos_emitidos": 17777,
+      "votos_validos": 17469,
+      "votos_nulos": 308
+    }
+  },
+  {
+    "provincia_id": "10",
+    "municipio_id": "1088",
+    "provincia": "Espaillat",
+    "municipio": "Cayetano Germosén",
+    "resultados": {
+      "PRM": 2342,
+      "PLD": 405,
+      "FP": 1081,
+      "PRD": 13,
+      "PRSC": 28,
+      "ALPAIS": 7,
+      "PHD": 24,
+      "PCR": 151,
+      "PP": 18,
+      "DXC": 14,
+      "PUN": 17,
+      "BIS": 38,
+      "PRSD": 14,
+      "MODA": 13,
+      "APD": 6
+    },
+    "totales": {
+      "votos_emitidos": 4367,
+      "votos_validos": 4314,
+      "votos_nulos": 53
+    }
+  },
+  {
+    "provincia_id": "10",
+    "municipio_id": "10133",
+    "provincia": "Espaillat",
+    "municipio": "Jamao al Norte",
+    "resultados": {
+      "PRM": 2175,
+      "PLD": 993,
+      "FP": 569,
+      "PRD": 24,
+      "PRSC": 17,
+      "DXC": 22,
+      "BIS": 37,
+      "PHD": 10,
+      "PCR": 44,
+      "PP": 18,
+      "PUN": 12,
+      "APD": 7,
+      "PRSD": 6,
+      "ALPAIS": 7
+    },
+    "totales": {
+      "votos_emitidos": 4254,
+      "votos_validos": 4195,
+      "votos_nulos": 59
+    }
+  },
+  {
+    "provincia_id": "10",
+    "municipio_id": "10149",
+    "provincia": "Espaillat",
+    "municipio": "San Víctor",
+    "resultados": {
+      "PRM": 4807,
+      "PLD": 1182,
+      "FP": 1671,
+      "PRSC": 56,
+      "ALPAIS": 24,
+      "PUN": 45,
+      "BIS": 102,
+      "PCR": 41,
+      "APD": 32,
+      "PP": 79,
+      "PRD": 25,
+      "DXC": 88,
+      "PHD": 49,
+      "PRSD": 17,
+      "MODA": 6
+    },
+    "totales": {
+      "votos_emitidos": 8929,
+      "votos_validos": 8766,
+      "votos_nulos": 163
+    }
+  },
+  {
+    "provincia_id": "11",
+    "municipio_id": "1127",
+    "provincia": "Hato Mayor",
+    "municipio": "Hato Mayor",
+    "resultados": {
+      "PRM": 17481,
+      "PLD": 2827,
+      "FP": 9134,
+      "PRSC": 266,
+      "ALPAIS": 148,
+      "DXC": 356,
+      "PUN": 201,
+      "BIS": 671,
+      "PCR": 597,
+      "PRSD": 414,
+      "MODA": 119,
+      "APD": 96,
+      "PP": 282,
+      "PRD": 280,
+      "PHD": 122
+    },
+    "totales": {
+      "votos_emitidos": 35657,
+      "votos_validos": 35102,
+      "votos_nulos": 555
+    }
+  },
+  {
+    "provincia_id": "11",
+    "municipio_id": "1167",
+    "provincia": "Hato Mayor",
+    "municipio": "Sabana de la Mar",
+    "resultados": {
+      "PRM": 3780,
+      "PLD": 1303,
+      "FP": 1351,
+      "PRD": 49,
+      "PRSC": 48,
+      "ALPAIS": 47,
+      "DXC": 120,
+      "PUN": 59,
+      "BIS": 100,
+      "PCR": 78,
+      "PRSD": 56,
+      "APD": 66,
+      "PHD": 48,
+      "MODA": 15,
+      "PP": 35
+    },
+    "totales": {
+      "votos_emitidos": 7882,
+      "votos_validos": 7747,
+      "votos_nulos": 135
+    }
+  },
+  {
+    "provincia_id": "11",
+    "municipio_id": "11100",
+    "provincia": "Hato Mayor",
+    "municipio": "El Valle",
+    "resultados": {
+      "PRM": 2435,
+      "PLD": 1068,
+      "FP": 701,
+      "ALPAIS": 21,
+      "DXC": 49,
+      "PUN": 13,
+      "BIS": 54,
+      "PCR": 74,
+      "PRSD": 15,
+      "PHD": 5,
+      "MODA": 24,
+      "APD": 11,
+      "PP": 20,
+      "PRSC": 17,
+      "PRD": 14
+    },
+    "totales": {
+      "votos_emitidos": 5020,
+      "votos_validos": 4959,
+      "votos_nulos": 61
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "1220",
+    "provincia": "Independencia",
+    "municipio": "Duvergé",
+    "resultados": {
+      "PRM": 4125,
+      "PLD": 1011,
+      "FP": 1802,
+      "PRD": 15,
+      "PRSC": 105,
+      "DXC": 128,
+      "BIS": 33,
+      "PHD": 21,
+      "PCR": 39,
+      "PRSD": 73,
+      "MODA": 19,
+      "APD": 44,
+      "PP": 154,
+      "PUN": 24,
+      "ALPAIS": 10
+    },
+    "totales": {
+      "votos_emitidos": 8217,
+      "votos_validos": 8130,
+      "votos_nulos": 87
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "1270",
+    "provincia": "Independencia",
+    "municipio": "La Descubierta",
+    "resultados": {
+      "PRM": 1473,
+      "PLD": 377,
+      "FP": 822,
+      "PRD": 16,
+      "PRSC": 72,
+      "ALPAIS": 11,
+      "DXC": 10,
+      "PUN": 8,
+      "PCR": 35,
+      "PRSD": 11,
+      "MODA": 11,
+      "APD": 55,
+      "PP": 48,
+      "BIS": 27,
+      "PHD": 6
+    },
+    "totales": {
+      "votos_emitidos": 4130,
+      "votos_validos": 4083,
+      "votos_nulos": 47
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "1277",
+    "provincia": "Independencia",
+    "municipio": "Jimaní",
+    "resultados": {
+      "PRM": 3753,
+      "PLD": 1122,
+      "FP": 1321,
+      "PRD": 45,
+      "PRSC": 48,
+      "PUN": 12,
+      "BIS": 51,
+      "PCR": 16,
+      "MODA": 44,
+      "APD": 13,
+      "PP": 103,
+      "ALPAIS": 18,
+      "DXC": 40,
+      "PHD": 28,
+      "PRSD": 14
+    },
+    "totales": {
+      "votos_emitidos": 7019,
+      "votos_validos": 6928,
+      "votos_nulos": 91
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "1299",
+    "provincia": "Independencia",
+    "municipio": "Postrer Río",
+    "resultados": {
+      "PRM": 1585,
+      "PLD": 527,
+      "FP": 316,
+      "PRSC": 70,
+      "DXC": 53,
+      "PUN": 33,
+      "PCR": 44,
+      "APD": 41,
+      "PP": 20,
+      "PRD": 5,
+      "PRSD": 8,
+      "MODA": 6,
+      "ALPAIS": 4,
+      "BIS": 9,
+      "PHD": 1
+    },
+    "totales": {
+      "votos_emitidos": 2914,
+      "votos_validos": 2876,
+      "votos_nulos": 38
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "12114",
+    "provincia": "Independencia",
+    "municipio": "Mella",
+    "resultados": {
+      "PRM": 1136,
+      "PLD": 244,
+      "FP": 486,
+      "PRD": 5,
+      "PRSC": 42,
+      "BIS": 11,
+      "PRSD": 16,
+      "PP": 87,
+      "ALPAIS": 2,
+      "PHD": 7,
+      "PCR": 3,
+      "MODA": 2,
+      "PUN": 6,
+      "APD": 57,
+      "DXC": 2
+    },
+    "totales": {
+      "votos_emitidos": 2506,
+      "votos_validos": 2490,
+      "votos_nulos": 16
+    }
+  },
+  {
+    "provincia_id": "12",
+    "municipio_id": "12128",
+    "provincia": "Independencia",
+    "municipio": "Cristóbal",
+    "resultados": {
+      "PRM": 1884,
+      "PLD": 654,
+      "FP": 570,
+      "PRD": 14,
+      "PRSC": 32,
+      "ALPAIS": 4,
+      "DXC": 50,
+      "PUN": 7,
+      "BIS": 17,
+      "MODA": 7,
+      "APD": 40,
+      "PP": 39,
+      "PCR": 9,
+      "PRSD": 27,
+      "PHD": 2
+    },
+    "totales": {
+      "votos_emitidos": 3675,
+      "votos_validos": 3634,
+      "votos_nulos": 41
+    }
+  },
+  {
+    "provincia_id": "13",
+    "municipio_id": "1326",
+    "provincia": "La Romana",
+    "municipio": "La Romana",
+    "resultados": {
+      "PRM": 33030,
+      "PLD": 5052,
+      "FP": 21800,
+      "PRSC": 1317,
+      "ALPAIS": 353,
+      "DXC": 646,
+      "PUN": 559,
+      "BIS": 1288,
+      "PCR": 480,
+      "PRSD": 655,
+      "MODA": 118,
+      "APD": 248,
+      "PP": 359,
+      "PHD": 247,
+      "PRD": 361
+    },
+    "totales": {
+      "votos_emitidos": 73564,
+      "votos_validos": 72781,
+      "votos_nulos": 783
+    }
+  },
+  {
+    "provincia_id": "13",
+    "municipio_id": "13103",
+    "provincia": "La Romana",
+    "municipio": "Guaymate",
+    "resultados": {
+      "PRM": 2803,
+      "PLD": 299,
+      "FP": 1948,
+      "PRD": 42,
+      "PRSC": 173,
+      "ALPAIS": 23,
+      "DXC": 53,
+      "PUN": 54,
+      "BIS": 178,
+      "PHD": 20,
+      "PCR": 65,
+      "PRSD": 372,
+      "MODA": 17,
+      "PP": 70,
+      "APD": 31
+    },
+    "totales": {
+      "votos_emitidos": 6725,
+      "votos_validos": 6570,
+      "votos_nulos": 155
+    }
+  },
+  {
+    "provincia_id": "13",
+    "municipio_id": "13295",
+    "provincia": "La Romana",
+    "municipio": "Villa Hermosa",
+    "resultados": {
+      "PRM": 11922,
+      "PLD": 2835,
+      "FP": 11462,
+      "PRD": 209,
+      "PRSC": 422,
+      "ALPAIS": 144,
+      "DXC": 258,
+      "PUN": 215,
+      "BIS": 777,
+      "PCR": 212,
+      "PRSD": 190,
+      "MODA": 69,
+      "PP": 172,
+      "PHD": 146,
+      "APD": 73
+    },
+    "totales": {
+      "votos_emitidos": 32241,
+      "votos_validos": 31761,
+      "votos_nulos": 480
+    }
+  },
+  {
+    "provincia_id": "14",
+    "municipio_id": "1447",
+    "provincia": "La Vega",
+    "municipio": "La Vega",
+    "resultados": {
+      "PRM": 58087,
+      "PLD": 14832,
+      "FP": 25913,
+      "PRD": 391,
+      "PRSC": 996,
+      "ALPAIS": 352,
+      "DXC": 1081,
+      "BIS": 1404,
+      "PCR": 477,
+      "PRSD": 1621,
+      "APD": 283,
+      "PP": 909,
+      "PUN": 790,
+      "PHD": 268,
+      "MODA": 279
+    },
+    "totales": {
+      "votos_emitidos": 115171,
+      "votos_validos": 113424,
+      "votos_nulos": 1747
+    }
+  },
+  {
+    "provincia_id": "14",
+    "municipio_id": "1450",
+    "provincia": "La Vega",
+    "municipio": "Jarabacoa",
+    "resultados": {
+      "PRM": 12317,
+      "PLD": 5253,
+      "FP": 5176,
+      "PRSC": 568,
+      "DXC": 222,
+      "PUN": 168,
+      "BIS": 345,
+      "APD": 57,
+      "PP": 237,
+      "ALPAIS": 66,
+      "PCR": 194,
+      "PRSD": 213,
+      "MODA": 38,
+      "PRD": 136,
+      "PHD": 73
+    },
+    "totales": {
+      "votos_emitidos": 26742,
+      "votos_validos": 26202,
+      "votos_nulos": 540
+    }
+  },
+  {
+    "provincia_id": "14",
+    "municipio_id": "1453",
+    "provincia": "La Vega",
+    "municipio": "Constanza",
+    "resultados": {
+      "PRM": 13742,
+      "PLD": 2746,
+      "FP": 8467,
+      "PRD": 111,
+      "PRSC": 618,
+      "ALPAIS": 110,
+      "DXC": 202,
+      "PUN": 202,
+      "BIS": 438,
+      "PHD": 92,
+      "PRSD": 91,
+      "MODA": 63,
+      "PP": 263,
+      "APD": 62,
+      "PCR": 90
+    },
+    "totales": {
+      "votos_emitidos": 28880,
+      "votos_validos": 28405,
+      "votos_nulos": 475
+    }
+  },
+  {
+    "provincia_id": "14",
+    "municipio_id": "14122",
+    "provincia": "La Vega",
+    "municipio": "Jima Abajo",
+    "resultados": {
+      "PRM": 5956,
+      "PLD": 2046,
+      "FP": 2850,
+      "PRD": 54,
+      "PRSC": 354,
+      "ALPAIS": 43,
+      "DXC": 99,
+      "PUN": 112,
+      "BIS": 138,
+      "PHD": 26,
+      "PCR": 40,
+      "PRSD": 616,
+      "APD": 66,
+      "PP": 93,
+      "MODA": 43
+    },
+    "totales": {
+      "votos_emitidos": 13327,
+      "votos_validos": 13133,
+      "votos_nulos": 194
+    }
+  },
+  {
+    "provincia_id": "15",
+    "municipio_id": "1560",
+    "provincia": "Maria Trinidad Sanchez",
+    "municipio": "Cabrera",
+    "resultados": {
+      "PRM": 7589,
+      "PLD": 2465,
+      "FP": 2867,
+      "PRD": 19,
+      "PRSC": 83,
+      "BIS": 149,
+      "PHD": 18,
+      "PCR": 278,
+      "PRSD": 69,
+      "PP": 126,
+      "DXC": 54,
+      "PUN": 74,
+      "MODA": 38,
+      "ALPAIS": 27,
+      "APD": 38
+    },
+    "totales": {
+      "votos_emitidos": 14619,
+      "votos_validos": 14445,
+      "votos_nulos": 174
+    }
+  },
+  {
+    "provincia_id": "15",
+    "municipio_id": "1571",
+    "provincia": "Maria Trinidad Sanchez",
+    "municipio": "Nagua",
+    "resultados": {
+      "PRM": 19382,
+      "PLD": 3592,
+      "FP": 8038,
+      "PRD": 51,
+      "PRSC": 333,
+      "DXC": 333,
+      "PUN": 182,
+      "BIS": 388,
+      "PCR": 83,
+      "PRSD": 410,
+      "MODA": 395,
+      "PP": 680,
+      "PHD": 63,
+      "APD": 65,
+      "ALPAIS": 85
+    },
+    "totales": {
+      "votos_emitidos": 36488,
+      "votos_validos": 35853,
+      "votos_nulos": 635
+    }
+  },
+  {
+    "provincia_id": "15",
+    "municipio_id": "1581",
+    "provincia": "Maria Trinidad Sanchez",
+    "municipio": "Río San Juan",
+    "resultados": {
+      "PRM": 3235,
+      "PLD": 897,
+      "FP": 1691,
+      "PRD": 23,
+      "PRSC": 45,
+      "ALPAIS": 21,
+      "PUN": 25,
+      "BIS": 113,
+      "PCR": 117,
+      "PRSD": 16,
+      "APD": 35,
+      "PP": 508,
+      "DXC": 28,
+      "MODA": 15,
+      "PHD": 21
+    },
+    "totales": {
+      "votos_emitidos": 7772,
+      "votos_validos": 7637,
+      "votos_nulos": 135
+    }
+  },
+  {
+    "provincia_id": "15",
+    "municipio_id": "15136",
+    "provincia": "Maria Trinidad Sanchez",
+    "municipio": "El Factor",
+    "resultados": {
+      "PRM": 6042,
+      "PLD": 2719,
+      "FP": 1942,
+      "PRSC": 52,
+      "DXC": 65,
+      "PUN": 61,
+      "BIS": 102,
+      "PHD": 35,
+      "PCR": 112,
+      "MODA": 119,
+      "PP": 399,
+      "PRD": 21,
+      "ALPAIS": 47,
+      "APD": 24,
+      "PRSD": 98
+    },
+    "totales": {
+      "votos_emitidos": 12416,
+      "votos_validos": 12254,
+      "votos_nulos": 162
+    }
+  },
+  {
+    "provincia_id": "16",
+    "municipio_id": "1648",
+    "provincia": "Monseñor Nouel",
+    "municipio": "Bonao",
+    "resultados": {
+      "PRM": 29667,
+      "PLD": 3681,
+      "FP": 14819,
+      "PRSC": 640,
+      "ALPAIS": 283,
+      "PUN": 390,
+      "BIS": 781,
+      "PHD": 130,
+      "PCR": 287,
+      "PRSD": 331,
+      "APD": 134,
+      "DXC": 499,
+      "PP": 396,
+      "PRD": 276,
+      "MODA": 119
+    },
+    "totales": {
+      "votos_emitidos": 57545,
+      "votos_validos": 56687,
+      "votos_nulos": 858
+    }
+  },
+  {
+    "provincia_id": "16",
+    "municipio_id": "16118",
+    "provincia": "Monseñor Nouel",
+    "municipio": "Maimón",
+    "resultados": {
+      "PRM": 4341,
+      "PLD": 874,
+      "FP": 3014,
+      "PRD": 43,
+      "PRSC": 371,
+      "DXC": 42,
+      "BIS": 140,
+      "PHD": 24,
+      "PCR": 102,
+      "PRSD": 147,
+      "MODA": 13,
+      "APD": 30,
+      "PP": 94,
+      "ALPAIS": 29,
+      "PUN": 61
+    },
+    "totales": {
+      "votos_emitidos": 10137,
+      "votos_validos": 9933,
+      "votos_nulos": 204
+    }
+  },
+  {
+    "provincia_id": "16",
+    "municipio_id": "16123",
+    "provincia": "Monseñor Nouel",
+    "municipio": "Piedra Blanca",
+    "resultados": {
+      "PRM": 4945,
+      "PLD": 1713,
+      "FP": 2848,
+      "PRD": 157,
+      "PRSC": 61,
+      "ALPAIS": 36,
+      "DXC": 61,
+      "PUN": 50,
+      "BIS": 153,
+      "PCR": 251,
+      "PRSD": 216,
+      "PP": 220,
+      "PHD": 64,
+      "MODA": 13,
+      "APD": 22
+    },
+    "totales": {
+      "votos_emitidos": 11592,
+      "votos_validos": 11385,
+      "votos_nulos": 207
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "1741",
+    "provincia": "Monte Cristi",
+    "municipio": "Montecristi",
+    "resultados": {
+      "PRM": 6518,
+      "PLD": 1214,
+      "FP": 2883,
+      "PRSC": 145,
+      "DXC": 43,
+      "PCR": 173,
+      "PRSD": 94,
+      "MODA": 33,
+      "APD": 76,
+      "PRD": 27,
+      "PUN": 72,
+      "BIS": 135,
+      "PHD": 31,
+      "ALPAIS": 21,
+      "PP": 174
+    },
+    "totales": {
+      "votos_emitidos": 12204,
+      "votos_validos": 12049,
+      "votos_nulos": 155
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "1745",
+    "provincia": "Monte Cristi",
+    "municipio": "Guayubín",
+    "resultados": {
+      "PRM": 7758,
+      "PLD": 2228,
+      "FP": 3080,
+      "PRD": 48,
+      "PRSC": 92,
+      "ALPAIS": 38,
+      "BIS": 139,
+      "PHD": 72,
+      "PRSD": 116,
+      "MODA": 184,
+      "DXC": 384,
+      "PUN": 152,
+      "PCR": 50,
+      "APD": 52,
+      "PP": 186
+    },
+    "totales": {
+      "votos_emitidos": 15790,
+      "votos_validos": 15602,
+      "votos_nulos": 188
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "1772",
+    "provincia": "Monte Cristi",
+    "municipio": "Villa Vásquez",
+    "resultados": {
+      "PRM": 3253,
+      "PLD": 831,
+      "FP": 1453,
+      "PRSC": 58,
+      "ALPAIS": 12,
+      "PUN": 14,
+      "BIS": 67,
+      "PHD": 16,
+      "PCR": 212,
+      "PRSD": 42,
+      "APD": 24,
+      "PP": 98,
+      "PRD": 20,
+      "DXC": 32,
+      "MODA": 30
+    },
+    "totales": {
+      "votos_emitidos": 6714,
+      "votos_validos": 6626,
+      "votos_nulos": 88
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "1786",
+    "provincia": "Monte Cristi",
+    "municipio": "Pepillo Salcedo",
+    "resultados": {
+      "PRM": 2525,
+      "PLD": 1459,
+      "FP": 879,
+      "PRSC": 39,
+      "PUN": 17,
+      "PRSD": 17,
+      "MODA": 317,
+      "APD": 11,
+      "PRD": 4,
+      "ALPAIS": 15,
+      "DXC": 14,
+      "BIS": 29,
+      "PHD": 7,
+      "PP": 10,
+      "PCR": 11
+    },
+    "totales": {
+      "votos_emitidos": 5677,
+      "votos_validos": 5616,
+      "votos_nulos": 61
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "17101",
+    "provincia": "Monte Cristi",
+    "municipio": "Castañuelas",
+    "resultados": {
+      "PRM": 4199,
+      "PLD": 1090,
+      "FP": 1546,
+      "PRSC": 36,
+      "DXC": 82,
+      "PUN": 38,
+      "BIS": 72,
+      "PHD": 6,
+      "PCR": 39,
+      "PRSD": 20,
+      "APD": 80,
+      "PRD": 156,
+      "PP": 17,
+      "ALPAIS": 15,
+      "MODA": 8
+    },
+    "totales": {
+      "votos_emitidos": 7799,
+      "votos_validos": 7711,
+      "votos_nulos": 88
+    }
+  },
+  {
+    "provincia_id": "17",
+    "municipio_id": "17117",
+    "provincia": "Monte Cristi",
+    "municipio": "Las Matas de Santa Cruz",
+    "resultados": {
+      "PRM": 2755,
+      "PLD": 734,
+      "FP": 1006,
+      "PRD": 7,
+      "ALPAIS": 11,
+      "DXC": 45,
+      "PUN": 35,
+      "BIS": 54,
+      "PRSD": 14,
+      "APD": 9,
+      "PRSC": 19,
+      "PCR": 9,
+      "PP": 18,
+      "PHD": 9,
+      "MODA": 6
+    },
+    "totales": {
+      "votos_emitidos": 4919,
+      "votos_validos": 4841,
+      "votos_nulos": 78
+    }
+  },
+  {
+    "provincia_id": "18",
+    "municipio_id": "1804",
+    "provincia": "Monte Plata",
+    "municipio": "Bayaguana",
+    "resultados": {
+      "PRM": 5656,
+      "PLD": 1298,
+      "FP": 4372,
+      "PRD": 70,
+      "PRSC": 977,
+      "DXC": 118,
+      "PUN": 43,
+      "BIS": 225,
+      "PCR": 164,
+      "PRSD": 43,
+      "APD": 58,
+      "PP": 605,
+      "PHD": 29,
+      "MODA": 29,
+      "ALPAIS": 44
+    },
+    "totales": {
+      "votos_emitidos": 15256,
+      "votos_validos": 15027,
+      "votos_nulos": 229
+    }
+  },
+  {
+    "provincia_id": "18",
+    "municipio_id": "1805",
+    "provincia": "Monte Plata",
+    "municipio": "Yamasá",
+    "resultados": {
+      "PRM": 12245,
+      "PLD": 5884,
+      "FP": 8307,
+      "PRSC": 236,
+      "DXC": 432,
+      "BIS": 345,
+      "PHD": 79,
+      "PCR": 122,
+      "APD": 55,
+      "PRD": 126,
+      "ALPAIS": 75,
+      "PP": 223,
+      "PUN": 87,
+      "PRSD": 88,
+      "MODA": 26
+    },
+    "totales": {
+      "votos_emitidos": 29889,
+      "votos_validos": 29441,
+      "votos_nulos": 448
+    }
+  },
+  {
+    "provincia_id": "18",
+    "municipio_id": "1808",
+    "provincia": "Monte Plata",
+    "municipio": "Monte Plata",
+    "resultados": {
+      "PRM": 12305,
+      "PLD": 2840,
+      "FP": 8891,
+      "PRD": 49,
+      "PRSC": 126,
+      "DXC": 377,
+      "PUN": 83,
+      "BIS": 351,
+      "PHD": 127,
+      "PCR": 127,
+      "PRSD": 168,
+      "MODA": 87,
+      "APD": 75,
+      "PP": 269,
+      "ALPAIS": 62
+    },
+    "totales": {
+      "votos_emitidos": 27590,
+      "votos_validos": 27258,
+      "votos_nulos": 332
+    }
+  },
+  {
+    "provincia_id": "18",
+    "municipio_id": "1890",
+    "provincia": "Monte Plata",
+    "municipio": "Sabana Grande de Boyá",
+    "resultados": {
+      "PRM": 6355,
+      "PLD": 1804,
+      "FP": 5258,
+      "PRD": 112,
+      "PRSC": 207,
+      "ALPAIS": 34,
+      "DXC": 280,
+      "PUN": 104,
+      "BIS": 220,
+      "PCR": 57,
+      "PRSD": 57,
+      "PP": 71,
+      "PHD": 45,
+      "APD": 24,
+      "MODA": 10
+    },
+    "totales": {
+      "votos_emitidos": 15548,
+      "votos_validos": 15305,
+      "votos_nulos": 243
+    }
+  },
+  {
+    "provincia_id": "18",
+    "municipio_id": "18153",
+    "provincia": "Monte Plata",
+    "municipio": "Peralvillo",
+    "resultados": {
+      "PRM": 4665,
+      "PLD": 1159,
+      "FP": 3652,
+      "PRD": 42,
+      "PRSC": 45,
+      "ALPAIS": 23,
+      "DXC": 62,
+      "PUN": 32,
+      "BIS": 110,
+      "PRSD": 27,
+      "APD": 15,
+      "PP": 96,
+      "PHD": 14,
+      "PCR": 38,
+      "MODA": 6
+    },
+    "totales": {
+      "votos_emitidos": 10412,
+      "votos_validos": 10282,
+      "votos_nulos": 130
+    }
+  },
+  {
+    "provincia_id": "19",
+    "municipio_id": "1969",
+    "provincia": "Pedernales",
+    "municipio": "Pedernales",
+    "resultados": {
+      "PRM": 5348,
+      "PLD": 497,
+      "FP": 2160,
+      "PRD": 39,
+      "PRSC": 144,
+      "ALPAIS": 21,
+      "DXC": 56,
+      "PUN": 40,
+      "BIS": 81,
+      "PHD": 76,
+      "PCR": 48,
+      "PRSD": 88,
+      "MODA": 22,
+      "APD": 57,
+      "PP": 108
+    },
+    "totales": {
+      "votos_emitidos": 9346,
+      "votos_validos": 9222,
+      "votos_nulos": 124
+    }
+  },
+  {
+    "provincia_id": "19",
+    "municipio_id": "1991",
+    "provincia": "Pedernales",
+    "municipio": "Oviedo",
+    "resultados": {
+      "PRM": 2535,
+      "PLD": 297,
+      "FP": 1545,
+      "PRD": 46,
+      "PRSC": 113,
+      "ALPAIS": 17,
+      "DXC": 190,
+      "PUN": 24,
+      "BIS": 53,
+      "PCR": 7,
+      "PRSD": 19,
+      "PP": 36,
+      "APD": 31,
+      "PHD": 19,
+      "MODA": 23
+    },
+    "totales": {
+      "votos_emitidos": 5287,
+      "votos_validos": 5171,
+      "votos_nulos": 116
+    }
+  },
+  {
+    "provincia_id": "20",
+    "municipio_id": "2003",
+    "provincia": "Peravia",
+    "municipio": "Baní",
+    "resultados": {
+      "PRM": 30325,
+      "PLD": 5243,
+      "FP": 16469,
+      "PRD": 459,
+      "DXC": 682,
+      "PUN": 324,
+      "BIS": 1170,
+      "PHD": 159,
+      "PCR": 185,
+      "PRSD": 378,
+      "MODA": 129,
+      "PP": 458,
+      "PRSC": 313,
+      "ALPAIS": 176,
+      "APD": 301
+    },
+    "totales": {
+      "votos_emitidos": 60815,
+      "votos_validos": 59872,
+      "votos_nulos": 943
+    }
+  },
+  {
+    "provincia_id": "20",
+    "municipio_id": "2084",
+    "provincia": "Peravia",
+    "municipio": "Nizao",
+    "resultados": {
+      "PRM": 6450,
+      "PLD": 1272,
+      "FP": 3749,
+      "PRSC": 190,
+      "ALPAIS": 27,
+      "DXC": 79,
+      "PUN": 95,
+      "BIS": 210,
+      "PHD": 24,
+      "PRSD": 34,
+      "MODA": 9,
+      "APD": 59,
+      "PP": 199,
+      "PRD": 175,
+      "PCR": 43
+    },
+    "totales": {
+      "votos_emitidos": 13588,
+      "votos_validos": 13462,
+      "votos_nulos": 126
+    }
+  },
+  {
+    "provincia_id": "20",
+    "municipio_id": "20156",
+    "provincia": "Peravia",
+    "municipio": "Matanzas",
+    "resultados": {
+      "PRM": 3249,
+      "PLD": 818,
+      "FP": 1758,
+      "ALPAIS": 18,
+      "BIS": 124,
+      "APD": 17,
+      "PP": 60,
+      "PRD": 17,
+      "PRSC": 24,
+      "DXC": 42,
+      "PUN": 29,
+      "PCR": 11,
+      "MODA": 9,
+      "PHD": 11,
+      "PRSD": 13
+    },
+    "totales": {
+      "votos_emitidos": 6607,
+      "votos_validos": 6458,
+      "votos_nulos": 149
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "2137",
+    "provincia": "Puerto Plata",
+    "municipio": "Puerto Plata",
+    "resultados": {
+      "PRM": 35436,
+      "PLD": 9229,
+      "FP": 15826,
+      "PRD": 303,
+      "DXC": 997,
+      "BIS": 971,
+      "PHD": 144,
+      "PRSD": 187,
+      "APD": 323,
+      "ALPAIS": 237,
+      "PCR": 345,
+      "PRSC": 368,
+      "MODA": 300,
+      "PUN": 360,
+      "PP": 299
+    },
+    "totales": {
+      "votos_emitidos": 70000,
+      "votos_validos": 69015,
+      "votos_nulos": 985
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "2138",
+    "provincia": "Puerto Plata",
+    "municipio": "Imbert",
+    "resultados": {
+      "PRM": 5607,
+      "PLD": 1491,
+      "FP": 2009,
+      "PRD": 38,
+      "ALPAIS": 42,
+      "DXC": 634,
+      "PUN": 62,
+      "BIS": 135,
+      "PHD": 20,
+      "PCR": 82,
+      "APD": 51,
+      "PP": 123,
+      "PRSC": 35,
+      "PRSD": 53,
+      "MODA": 42
+    },
+    "totales": {
+      "votos_emitidos": 11095,
+      "votos_validos": 10932,
+      "votos_nulos": 163
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "2139",
+    "provincia": "Puerto Plata",
+    "municipio": "Altamira",
+    "resultados": {
+      "PRM": 6030,
+      "PLD": 1883,
+      "FP": 1454,
+      "PRD": 73,
+      "PRSC": 71,
+      "ALPAIS": 27,
+      "BIS": 74,
+      "MODA": 41,
+      "PUN": 27,
+      "PHD": 10,
+      "APD": 104,
+      "DXC": 49,
+      "PRSD": 12,
+      "PCR": 30,
+      "PP": 15
+    },
+    "totales": {
+      "votos_emitidos": 10526,
+      "votos_validos": 10372,
+      "votos_nulos": 154
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "2140",
+    "provincia": "Puerto Plata",
+    "municipio": "Luperón",
+    "resultados": {
+      "PRM": 4338,
+      "PLD": 1523,
+      "FP": 2004,
+      "PRD": 51,
+      "PRSC": 251,
+      "DXC": 145,
+      "PUN": 50,
+      "BIS": 156,
+      "PHD": 18,
+      "PCR": 25,
+      "PRSD": 80,
+      "MODA": 90,
+      "APD": 29,
+      "ALPAIS": 43,
+      "PP": 34
+    },
+    "totales": {
+      "votos_emitidos": 9646,
+      "votos_validos": 9560,
+      "votos_nulos": 86
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "2197",
+    "provincia": "Puerto Plata",
+    "municipio": "Sosúa",
+    "resultados": {
+      "PRM": 9540,
+      "PLD": 2961,
+      "FP": 4648,
+      "PRD": 84,
+      "PRSC": 502,
+      "DXC": 976,
+      "PUN": 137,
+      "BIS": 325,
+      "PHD": 47,
+      "PRSD": 63,
+      "ALPAIS": 95,
+      "PCR": 110,
+      "APD": 81,
+      "PP": 170,
+      "MODA": 27
+    },
+    "totales": {
+      "votos_emitidos": 21808,
+      "votos_validos": 21457,
+      "votos_nulos": 351
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "21102",
+    "provincia": "Puerto Plata",
+    "municipio": "Los Hidalgos",
+    "resultados": {
+      "PRM": 3725,
+      "PLD": 1171,
+      "FP": 1107,
+      "PRSC": 24,
+      "DXC": 40,
+      "BIS": 61,
+      "APD": 17,
+      "PP": 17,
+      "PRD": 27,
+      "ALPAIS": 13,
+      "PUN": 33,
+      "PHD": 15,
+      "PCR": 37,
+      "MODA": 5,
+      "PRSD": 10
+    },
+    "totales": {
+      "votos_emitidos": 6671,
+      "votos_validos": 6610,
+      "votos_nulos": 61
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "21120",
+    "provincia": "Puerto Plata",
+    "municipio": "Guananico",
+    "resultados": {
+      "PRM": 2372,
+      "PLD": 1258,
+      "FP": 442,
+      "PRD": 13,
+      "PRSC": 20,
+      "ALPAIS": 5,
+      "DXC": 77,
+      "PUN": 37,
+      "BIS": 29,
+      "PHD": 6,
+      "APD": 12,
+      "PP": 20,
+      "PRSD": 10,
+      "PCR": 19,
+      "MODA": 5
+    },
+    "totales": {
+      "votos_emitidos": 4527,
+      "votos_validos": 4488,
+      "votos_nulos": 39
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "21121",
+    "provincia": "Puerto Plata",
+    "municipio": "Villa Isabela",
+    "resultados": {
+      "PRM": 4169,
+      "PLD": 1572,
+      "FP": 1615,
+      "PRD": 87,
+      "PRSC": 360,
+      "ALPAIS": 29,
+      "DXC": 157,
+      "PUN": 118,
+      "BIS": 83,
+      "PHD": 15,
+      "PCR": 65,
+      "PRSD": 25,
+      "MODA": 52,
+      "APD": 48,
+      "PP": 36
+    },
+    "totales": {
+      "votos_emitidos": 8923,
+      "votos_validos": 8785,
+      "votos_nulos": 138
+    }
+  },
+  {
+    "provincia_id": "21",
+    "municipio_id": "21175",
+    "provincia": "Puerto Plata",
+    "municipio": "Villa Montellano",
+    "resultados": {
+      "PRM": 3917,
+      "PLD": 1051,
+      "FP": 1648,
+      "PRD": 40,
+      "PRSC": 60,
+      "ALPAIS": 19,
+      "DXC": 83,
+      "PUN": 116,
+      "BIS": 130,
+      "PHD": 21,
+      "PCR": 104,
+      "PRSD": 83,
+      "MODA": 16,
+      "APD": 32,
+      "PP": 27
+    },
+    "totales": {
+      "votos_emitidos": 7831,
+      "votos_validos": 7717,
+      "votos_nulos": 114
+    }
+  },
+  {
+    "provincia_id": "22",
+    "municipio_id": "2251",
+    "provincia": "Hermanas Mirabal",
+    "municipio": "Villa Tapia",
+    "resultados": {
+      "PRM": 7117,
+      "PLD": 1138,
+      "FP": 4205,
+      "PRD": 24,
+      "PRSC": 76,
+      "ALPAIS": 117,
+      "DXC": 88,
+      "PUN": 152,
+      "BIS": 140,
+      "PHD": 139,
+      "PCR": 715,
+      "PRSD": 91,
+      "MODA": 47,
+      "APD": 70,
+      "PP": 516
+    },
+    "totales": {
+      "votos_emitidos": 15343,
+      "votos_validos": 15136,
+      "votos_nulos": 207
+    }
+  },
+  {
+    "provincia_id": "22",
+    "municipio_id": "2255",
+    "provincia": "Hermanas Mirabal",
+    "municipio": "Salcedo",
+    "resultados": {
+      "PRM": 12824,
+      "PLD": 1803,
+      "FP": 5882,
+      "PRSC": 114,
+      "ALPAIS": 49,
+      "DXC": 154,
+      "PUN": 60,
+      "BIS": 212,
+      "PRSD": 113,
+      "MODA": 184,
+      "APD": 136,
+      "PHD": 99,
+      "PP": 217,
+      "PRD": 22,
+      "PCR": 244
+    },
+    "totales": {
+      "votos_emitidos": 23008,
+      "votos_validos": 22791,
+      "votos_nulos": 217
+    }
+  },
+  {
+    "provincia_id": "22",
+    "municipio_id": "2264",
+    "provincia": "Hermanas Mirabal",
+    "municipio": "Tenares",
+    "resultados": {
+      "PRM": 5819,
+      "PLD": 1271,
+      "FP": 4086,
+      "PRD": 37,
+      "PRSC": 89,
+      "PUN": 71,
+      "BIS": 169,
+      "PHD": 38,
+      "PCR": 256,
+      "APD": 79,
+      "PP": 82,
+      "DXC": 111,
+      "MODA": 151,
+      "ALPAIS": 44,
+      "PRSD": 26
+    },
+    "totales": {
+      "votos_emitidos": 13750,
+      "votos_validos": 13491,
+      "votos_nulos": 259
+    }
+  },
+  {
+    "provincia_id": "23",
+    "municipio_id": "2365",
+    "provincia": "Samana",
+    "municipio": "Samaná",
+    "resultados": {
+      "PRM": 14332,
+      "PLD": 3666,
+      "FP": 6707,
+      "PRD": 116,
+      "PRSC": 187,
+      "ALPAIS": 170,
+      "BIS": 450,
+      "PHD": 210,
+      "PCR": 301,
+      "PRSD": 217,
+      "MODA": 94,
+      "PP": 473,
+      "DXC": 188,
+      "PUN": 193,
+      "APD": 87
+    },
+    "totales": {
+      "votos_emitidos": 29288,
+      "votos_validos": 28760,
+      "votos_nulos": 528
+    }
+  },
+  {
+    "provincia_id": "23",
+    "municipio_id": "2366",
+    "provincia": "Samana",
+    "municipio": "Sánchez",
+    "resultados": {
+      "PRM": 7393,
+      "PLD": 1984,
+      "FP": 2881,
+      "PRD": 22,
+      "PRSC": 130,
+      "ALPAIS": 100,
+      "DXC": 65,
+      "PUN": 53,
+      "BIS": 152,
+      "PHD": 44,
+      "PRSD": 59,
+      "PP": 329,
+      "MODA": 87,
+      "PCR": 49,
+      "APD": 39
+    },
+    "totales": {
+      "votos_emitidos": 13996,
+      "votos_validos": 13785,
+      "votos_nulos": 211
+    }
+  },
+  {
+    "provincia_id": "23",
+    "municipio_id": "23134",
+    "provincia": "Samana",
+    "municipio": "Las Terrenas",
+    "resultados": {
+      "PRM": 3304,
+      "PLD": 680,
+      "FP": 2459,
+      "PRD": 25,
+      "PRSC": 132,
+      "DXC": 57,
+      "PUN": 104,
+      "BIS": 152,
+      "PCR": 45,
+      "PRSD": 76,
+      "MODA": 44,
+      "ALPAIS": 21,
+      "PHD": 30,
+      "APD": 28,
+      "PP": 35
+    },
+    "totales": {
+      "votos_emitidos": 7781,
+      "votos_validos": 7668,
+      "votos_nulos": 113
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "2402",
+    "provincia": "San Cristobal",
+    "municipio": "San Cristóbal",
+    "resultados": {
+      "PRM": 52407,
+      "PLD": 12197,
+      "FP": 38744,
+      "PRD": 483,
+      "PRSC": 590,
+      "ALPAIS": 362,
+      "DXC": 795,
+      "BIS": 2104,
+      "PHD": 285,
+      "PCR": 496,
+      "PRSD": 405,
+      "PP": 1292,
+      "PUN": 602,
+      "APD": 376,
+      "MODA": 258
+    },
+    "totales": {
+      "votos_emitidos": 119576,
+      "votos_validos": 117544,
+      "votos_nulos": 2032
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "2468",
+    "provincia": "San Cristobal",
+    "municipio": "Villa Altagracia",
+    "resultados": {
+      "PRM": 16451,
+      "PLD": 6068,
+      "FP": 11153,
+      "PRD": 150,
+      "PRSC": 349,
+      "DXC": 366,
+      "PUN": 156,
+      "BIS": 545,
+      "PRSD": 761,
+      "APD": 135,
+      "PP": 651,
+      "ALPAIS": 123,
+      "PCR": 180,
+      "MODA": 158,
+      "PHD": 108
+    },
+    "totales": {
+      "votos_emitidos": 40216,
+      "votos_validos": 39433,
+      "votos_nulos": 783
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "2482",
+    "provincia": "San Cristobal",
+    "municipio": "Yaguate",
+    "resultados": {
+      "PRM": 9484,
+      "PLD": 5914,
+      "FP": 6268,
+      "PRD": 142,
+      "PRSC": 86,
+      "ALPAIS": 61,
+      "DXC": 99,
+      "PUN": 89,
+      "BIS": 334,
+      "PCR": 95,
+      "PP": 164,
+      "PHD": 30,
+      "PRSD": 76,
+      "MODA": 155,
+      "APD": 83
+    },
+    "totales": {
+      "votos_emitidos": 24926,
+      "votos_validos": 24454,
+      "votos_nulos": 472
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "2483",
+    "provincia": "San Cristobal",
+    "municipio": "Sabana Grande de Palenque",
+    "resultados": {
+      "PRM": 3843,
+      "PLD": 1740,
+      "FP": 1507,
+      "PRD": 21,
+      "PRSC": 103,
+      "ALPAIS": 12,
+      "DXC": 39,
+      "PUN": 53,
+      "BIS": 74,
+      "PCR": 61,
+      "MODA": 18,
+      "APD": 61,
+      "PP": 176,
+      "PHD": 13,
+      "PRSD": 12
+    },
+    "totales": {
+      "votos_emitidos": 8149,
+      "votos_validos": 8086,
+      "votos_nulos": 63
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "2493",
+    "provincia": "San Cristobal",
+    "municipio": "Bajos de Haina",
+    "resultados": {
+      "PRM": 25316,
+      "PLD": 5432,
+      "FP": 16234,
+      "PRD": 424,
+      "PRSC": 322,
+      "ALPAIS": 217,
+      "DXC": 366,
+      "BIS": 839,
+      "PHD": 445,
+      "PCR": 191,
+      "PRSD": 315,
+      "MODA": 201,
+      "APD": 172,
+      "PP": 547,
+      "PUN": 291
+    },
+    "totales": {
+      "votos_emitidos": 55157,
+      "votos_validos": 54353,
+      "votos_nulos": 804
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "24104",
+    "provincia": "San Cristobal",
+    "municipio": "Cambita Garabitos",
+    "resultados": {
+      "PRM": 6917,
+      "PLD": 1615,
+      "FP": 4557,
+      "PRD": 69,
+      "PRSC": 112,
+      "ALPAIS": 33,
+      "DXC": 779,
+      "PUN": 52,
+      "BIS": 158,
+      "PHD": 95,
+      "PRSD": 41,
+      "PP": 173,
+      "PCR": 113,
+      "APD": 29,
+      "MODA": 52
+    },
+    "totales": {
+      "votos_emitidos": 15474,
+      "votos_validos": 15296,
+      "votos_nulos": 178
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "24139",
+    "provincia": "San Cristobal",
+    "municipio": "Los Cacaos",
+    "resultados": {
+      "PRM": 1785,
+      "PLD": 528,
+      "FP": 870,
+      "PRD": 13,
+      "PRSC": 228,
+      "ALPAIS": 26,
+      "PUN": 16,
+      "BIS": 40,
+      "PCR": 30,
+      "PP": 38,
+      "DXC": 30,
+      "MODA": 6,
+      "PRSD": 7,
+      "APD": 5,
+      "PHD": 3
+    },
+    "totales": {
+      "votos_emitidos": 3849,
+      "votos_validos": 3781,
+      "votos_nulos": 68
+    }
+  },
+  {
+    "provincia_id": "24",
+    "municipio_id": "24140",
+    "provincia": "San Cristobal",
+    "municipio": "San Gregorio de Nigua",
+    "resultados": {
+      "PRM": 7192,
+      "PLD": 1726,
+      "FP": 4776,
+      "PRD": 91,
+      "PRSC": 68,
+      "DXC": 93,
+      "PUN": 74,
+      "BIS": 272,
+      "PCR": 60,
+      "PRSD": 110,
+      "PP": 235,
+      "ALPAIS": 49,
+      "PHD": 65,
+      "MODA": 13,
+      "APD": 38
+    },
+    "totales": {
+      "votos_emitidos": 15763,
+      "votos_validos": 15462,
+      "votos_nulos": 301
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "2511",
+    "provincia": "San Juan",
+    "municipio": "Las Matas de Farfán",
+    "resultados": {
+      "PRM": 9954,
+      "PLD": 2671,
+      "FP": 6337,
+      "PRSC": 211,
+      "ALPAIS": 56,
+      "DXC": 360,
+      "PUN": 87,
+      "BIS": 314,
+      "PCR": 110,
+      "PRSD": 105,
+      "PP": 145,
+      "PHD": 70,
+      "MODA": 39,
+      "APD": 75,
+      "PRD": 69
+    },
+    "totales": {
+      "votos_emitidos": 21985,
+      "votos_validos": 21640,
+      "votos_nulos": 345
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "2512",
+    "provincia": "San Juan",
+    "municipio": "San Juan de la Maguana",
+    "resultados": {
+      "PRM": 29020,
+      "PLD": 8744,
+      "FP": 25839,
+      "PRD": 271,
+      "PRSC": 569,
+      "ALPAIS": 223,
+      "DXC": 504,
+      "PUN": 286,
+      "BIS": 1041,
+      "PHD": 173,
+      "PCR": 380,
+      "PRSD": 311,
+      "MODA": 120,
+      "APD": 190,
+      "PP": 677
+    },
+    "totales": {
+      "votos_emitidos": 72782,
+      "votos_validos": 71436,
+      "votos_nulos": 1346
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "2514",
+    "provincia": "San Juan",
+    "municipio": "El Cercado",
+    "resultados": {
+      "PRM": 5253,
+      "PLD": 1906,
+      "FP": 3075,
+      "PRD": 77,
+      "PRSC": 75,
+      "ALPAIS": 33,
+      "DXC": 370,
+      "PUN": 44,
+      "BIS": 126,
+      "PCR": 41,
+      "PRSD": 33,
+      "MODA": 103,
+      "APD": 14,
+      "PP": 88,
+      "PHD": 21
+    },
+    "totales": {
+      "votos_emitidos": 12045,
+      "votos_validos": 11781,
+      "votos_nulos": 264
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "25108",
+    "provincia": "San Juan",
+    "municipio": "Vallejuelo",
+    "resultados": {
+      "PRM": 2986,
+      "PLD": 1614,
+      "FP": 1255,
+      "PRD": 32,
+      "PRSC": 46,
+      "ALPAIS": 61,
+      "DXC": 128,
+      "PUN": 33,
+      "BIS": 60,
+      "PHD": 10,
+      "PRSD": 24,
+      "MODA": 168,
+      "APD": 38,
+      "PP": 128,
+      "PCR": 64
+    },
+    "totales": {
+      "votos_emitidos": 7257,
+      "votos_validos": 7170,
+      "votos_nulos": 87
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "25109",
+    "provincia": "San Juan",
+    "municipio": "Bohechio",
+    "resultados": {
+      "PRM": 2848,
+      "PLD": 1425,
+      "FP": 1361,
+      "PRSC": 16,
+      "ALPAIS": 11,
+      "DXC": 95,
+      "PUN": 28,
+      "BIS": 49,
+      "PCR": 27,
+      "MODA": 9,
+      "PP": 36,
+      "PRD": 45,
+      "APD": 16,
+      "PRSD": 20,
+      "PHD": 8
+    },
+    "totales": {
+      "votos_emitidos": 6405,
+      "votos_validos": 6304,
+      "votos_nulos": 101
+    }
+  },
+  {
+    "provincia_id": "25",
+    "municipio_id": "25129",
+    "provincia": "San Juan",
+    "municipio": "Juan de Herrera",
+    "resultados": {
+      "PRM": 3251,
+      "PLD": 948,
+      "FP": 2572,
+      "PRD": 111,
+      "PRSC": 40,
+      "DXC": 40,
+      "BIS": 119,
+      "PCR": 39,
+      "APD": 19,
+      "PUN": 38,
+      "PHD": 11,
+      "PRSD": 23,
+      "PP": 55,
+      "ALPAIS": 18,
+      "MODA": 4
+    },
+    "totales": {
+      "votos_emitidos": 7740,
+      "votos_validos": 7622,
+      "votos_nulos": 118
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "2623",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "San Pedro de Macorís",
+    "resultados": {
+      "PRM": 41469,
+      "PLD": 9310,
+      "FP": 22517,
+      "PRD": 521,
+      "PRSC": 650,
+      "ALPAIS": 399,
+      "DXC": 1299,
+      "PUN": 470,
+      "BIS": 1509,
+      "PHD": 305,
+      "PCR": 496,
+      "PRSD": 690,
+      "MODA": 474,
+      "APD": 453,
+      "PP": 941
+    },
+    "totales": {
+      "votos_emitidos": 88704,
+      "votos_validos": 87236,
+      "votos_nulos": 1468
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "2624",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "Los Llanos",
+    "resultados": {
+      "PRM": 5123,
+      "PLD": 1079,
+      "FP": 2900,
+      "PRD": 108,
+      "PRSC": 627,
+      "ALPAIS": 37,
+      "DXC": 131,
+      "PUN": 49,
+      "BIS": 207,
+      "PHD": 60,
+      "PCR": 116,
+      "PRSD": 74,
+      "MODA": 356,
+      "PP": 261,
+      "APD": 110
+    },
+    "totales": {
+      "votos_emitidos": 12119,
+      "votos_validos": 11945,
+      "votos_nulos": 174
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "2630",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "Ramón Santana",
+    "resultados": {
+      "PRM": 2805,
+      "PLD": 476,
+      "FP": 1413,
+      "PRSC": 42,
+      "ALPAIS": 16,
+      "PUN": 30,
+      "BIS": 75,
+      "PCR": 26,
+      "MODA": 15,
+      "PP": 72,
+      "DXC": 28,
+      "PHD": 11,
+      "PRSD": 17,
+      "APD": 21,
+      "PRD": 11
+    },
+    "totales": {
+      "votos_emitidos": 5320,
+      "votos_validos": 5223,
+      "votos_nulos": 97
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "26138",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "Consuelo",
+    "resultados": {
+      "PRM": 7370,
+      "PLD": 1016,
+      "FP": 3365,
+      "PRD": 82,
+      "PRSC": 192,
+      "ALPAIS": 41,
+      "DXC": 164,
+      "PUN": 115,
+      "BIS": 244,
+      "PCR": 152,
+      "PRSD": 53,
+      "MODA": 33,
+      "PP": 262,
+      "APD": 38,
+      "PHD": 43
+    },
+    "totales": {
+      "votos_emitidos": 14369,
+      "votos_validos": 14168,
+      "votos_nulos": 201
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "26146",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "Quisqueya",
+    "resultados": {
+      "PRM": 4881,
+      "PLD": 759,
+      "FP": 2281,
+      "PRD": 195,
+      "PRSC": 195,
+      "DXC": 50,
+      "BIS": 156,
+      "PHD": 37,
+      "PCR": 25,
+      "MODA": 17,
+      "APD": 85,
+      "PP": 71,
+      "ALPAIS": 45,
+      "PUN": 48,
+      "PRSD": 59
+    },
+    "totales": {
+      "votos_emitidos": 9620,
+      "votos_validos": 9485,
+      "votos_nulos": 135
+    }
+  },
+  {
+    "provincia_id": "26",
+    "municipio_id": "26364",
+    "provincia": "San Pedro de Macoris",
+    "municipio": "Guayacanes",
+    "resultados": {
+      "PRM": 2516,
+      "PLD": 657,
+      "FP": 1555,
+      "PRD": 41,
+      "PRSC": 24,
+      "ALPAIS": 14,
+      "DXC": 19,
+      "PUN": 17,
+      "BIS": 109,
+      "PCR": 39,
+      "PRSD": 55,
+      "APD": 22,
+      "PP": 21,
+      "PHD": 15,
+      "MODA": 12
+    },
+    "totales": {
+      "votos_emitidos": 5481,
+      "votos_validos": 5356,
+      "votos_nulos": 125
+    }
+  },
+  {
+    "provincia_id": "27",
+    "municipio_id": "2749",
+    "provincia": "Sanchez Ramirez",
+    "municipio": "Cotuí",
+    "resultados": {
+      "PRM": 23573,
+      "PLD": 3862,
+      "FP": 11510,
+      "PRD": 196,
+      "PRSC": 293,
+      "ALPAIS": 103,
+      "DXC": 397,
+      "PUN": 229,
+      "BIS": 455,
+      "PP": 291,
+      "PRSD": 261,
+      "PCR": 421,
+      "MODA": 162,
+      "APD": 216,
+      "PHD": 164
+    },
+    "totales": {
+      "votos_emitidos": 43553,
+      "votos_validos": 43363,
+      "votos_nulos": 190
+    }
+  },
+  {
+    "provincia_id": "27",
+    "municipio_id": "2752",
+    "provincia": "Sanchez Ramirez",
+    "municipio": "Cevicos",
+    "resultados": {
+      "PRM": 4504,
+      "PLD": 515,
+      "FP": 2465,
+      "PRD": 33,
+      "PRSC": 77,
+      "ALPAIS": 18,
+      "DXC": 64,
+      "PUN": 39,
+      "BIS": 66,
+      "PCR": 79,
+      "PP": 59,
+      "APD": 12,
+      "PHD": 12,
+      "PRSD": 9,
+      "MODA": 9
+    },
+    "totales": {
+      "votos_emitidos": 8467,
+      "votos_validos": 8365,
+      "votos_nulos": 102
+    }
+  },
+  {
+    "provincia_id": "27",
+    "municipio_id": "2787",
+    "provincia": "Sanchez Ramirez",
+    "municipio": "Fantino",
+    "resultados": {
+      "PRM": 6523,
+      "PLD": 1407,
+      "FP": 2548,
+      "PRD": 34,
+      "PRSC": 74,
+      "ALPAIS": 62,
+      "DXC": 170,
+      "PUN": 84,
+      "BIS": 107,
+      "PHD": 24,
+      "PCR": 225,
+      "PRSD": 226,
+      "MODA": 51,
+      "APD": 108,
+      "PP": 154
+    },
+    "totales": {
+      "votos_emitidos": 12408,
+      "votos_validos": 12266,
+      "votos_nulos": 142
+    }
+  },
+  {
+    "provincia_id": "27",
+    "municipio_id": "27155",
+    "provincia": "Sanchez Ramirez",
+    "municipio": "Villa La Mata",
+    "resultados": {
+      "PRM": 10419,
+      "PLD": 1974,
+      "FP": 3713,
+      "PRSC": 135,
+      "ALPAIS": 63,
+      "DXC": 156,
+      "BIS": 152,
+      "PHD": 105,
+      "PCR": 105,
+      "MODA": 55,
+      "PP": 92,
+      "PRD": 110,
+      "PUN": 98,
+      "PRSD": 158,
+      "APD": 37
+    },
+    "totales": {
+      "votos_emitidos": 18273,
+      "votos_validos": 17919,
+      "votos_nulos": 354
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2831",
+    "provincia": "Santiago",
+    "municipio": "Santiago de los Caballeros",
+    "resultados": {
+      "PRM": 138875,
+      "PLD": 37249,
+      "FP": 37573,
+      "PRD": 901,
+      "PRSC": 2811,
+      "DXC": 3720,
+      "PUN": 2023,
+      "BIS": 1978,
+      "PHD": 742,
+      "PCR": 1077,
+      "PRSD": 2137,
+      "APD": 804,
+      "PP": 1022,
+      "ALPAIS": 1029,
+      "MODA": 384
+    },
+    "totales": {
+      "votos_emitidos": 256580,
+      "votos_validos": 253062,
+      "votos_nulos": 3518
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2832",
+    "provincia": "Santiago",
+    "municipio": "Tamboril",
+    "resultados": {
+      "PRM": 8042,
+      "PLD": 2840,
+      "FP": 3796,
+      "PRSC": 124,
+      "ALPAIS": 106,
+      "DXC": 116,
+      "BIS": 258,
+      "PHD": 65,
+      "PCR": 146,
+      "PRSD": 140,
+      "PP": 41,
+      "PRD": 56,
+      "PUN": 100,
+      "MODA": 17,
+      "APD": 56
+    },
+    "totales": {
+      "votos_emitidos": 19900,
+      "votos_validos": 19604,
+      "votos_nulos": 296
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2835",
+    "provincia": "Santiago",
+    "municipio": "Jánico",
+    "resultados": {
+      "PRM": 2628,
+      "PLD": 1068,
+      "FP": 773,
+      "PRSC": 36,
+      "ALPAIS": 19,
+      "DXC": 184,
+      "PUN": 30,
+      "APD": 18,
+      "PCR": 22,
+      "PRSD": 17,
+      "PRD": 45,
+      "BIS": 34,
+      "PHD": 9,
+      "PP": 6,
+      "MODA": 6
+    },
+    "totales": {
+      "votos_emitidos": 5957,
+      "votos_validos": 5796,
+      "votos_nulos": 161
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2836",
+    "provincia": "Santiago",
+    "municipio": "San José de las Matas",
+    "resultados": {
+      "PRM": 7228,
+      "PLD": 2299,
+      "FP": 1857,
+      "PRD": 70,
+      "PRSC": 173,
+      "ALPAIS": 78,
+      "DXC": 753,
+      "PUN": 67,
+      "BIS": 120,
+      "MODA": 77,
+      "PCR": 58,
+      "PRSD": 38,
+      "PP": 134,
+      "APD": 30,
+      "PHD": 43
+    },
+    "totales": {
+      "votos_emitidos": 14465,
+      "votos_validos": 14189,
+      "votos_nulos": 276
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2894",
+    "provincia": "Santiago",
+    "municipio": "Villa González",
+    "resultados": {
+      "PRM": 8789,
+      "PLD": 3236,
+      "FP": 2375,
+      "PRD": 145,
+      "PRSC": 205,
+      "ALPAIS": 79,
+      "DXC": 582,
+      "BIS": 127,
+      "PCR": 84,
+      "PRSD": 55,
+      "APD": 28,
+      "PP": 61,
+      "PUN": 128,
+      "PHD": 44,
+      "MODA": 28
+    },
+    "totales": {
+      "votos_emitidos": 18030,
+      "votos_validos": 17772,
+      "votos_nulos": 258
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2895",
+    "provincia": "Santiago",
+    "municipio": "Licey al Medio",
+    "resultados": {
+      "PRM": 6340,
+      "PLD": 2462,
+      "FP": 2884,
+      "PRD": 365,
+      "DXC": 101,
+      "PUN": 103,
+      "BIS": 117,
+      "PCR": 78,
+      "PRSD": 74,
+      "APD": 170,
+      "PRSC": 49,
+      "ALPAIS": 46,
+      "PHD": 89,
+      "PP": 33,
+      "MODA": 9
+    },
+    "totales": {
+      "votos_emitidos": 14637,
+      "votos_validos": 14462,
+      "votos_nulos": 175
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "2896",
+    "provincia": "Santiago",
+    "municipio": "Villa Bisono -Navarrete-",
+    "resultados": {
+      "PRM": 9815,
+      "PLD": 2533,
+      "FP": 2996,
+      "PRD": 68,
+      "PRSC": 338,
+      "ALPAIS": 54,
+      "DXC": 148,
+      "PUN": 161,
+      "BIS": 158,
+      "PHD": 56,
+      "PCR": 99,
+      "APD": 264,
+      "PP": 186,
+      "MODA": 62,
+      "PRSD": 61
+    },
+    "totales": {
+      "votos_emitidos": 18240,
+      "votos_validos": 17946,
+      "votos_nulos": 294
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "28148",
+    "provincia": "Santiago",
+    "municipio": "Sabana Iglesia",
+    "resultados": {
+      "PRM": 2157,
+      "PLD": 515,
+      "FP": 561,
+      "PRD": 17,
+      "PRSC": 19,
+      "ALPAIS": 13,
+      "DXC": 113,
+      "PUN": 27,
+      "BIS": 29,
+      "PHD": 10,
+      "PCR": 73,
+      "PRSD": 11,
+      "APD": 18,
+      "MODA": 6,
+      "PP": 10
+    },
+    "totales": {
+      "votos_emitidos": 4140,
+      "votos_validos": 4059,
+      "votos_nulos": 81
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "28161",
+    "provincia": "Santiago",
+    "municipio": "Baitoa",
+    "resultados": {
+      "PRM": 2643,
+      "PLD": 767,
+      "FP": 954,
+      "PRD": 120,
+      "PRSC": 20,
+      "ALPAIS": 19,
+      "PUN": 29,
+      "BIS": 43,
+      "PHD": 9,
+      "APD": 4,
+      "PCR": 17,
+      "PRSD": 44,
+      "MODA": 5,
+      "PP": 5,
+      "DXC": 19
+    },
+    "totales": {
+      "votos_emitidos": 5114,
+      "votos_validos": 5050,
+      "votos_nulos": 64
+    }
+  },
+  {
+    "provincia_id": "28",
+    "municipio_id": "28350",
+    "provincia": "Santiago",
+    "municipio": "Puñal",
+    "resultados": {
+      "PRM": 9539,
+      "PLD": 2416,
+      "FP": 3240,
+      "PRD": 81,
+      "PRSC": 127,
+      "DXC": 164,
+      "PUN": 156,
+      "BIS": 145,
+      "ALPAIS": 49,
+      "PCR": 82,
+      "APD": 27,
+      "PP": 36,
+      "PRSD": 83,
+      "PHD": 72,
+      "MODA": 13
+    },
+    "totales": {
+      "votos_emitidos": 17820,
+      "votos_validos": 17578,
+      "votos_nulos": 242
+    }
+  },
+  {
+    "provincia_id": "29",
+    "municipio_id": "2942",
+    "provincia": "Santiago Rodriguez",
+    "municipio": "Monción",
+    "resultados": {
+      "PRM": 2770,
+      "PLD": 1695,
+      "FP": 728,
+      "PRD": 38,
+      "DXC": 17,
+      "PUN": 22,
+      "BIS": 47,
+      "PCR": 71,
+      "PRSD": 5,
+      "APD": 24,
+      "PRSC": 20,
+      "ALPAIS": 4,
+      "PP": 21,
+      "PHD": 19,
+      "MODA": 13
+    },
+    "totales": {
+      "votos_emitidos": 6032,
+      "votos_validos": 5971,
+      "votos_nulos": 61
+    }
+  },
+  {
+    "provincia_id": "29",
+    "municipio_id": "2946",
+    "provincia": "Santiago Rodriguez",
+    "municipio": "San Ignacio de Sabaneta",
+    "resultados": {
+      "PRM": 8971,
+      "PLD": 3047,
+      "FP": 4259,
+      "PRD": 159,
+      "PRSC": 140,
+      "DXC": 176,
+      "PUN": 56,
+      "BIS": 214,
+      "PHD": 31,
+      "PRSD": 77,
+      "MODA": 75,
+      "PP": 90,
+      "ALPAIS": 36,
+      "APD": 89,
+      "PCR": 47
+    },
+    "totales": {
+      "votos_emitidos": 19905,
+      "votos_validos": 19653,
+      "votos_nulos": 252
+    }
+  },
+  {
+    "provincia_id": "29",
+    "municipio_id": "29116",
+    "provincia": "Santiago Rodriguez",
+    "municipio": "Villa Los Almácigos",
+    "resultados": {
+      "PRM": 2517,
+      "PLD": 1608,
+      "FP": 1223,
+      "PRSC": 196,
+      "ALPAIS": 22,
+      "DXC": 28,
+      "PUN": 22,
+      "BIS": 65,
+      "PHD": 10,
+      "PCR": 89,
+      "MODA": 65,
+      "PP": 55,
+      "PRD": 32,
+      "PRSD": 14,
+      "APD": 10
+    },
+    "totales": {
+      "votos_emitidos": 6710,
+      "votos_validos": 6623,
+      "votos_nulos": 87
+    }
+  },
+  {
+    "provincia_id": "30",
+    "municipio_id": "3033",
+    "provincia": "Valverde",
+    "municipio": "Esperanza",
+    "resultados": {
+      "PRM": 12275,
+      "PLD": 3049,
+      "FP": 4888,
+      "PRD": 61,
+      "PRSC": 513,
+      "DXC": 191,
+      "BIS": 288,
+      "PCR": 415,
+      "MODA": 150,
+      "APD": 146,
+      "PUN": 173,
+      "PHD": 67,
+      "PP": 246,
+      "PRSD": 47,
+      "ALPAIS": 56
+    },
+    "totales": {
+      "votos_emitidos": 24516,
+      "votos_validos": 24104,
+      "votos_nulos": 412
+    }
+  },
+  {
+    "provincia_id": "30",
+    "municipio_id": "3034",
+    "provincia": "Valverde",
+    "municipio": "Mao",
+    "resultados": {
+      "PRM": 18335,
+      "PLD": 3186,
+      "FP": 6837,
+      "PRD": 150,
+      "PRSC": 308,
+      "DXC": 250,
+      "PUN": 180,
+      "BIS": 344,
+      "MODA": 338,
+      "APD": 270,
+      "PP": 189,
+      "PRSD": 137,
+      "ALPAIS": 87,
+      "PCR": 140,
+      "PHD": 55
+    },
+    "totales": {
+      "votos_emitidos": 33286,
+      "votos_validos": 32869,
+      "votos_nulos": 417
+    }
+  },
+  {
+    "provincia_id": "30",
+    "municipio_id": "3092",
+    "provincia": "Valverde",
+    "municipio": "Laguna Salada",
+    "resultados": {
+      "PRM": 5537,
+      "PLD": 1582,
+      "FP": 1454,
+      "PRD": 47,
+      "PRSC": 147,
+      "DXC": 152,
+      "BIS": 79,
+      "PRSD": 32,
+      "APD": 47,
+      "PP": 53,
+      "ALPAIS": 18,
+      "PUN": 64,
+      "PCR": 29,
+      "PHD": 57,
+      "MODA": 42
+    },
+    "totales": {
+      "votos_emitidos": 10012,
+      "votos_validos": 9929,
+      "votos_nulos": 83
+    }
+  },
+  {
+    "provincia_id": "31",
+    "municipio_id": "3113",
+    "provincia": "San Jose de Ocoa",
+    "municipio": "San José de Ocoa",
+    "resultados": {
+      "PRM": 10232,
+      "PLD": 1546,
+      "FP": 7931,
+      "PRSC": 226,
+      "ALPAIS": 97,
+      "DXC": 380,
+      "PUN": 108,
+      "BIS": 388,
+      "PHD": 84,
+      "PCR": 178,
+      "PRSD": 180,
+      "MODA": 181,
+      "PP": 391,
+      "APD": 227,
+      "PRD": 194
+    },
+    "totales": {
+      "votos_emitidos": 23859,
+      "votos_validos": 23487,
+      "votos_nulos": 372
+    }
+  },
+  {
+    "provincia_id": "31",
+    "municipio_id": "31150",
+    "provincia": "San Jose de Ocoa",
+    "municipio": "Sabana Larga",
+    "resultados": {
+      "PRM": 2531,
+      "PLD": 338,
+      "FP": 1652,
+      "ALPAIS": 23,
+      "DXC": 202,
+      "PUN": 24,
+      "BIS": 65,
+      "PHD": 25,
+      "PCR": 50,
+      "PRSD": 19,
+      "MODA": 25,
+      "APD": 27,
+      "PP": 106,
+      "PRD": 9,
+      "PRSC": 82
+    },
+    "totales": {
+      "votos_emitidos": 5456,
+      "votos_validos": 5397,
+      "votos_nulos": 59
+    }
+  },
+  {
+    "provincia_id": "31",
+    "municipio_id": "31152",
+    "provincia": "San Jose de Ocoa",
+    "municipio": "Rancho Arriba",
+    "resultados": {
+      "PRM": 2746,
+      "PLD": 263,
+      "FP": 1314,
+      "PRD": 13,
+      "PRSC": 43,
+      "DXC": 69,
+      "BIS": 85,
+      "PCR": 16,
+      "PRSD": 73,
+      "APD": 35,
+      "PP": 142,
+      "ALPAIS": 18,
+      "PUN": 33,
+      "MODA": 10,
+      "PHD": 11
+    },
+    "totales": {
+      "votos_emitidos": 5206,
+      "votos_validos": 5083,
+      "votos_nulos": 123
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32223",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo Este",
+    "resultados": {
+      "PRM": 165557,
+      "PLD": 28724,
+      "FP": 115653,
+      "ALPAIS": 1306,
+      "DXC": 3121,
+      "PUN": 1567,
+      "BIS": 5257,
+      "PCR": 1642,
+      "MODA": 1447,
+      "APD": 1386,
+      "PRD": 1047,
+      "PRSC": 2138,
+      "PHD": 883,
+      "PRSD": 2037,
+      "PP": 2887
+    },
+    "totales": {
+      "votos_emitidos": 363454,
+      "votos_validos": 359003,
+      "votos_nulos": 4451
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32224",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo Oeste",
+    "resultados": {
+      "PRM": 70174,
+      "PLD": 8895,
+      "FP": 49064,
+      "DXC": 1544,
+      "PUN": 653,
+      "BIS": 2342,
+      "PCR": 621,
+      "MODA": 797,
+      "APD": 589,
+      "PP": 1312,
+      "PRSC": 669,
+      "ALPAIS": 499,
+      "PRSD": 797,
+      "PHD": 409,
+      "PRD": 353
+    },
+    "totales": {
+      "votos_emitidos": 149529,
+      "votos_validos": 147689,
+      "votos_nulos": 1840
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32225",
+    "provincia": "Santo Domingo",
+    "municipio": "Santo Domingo Norte",
+    "resultados": {
+      "PRM": 85417,
+      "PLD": 13865,
+      "FP": 73244,
+      "PRD": 814,
+      "PRSC": 1076,
+      "ALPAIS": 658,
+      "DXC": 1680,
+      "PUN": 1062,
+      "BIS": 3617,
+      "PCR": 883,
+      "APD": 636,
+      "PP": 978,
+      "PRSD": 1316,
+      "PHD": 543,
+      "MODA": 549
+    },
+    "totales": {
+      "votos_emitidos": 203141,
+      "votos_validos": 200429,
+      "votos_nulos": 2712
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32226",
+    "provincia": "Santo Domingo",
+    "municipio": "Boca Chica",
+    "resultados": {
+      "PRM": 23866,
+      "PLD": 4738,
+      "FP": 14583,
+      "PRD": 312,
+      "PRSC": 463,
+      "ALPAIS": 215,
+      "DXC": 384,
+      "PUN": 318,
+      "BIS": 1331,
+      "PHD": 188,
+      "PCR": 809,
+      "PRSD": 369,
+      "PP": 257,
+      "MODA": 130,
+      "APD": 169
+    },
+    "totales": {
+      "votos_emitidos": 53181,
+      "votos_validos": 52286,
+      "votos_nulos": 895
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32227",
+    "provincia": "Santo Domingo",
+    "municipio": "San Antonio de Guerra",
+    "resultados": {
+      "PRM": 8665,
+      "PLD": 1415,
+      "FP": 6678,
+      "PRD": 144,
+      "PRSC": 119,
+      "ALPAIS": 52,
+      "DXC": 171,
+      "PUN": 87,
+      "BIS": 300,
+      "PCR": 87,
+      "MODA": 160,
+      "APD": 265,
+      "PP": 116,
+      "PRSD": 49,
+      "PHD": 44
+    },
+    "totales": {
+      "votos_emitidos": 19411,
+      "votos_validos": 19160,
+      "votos_nulos": 251
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32228",
+    "provincia": "Santo Domingo",
+    "municipio": "Pedro Brand",
+    "resultados": {
+      "PRM": 12328,
+      "PLD": 2203,
+      "FP": 11371,
+      "PRD": 166,
+      "PRSC": 175,
+      "ALPAIS": 106,
+      "DXC": 573,
+      "PUN": 216,
+      "BIS": 638,
+      "PCR": 190,
+      "PRSD": 250,
+      "MODA": 135,
+      "APD": 72,
+      "PP": 426,
+      "PHD": 74
+    },
+    "totales": {
+      "votos_emitidos": 30720,
+      "votos_validos": 30309,
+      "votos_nulos": 411
+    }
+  },
+  {
+    "provincia_id": "32",
+    "municipio_id": "32229",
+    "provincia": "Santo Domingo",
+    "municipio": "Los Alcarrizos",
+    "resultados": {
+      "PRM": 40125,
+      "PLD": 5861,
+      "FP": 36605,
+      "PRSC": 749,
+      "ALPAIS": 374,
+      "DXC": 841,
+      "PUN": 629,
+      "BIS": 2081,
+      "PHD": 248,
+      "PRSD": 504,
+      "MODA": 374,
+      "APD": 309,
+      "PP": 1311,
+      "PRD": 464,
+      "PCR": 353
+    },
+    "totales": {
+      "votos_emitidos": 99005,
+      "votos_validos": 97682,
+      "votos_nulos": 1323
+    }
+  },
+  {
+    "provincia_id": "33",
+    "municipio_id": "33999",
+    "provincia": "Penitenciario",
+    "municipio": "Penitenciario",
+    "resultados": {
+      "PRM": 1422,
+      "PLD": 235,
+      "FP": 904,
+      "BIS": 72,
+      "PRD": 18,
+      "ALPAIS": 15,
+      "PUN": 24,
+      "PRSC": 24,
+      "DXC": 42,
+      "PRSD": 22,
+      "PHD": 13,
+      "MODA": 8,
+      "APD": 27,
+      "PP": 50,
+      "PCR": 69
+    },
+    "totales": {
+      "votos_emitidos": 3229,
+      "votos_validos": 3127,
+      "votos_nulos": 102
+    }
+  },
+  {
+    "provincia_id": "61",
+    "municipio_id": "61601",
+    "provincia": "Canada",
+    "municipio": "Oclee Montreal",
+    "resultados": {
+      "PRM": 479,
+      "PLD": 71,
+      "FP": 125,
+      "DXC": 11,
+      "PUN": 7,
+      "BIS": 4,
+      "PCR": 4,
+      "PRSD": 2,
+      "MODA": 4,
+      "APD": 6,
+      "PP": 5,
+      "PRD": 6,
+      "ALPAIS": 3,
+      "PRSC": 2,
+      "PHD": 1
+    },
+    "totales": {
+      "votos_emitidos": 835,
+      "votos_validos": 827,
+      "votos_nulos": 8
+    }
+  },
+  {
+    "provincia_id": "61",
+    "municipio_id": "61602",
+    "provincia": "Canada",
+    "municipio": "Oclee Toronto",
+    "resultados": {
+      "PRM": 290,
+      "PLD": 18,
+      "FP": 83,
+      "PRSC": 4,
+      "ALPAIS": 4,
+      "MODA": 3,
+      "PP": 16,
+      "DXC": 3,
+      "PUN": 1,
+      "BIS": 2,
+      "PRSD": 6,
+      "APD": 1,
+      "PCR": 1,
+      "PHD": 1
+    },
+    "totales": {
+      "votos_emitidos": 544,
+      "votos_validos": 541,
+      "votos_nulos": 3
+    }
+  },
+  {
+    "provincia_id": "62",
+    "municipio_id": "62603",
+    "provincia": "Chile",
+    "municipio": "Oclee Chile",
+    "resultados": {
+      "PRM": 1029,
+      "PLD": 150,
+      "FP": 335,
+      "PRD": 6,
+      "PRSC": 6,
+      "DXC": 18,
+      "PUN": 19,
+      "BIS": 31,
+      "PHD": 8,
+      "PCR": 6,
+      "APD": 24,
+      "PP": 8,
+      "ALPAIS": 5,
+      "PRSD": 8,
+      "MODA": 7
+    },
+    "totales": {
+      "votos_emitidos": 1821,
+      "votos_validos": 1781,
+      "votos_nulos": 40
+    }
+  },
+  {
+    "provincia_id": "63",
+    "municipio_id": "63604",
+    "provincia": "Curazao",
+    "municipio": "Oclee Curazao",
+    "resultados": {
+      "PRM": 1294,
+      "PLD": 283,
+      "FP": 504,
+      "PRD": 11,
+      "PRSC": 14,
+      "ALPAIS": 13,
+      "DXC": 17,
+      "PUN": 28,
+      "BIS": 67,
+      "PCR": 13,
+      "PRSD": 6,
+      "MODA": 11,
+      "APD": 94,
+      "PP": 22,
+      "PHD": 16
+    },
+    "totales": {
+      "votos_emitidos": 2676,
+      "votos_validos": 2624,
+      "votos_nulos": 52
+    }
+  },
+  {
+    "provincia_id": "64",
+    "municipio_id": "64605",
+    "provincia": "España",
+    "municipio": "Oclee Barcelona",
+    "resultados": {
+      "PRM": 4511,
+      "PLD": 635,
+      "FP": 1636,
+      "PRD": 32,
+      "BIS": 164,
+      "PP": 74,
+      "DXC": 110,
+      "PCR": 43,
+      "PRSC": 69,
+      "PUN": 69,
+      "APD": 32,
+      "ALPAIS": 26,
+      "PHD": 19,
+      "PRSD": 21,
+      "MODA": 11
+    },
+    "totales": {
+      "votos_emitidos": 8267,
+      "votos_validos": 8173,
+      "votos_nulos": 94
+    }
+  },
+  {
+    "provincia_id": "64",
+    "municipio_id": "64606",
+    "provincia": "España",
+    "municipio": "Oclee Madrid",
+    "resultados": {
+      "PRM": 9966,
+      "PLD": 1610,
+      "FP": 4054,
+      "PRSC": 107,
+      "DXC": 277,
+      "PUN": 149,
+      "BIS": 317,
+      "PCR": 153,
+      "PRD": 142,
+      "PP": 201,
+      "MODA": 32,
+      "APD": 49,
+      "ALPAIS": 76,
+      "PHD": 75,
+      "PRSD": 44
+    },
+    "totales": {
+      "votos_emitidos": 18880,
+      "votos_validos": 18556,
+      "votos_nulos": 324
+    }
+  },
+  {
+    "provincia_id": "64",
+    "municipio_id": "64607",
+    "provincia": "España",
+    "municipio": "Oclee Valencia",
+    "resultados": {
+      "PRM": 865,
+      "PLD": 154,
+      "FP": 323,
+      "PRD": 53,
+      "PRSC": 18,
+      "ALPAIS": 3,
+      "DXC": 19,
+      "PUN": 7,
+      "BIS": 27,
+      "PRSD": 6,
+      "PP": 16,
+      "PCR": 4,
+      "PHD": 4,
+      "APD": 3
+    },
+    "totales": {
+      "votos_emitidos": 1653,
+      "votos_validos": 1619,
+      "votos_nulos": 34
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65608",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Boston",
+    "resultados": {
+      "PRM": 6261,
+      "PLD": 608,
+      "FP": 2019,
+      "PRD": 75,
+      "ALPAIS": 75,
+      "BIS": 122,
+      "PRSD": 60,
+      "PUN": 85,
+      "PCR": 78,
+      "PRSC": 92,
+      "APD": 36,
+      "PP": 71,
+      "DXC": 102,
+      "PHD": 23,
+      "MODA": 58
+    },
+    "totales": {
+      "votos_emitidos": 10986,
+      "votos_validos": 10874,
+      "votos_nulos": 112
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65609",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee California",
+    "resultados": {
+      "PRM": 125,
+      "FP": 25,
+      "PP": 2,
+      "PLD": 8,
+      "PRSC": 2,
+      "PUN": 4,
+      "PHD": 1,
+      "PRD": 1,
+      "DXC": 1,
+      "BIS": 1,
+      "ALPAIS": 1
+    },
+    "totales": {
+      "votos_emitidos": 194,
+      "votos_validos": 193,
+      "votos_nulos": 1
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65610",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Miami",
+    "resultados": {
+      "PRM": 4307,
+      "PLD": 321,
+      "FP": 1087,
+      "BIS": 73,
+      "PRSC": 70,
+      "ALPAIS": 39,
+      "PUN": 87,
+      "MODA": 33,
+      "PHD": 28,
+      "PRD": 49,
+      "PCR": 46,
+      "PP": 44,
+      "DXC": 27,
+      "PRSD": 31,
+      "APD": 27
+    },
+    "totales": {
+      "votos_emitidos": 7148,
+      "votos_validos": 7071,
+      "votos_nulos": 77
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65611",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee New Jersey",
+    "resultados": {
+      "PRM": 12027,
+      "PLD": 1136,
+      "FP": 3426,
+      "PRD": 98,
+      "PRSC": 160,
+      "DXC": 139,
+      "PUN": 172,
+      "BIS": 179,
+      "PP": 123,
+      "PCR": 163,
+      "PRSD": 73,
+      "PHD": 73,
+      "ALPAIS": 98,
+      "APD": 75,
+      "MODA": 60
+    },
+    "totales": {
+      "votos_emitidos": 20176,
+      "votos_validos": 19930,
+      "votos_nulos": 246
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65612",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee New York",
+    "resultados": {
+      "PRM": 28741,
+      "PLD": 3081,
+      "FP": 7828,
+      "PRD": 320,
+      "ALPAIS": 307,
+      "DXC": 314,
+      "PUN": 494,
+      "BIS": 475,
+      "PCR": 236,
+      "PRSD": 202,
+      "PRSC": 415,
+      "PHD": 201,
+      "APD": 375,
+      "PP": 458,
+      "MODA": 140
+    },
+    "totales": {
+      "votos_emitidos": 49154,
+      "votos_validos": 48439,
+      "votos_nulos": 715
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65613",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Orlando",
+    "resultados": {
+      "PRM": 3429,
+      "PLD": 252,
+      "FP": 805,
+      "DXC": 58,
+      "PUN": 55,
+      "PHD": 22,
+      "APD": 28,
+      "PP": 71,
+      "ALPAIS": 35,
+      "PCR": 24,
+      "BIS": 65,
+      "PRSD": 33,
+      "MODA": 6,
+      "PRD": 14,
+      "PRSC": 33
+    },
+    "totales": {
+      "votos_emitidos": 5865,
+      "votos_validos": 5776,
+      "votos_nulos": 89
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65614",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Philadelphia",
+    "resultados": {
+      "PRM": 4996,
+      "PLD": 540,
+      "FP": 1702,
+      "PHD": 28,
+      "PRD": 73,
+      "PUN": 81,
+      "PCR": 29,
+      "PRSD": 45,
+      "PRSC": 64,
+      "DXC": 41,
+      "BIS": 104,
+      "APD": 37,
+      "MODA": 14,
+      "PP": 39,
+      "ALPAIS": 32
+    },
+    "totales": {
+      "votos_emitidos": 8939,
+      "votos_validos": 8810,
+      "votos_nulos": 129
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65615",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Providence",
+    "resultados": {
+      "PRM": 3492,
+      "PLD": 275,
+      "FP": 747,
+      "DXC": 28,
+      "BIS": 51,
+      "PCR": 30,
+      "APD": 18,
+      "PRD": 24,
+      "PUN": 48,
+      "PHD": 15,
+      "PRSD": 45,
+      "MODA": 7,
+      "PP": 28,
+      "PRSC": 68,
+      "ALPAIS": 26
+    },
+    "totales": {
+      "votos_emitidos": 5531,
+      "votos_validos": 5480,
+      "votos_nulos": 51
+    }
+  },
+  {
+    "provincia_id": "65",
+    "municipio_id": "65616",
+    "provincia": "Estados Unidos",
+    "municipio": "Oclee Washington",
+    "resultados": {
+      "PRM": 1658,
+      "PLD": 137,
+      "FP": 476,
+      "DXC": 17,
+      "BIS": 27,
+      "PRSC": 17,
+      "PRSD": 14,
+      "APD": 7,
+      "PUN": 21,
+      "PHD": 5,
+      "PCR": 10,
+      "PP": 29,
+      "PRD": 45,
+      "MODA": 3,
+      "ALPAIS": 8
+    },
+    "totales": {
+      "votos_emitidos": 2781,
+      "votos_validos": 2742,
+      "votos_nulos": 39
+    }
+  },
+  {
+    "provincia_id": "66",
+    "municipio_id": "66617",
+    "provincia": "Italia",
+    "municipio": "Oclee Milano",
+    "resultados": {
+      "PRM": 2394,
+      "PLD": 400,
+      "FP": 754,
+      "PRSC": 17,
+      "BIS": 55,
+      "PRSD": 8,
+      "APD": 11,
+      "PRD": 47,
+      "DXC": 41,
+      "PUN": 40,
+      "PCR": 22,
+      "PP": 49,
+      "MODA": 8,
+      "ALPAIS": 9,
+      "PHD": 5
+    },
+    "totales": {
+      "votos_emitidos": 4331,
+      "votos_validos": 4251,
+      "votos_nulos": 80
+    }
+  },
+  {
+    "provincia_id": "67",
+    "municipio_id": "67618",
+    "provincia": "Paises Bajos",
+    "municipio": "Oclee Holanda",
+    "resultados": {
+      "PRM": 1159,
+      "PLD": 234,
+      "FP": 363,
+      "PRD": 118,
+      "PRSC": 16,
+      "PRSD": 5,
+      "PP": 9,
+      "DXC": 21,
+      "PUN": 9,
+      "BIS": 22,
+      "PHD": 5,
+      "APD": 3,
+      "ALPAIS": 3,
+      "MODA": 1,
+      "PCR": 1
+    },
+    "totales": {
+      "votos_emitidos": 2216,
+      "votos_validos": 2182,
+      "votos_nulos": 34
+    }
+  },
+  {
+    "provincia_id": "68",
+    "municipio_id": "68619",
+    "provincia": "Panama",
+    "municipio": "Oclee Panama",
+    "resultados": {
+      "PRM": 1038,
+      "PLD": 400,
+      "FP": 514,
+      "PRD": 55,
+      "DXC": 137,
+      "BIS": 53,
+      "PCR": 31,
+      "MODA": 26,
+      "APD": 105,
+      "PP": 40,
+      "PRSC": 21,
+      "PUN": 17,
+      "PHD": 5,
+      "ALPAIS": 14,
+      "PRSD": 8
+    },
+    "totales": {
+      "votos_emitidos": 2693,
+      "votos_validos": 2638,
+      "votos_nulos": 55
+    }
+  },
+  {
+    "provincia_id": "69",
+    "municipio_id": "69620",
+    "provincia": "Puerto Rico",
+    "municipio": "Oclee Puerto Rico",
+    "resultados": {
+      "PRM": 3943,
+      "PLD": 493,
+      "FP": 1324,
+      "PRSC": 52,
+      "ALPAIS": 37,
+      "DXC": 57,
+      "PUN": 99,
+      "BIS": 130,
+      "PCR": 51,
+      "PRSD": 30,
+      "MODA": 13,
+      "APD": 54,
+      "PP": 51,
+      "PRD": 77,
+      "PHD": 22
+    },
+    "totales": {
+      "votos_emitidos": 7306,
+      "votos_validos": 7177,
+      "votos_nulos": 129
+    }
+  },
+  {
+    "provincia_id": "70",
+    "municipio_id": "70621",
+    "provincia": "San Martin",
+    "municipio": "Oclee San Martin",
+    "resultados": {
+      "PRM": 1657,
+      "PLD": 151,
+      "FP": 426,
+      "PRSC": 33,
+      "PUN": 32,
+      "BIS": 45,
+      "DXC": 31,
+      "PHD": 6,
+      "PCR": 6,
+      "PRSD": 7,
+      "PP": 18,
+      "PRD": 17,
+      "ALPAIS": 12,
+      "MODA": 3,
+      "APD": 23
+    },
+    "totales": {
+      "votos_emitidos": 2781,
+      "votos_validos": 2713,
+      "votos_nulos": 68
+    }
+  },
+  {
+    "provincia_id": "71",
+    "municipio_id": "71622",
+    "provincia": "Suiza",
+    "municipio": "Oclee Zurich",
+    "resultados": {
+      "PRM": 946,
+      "PLD": 111,
+      "FP": 304,
+      "PRD": 48,
+      "DXC": 8,
+      "PUN": 21,
+      "BIS": 16,
+      "PP": 50,
+      "PRSC": 11,
+      "PHD": 10,
+      "ALPAIS": 10,
+      "PCR": 5,
+      "PRSD": 4,
+      "APD": 1,
+      "MODA": 4
+    },
+    "totales": {
+      "votos_emitidos": 1732,
+      "votos_validos": 1710,
+      "votos_nulos": 22
+    }
+  },
+  {
+    "provincia_id": "72",
+    "municipio_id": "72623",
+    "provincia": "Venezuela",
+    "municipio": "Oclee Venezuela",
+    "resultados": {
+      "PRM": 554,
+      "PLD": 90,
+      "FP": 325,
+      "PRD": 53,
+      "DXC": 3,
+      "PHD": 3,
+      "PRSD": 29,
+      "APD": 1,
+      "PP": 3,
+      "PRSC": 7,
+      "ALPAIS": 2,
+      "PUN": 3,
+      "BIS": 6,
+      "MODA": 4
+    },
+    "totales": {
+      "votos_emitidos": 1125,
+      "votos_validos": 1106,
+      "votos_nulos": 19
+    }
+  }
+]

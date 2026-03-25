@@ -637,28 +637,40 @@ function renderPresidencial(){
     );
 
   document.getElementById('pres-all-parties').innerHTML =
-    '<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.4rem">'
-    +byPart.map(function(p){return '<div style="background:var(--bg3);border:1px solid var(--border);border-radius:var(--r);padding:.5rem .7rem;display:flex;justify-content:space-between;align-items:center">'
-      +'<span style="font-weight:700;font-size:.8rem;color:'+pc(p.id)+'">'+p.id+'</span>'
-      +'<span style="font-size:.74rem;color:var(--muted)">'+fmt(p.votos)+' <strong style="color:var(--text)">'+p.pct+'%</strong></span>'
-      +'</div>';}).join('')
-    +'</div>';
+    '<table style="width:100%;border-collapse:collapse">'+
+    '<thead><tr>'+
+    '<th style="padding:.22rem .4rem;font-size:.63rem;font-weight:700;color:var(--muted);text-align:left;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2)">Partido</th>'+
+    '<th style="padding:.22rem .4rem;font-size:.63rem;font-weight:700;color:var(--muted);text-align:right;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2)">Votos</th>'+
+    '<th style="padding:.22rem .4rem;font-size:.63rem;font-weight:700;color:var(--muted);text-align:right;border-bottom:1px solid var(--border);position:sticky;top:0;background:var(--bg2)">%</th>'+
+    '</tr></thead><tbody>'+
+    byPart.map(function(p){
+      return '<tr>'+
+        '<td style="padding:.2rem .4rem;font-size:.75rem"><strong style="color:'+pc(p.id)+'">'+p.id+'</strong></td>'+
+        '<td style="padding:.2rem .4rem;font-size:.72rem;text-align:right;color:var(--muted)">'+fmt(p.votos)+'</td>'+
+        '<td style="padding:.2rem .4rem;font-size:.75rem;text-align:right;font-weight:700">'+p.pct+'%</td>'+
+        '</tr>';
+    }).join('')+
+    '</tbody></table>';
 
   // ── N-3: Por provincia ──
   window._presPorProv = porProv;
-  window._presPorMuni = porMuni;
+  window._presPorMuni = porMuni.filter(function(m){return !m.exterior;});
   _renderPresProvGrid(porProv);
 
-  // Populate municipio filter
+  // Populate municipio filter from actual muni data
   var sel = document.getElementById('pres-muni-filter');
   if(sel && sel.options.length <= 1){
-    var provNames = [];
-    porMuni.forEach(function(m){ if(provNames.indexOf(m.provincia_id||m.municipio)===-1) provNames.push(m.provincia_id||m.municipio); });
-    // Build from porProv
-    porProv.forEach(function(p){
+    var provMap = {};
+    porMuni.forEach(function(m){
+      var key = m.provincia_id||'';
+      var name = m.provincia||m.provincia_id||'';
+      if(!provMap[key]) provMap[key] = {name: name, count: 0};
+      provMap[key].count++;
+    });
+    Object.keys(provMap).sort(function(a,b){ return provMap[a].name.localeCompare(provMap[b].name); }).forEach(function(pid){
       var opt = document.createElement('option');
-      opt.value = p.provincia_id||p.provincia;
-      opt.textContent = p.provincia + ' (' + (porMuni.filter(function(m){return m.provincia_id===p.provincia_id;}).length||'') + ')';
+      opt.value = pid;
+      opt.textContent = provMap[pid].name + ' (' + provMap[pid].count + ')';
       sel.appendChild(opt);
     });
   }
@@ -667,69 +679,136 @@ function renderPresidencial(){
 function _renderPresProvGrid(provData){
   var el = document.getElementById('pres-prov-grid');
   if(!el) return;
-  el.innerHTML = (provData||[]).map(function(p){
-    var blocs = p.blocs || {};
-    var sorted = Object.entries(blocs).sort(function(a,b){return b[1]-a[1];});
-    var total  = sorted.reduce(function(s,e){return s+e[1];},0)||1;
-    var winner = sorted[0]||['—',0];
-    var second = sorted[1]||['—',0];
+  if(!(provData||[]).length){
+    el.innerHTML='<div style="padding:.8rem;color:var(--muted);font-size:.78rem">Sin datos</div>';
+    return;
+  }
+
+  // Sort by FP% desc
+  var sorted = (provData||[]).slice().sort(function(a,b){
+    var ta = Object.values(a.blocs||{}).reduce(function(s,v){return s+v;},0)||1;
+    var tb = Object.values(b.blocs||{}).reduce(function(s,v){return s+v;},0)||1;
+    return (b.blocs.FP||0)/tb - (a.blocs.FP||0)/ta;
+  });
+
+  var thS = 'padding:.28rem .45rem;font-size:.62rem;font-weight:700;color:var(--muted);border-bottom:2px solid var(--border);position:sticky;top:0;background:var(--bg2);white-space:nowrap';
+  var rows = sorted.map(function(p){
+    var blocs = p.blocs||{};
+    var total  = Object.values(blocs).reduce(function(s,v){return s+v;},0)||1;
+    var sorted2= Object.entries(blocs).sort(function(a,b){return b[1]-a[1];});
+    var winner = sorted2[0]||['—',0];
+    var second = sorted2[1]||['—',0];
     var margen = +((winner[1]-second[1])/total*100).toFixed(1);
     var fpPct  = +((blocs.FP||0)/total*100).toFixed(1);
     var prmPct = +((blocs.PRM||0)/total*100).toFixed(1);
+    var pldPct = +((blocs.PLD||0)/total*100).toFixed(1);
     var winCol = winner[0]==='FP'?'var(--fp)':winner[0]==='PRM'?'var(--prm)':'var(--pld)';
-    var partBars = sorted.slice(0,3).map(function(e){
-      return '<div style="flex:'+e[1]+';background:'+pc(e[0])+';height:100%"></div>';
-    }).join('');
-    return '<div class="prov-card" style="border-left-color:'+winCol+'">'+
-      '<div class="prov-name">'+p.provincia+'</div>'+
-      '<div class="prov-winner" style="color:'+winCol+'">'+winner[0]+'</div>'+
-      '<div class="prov-pct">'+(+((winner[1]/total*100).toFixed(1)))+'% · Margen '+margen+'pp</div>'+
-      '<div class="prov-bar">'+partBars+'</div>'+
-      '<div style="margin-top:.25rem;border-top:1px solid var(--border);padding-top:.2rem;display:grid;grid-template-columns:1fr 1fr;font-size:.63rem;color:var(--muted)">'+
-      '<span>PRM: <strong style="color:var(--prm)">'+prmPct+'%</strong></span>'+
-      '<span>FP: <strong style="color:var(--fp)">'+fpPct+'%</strong></span>'+
-      '</div></div>';
+    var fpCol  = fpPct > prmPct ? 'var(--fp)' : 'var(--muted)';
+    var tdS = 'padding:.24rem .45rem;font-size:.74rem;border-bottom:1px solid var(--border)22';
+    var tdR = tdS+';text-align:right';
+    // mini bar
+    var barW = Math.round(fpPct);
+    var bar2 = '<div style="height:3px;background:var(--bg3);border-radius:2px;margin-top:.18rem">'+
+      '<div style="height:100%;width:'+barW+'%;background:var(--fp);border-radius:2px"></div></div>';
+    return '<tr>'+
+      '<td style="'+tdS+'"><strong style="font-size:.76rem">'+p.provincia+'</strong>'+bar2+'</td>'+
+      '<td style="'+tdR+'"><strong style="color:'+winCol+'">'+winner[0]+'</strong></td>'+
+      '<td style="'+tdR+';color:'+fpCol+'">'+fpPct+'%</td>'+
+      '<td style="'+tdR+'">'+prmPct+'%</td>'+
+      '<td style="'+tdR+';color:var(--muted);font-size:.66rem">'+pldPct+'%</td>'+
+      '<td style="'+tdR+';color:var(--muted);font-size:.66rem">'+margen+'pp</td>'+
+      '</tr>';
   }).join('');
+
+  el.innerHTML =
+    '<div style="overflow-x:auto">'+
+    '<table style="width:100%;border-collapse:collapse">'+
+    '<thead><tr>'+
+    '<th style="'+thS+';text-align:left">Provincia</th>'+
+    '<th style="'+thS+';text-align:right">Ganó</th>'+
+    '<th style="'+thS+';text-align:right">FP%</th>'+
+    '<th style="'+thS+';text-align:right">PRM%</th>'+
+    '<th style="'+thS+';text-align:right">PLD%</th>'+
+    '<th style="'+thS+';text-align:right">Margen</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table></div>';
 }
 
 window.renderPresidencialMuniFiltered = function(){
   var sel = document.getElementById('pres-muni-filter');
   var filterVal = sel ? sel.value : '';
   var munis = window._presPorMuni||[];
-  var filtered = filterVal ? munis.filter(function(m){return (m.provincia_id||'')==filterVal||(m.provincia||'')==filterVal;}) : munis;
+  var filtered = filterVal
+    ? munis.filter(function(m){ return (m.provincia_id||'')==filterVal || (m.provincia||'')==filterVal; })
+    : munis;
   var el = document.getElementById('pres-muni-grid');
   if(!el) return;
-  el.innerHTML = filtered.map(function(m){
+
+  if(!filtered.length){
+    el.innerHTML = '<div style="padding:1rem;color:var(--muted);font-size:.8rem">Sin datos</div>';
+    return;
+  }
+
+  // Compact table — no scroll, shows all in sorted table
+  var th = 'style="padding:.3rem .5rem;font-size:.65rem;font-weight:700;color:var(--muted);text-align:left;border-bottom:2px solid var(--border);white-space:nowrap;position:sticky;top:0;background:var(--bg2)"';
+  var thR= 'style="padding:.3rem .5rem;font-size:.65rem;font-weight:700;color:var(--muted);text-align:right;border-bottom:2px solid var(--border);white-space:nowrap;position:sticky;top:0;background:var(--bg2)"';
+
+  // Sort by FP% descending
+  var sorted_munis = filtered.slice().sort(function(a,b){
+    var ta = Object.values(a.blocs||{}).reduce(function(s,v){return s+v;},0)||1;
+    var tb = Object.values(b.blocs||{}).reduce(function(s,v){return s+v;},0)||1;
+    return (b.blocs&&b.blocs.FP||0)/tb - (a.blocs&&a.blocs.FP||0)/ta;
+  });
+
+  var rows = sorted_munis.map(function(m){
     var blocs = m.blocs||{};
-    var sorted = Object.entries(blocs).sort(function(a,b){return b[1]-a[1];});
-    var total = sorted.reduce(function(s,e){return s+e[1];},0)||1;
-    var winner = sorted[0]||['—',0];
-    var second = sorted[1]||['—',0];
-    var winCol = winner[0]==='FP'?'var(--fp)':winner[0]==='PRM'?'var(--prm)':'var(--pld)';
-    var partBars = sorted.slice(0,3).map(function(e){
-      return '<div style="flex:'+e[1]+';background:'+pc(e[0])+';height:100%"></div>';
-    }).join('');
-    return '<div class="prov-card" style="border-left-color:'+winCol+'">'+
-      '<div class="prov-name" style="font-size:.78rem">'+m.municipio+'</div>'+
-      '<div style="font-size:.63rem;color:var(--muted);margin-bottom:.15rem">'+m.provincia+'</div>'+
-      '<div class="prov-winner" style="color:'+winCol+';font-size:.8rem">'+winner[0]+' · '+(+((winner[1]/total*100).toFixed(1)))+'%</div>'+
-      '<div class="prov-bar" style="margin-top:.25rem">'+partBars+'</div>'+
-      '<div style="font-size:.63rem;color:var(--muted);margin-top:.2rem">'+
-      'FP: '+((blocs.FP||0)/total*100).toFixed(1)+'% · PRM: '+((blocs.PRM||0)/total*100).toFixed(1)+'% · PLD: '+((blocs.PLD||0)/total*100).toFixed(1)+'%'+
-      '</div></div>';
+    var total = Object.values(blocs).reduce(function(s,v){return s+v;},0)||1;
+    var fpPct  = +((blocs.FP||0)/total*100).toFixed(1);
+    var prmPct = +((blocs.PRM||0)/total*100).toFixed(1);
+    var pldPct = +((blocs.PLD||0)/total*100).toFixed(1);
+    var ganador = m.ganador||'—';
+    var ganCol  = ganador==='FP'?'var(--fp)':ganador==='PRM'?'var(--prm)':'var(--pld)';
+    var margen  = m.margen_pp != null ? m.margen_pp : Math.abs(fpPct-prmPct).toFixed(1);
+    var fpCol   = fpPct > prmPct ? 'var(--fp)' : 'var(--muted)';
+    var td = 'style="padding:.28rem .5rem;font-size:.75rem;border-bottom:1px solid var(--border)22"';
+    var tdR= 'style="padding:.28rem .5rem;font-size:.75rem;text-align:right;border-bottom:1px solid var(--border)22"';
+    return '<tr>'+
+      '<td '+td+'><span style="font-weight:600">'+m.municipio+'</span>'+
+      (m.provincia?'<br><span style="font-size:.62rem;color:var(--muted)">'+m.provincia+'</span>':'')+
+      '</td>'+
+      '<td '+tdR+'><strong style="color:'+ganCol+'">'+ganador+'</strong></td>'+
+      '<td '+tdR+'><span style="color:'+fpCol+'">'+fpPct+'%</span></td>'+
+      '<td '+tdR+'>'+prmPct+'%</td>'+
+      '<td '+tdR+' style="color:var(--muted)">'+pldPct+'%</td>'+
+      '<td '+tdR+' style="font-size:.65rem;color:var(--muted)">'+margen+'pp</td>'+
+      '</tr>';
   }).join('');
+
+  var count = '<div style="font-size:.65rem;color:var(--muted);margin-bottom:.4rem">'+filtered.length+' municipios'+
+    (filterVal?' · filtrado':'')+'</div>';
+
+  el.innerHTML = count+
+    '<div style="overflow-x:auto">'+
+    '<table style="width:100%;border-collapse:collapse">'+
+    '<thead><tr>'+
+    '<th '+th+'>Municipio</th>'+
+    '<th '+thR+'>Ganador</th>'+
+    '<th '+thR+'>FP %</th>'+
+    '<th '+thR+'>PRM %</th>'+
+    '<th '+thR+'>PLD %</th>'+
+    '<th '+thR+'>Margen</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table></div>';
 };
 
+// ── Toggle expand/collapse ──
 window.togglePresDesglose = function(tipo){
   var panel = document.getElementById('pres-'+tipo+'-panel');
   var badge = document.getElementById('pres-'+tipo+'-badge');
   if(!panel) return;
   var open = panel.style.display !== 'none';
   panel.style.display = open ? 'none' : '';
-  if(badge) badge.textContent = open ? '\u25b6 Expandir \u00b7 '+(tipo==='prov'?'32 provincias':'158 municipios') : '\u25bc Colapsar';
+  if(badge) badge.textContent = open ? '\u25b6 Expandir \u00b7 '+(tipo==='prov'?'32 provincias':''+((window._presPorMuni||[]).length)+' municipios') : '\u25bc Colapsar';
   if(!open && tipo==='muni') window.renderPresidencialMuniFiltered();
 };
-
 
 // ====== SENADORES ======
 function renderSenadores(){
@@ -2151,11 +2230,11 @@ function renderEncuestas(){
   if(lista) lista.innerHTML=enc.lista.length
     ? enc.lista.map(function(e,i){
         var dias=Math.round((Date.now()-new Date(e.fecha).getTime())/(864e5));
-        var peso=+(Math.exp(-0.015*dias)*(e.calidad==='A+'?2.0:e.calidad==='A'?1.5:e.calidad==='B'?1.0:0.6)*Math.sqrt(e.n/1200)).toFixed(2);
+        var peso=+(Math.exp(-0.015*dias)*(e.calidad==='A+'?2.0:e.calidad==='A'?1.5:e.calidad==='B'?1.0:0.6)*Math.sqrt((e.n_muestra||e.n||1200)/1200)).toFixed(2);
         var col2=e.activa?'var(--green)':'var(--muted)';
         return '<div style="padding:.5rem;border:1px solid var(--border);border-radius:var(--r);margin-bottom:.3rem;'+(e.activa?'border-color:var(--green)44':'')+'">'+
           '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:.28rem">'+
-          '<span style="font-size:.8rem;font-weight:700">'+e.empresa+' · <span style="color:var(--muted);font-size:.68rem">'+e.tipo+'</span></span>'+
+          '<span style="font-size:.8rem;font-weight:700">'+e.empresa+' · <span style="color:var(--muted);font-size:.68rem">'+(e.tipo==='candidato'||e.tipo==='intencion_candidato'?'intención candidato':e.tipo==='simpatia'||e.tipo==='simpatia_partidaria'?'simpatía partidaria':e.tipo)+'</span></span>'+
           '<div style="display:flex;gap:.4rem;align-items:center">'+
           '<span style="font-size:.65rem;color:var(--muted)">Peso: '+peso+'</span>'+
           '<span style="font-size:.63rem;font-weight:700;color:'+col2+'">'+( e.activa?'ACTIVA':'INACTIVA')+'</span>'+
@@ -2165,7 +2244,7 @@ function renderEncuestas(){
           '<span>PRM: <strong style="color:var(--prm)">'+(e.prm!=null?e.prm:e.PRM!=null?e.PRM:'—')+'%</strong></span>'+
           '<span>FP: <strong style="color:var(--fp)">'+(e.fp!=null?e.fp:e.FP!=null?e.FP:'—')+'%</strong></span>'+
           '<span>PLD: <strong style="color:var(--pld)">'+(e.pld!=null?e.pld:e.PLD!=null?e.PLD:'—')+'%</strong></span>'+
-          '<span>n='+e.n+' · '+dias+'d · '+e.calidad+'</span>'+
+          '<span>n='+(e.n_muestra||e.n||'?')+' · '+dias+'d · '+e.calidad+'</span>'+
           '</div></div>';
       }).join('')
     : '<div style="color:var(--muted);font-size:.78rem;padding:1rem;text-align:center">Sin encuestas registradas</div>';
