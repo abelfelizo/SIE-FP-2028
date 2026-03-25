@@ -28,6 +28,25 @@ body{
   flex-direction:column;
   transition:background .25s,color .25s;
 }
+/* ── TOPBAR ── */
+.topbar{
+  background:var(--bg2);
+  border-bottom:1px solid var(--border);
+  padding:.55rem 1.25rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  flex-shrink:0;
+  z-index:100;
+  box-shadow:var(--shadow);
+}
+.brand{display:flex;align-items:center;gap:.5rem}
+.brand-name{font-size:1.1rem;font-weight:700;letter-spacing:.05em;color:var(--text)}
+.badge{background:var(--accent);color:#fff;font-size:.65rem;font-weight:700;padding:.15rem .45rem;border-radius:.25rem}
+.badge-ds{background:var(--bg3);color:var(--green);border:1px solid var(--green)33;font-size:.65rem;font-weight:700;padding:.15rem .45rem;border-radius:.25rem}
+.theme-toggle{background:var(--bg3);border:1px solid var(--border);color:var(--muted);padding:.3rem .6rem;border-radius:.375rem;cursor:pointer;font-size:.78rem;font-weight:600;transition:all .15s;display:flex;align-items:center;gap:.3rem}
+.theme-toggle:hover{color:var(--text);border-color:var(--accent)}
+
 .layout{
   flex:1;
   display:flex;

@@ -478,6 +478,60 @@
     </div>
   </div>
 
+<div id="view-inteligencia" class="view">
+  <div class="section-title">🧠 Centro de Análisis</div>
+  <div class="tab-bar" id="intel-tab-bar">
+    <button class="tab-btn active" data-itab="intel-transferencia">Transferencia PLD</button>
+    <button class="tab-btn" data-itab="intel-potencial">Potencial</button>
+    <button class="tab-btn" data-itab="intel-movilizacion">Movilización</button>
+    <button class="tab-btn" data-itab="intel-oportunidades">Oportunidades</button>
+  </div>
+  <div id="intel-transferencia" class="intel-panel">
+    <div class="kpi-grid" id="transf-kpis"></div>
+    <div class="grid g2" style="margin-top:.75rem">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Presidencial</span><span class="card-badge">PLD 2020 → FP 2024</span></div>
+        <div id="transf-pres" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Senadores</span><span class="card-badge">Por provincia</span></div>
+        <div id="transf-sen" class="card-scroll"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:.75rem">
+      <div class="card-hdr"><span class="card-title">Diputados</span><span class="card-badge">Por circunscripción</span></div>
+      <div id="transf-dip" class="card-scroll"></div>
+    </div>
+  </div>
+  <div id="intel-potencial" class="intel-panel" style="display:none">
+    <div class="kpi-grid" id="pot-kpis"></div>
+    <div class="card" style="margin-top:.65rem">
+      <div class="card-hdr"><span class="card-title">Potencial por provincia</span></div>
+      <div id="potencial-lista" class="card-scroll"></div>
+    </div>
+  </div>
+  <div id="intel-movilizacion" class="intel-panel" style="display:none">
+    <div class="kpi-grid" id="mov-kpis"></div>
+    <div class="card" style="margin-top:.65rem">
+      <div class="card-hdr"><span class="card-title">Plan de movilización</span></div>
+      <div id="movilizacion-list" class="card-scroll"></div>
+    </div>
+  </div>
+  <div id="intel-oportunidades" class="intel-panel" style="display:none">
+    <div class="kpi-grid" id="opp-kpis"></div>
+    <div class="grid g2" style="margin-top:.75rem">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Oportunidades</span></div>
+        <div id="opp-lista" class="card-scroll"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Circunscripciones ganadas</span></div>
+        <div id="opp-ganadas" class="card-scroll"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="view-alianzas" class="view">
   <div class="section-title">🤝 Alianzas Electorales</div>
   <div class="kpi-grid" id="alianzas-kpis"></div>
