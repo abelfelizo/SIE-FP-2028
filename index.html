@@ -28,7 +28,7 @@
   </div>
 </header>
 
-<div class="app-shell">
+<div class="layout">
 
 <!-- NAV COLAPSABLE -->
 <nav class="nav" id="main-nav">
@@ -390,6 +390,94 @@
 <!-- Vistas legacy vacías para compatibilidad con nav routing -->
 <!-- Legacy views consolidated into view-inteligencia (Centro de Análisis) -->
 
+<div id="view-senadores" class="view">
+    <div class="section-title">🏛 Senadores 2024 — 32 Provincias</div>
+    <div class="kpi-grid" id="sen-kpis"></div>
+    <!-- Tabs: ganador real vs bloque coalición -->
+    <div class="tab-bar" id="sen-tab-bar">
+      <button class="tab-btn active" data-tab="sen-real">Ganador real por partido</button>
+      <button class="tab-btn" data-tab="sen-coal">Por bloque coalición</button>
+    </div>
+    <div id="sen-tab-real" class="tab-panel active">
+      <div class="prov-grid" id="sen-prov-grid"></div>
+    </div>
+    <div id="sen-tab-coal" class="tab-panel">
+      <div id="sen-coal-detail"></div>
+    </div>
+  </div>
+
+<div id="view-diputados" class="view">
+    <div class="section-title">📋 Diputados 2024 — D'Hondt</div>
+    <div class="kpi-grid" id="dip-kpis"></div>
+    <div class="grid g2">
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Curules por partido</span><span class="card-badge">178+5+7=190</span></div>
+        <div id="dip-bar-list" class="bar-list"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr"><span class="card-title">Diputados Exterior</span><span class="card-badge">7 curules</span></div>
+        <div id="ext-detail"></div>
+        <div class="divider"></div>
+        <div class="card-hdr" style="padding-top:.6rem"><span class="card-title">Lista Nacional</span><span class="card-badge">5 curules</span></div>
+        <div id="nat-detail"></div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:1rem">
+      <div class="card-hdr"><span class="card-title">Por circunscripción</span><span class="card-badge">D'Hondt umbral 2%</span></div>
+      <div id="dip-circ-grid"></div>
+    </div>
+  </div>
+
+<div id="view-exterior" class="view">
+    <div class="section-title">🌍 Voto Exterior 2024</div>
+    <div class="kpi-grid" id="ext-kpis"></div>
+    <div class="card" style="margin-top:1rem">
+      <div class="card-hdr">
+        <span class="card-title">3 Circunscripciones del Exterior</span>
+        <span class="card-badge">Pres. + Diputados · 863,784 inscritos</span>
+      </div>
+      <div id="ext-circs"></div>
+    </div>
+  </div>
+
+<div id="view-historico" class="view">
+    <div class="section-title">📊 Histórico 2020 — Comparativa vs 2024</div>
+    <div class="kpi-grid" id="hist-kpis"></div>
+
+    <div class="grid g2" style="margin-top:1rem">
+      <div class="card">
+        <div class="card-hdr">
+          <span class="card-title">Presidencial 2020 por partido</span>
+          <span class="card-badge">JCE Oficial · Sin alianzas</span>
+        </div>
+        <div id="hist-pres-bars" class="bar-list"></div>
+      </div>
+      <div class="card">
+        <div class="card-hdr">
+          <span class="card-title">Curules 2020 vs 2024</span>
+          <span class="card-badge">Legislativo comparado</span>
+        </div>
+        <div id="hist-curules-comp"></div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:1rem">
+      <div class="card-hdr">
+        <span class="card-title">Swing presidencial por provincia</span>
+        <span class="card-badge">Δ% 2024 vs 2020</span>
+      </div>
+      <div id="hist-swing-grid"></div>
+    </div>
+
+    <div class="card" style="margin-top:1rem">
+      <div class="card-hdr">
+        <span class="card-title">Senadores 2020 — Ganador por provincia</span>
+        <span class="card-badge">PRM: 25 · PLD: 7</span>
+      </div>
+      <div class="prov-grid" id="hist-sen-grid"></div>
+    </div>
+  </div>
+
 <div id="view-alianzas" class="view">
   <div class="section-title">🤝 Alianzas Electorales</div>
   <div class="kpi-grid" id="alianzas-kpis"></div>
@@ -595,7 +683,7 @@
 </div>
 
 </main>
-</div><!-- /app-shell -->
+</div><!-- /layout -->
 
 <script src="./app.js"></script>
 <script>
@@ -737,8 +825,7 @@ function toggleTheme() {
 // Senadores tabs: manejados por el listener genérico de .tab-btn (data-tab = ID del panel)
 // Abrir grupo inicial al cargar
 (function(){
-  var grp=document.getElementById('grp-campana');
-  if(grp){grp.querySelector('.nav-group-hdr').classList.add('open');grp.querySelector('.nav-items').classList.add('open');}
+  // Groups start expanded by default — toggleGroup adds .collapsed to close
 })();
 </script>
 </body>

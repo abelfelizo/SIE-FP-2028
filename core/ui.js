@@ -898,6 +898,7 @@ function renderSenadores(){
 
 // ====== DIPUTADOS ======
 function renderDiputados(){
+  if(!document.getElementById('dip-kpis')) return;
   var dipC=M.Curules.getTotalByNivel('diputados');
   var natC=M.Curules.getTotalByNivel('nacionales');
   var extC=M.Curules.getTotalByNivel('exterior');
@@ -977,6 +978,7 @@ function renderDiputados(){
 
 // ====== EXTERIOR ======
 function renderExterior(){
+  if(!document.getElementById('ext-kpis')) return;
   var extVotos   = M.Resultados.getDiputadosExterior();
   var extCurules = M.Curules.getExteriorDetail();
   var padExt     = _DS_PADRON_EXT && _DS_PADRON_EXT.padron ? _DS_PADRON_EXT.padron : [];
@@ -1045,6 +1047,7 @@ function renderExterior(){
 
 // ====== HISTÓRICO 2020 ======
 function renderHistorico(){
+  if(!document.getElementById('hist-kpis')) return;
   var H    = M.Historico2020;
   var tot  = H.getTotalesPresidencial();
   var pm20 = H.getPresidencialByProvincia();
