@@ -1,1 +1,0 @@
-export { BloqueBadge } from './BloqueBadge'
